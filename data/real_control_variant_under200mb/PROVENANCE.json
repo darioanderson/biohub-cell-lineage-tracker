@@ -1,0 +1,51 @@
+{
+  "purpose": "Smaller real native-grid clips for file loading and model debugging, not validated biological comparison",
+  "frames": 5,
+  "resampled": false,
+  "stage_alignment_verified": false,
+  "current_detector_validation": "Failed on Emb8; a smaller clip does not fix accuracy",
+  "recordings": {
+    "control": {
+      "file": "C:\\Projects\\cell-tracking\\advanced\\data\\real_control_variant_under200mb\\CONTROL_WT_Emb8_5frames.npy",
+      "source": "C:\\Projects\\cell-tracking\\advanced\\data\\real_control_variant_large\\CONTROL_WT_Emb8_t001_030.npy",
+      "source_sha256": "b0e13d67c7f7a98da30e2dc35b25e905598ab31f3849e85d5d013b9f41eafb46",
+      "sha256": "87102c9594894cd2f20aa62dfbc1f29184f39c783c6cbace5c94178dde84f486",
+      "bytes": 102072448,
+      "decimal_MB": 102.072448,
+      "shape": [
+        5,
+        56,
+        512,
+        712
+      ],
+      "source_frames": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "variant": {
+      "file": "C:\\Projects\\cell-tracking\\advanced\\data\\real_control_variant_under200mb\\VARIANT_wee-1.1_MT2_5frames.npy",
+      "source": "C:\\Projects\\cell-tracking\\advanced\\data\\real_control_variant_large\\VARIANT_wee-1.1_MT2_t001_030.npy",
+      "source_sha256": "7cd4eb9b0b4c68014074e3945df8e0d4f37c889eb12e6b9e90bba9feec6688b9",
+      "sha256": "37e3f7c35cf8e5b07fefca27985b4502e8f124de56e145f430a270c555f9600c",
+      "bytes": 171335808,
+      "decimal_MB": 171.335808,
+      "shape": [
+        5,
+        94,
+        512,
+        712
+      ],
+      "source_frames": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  }
+}

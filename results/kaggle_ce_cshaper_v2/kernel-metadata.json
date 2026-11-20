@@ -1,0 +1,19 @@
+{
+  "id": "dushi2/biohub-cshaper-detector",
+  "id_no": 144964689,
+  "title": "Biohub CShaper Detector",
+  "code_file": "biohub-cshaper-detector.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

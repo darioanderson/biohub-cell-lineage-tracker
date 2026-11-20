@@ -1,0 +1,1 @@
+{"id": "dushi2/biohub-zenodo-epoch4", "title": "Biohub Zenodo Epoch4", "code_file": "run.ipynb", "language": "python", "kernel_type": "notebook", "is_private": true, "enable_gpu": true, "enable_tpu": false, "enable_internet": true, "keywords": ["gpu"], "dataset_sources": [], "kernel_sources": [], "competition_sources": [], "model_sources": []}

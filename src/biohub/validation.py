@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import time
+import logging
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
@@ -14,6 +15,8 @@ from biohub.config import MATCH_GATE_UM, Config
 from biohub.data import list_datasets, load_geff_graph, read_zarr_meta
 from biohub.export import division_events
 from biohub.tuning import score_config_on_sample
+
+logger = logging.getLogger(__name__)
 
 
 def link_distance_stats(edges: pd.DataFrame, nodes: pd.DataFrame, scale: np.ndarray) -> Dict[str, float]:
@@ -40,10 +43,49 @@ def link_distance_stats(edges: pd.DataFrame, nodes: pd.DataFrame, scale: np.ndar
 
 
 def track_length_distribution(edges: pd.DataFrame) -> pd.Series:
-    """Outgoing edge count per source node (proxy for tracklet length)."""
+    """Observation count for each maximal non-branching track segment.
+
+    A segment starts at a birth, merge boundary, or daughter observation and
+    stops at a death or division parent.  This is graph traversal rather than
+    an out-degree proxy.  Isolated observations cannot be recovered from an
+    edge-only input and are therefore omitted.
+    """
     if edges.empty:
         return pd.Series(dtype=int)
-    return edges.groupby("source_id").size()
+    pairs = [
+        (int(row.source_id), int(row.target_id))
+        for row in edges[["source_id", "target_id"]].itertuples(index=False)
+    ]
+    children: Dict[int, List[int]] = {}
+    parents: Dict[int, List[int]] = {}
+    nodes = set()
+    for source, target in pairs:
+        children.setdefault(source, []).append(target)
+        parents.setdefault(target, []).append(source)
+        nodes.update((source, target))
+
+    starts = sorted(
+        node for node in nodes
+        if len(parents.get(node, [])) != 1
+        or len(children.get(parents[node][0], [])) != 1
+    )
+    lengths: List[int] = []
+    visited_starts = set()
+    for start in starts:
+        if start in visited_starts:
+            continue
+        length, current = 1, start
+        visited_starts.add(start)
+        while len(children.get(current, [])) == 1:
+            child = children[current][0]
+            if len(parents.get(child, [])) != 1:
+                break
+            length += 1
+            current = child
+            if len(children.get(current, [])) != 1:
+                break
+        lengths.append(length)
+    return pd.Series(lengths, dtype=int)
 
 
 def summarize_result(result: AnalysisResult, cfg: Config) -> Dict[str, object]:
@@ -123,5 +165,5 @@ def run_validation_report(
     summary = pd.DataFrame(summaries)
     summary_path = output_dir / "validation_summary.csv"
     summary.to_csv(summary_path, index=False)
-    print(f"Wrote {proxy_path} and {summary_path}")
+    logger.info("Wrote %s and %s", proxy_path, summary_path)
     return proxy, summary

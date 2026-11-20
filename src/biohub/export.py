@@ -20,6 +20,7 @@ def to_lineage_csv(result: AnalysisResult) -> pd.DataFrame:
     if not result.nodes.empty:
         n = result.nodes.copy()
         n["row_type"] = "node"
+        n[["z", "y", "x"]] = n[["z", "y", "x"]].astype(float).round().astype(int)
         parts.append(n[node_cols])
     if not result.edges.empty:
         e = result.edges.copy()
@@ -46,9 +47,9 @@ def to_graph_json(result: AnalysisResult) -> dict:
                 {
                     "id": int(row.node_id),
                     "t": int(row.t),
-                    "z": int(row.z),
-                    "y": int(row.y),
-                    "x": int(row.x),
+                    "z": int(round(row.z)),
+                    "y": int(round(row.y)),
+                    "x": int(round(row.x)),
                 }
             )
     edges = []

@@ -2,6 +2,39 @@
 
 All notable changes to **Biohub Cell Lineage Tracker** are documented here.
 
+## Unreleased — comparative development foundation
+
+### Added
+- Canonical-cell event tables and normal-versus-condition divergence reports
+- Conservative track-termination classification that does not infer apoptosis from disappearance alone
+- Joint daughter division orientation, midpoint, separation, intensity, and optional size asymmetry measurements
+- Robust interdivision reference-atlas statistics and same-frame local-density features
+- `scripts/compare_development.py` and the Phase 35–47 roadmap extension
+
+## [1.8.0] — 2026-09-19 (correctness and reproducibility)
+
+### Added
+- Sparse-GT-safe Hungarian evaluator with GT-confirmed edge and division metrics
+- Exact synthetic nodes, tracks, lineages, edges, and divisions for nine controlled scenarios
+- Observation/track/division/lineage/QC tables and path-based motion statistics
+- OME-Zarr voxel/time metadata reading, run manifests, config validation, and installable `pyproject.toml`
+- Content/config-addressed detection cache and measured sparse-linking profile
+- Optional full-annotation and image-aware learned parent-link backends
+- Audited manual node/edge approval, rejection, and relinking with graph validation and CSV export
+- Experimental multi-frame continuation optimization with constrained division inference
+- Cell Explorer and downloadable scientific table/metrics/manifest bundle in the app
+
+### Changed
+- Link candidates use `cKDTree`; Hungarian optimization runs per connected candidate component
+- Refined floating centroids persist internally and round only at final competition export
+- Isolated observations receive QC flags instead of being deleted
+- Visualization resolves links by global node ID and timelines group by real track ID
+
+### Validation
+- Corrected three-sample DoG and border reruns are recorded in `EXPERIMENTS.md`; both remain rejected because paired confidence intervals include zero
+- 37 local tests pass in the project virtual environment; the 800-cell sparse-link profile matched the dense reference and measured a 3.23x speedup on this machine
+- Exact-observation synthetic comparison: framewise and global backends both reached mean edge F1 1.0 across nine scenarios; this is engineering evidence, not real-data evidence
+
 ## [1.7.0] — 2026-07-03 (V10 DoG detection experiment)
 
 ### Added

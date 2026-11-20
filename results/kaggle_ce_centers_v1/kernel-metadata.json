@@ -1,0 +1,19 @@
+{
+  "id": "dushi2/biohub-ce-centers",
+  "id_no": 144926745,
+  "title": "Biohub CE Centers",
+  "code_file": "biohub-ce-centers.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

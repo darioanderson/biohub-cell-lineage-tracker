@@ -1,0 +1,21 @@
+{
+  "id": "dushi2/biohub-trackastra-full-evaluation",
+  "id_no": 135185405,
+  "title": "Biohub Trackastra Full Evaluation",
+  "code_file": "biohub-trackastra-full-evaluation.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": [
+    "jirkaborovec/biohubcelltrack-trackastra-artifact-and-packages/PyTorch/default/1"
+  ]
+}

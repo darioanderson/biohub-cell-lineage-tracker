@@ -1,0 +1,18 @@
+{
+  "state": "training_complete",
+  "pid": 61,
+  "epoch": 27,
+  "loss": 0.009783292406549056,
+  "validation": {
+    "tp": 30,
+    "fp": 76,
+    "fn": 19,
+    "precision": 0.2830188679245283,
+    "recall": 0.6122448979591837,
+    "f1": 0.3870967741935484
+  },
+  "threshold": 0.4,
+  "best_validation_f1": 0.3945578231292517,
+  "seconds": 19.818817853927612,
+  "best_checkpoint_sha256": "c8c3a48310d33a2983cfc6fa418a16cda8bf46ccbf76d10ffc843a4ac5ef4e06"
+}

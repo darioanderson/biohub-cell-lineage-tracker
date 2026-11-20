@@ -1,0 +1,57 @@
+{
+  "state": "compatibility_passed_training_blocked",
+  "paired_volume_inventory": 199,
+  "selected_before_metrics": [
+    "44b6_0113de3b",
+    "6bba_05b6850b"
+  ],
+  "device": "Tesla T4",
+  "checks": [
+    {
+      "sample": "44b6_0113de3b",
+      "embryo": "44b6",
+      "frame": 0,
+      "raw_shape": [
+        64,
+        256,
+        256
+      ],
+      "patch_shape": [
+        16,
+        64,
+        64
+      ],
+      "annotated_positives": 1,
+      "verified_negatives": 0,
+      "unknown_output_gradient_max": 0.0,
+      "diagnostic_loss": 1.1825666427612305,
+      "optimizer_steps": 0,
+      "temporal_input": "same frame duplicated for shape/gradient test only"
+    },
+    {
+      "sample": "6bba_05b6850b",
+      "embryo": "6bba",
+      "frame": 0,
+      "raw_shape": [
+        64,
+        256,
+        256
+      ],
+      "patch_shape": [
+        16,
+        64,
+        64
+      ],
+      "annotated_positives": 1,
+      "verified_negatives": 0,
+      "unknown_output_gradient_max": 0.0,
+      "diagnostic_loss": 0.7358053922653198,
+      "optimizer_steps": 0,
+      "temporal_input": "same frame duplicated for shape/gradient test only"
+    }
+  ],
+  "reason": "No verified background supervision supplied. Positive-only BCE permits an all-positive solution.",
+  "next_requirement": "Provide verified negative regions or implement and validate a different sparse-label learning objective.",
+  "trained_checkpoint": null,
+  "full_training_started": false
+}

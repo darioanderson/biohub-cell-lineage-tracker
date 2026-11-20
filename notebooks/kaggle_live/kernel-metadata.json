@@ -1,0 +1,19 @@
+{
+  "id": "dushi2/biohub-stage-1-small-data-training",
+  "id_no": 134385986,
+  "title": "Biohub Stage 1 - Small Data Training",
+  "code_file": "biohub-stage-1-small-data-training.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": []
+}

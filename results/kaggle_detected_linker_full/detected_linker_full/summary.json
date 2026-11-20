@@ -1,0 +1,1787 @@
+{
+  "inventory": {
+    "44b6": 71,
+    "6bba": 128
+  },
+  "independent_embryos": 2,
+  "metrics": {
+    "score": {
+      "baseline": [
+        0.7260482731508583,
+        0.7136575567649658,
+        0.7391774941811122
+      ],
+      "candidate": [
+        0.7039946832856229,
+        0.6912517028555542,
+        0.7164368608624709
+      ],
+      "paired_sample_delta": [
+        -0.022053589865235187,
+        -0.024782025879606772,
+        -0.01946684871603622
+      ],
+      "paired_embryo_delta": [
+        -0.022122994895717688,
+        -0.02236530368634956,
+        -0.02188068610508581
+      ]
+    },
+    "recall": {
+      "baseline": [
+        0.8360116104981319,
+        0.8205368665618801,
+        0.8521747406825309
+      ],
+      "candidate": [
+        0.8360116104981319,
+        0.8205368665618801,
+        0.8521747406825309
+      ],
+      "paired_sample_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_embryo_delta": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "edge_precision": {
+      "baseline": [
+        0.9945676313193099,
+        0.9928053237319886,
+        0.99613577692328
+      ],
+      "candidate": [
+        0.9870878852186121,
+        0.9847242680952502,
+        0.9892999394730124
+      ],
+      "paired_sample_delta": [
+        -0.007479746100697852,
+        -0.009012652738631863,
+        -0.006009795631503386
+      ],
+      "paired_embryo_delta": [
+        -0.00647076193747047,
+        -0.009993355770492374,
+        -0.002948168104448567
+      ]
+    },
+    "edge_recall": {
+      "baseline": [
+        0.6450163127965376,
+        0.6274028841495987,
+        0.6640225791645518
+      ],
+      "candidate": [
+        0.5871484089592882,
+        0.5703668616362096,
+        0.6034416681507233
+      ],
+      "paired_sample_delta": [
+        -0.0578679038372496,
+        -0.06503138167927805,
+        -0.051093223273192795
+      ],
+      "paired_embryo_delta": [
+        -0.05963269717894461,
+        -0.06579399323152892,
+        -0.05347140112636029
+      ]
+    },
+    "edge_f1": {
+      "baseline": [
+        0.7742278053628854,
+        0.7600620577481491,
+        0.7888170905138084
+      ],
+      "candidate": [
+        0.7284210190254748,
+        0.7143668029002992,
+        0.7421529418169669
+      ],
+      "paired_sample_delta": [
+        -0.04580678633741078,
+        -0.051203205206182587,
+        -0.04068459273875624
+      ],
+      "paired_embryo_delta": [
+        -0.0466737849534467,
+        -0.04970067485855458,
+        -0.04364689504833882
+      ]
+    },
+    "division_precision": {
+      "baseline": [
+        0.03015075376884422,
+        0.010050251256281407,
+        0.05527638190954774
+      ],
+      "candidate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_sample_delta": [
+        -0.03015075376884422,
+        -0.05527638190954774,
+        -0.010050251256281407
+      ],
+      "paired_embryo_delta": [
+        -0.0234375,
+        -0.046875,
+        0.0
+      ]
+    },
+    "division_recall": {
+      "baseline": [
+        0.009631490787269681,
+        0.002512562814070352,
+        0.018844221105527637
+      ],
+      "candidate": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_sample_delta": [
+        -0.009631490787269681,
+        -0.018844221105527637,
+        -0.002512562814070352
+      ],
+      "paired_embryo_delta": [
+        -0.007486979166666666,
+        -0.014973958333333332,
+        0.0
+      ]
+    }
+  },
+  "training": [
+    {
+      "heldout_embryo": "44b6",
+      "training_embryos": [
+        "6bba"
+      ],
+      "training_samples": 128,
+      "training_candidates": 119108,
+      "positive_edges": 84489,
+      "sample_pair_diagnostics": {
+        "6bba_05b6850b": {
+          "eligible_targets": 701,
+          "covered_targets": 670,
+          "missed_parent_targets": 31,
+          "unknown_candidates": 1945,
+          "labeled_candidates": 692,
+          "positive_edges": 670
+        },
+        "6bba_05db0fb1": {
+          "eligible_targets": 1068,
+          "covered_targets": 1018,
+          "missed_parent_targets": 50,
+          "unknown_candidates": 24028,
+          "labeled_candidates": 1797,
+          "positive_edges": 1018
+        },
+        "6bba_062c8d37": {
+          "eligible_targets": 757,
+          "covered_targets": 747,
+          "missed_parent_targets": 10,
+          "unknown_candidates": 1527,
+          "labeled_candidates": 894,
+          "positive_edges": 747
+        },
+        "6bba_07477033": {
+          "eligible_targets": 442,
+          "covered_targets": 419,
+          "missed_parent_targets": 23,
+          "unknown_candidates": 1237,
+          "labeled_candidates": 419,
+          "positive_edges": 419
+        },
+        "6bba_07e24132": {
+          "eligible_targets": 283,
+          "covered_targets": 278,
+          "missed_parent_targets": 5,
+          "unknown_candidates": 3545,
+          "labeled_candidates": 307,
+          "positive_edges": 278
+        },
+        "6bba_085bf656": {
+          "eligible_targets": 981,
+          "covered_targets": 948,
+          "missed_parent_targets": 33,
+          "unknown_candidates": 3612,
+          "labeled_candidates": 1199,
+          "positive_edges": 948
+        },
+        "6bba_09961292": {
+          "eligible_targets": 1468,
+          "covered_targets": 1367,
+          "missed_parent_targets": 101,
+          "unknown_candidates": 22196,
+          "labeled_candidates": 3647,
+          "positive_edges": 1367
+        },
+        "6bba_0c7fa718": {
+          "eligible_targets": 550,
+          "covered_targets": 523,
+          "missed_parent_targets": 27,
+          "unknown_candidates": 4398,
+          "labeled_candidates": 804,
+          "positive_edges": 523
+        },
+        "6bba_0e7c0d07": {
+          "eligible_targets": 148,
+          "covered_targets": 134,
+          "missed_parent_targets": 14,
+          "unknown_candidates": 1352,
+          "labeled_candidates": 153,
+          "positive_edges": 134
+        },
+        "6bba_12665c0e": {
+          "eligible_targets": 841,
+          "covered_targets": 809,
+          "missed_parent_targets": 32,
+          "unknown_candidates": 3372,
+          "labeled_candidates": 1209,
+          "positive_edges": 809
+        },
+        "6bba_13f19531": {
+          "eligible_targets": 499,
+          "covered_targets": 486,
+          "missed_parent_targets": 13,
+          "unknown_candidates": 956,
+          "labeled_candidates": 528,
+          "positive_edges": 486
+        },
+        "6bba_15403b9a": {
+          "eligible_targets": 676,
+          "covered_targets": 656,
+          "missed_parent_targets": 20,
+          "unknown_candidates": 2804,
+          "labeled_candidates": 790,
+          "positive_edges": 656
+        },
+        "6bba_1d0d8384": {
+          "eligible_targets": 1052,
+          "covered_targets": 1000,
+          "missed_parent_targets": 52,
+          "unknown_candidates": 9388,
+          "labeled_candidates": 2110,
+          "positive_edges": 1000
+        },
+        "6bba_1ebfb80d": {
+          "eligible_targets": 520,
+          "covered_targets": 481,
+          "missed_parent_targets": 39,
+          "unknown_candidates": 2797,
+          "labeled_candidates": 586,
+          "positive_edges": 481
+        },
+        "6bba_1f58c2f6": {
+          "eligible_targets": 249,
+          "covered_targets": 230,
+          "missed_parent_targets": 19,
+          "unknown_candidates": 2718,
+          "labeled_candidates": 250,
+          "positive_edges": 230
+        },
+        "6bba_207c6aaf": {
+          "eligible_targets": 275,
+          "covered_targets": 231,
+          "missed_parent_targets": 44,
+          "unknown_candidates": 2647,
+          "labeled_candidates": 347,
+          "positive_edges": 231
+        },
+        "6bba_20852818": {
+          "eligible_targets": 767,
+          "covered_targets": 754,
+          "missed_parent_targets": 13,
+          "unknown_candidates": 3347,
+          "labeled_candidates": 1053,
+          "positive_edges": 754
+        },
+        "6bba_2312ac41": {
+          "eligible_targets": 961,
+          "covered_targets": 924,
+          "missed_parent_targets": 37,
+          "unknown_candidates": 4855,
+          "labeled_candidates": 1091,
+          "positive_edges": 924
+        },
+        "6bba_23af9eeb": {
+          "eligible_targets": 397,
+          "covered_targets": 392,
+          "missed_parent_targets": 5,
+          "unknown_candidates": 338,
+          "labeled_candidates": 441,
+          "positive_edges": 392
+        },
+        "6bba_2540cd90": {
+          "eligible_targets": 496,
+          "covered_targets": 493,
+          "missed_parent_targets": 3,
+          "unknown_candidates": 402,
+          "labeled_candidates": 493,
+          "positive_edges": 493
+        },
+        "6bba_2646afc7": {
+          "eligible_targets": 617,
+          "covered_targets": 597,
+          "missed_parent_targets": 20,
+          "unknown_candidates": 2059,
+          "labeled_candidates": 638,
+          "positive_edges": 597
+        },
+        "6bba_268e1230": {
+          "eligible_targets": 396,
+          "covered_targets": 384,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 433,
+          "labeled_candidates": 419,
+          "positive_edges": 384
+        },
+        "6bba_2819ca14": {
+          "eligible_targets": 867,
+          "covered_targets": 839,
+          "missed_parent_targets": 28,
+          "unknown_candidates": 2751,
+          "labeled_candidates": 1260,
+          "positive_edges": 839
+        },
+        "6bba_283bf9f1": {
+          "eligible_targets": 1061,
+          "covered_targets": 970,
+          "missed_parent_targets": 91,
+          "unknown_candidates": 8525,
+          "labeled_candidates": 1393,
+          "positive_edges": 970
+        },
+        "6bba_312f0dc3": {
+          "eligible_targets": 429,
+          "covered_targets": 411,
+          "missed_parent_targets": 18,
+          "unknown_candidates": 1424,
+          "labeled_candidates": 517,
+          "positive_edges": 411
+        },
+        "6bba_32db13fc": {
+          "eligible_targets": 589,
+          "covered_targets": 517,
+          "missed_parent_targets": 72,
+          "unknown_candidates": 9187,
+          "labeled_candidates": 697,
+          "positive_edges": 517
+        },
+        "6bba_337b1b3a": {
+          "eligible_targets": 1197,
+          "covered_targets": 1184,
+          "missed_parent_targets": 13,
+          "unknown_candidates": 14514,
+          "labeled_candidates": 2455,
+          "positive_edges": 1184
+        },
+        "6bba_372c8cb8": {
+          "eligible_targets": 880,
+          "covered_targets": 869,
+          "missed_parent_targets": 11,
+          "unknown_candidates": 1950,
+          "labeled_candidates": 1114,
+          "positive_edges": 869
+        },
+        "6bba_3a1849c2": {
+          "eligible_targets": 705,
+          "covered_targets": 678,
+          "missed_parent_targets": 27,
+          "unknown_candidates": 900,
+          "labeled_candidates": 807,
+          "positive_edges": 678
+        },
+        "6bba_3abfe10a": {
+          "eligible_targets": 770,
+          "covered_targets": 714,
+          "missed_parent_targets": 56,
+          "unknown_candidates": 11062,
+          "labeled_candidates": 1300,
+          "positive_edges": 714
+        },
+        "6bba_3c5691b6": {
+          "eligible_targets": 613,
+          "covered_targets": 607,
+          "missed_parent_targets": 6,
+          "unknown_candidates": 1114,
+          "labeled_candidates": 701,
+          "positive_edges": 607
+        },
+        "6bba_3db54e20": {
+          "eligible_targets": 335,
+          "covered_targets": 312,
+          "missed_parent_targets": 23,
+          "unknown_candidates": 2950,
+          "labeled_candidates": 341,
+          "positive_edges": 312
+        },
+        "6bba_3fda6b25": {
+          "eligible_targets": 847,
+          "covered_targets": 817,
+          "missed_parent_targets": 30,
+          "unknown_candidates": 2418,
+          "labeled_candidates": 1271,
+          "positive_edges": 817
+        },
+        "6bba_43fea39d": {
+          "eligible_targets": 697,
+          "covered_targets": 670,
+          "missed_parent_targets": 27,
+          "unknown_candidates": 1716,
+          "labeled_candidates": 929,
+          "positive_edges": 670
+        },
+        "6bba_474be664": {
+          "eligible_targets": 122,
+          "covered_targets": 98,
+          "missed_parent_targets": 24,
+          "unknown_candidates": 1717,
+          "labeled_candidates": 137,
+          "positive_edges": 98
+        },
+        "6bba_48816121": {
+          "eligible_targets": 837,
+          "covered_targets": 801,
+          "missed_parent_targets": 36,
+          "unknown_candidates": 9003,
+          "labeled_candidates": 1226,
+          "positive_edges": 801
+        },
+        "6bba_4aa14c89": {
+          "eligible_targets": 557,
+          "covered_targets": 540,
+          "missed_parent_targets": 17,
+          "unknown_candidates": 1320,
+          "labeled_candidates": 589,
+          "positive_edges": 540
+        },
+        "6bba_4f99ce20": {
+          "eligible_targets": 973,
+          "covered_targets": 961,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 2109,
+          "labeled_candidates": 1314,
+          "positive_edges": 961
+        },
+        "6bba_4ffd3da3": {
+          "eligible_targets": 442,
+          "covered_targets": 375,
+          "missed_parent_targets": 67,
+          "unknown_candidates": 3853,
+          "labeled_candidates": 520,
+          "positive_edges": 375
+        },
+        "6bba_55b7eebe": {
+          "eligible_targets": 527,
+          "covered_targets": 515,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 586,
+          "labeled_candidates": 536,
+          "positive_edges": 515
+        },
+        "6bba_55c70843": {
+          "eligible_targets": 375,
+          "covered_targets": 344,
+          "missed_parent_targets": 31,
+          "unknown_candidates": 5525,
+          "labeled_candidates": 481,
+          "positive_edges": 344
+        },
+        "6bba_57b7cc1e": {
+          "eligible_targets": 1131,
+          "covered_targets": 955,
+          "missed_parent_targets": 176,
+          "unknown_candidates": 16312,
+          "labeled_candidates": 1145,
+          "positive_edges": 955
+        },
+        "6bba_5a4d9360": {
+          "eligible_targets": 530,
+          "covered_targets": 499,
+          "missed_parent_targets": 31,
+          "unknown_candidates": 1511,
+          "labeled_candidates": 573,
+          "positive_edges": 499
+        },
+        "6bba_5b28472a": {
+          "eligible_targets": 644,
+          "covered_targets": 635,
+          "missed_parent_targets": 9,
+          "unknown_candidates": 1617,
+          "labeled_candidates": 662,
+          "positive_edges": 635
+        },
+        "6bba_5c039895": {
+          "eligible_targets": 1098,
+          "covered_targets": 1073,
+          "missed_parent_targets": 25,
+          "unknown_candidates": 5388,
+          "labeled_candidates": 1561,
+          "positive_edges": 1073
+        },
+        "6bba_5c824876": {
+          "eligible_targets": 660,
+          "covered_targets": 610,
+          "missed_parent_targets": 50,
+          "unknown_candidates": 5620,
+          "labeled_candidates": 685,
+          "positive_edges": 610
+        },
+        "6bba_5dfe9ad1": {
+          "eligible_targets": 1085,
+          "covered_targets": 1000,
+          "missed_parent_targets": 85,
+          "unknown_candidates": 12092,
+          "labeled_candidates": 1633,
+          "positive_edges": 1000
+        },
+        "6bba_5f89039d": {
+          "eligible_targets": 801,
+          "covered_targets": 792,
+          "missed_parent_targets": 9,
+          "unknown_candidates": 1168,
+          "labeled_candidates": 840,
+          "positive_edges": 792
+        },
+        "6bba_61dd1e0d": {
+          "eligible_targets": 373,
+          "covered_targets": 364,
+          "missed_parent_targets": 9,
+          "unknown_candidates": 520,
+          "labeled_candidates": 388,
+          "positive_edges": 364
+        },
+        "6bba_61ecbe65": {
+          "eligible_targets": 490,
+          "covered_targets": 469,
+          "missed_parent_targets": 21,
+          "unknown_candidates": 1311,
+          "labeled_candidates": 514,
+          "positive_edges": 469
+        },
+        "6bba_6321a359": {
+          "eligible_targets": 652,
+          "covered_targets": 643,
+          "missed_parent_targets": 9,
+          "unknown_candidates": 646,
+          "labeled_candidates": 715,
+          "positive_edges": 643
+        },
+        "6bba_6479435d": {
+          "eligible_targets": 387,
+          "covered_targets": 349,
+          "missed_parent_targets": 38,
+          "unknown_candidates": 4473,
+          "labeled_candidates": 495,
+          "positive_edges": 349
+        },
+        "6bba_67ebd073": {
+          "eligible_targets": 368,
+          "covered_targets": 344,
+          "missed_parent_targets": 24,
+          "unknown_candidates": 2453,
+          "labeled_candidates": 380,
+          "positive_edges": 344
+        },
+        "6bba_6ca87370": {
+          "eligible_targets": 976,
+          "covered_targets": 954,
+          "missed_parent_targets": 22,
+          "unknown_candidates": 4729,
+          "labeled_candidates": 1427,
+          "positive_edges": 954
+        },
+        "6bba_6db0e9b4": {
+          "eligible_targets": 418,
+          "covered_targets": 401,
+          "missed_parent_targets": 17,
+          "unknown_candidates": 4371,
+          "labeled_candidates": 525,
+          "positive_edges": 401
+        },
+        "6bba_6feb10f0": {
+          "eligible_targets": 459,
+          "covered_targets": 368,
+          "missed_parent_targets": 91,
+          "unknown_candidates": 2230,
+          "labeled_candidates": 413,
+          "positive_edges": 368
+        },
+        "6bba_6feeb0b1": {
+          "eligible_targets": 1224,
+          "covered_targets": 1208,
+          "missed_parent_targets": 16,
+          "unknown_candidates": 5072,
+          "labeled_candidates": 1752,
+          "positive_edges": 1208
+        },
+        "6bba_705ec2c9": {
+          "eligible_targets": 346,
+          "covered_targets": 316,
+          "missed_parent_targets": 30,
+          "unknown_candidates": 1144,
+          "labeled_candidates": 383,
+          "positive_edges": 316
+        },
+        "6bba_718b21f9": {
+          "eligible_targets": 564,
+          "covered_targets": 559,
+          "missed_parent_targets": 5,
+          "unknown_candidates": 616,
+          "labeled_candidates": 559,
+          "positive_edges": 559
+        },
+        "6bba_74686d6a": {
+          "eligible_targets": 481,
+          "covered_targets": 449,
+          "missed_parent_targets": 32,
+          "unknown_candidates": 3951,
+          "labeled_candidates": 816,
+          "positive_edges": 449
+        },
+        "6bba_767a1e17": {
+          "eligible_targets": 517,
+          "covered_targets": 474,
+          "missed_parent_targets": 43,
+          "unknown_candidates": 9206,
+          "labeled_candidates": 757,
+          "positive_edges": 474
+        },
+        "6bba_76db78c1": {
+          "eligible_targets": 571,
+          "covered_targets": 568,
+          "missed_parent_targets": 3,
+          "unknown_candidates": 917,
+          "labeled_candidates": 568,
+          "positive_edges": 568
+        },
+        "6bba_784a78c9": {
+          "eligible_targets": 1596,
+          "covered_targets": 1567,
+          "missed_parent_targets": 29,
+          "unknown_candidates": 7758,
+          "labeled_candidates": 2409,
+          "positive_edges": 1567
+        },
+        "6bba_786893ac": {
+          "eligible_targets": 1168,
+          "covered_targets": 1065,
+          "missed_parent_targets": 103,
+          "unknown_candidates": 20681,
+          "labeled_candidates": 1652,
+          "positive_edges": 1065
+        },
+        "6bba_789f8168": {
+          "eligible_targets": 605,
+          "covered_targets": 593,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 3027,
+          "labeled_candidates": 750,
+          "positive_edges": 593
+        },
+        "6bba_78a7bd97": {
+          "eligible_targets": 559,
+          "covered_targets": 508,
+          "missed_parent_targets": 51,
+          "unknown_candidates": 8666,
+          "labeled_candidates": 686,
+          "positive_edges": 508
+        },
+        "6bba_7af54fde": {
+          "eligible_targets": 889,
+          "covered_targets": 860,
+          "missed_parent_targets": 29,
+          "unknown_candidates": 4044,
+          "labeled_candidates": 1144,
+          "positive_edges": 860
+        },
+        "6bba_7b5d3b2c": {
+          "eligible_targets": 334,
+          "covered_targets": 321,
+          "missed_parent_targets": 13,
+          "unknown_candidates": 405,
+          "labeled_candidates": 323,
+          "positive_edges": 321
+        },
+        "6bba_7d3058ae": {
+          "eligible_targets": 1092,
+          "covered_targets": 1090,
+          "missed_parent_targets": 2,
+          "unknown_candidates": 2027,
+          "labeled_candidates": 1339,
+          "positive_edges": 1090
+        },
+        "6bba_7f87b3d8": {
+          "eligible_targets": 903,
+          "covered_targets": 891,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 5346,
+          "labeled_candidates": 1701,
+          "positive_edges": 891
+        },
+        "6bba_80d12824": {
+          "eligible_targets": 566,
+          "covered_targets": 547,
+          "missed_parent_targets": 19,
+          "unknown_candidates": 1941,
+          "labeled_candidates": 669,
+          "positive_edges": 547
+        },
+        "6bba_825bd1c6": {
+          "eligible_targets": 869,
+          "covered_targets": 857,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 4183,
+          "labeled_candidates": 1391,
+          "positive_edges": 857
+        },
+        "6bba_87289e13": {
+          "eligible_targets": 665,
+          "covered_targets": 659,
+          "missed_parent_targets": 6,
+          "unknown_candidates": 4304,
+          "labeled_candidates": 1008,
+          "positive_edges": 659
+        },
+        "6bba_8b7818bf": {
+          "eligible_targets": 575,
+          "covered_targets": 574,
+          "missed_parent_targets": 1,
+          "unknown_candidates": 799,
+          "labeled_candidates": 585,
+          "positive_edges": 574
+        },
+        "6bba_907271db": {
+          "eligible_targets": 886,
+          "covered_targets": 871,
+          "missed_parent_targets": 15,
+          "unknown_candidates": 3876,
+          "labeled_candidates": 1169,
+          "positive_edges": 871
+        },
+        "6bba_91951b3a": {
+          "eligible_targets": 1033,
+          "covered_targets": 982,
+          "missed_parent_targets": 51,
+          "unknown_candidates": 4951,
+          "labeled_candidates": 1236,
+          "positive_edges": 982
+        },
+        "6bba_96833384": {
+          "eligible_targets": 538,
+          "covered_targets": 526,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 476,
+          "labeled_candidates": 572,
+          "positive_edges": 526
+        },
+        "6bba_969618f6": {
+          "eligible_targets": 517,
+          "covered_targets": 463,
+          "missed_parent_targets": 54,
+          "unknown_candidates": 3486,
+          "labeled_candidates": 597,
+          "positive_edges": 463
+        },
+        "6bba_971fa5e0": {
+          "eligible_targets": 629,
+          "covered_targets": 598,
+          "missed_parent_targets": 31,
+          "unknown_candidates": 1606,
+          "labeled_candidates": 738,
+          "positive_edges": 598
+        },
+        "6bba_9a41d029": {
+          "eligible_targets": 1144,
+          "covered_targets": 1075,
+          "missed_parent_targets": 69,
+          "unknown_candidates": 10299,
+          "labeled_candidates": 1666,
+          "positive_edges": 1075
+        },
+        "6bba_9e23430b": {
+          "eligible_targets": 719,
+          "covered_targets": 709,
+          "missed_parent_targets": 10,
+          "unknown_candidates": 936,
+          "labeled_candidates": 758,
+          "positive_edges": 709
+        },
+        "6bba_a5e926bb": {
+          "eligible_targets": 615,
+          "covered_targets": 588,
+          "missed_parent_targets": 27,
+          "unknown_candidates": 2743,
+          "labeled_candidates": 728,
+          "positive_edges": 588
+        },
+        "6bba_a90a0b9c": {
+          "eligible_targets": 818,
+          "covered_targets": 739,
+          "missed_parent_targets": 79,
+          "unknown_candidates": 11688,
+          "labeled_candidates": 1182,
+          "positive_edges": 739
+        },
+        "6bba_ab78413d": {
+          "eligible_targets": 326,
+          "covered_targets": 263,
+          "missed_parent_targets": 63,
+          "unknown_candidates": 1527,
+          "labeled_candidates": 281,
+          "positive_edges": 263
+        },
+        "6bba_acd782a8": {
+          "eligible_targets": 288,
+          "covered_targets": 274,
+          "missed_parent_targets": 14,
+          "unknown_candidates": 2750,
+          "labeled_candidates": 383,
+          "positive_edges": 274
+        },
+        "6bba_ae82a791": {
+          "eligible_targets": 1366,
+          "covered_targets": 1339,
+          "missed_parent_targets": 27,
+          "unknown_candidates": 3644,
+          "labeled_candidates": 1899,
+          "positive_edges": 1339
+        },
+        "6bba_aeee7805": {
+          "eligible_targets": 580,
+          "covered_targets": 574,
+          "missed_parent_targets": 6,
+          "unknown_candidates": 568,
+          "labeled_candidates": 590,
+          "positive_edges": 574
+        },
+        "6bba_af149c94": {
+          "eligible_targets": 1191,
+          "covered_targets": 1167,
+          "missed_parent_targets": 24,
+          "unknown_candidates": 5439,
+          "labeled_candidates": 1657,
+          "positive_edges": 1167
+        },
+        "6bba_afb141ff": {
+          "eligible_targets": 516,
+          "covered_targets": 500,
+          "missed_parent_targets": 16,
+          "unknown_candidates": 1838,
+          "labeled_candidates": 629,
+          "positive_edges": 500
+        },
+        "6bba_b1ae37b9": {
+          "eligible_targets": 446,
+          "covered_targets": 410,
+          "missed_parent_targets": 36,
+          "unknown_candidates": 6123,
+          "labeled_candidates": 512,
+          "positive_edges": 410
+        },
+        "6bba_b204cac7": {
+          "eligible_targets": 666,
+          "covered_targets": 648,
+          "missed_parent_targets": 18,
+          "unknown_candidates": 857,
+          "labeled_candidates": 745,
+          "positive_edges": 648
+        },
+        "6bba_b329af44": {
+          "eligible_targets": 1038,
+          "covered_targets": 946,
+          "missed_parent_targets": 92,
+          "unknown_candidates": 20992,
+          "labeled_candidates": 1168,
+          "positive_edges": 946
+        },
+        "6bba_b693381b": {
+          "eligible_targets": 719,
+          "covered_targets": 692,
+          "missed_parent_targets": 27,
+          "unknown_candidates": 1253,
+          "labeled_candidates": 937,
+          "positive_edges": 692
+        },
+        "6bba_bb9f20c3": {
+          "eligible_targets": 1687,
+          "covered_targets": 1642,
+          "missed_parent_targets": 45,
+          "unknown_candidates": 21756,
+          "labeled_candidates": 4118,
+          "positive_edges": 1642
+        },
+        "6bba_bbb708ca": {
+          "eligible_targets": 622,
+          "covered_targets": 588,
+          "missed_parent_targets": 34,
+          "unknown_candidates": 1535,
+          "labeled_candidates": 663,
+          "positive_edges": 588
+        },
+        "6bba_c27cba08": {
+          "eligible_targets": 359,
+          "covered_targets": 345,
+          "missed_parent_targets": 14,
+          "unknown_candidates": 771,
+          "labeled_candidates": 359,
+          "positive_edges": 345
+        },
+        "6bba_c328f2fd": {
+          "eligible_targets": 351,
+          "covered_targets": 323,
+          "missed_parent_targets": 28,
+          "unknown_candidates": 4023,
+          "labeled_candidates": 434,
+          "positive_edges": 323
+        },
+        "6bba_c73a1d11": {
+          "eligible_targets": 331,
+          "covered_targets": 263,
+          "missed_parent_targets": 68,
+          "unknown_candidates": 3436,
+          "labeled_candidates": 370,
+          "positive_edges": 263
+        },
+        "6bba_cdcfe533": {
+          "eligible_targets": 1234,
+          "covered_targets": 1195,
+          "missed_parent_targets": 39,
+          "unknown_candidates": 14448,
+          "labeled_candidates": 2775,
+          "positive_edges": 1195
+        },
+        "6bba_cf35214c": {
+          "eligible_targets": 542,
+          "covered_targets": 523,
+          "missed_parent_targets": 19,
+          "unknown_candidates": 6626,
+          "labeled_candidates": 655,
+          "positive_edges": 523
+        },
+        "6bba_cff5865f": {
+          "eligible_targets": 1307,
+          "covered_targets": 1240,
+          "missed_parent_targets": 67,
+          "unknown_candidates": 18793,
+          "labeled_candidates": 2267,
+          "positive_edges": 1240
+        },
+        "6bba_d0fc38b5": {
+          "eligible_targets": 628,
+          "covered_targets": 612,
+          "missed_parent_targets": 16,
+          "unknown_candidates": 821,
+          "labeled_candidates": 669,
+          "positive_edges": 612
+        },
+        "6bba_d1acb6ff": {
+          "eligible_targets": 556,
+          "covered_targets": 527,
+          "missed_parent_targets": 29,
+          "unknown_candidates": 4122,
+          "labeled_candidates": 619,
+          "positive_edges": 527
+        },
+        "6bba_d2b9fc0c": {
+          "eligible_targets": 845,
+          "covered_targets": 824,
+          "missed_parent_targets": 21,
+          "unknown_candidates": 5447,
+          "labeled_candidates": 928,
+          "positive_edges": 824
+        },
+        "6bba_d3da753b": {
+          "eligible_targets": 825,
+          "covered_targets": 813,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 6901,
+          "labeled_candidates": 1186,
+          "positive_edges": 813
+        },
+        "6bba_d5eae175": {
+          "eligible_targets": 511,
+          "covered_targets": 510,
+          "missed_parent_targets": 1,
+          "unknown_candidates": 591,
+          "labeled_candidates": 522,
+          "positive_edges": 510
+        },
+        "6bba_d6ecebbb": {
+          "eligible_targets": 513,
+          "covered_targets": 494,
+          "missed_parent_targets": 19,
+          "unknown_candidates": 1776,
+          "labeled_candidates": 548,
+          "positive_edges": 494
+        },
+        "6bba_d82a4fc6": {
+          "eligible_targets": 469,
+          "covered_targets": 449,
+          "missed_parent_targets": 20,
+          "unknown_candidates": 5592,
+          "labeled_candidates": 517,
+          "positive_edges": 449
+        },
+        "6bba_debd7bfa": {
+          "eligible_targets": 644,
+          "covered_targets": 614,
+          "missed_parent_targets": 30,
+          "unknown_candidates": 4112,
+          "labeled_candidates": 866,
+          "positive_edges": 614
+        },
+        "6bba_df673a83": {
+          "eligible_targets": 557,
+          "covered_targets": 519,
+          "missed_parent_targets": 38,
+          "unknown_candidates": 4984,
+          "labeled_candidates": 854,
+          "positive_edges": 519
+        },
+        "6bba_e16ffc58": {
+          "eligible_targets": 859,
+          "covered_targets": 850,
+          "missed_parent_targets": 9,
+          "unknown_candidates": 2287,
+          "labeled_candidates": 1351,
+          "positive_edges": 850
+        },
+        "6bba_e5e44988": {
+          "eligible_targets": 527,
+          "covered_targets": 513,
+          "missed_parent_targets": 14,
+          "unknown_candidates": 1600,
+          "labeled_candidates": 589,
+          "positive_edges": 513
+        },
+        "6bba_ebdf3b34": {
+          "eligible_targets": 731,
+          "covered_targets": 702,
+          "missed_parent_targets": 29,
+          "unknown_candidates": 13569,
+          "labeled_candidates": 1110,
+          "positive_edges": 702
+        },
+        "6bba_ebff6e76": {
+          "eligible_targets": 898,
+          "covered_targets": 810,
+          "missed_parent_targets": 88,
+          "unknown_candidates": 11894,
+          "labeled_candidates": 1103,
+          "positive_edges": 810
+        },
+        "6bba_ed9377fd": {
+          "eligible_targets": 390,
+          "covered_targets": 377,
+          "missed_parent_targets": 13,
+          "unknown_candidates": 944,
+          "labeled_candidates": 418,
+          "positive_edges": 377
+        },
+        "6bba_edf14583": {
+          "eligible_targets": 625,
+          "covered_targets": 598,
+          "missed_parent_targets": 27,
+          "unknown_candidates": 10862,
+          "labeled_candidates": 1008,
+          "positive_edges": 598
+        },
+        "6bba_eebc57a5": {
+          "eligible_targets": 890,
+          "covered_targets": 867,
+          "missed_parent_targets": 23,
+          "unknown_candidates": 3367,
+          "labeled_candidates": 1207,
+          "positive_edges": 867
+        },
+        "6bba_ef7b4f7e": {
+          "eligible_targets": 993,
+          "covered_targets": 975,
+          "missed_parent_targets": 18,
+          "unknown_candidates": 1784,
+          "labeled_candidates": 1186,
+          "positive_edges": 975
+        },
+        "6bba_f17befbc": {
+          "eligible_targets": 677,
+          "covered_targets": 586,
+          "missed_parent_targets": 91,
+          "unknown_candidates": 8178,
+          "labeled_candidates": 899,
+          "positive_edges": 586
+        },
+        "6bba_f1fde7e0": {
+          "eligible_targets": 404,
+          "covered_targets": 395,
+          "missed_parent_targets": 9,
+          "unknown_candidates": 2183,
+          "labeled_candidates": 474,
+          "positive_edges": 395
+        },
+        "6bba_f20478e9": {
+          "eligible_targets": 812,
+          "covered_targets": 796,
+          "missed_parent_targets": 16,
+          "unknown_candidates": 2094,
+          "labeled_candidates": 1074,
+          "positive_edges": 796
+        },
+        "6bba_f4ae811c": {
+          "eligible_targets": 770,
+          "covered_targets": 736,
+          "missed_parent_targets": 34,
+          "unknown_candidates": 2963,
+          "labeled_candidates": 965,
+          "positive_edges": 736
+        },
+        "6bba_f8ffd5e7": {
+          "eligible_targets": 332,
+          "covered_targets": 315,
+          "missed_parent_targets": 17,
+          "unknown_candidates": 4565,
+          "labeled_candidates": 535,
+          "positive_edges": 315
+        },
+        "6bba_fbc898dc": {
+          "eligible_targets": 577,
+          "covered_targets": 571,
+          "missed_parent_targets": 6,
+          "unknown_candidates": 507,
+          "labeled_candidates": 602,
+          "positive_edges": 571
+        },
+        "6bba_fc516dc6": {
+          "eligible_targets": 680,
+          "covered_targets": 668,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 2589,
+          "labeled_candidates": 816,
+          "positive_edges": 668
+        },
+        "6bba_fc5f39dc": {
+          "eligible_targets": 320,
+          "covered_targets": 281,
+          "missed_parent_targets": 39,
+          "unknown_candidates": 3344,
+          "labeled_candidates": 371,
+          "positive_edges": 281
+        },
+        "6bba_fc83837d": {
+          "eligible_targets": 721,
+          "covered_targets": 656,
+          "missed_parent_targets": 65,
+          "unknown_candidates": 4786,
+          "labeled_candidates": 955,
+          "positive_edges": 656
+        },
+        "6bba_fe670320": {
+          "eligible_targets": 633,
+          "covered_targets": 623,
+          "missed_parent_targets": 10,
+          "unknown_candidates": 2049,
+          "labeled_candidates": 745,
+          "positive_edges": 623
+        }
+      }
+    },
+    {
+      "heldout_embryo": "6bba",
+      "training_embryos": [
+        "44b6"
+      ],
+      "training_samples": 71,
+      "training_candidates": 23278,
+      "positive_edges": 16547,
+      "sample_pair_diagnostics": {
+        "44b6_0113de3b": {
+          "eligible_targets": 42,
+          "covered_targets": 41,
+          "missed_parent_targets": 1,
+          "unknown_candidates": 626,
+          "labeled_candidates": 41,
+          "positive_edges": 41
+        },
+        "44b6_0b24845f": {
+          "eligible_targets": 33,
+          "covered_targets": 28,
+          "missed_parent_targets": 5,
+          "unknown_candidates": 338,
+          "labeled_candidates": 28,
+          "positive_edges": 28
+        },
+        "44b6_0c582fdc": {
+          "eligible_targets": 55,
+          "covered_targets": 48,
+          "missed_parent_targets": 7,
+          "unknown_candidates": 711,
+          "labeled_candidates": 48,
+          "positive_edges": 48
+        },
+        "44b6_0db75fae": {
+          "eligible_targets": 143,
+          "covered_targets": 142,
+          "missed_parent_targets": 1,
+          "unknown_candidates": 1662,
+          "labeled_candidates": 193,
+          "positive_edges": 142
+        },
+        "44b6_12dfb391": {
+          "eligible_targets": 747,
+          "covered_targets": 727,
+          "missed_parent_targets": 20,
+          "unknown_candidates": 12200,
+          "labeled_candidates": 923,
+          "positive_edges": 727
+        },
+        "44b6_144b256d": {
+          "eligible_targets": 114,
+          "covered_targets": 111,
+          "missed_parent_targets": 3,
+          "unknown_candidates": 1074,
+          "labeled_candidates": 111,
+          "positive_edges": 111
+        },
+        "44b6_1574802b": {
+          "eligible_targets": 131,
+          "covered_targets": 123,
+          "missed_parent_targets": 8,
+          "unknown_candidates": 1331,
+          "labeled_candidates": 123,
+          "positive_edges": 123
+        },
+        "44b6_18ced818": {
+          "eligible_targets": 95,
+          "covered_targets": 90,
+          "missed_parent_targets": 5,
+          "unknown_candidates": 2201,
+          "labeled_candidates": 90,
+          "positive_edges": 90
+        },
+        "44b6_1d530831": {
+          "eligible_targets": 257,
+          "covered_targets": 245,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 4213,
+          "labeled_candidates": 282,
+          "positive_edges": 245
+        },
+        "44b6_24264f12": {
+          "eligible_targets": 149,
+          "covered_targets": 127,
+          "missed_parent_targets": 22,
+          "unknown_candidates": 1903,
+          "labeled_candidates": 152,
+          "positive_edges": 127
+        },
+        "44b6_267148e4": {
+          "eligible_targets": 210,
+          "covered_targets": 174,
+          "missed_parent_targets": 36,
+          "unknown_candidates": 3217,
+          "labeled_candidates": 261,
+          "positive_edges": 174
+        },
+        "44b6_2a2eff9f": {
+          "eligible_targets": 195,
+          "covered_targets": 187,
+          "missed_parent_targets": 8,
+          "unknown_candidates": 3591,
+          "labeled_candidates": 303,
+          "positive_edges": 187
+        },
+        "44b6_2f31fc2f": {
+          "eligible_targets": 69,
+          "covered_targets": 59,
+          "missed_parent_targets": 10,
+          "unknown_candidates": 949,
+          "labeled_candidates": 59,
+          "positive_edges": 59
+        },
+        "44b6_33b596bf": {
+          "eligible_targets": 41,
+          "covered_targets": 34,
+          "missed_parent_targets": 7,
+          "unknown_candidates": 544,
+          "labeled_candidates": 34,
+          "positive_edges": 34
+        },
+        "44b6_341df25f": {
+          "eligible_targets": 206,
+          "covered_targets": 205,
+          "missed_parent_targets": 1,
+          "unknown_candidates": 910,
+          "labeled_candidates": 298,
+          "positive_edges": 205
+        },
+        "44b6_3a861e03": {
+          "eligible_targets": 881,
+          "covered_targets": 861,
+          "missed_parent_targets": 20,
+          "unknown_candidates": 13028,
+          "labeled_candidates": 1031,
+          "positive_edges": 861
+        },
+        "44b6_3bb3690f": {
+          "eligible_targets": 357,
+          "covered_targets": 333,
+          "missed_parent_targets": 24,
+          "unknown_candidates": 4977,
+          "labeled_candidates": 632,
+          "positive_edges": 333
+        },
+        "44b6_40c45f5a": {
+          "eligible_targets": 182,
+          "covered_targets": 170,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 2825,
+          "labeled_candidates": 328,
+          "positive_edges": 170
+        },
+        "44b6_415c0a3a": {
+          "eligible_targets": 236,
+          "covered_targets": 218,
+          "missed_parent_targets": 18,
+          "unknown_candidates": 3799,
+          "labeled_candidates": 264,
+          "positive_edges": 218
+        },
+        "44b6_53f95252": {
+          "eligible_targets": 62,
+          "covered_targets": 60,
+          "missed_parent_targets": 2,
+          "unknown_candidates": 952,
+          "labeled_candidates": 60,
+          "positive_edges": 60
+        },
+        "44b6_551a5dba": {
+          "eligible_targets": 197,
+          "covered_targets": 182,
+          "missed_parent_targets": 15,
+          "unknown_candidates": 4619,
+          "labeled_candidates": 302,
+          "positive_edges": 182
+        },
+        "44b6_5740d24b": {
+          "eligible_targets": 165,
+          "covered_targets": 161,
+          "missed_parent_targets": 4,
+          "unknown_candidates": 1380,
+          "labeled_candidates": 161,
+          "positive_edges": 161
+        },
+        "44b6_587a1e22": {
+          "eligible_targets": 344,
+          "covered_targets": 331,
+          "missed_parent_targets": 13,
+          "unknown_candidates": 3802,
+          "labeled_candidates": 441,
+          "positive_edges": 331
+        },
+        "44b6_5f15d135": {
+          "eligible_targets": 240,
+          "covered_targets": 223,
+          "missed_parent_targets": 17,
+          "unknown_candidates": 3679,
+          "labeled_candidates": 277,
+          "positive_edges": 223
+        },
+        "44b6_668e0cc7": {
+          "eligible_targets": 558,
+          "covered_targets": 540,
+          "missed_parent_targets": 18,
+          "unknown_candidates": 9934,
+          "labeled_candidates": 926,
+          "positive_edges": 540
+        },
+        "44b6_66f9292d": {
+          "eligible_targets": 176,
+          "covered_targets": 167,
+          "missed_parent_targets": 9,
+          "unknown_candidates": 2275,
+          "labeled_candidates": 167,
+          "positive_edges": 167
+        },
+        "44b6_706092f0": {
+          "eligible_targets": 106,
+          "covered_targets": 102,
+          "missed_parent_targets": 4,
+          "unknown_candidates": 1178,
+          "labeled_candidates": 118,
+          "positive_edges": 102
+        },
+        "44b6_71a4179f": {
+          "eligible_targets": 116,
+          "covered_targets": 113,
+          "missed_parent_targets": 3,
+          "unknown_candidates": 1639,
+          "labeled_candidates": 113,
+          "positive_edges": 113
+        },
+        "44b6_74d0c52e": {
+          "eligible_targets": 124,
+          "covered_targets": 119,
+          "missed_parent_targets": 5,
+          "unknown_candidates": 1144,
+          "labeled_candidates": 131,
+          "positive_edges": 119
+        },
+        "44b6_7a302da0": {
+          "eligible_targets": 446,
+          "covered_targets": 413,
+          "missed_parent_targets": 33,
+          "unknown_candidates": 9221,
+          "labeled_candidates": 498,
+          "positive_edges": 413
+        },
+        "44b6_7e557709": {
+          "eligible_targets": 535,
+          "covered_targets": 515,
+          "missed_parent_targets": 20,
+          "unknown_candidates": 8449,
+          "labeled_candidates": 809,
+          "positive_edges": 515
+        },
+        "44b6_808952d6": {
+          "eligible_targets": 178,
+          "covered_targets": 177,
+          "missed_parent_targets": 1,
+          "unknown_candidates": 479,
+          "labeled_candidates": 177,
+          "positive_edges": 177
+        },
+        "44b6_81c256f0": {
+          "eligible_targets": 197,
+          "covered_targets": 197,
+          "missed_parent_targets": 0,
+          "unknown_candidates": 1086,
+          "labeled_candidates": 253,
+          "positive_edges": 197
+        },
+        "44b6_87bba6c4": {
+          "eligible_targets": 121,
+          "covered_targets": 112,
+          "missed_parent_targets": 9,
+          "unknown_candidates": 1873,
+          "labeled_candidates": 114,
+          "positive_edges": 112
+        },
+        "44b6_8cc6506c": {
+          "eligible_targets": 339,
+          "covered_targets": 312,
+          "missed_parent_targets": 27,
+          "unknown_candidates": 4514,
+          "labeled_candidates": 767,
+          "positive_edges": 312
+        },
+        "44b6_8f5ab931": {
+          "eligible_targets": 481,
+          "covered_targets": 436,
+          "missed_parent_targets": 45,
+          "unknown_candidates": 6212,
+          "labeled_candidates": 656,
+          "positive_edges": 436
+        },
+        "44b6_8f9ecab4": {
+          "eligible_targets": 353,
+          "covered_targets": 341,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 6936,
+          "labeled_candidates": 447,
+          "positive_edges": 341
+        },
+        "44b6_90724892": {
+          "eligible_targets": 101,
+          "covered_targets": 99,
+          "missed_parent_targets": 2,
+          "unknown_candidates": 1563,
+          "labeled_candidates": 154,
+          "positive_edges": 99
+        },
+        "44b6_949adeb1": {
+          "eligible_targets": 299,
+          "covered_targets": 267,
+          "missed_parent_targets": 32,
+          "unknown_candidates": 4768,
+          "labeled_candidates": 341,
+          "positive_edges": 267
+        },
+        "44b6_95029e92": {
+          "eligible_targets": 198,
+          "covered_targets": 198,
+          "missed_parent_targets": 0,
+          "unknown_candidates": 510,
+          "labeled_candidates": 205,
+          "positive_edges": 198
+        },
+        "44b6_97725144": {
+          "eligible_targets": 206,
+          "covered_targets": 193,
+          "missed_parent_targets": 13,
+          "unknown_candidates": 2592,
+          "labeled_candidates": 193,
+          "positive_edges": 193
+        },
+        "44b6_996155de": {
+          "eligible_targets": 303,
+          "covered_targets": 291,
+          "missed_parent_targets": 12,
+          "unknown_candidates": 638,
+          "labeled_candidates": 401,
+          "positive_edges": 291
+        },
+        "44b6_9be80b04": {
+          "eligible_targets": 190,
+          "covered_targets": 169,
+          "missed_parent_targets": 21,
+          "unknown_candidates": 4630,
+          "labeled_candidates": 359,
+          "positive_edges": 169
+        },
+        "44b6_9bfa6a0a": {
+          "eligible_targets": 245,
+          "covered_targets": 235,
+          "missed_parent_targets": 10,
+          "unknown_candidates": 4183,
+          "labeled_candidates": 240,
+          "positive_edges": 235
+        },
+        "44b6_a21120c2": {
+          "eligible_targets": 273,
+          "covered_targets": 266,
+          "missed_parent_targets": 7,
+          "unknown_candidates": 3345,
+          "labeled_candidates": 343,
+          "positive_edges": 266
+        },
+        "44b6_a2bb48bb": {
+          "eligible_targets": 318,
+          "covered_targets": 265,
+          "missed_parent_targets": 53,
+          "unknown_candidates": 4960,
+          "labeled_candidates": 521,
+          "positive_edges": 265
+        },
+        "44b6_aaf8b0ea": {
+          "eligible_targets": 202,
+          "covered_targets": 201,
+          "missed_parent_targets": 1,
+          "unknown_candidates": 617,
+          "labeled_candidates": 267,
+          "positive_edges": 201
+        },
+        "44b6_abf82518": {
+          "eligible_targets": 89,
+          "covered_targets": 86,
+          "missed_parent_targets": 3,
+          "unknown_candidates": 1026,
+          "labeled_candidates": 86,
+          "positive_edges": 86
+        },
+        "44b6_b2c44266": {
+          "eligible_targets": 159,
+          "covered_targets": 155,
+          "missed_parent_targets": 4,
+          "unknown_candidates": 1343,
+          "labeled_candidates": 155,
+          "positive_edges": 155
+        },
+        "44b6_c15fded2": {
+          "eligible_targets": 101,
+          "covered_targets": 99,
+          "missed_parent_targets": 2,
+          "unknown_candidates": 1545,
+          "labeled_candidates": 191,
+          "positive_edges": 99
+        },
+        "44b6_c50204e0": {
+          "eligible_targets": 232,
+          "covered_targets": 197,
+          "missed_parent_targets": 35,
+          "unknown_candidates": 4089,
+          "labeled_candidates": 299,
+          "positive_edges": 197
+        },
+        "44b6_c771cb04": {
+          "eligible_targets": 191,
+          "covered_targets": 174,
+          "missed_parent_targets": 17,
+          "unknown_candidates": 4114,
+          "labeled_candidates": 298,
+          "positive_edges": 174
+        },
+        "44b6_c8e2a523": {
+          "eligible_targets": 158,
+          "covered_targets": 155,
+          "missed_parent_targets": 3,
+          "unknown_candidates": 2098,
+          "labeled_candidates": 176,
+          "positive_edges": 155
+        },
+        "44b6_c96cfa10": {
+          "eligible_targets": 552,
+          "covered_targets": 520,
+          "missed_parent_targets": 32,
+          "unknown_candidates": 9605,
+          "labeled_candidates": 668,
+          "positive_edges": 520
+        },
+        "44b6_cf2536e8": {
+          "eligible_targets": 67,
+          "covered_targets": 62,
+          "missed_parent_targets": 5,
+          "unknown_candidates": 994,
+          "labeled_candidates": 62,
+          "positive_edges": 62
+        },
+        "44b6_cf8fed6b": {
+          "eligible_targets": 186,
+          "covered_targets": 185,
+          "missed_parent_targets": 1,
+          "unknown_candidates": 3451,
+          "labeled_candidates": 194,
+          "positive_edges": 185
+        },
+        "44b6_d29c9ab2": {
+          "eligible_targets": 1258,
+          "covered_targets": 1218,
+          "missed_parent_targets": 40,
+          "unknown_candidates": 19047,
+          "labeled_candidates": 1894,
+          "positive_edges": 1218
+        },
+        "44b6_d2f34f90": {
+          "eligible_targets": 247,
+          "covered_targets": 232,
+          "missed_parent_targets": 15,
+          "unknown_candidates": 3377,
+          "labeled_candidates": 383,
+          "positive_edges": 232
+        },
+        "44b6_d5e7d891": {
+          "eligible_targets": 642,
+          "covered_targets": 530,
+          "missed_parent_targets": 112,
+          "unknown_candidates": 10796,
+          "labeled_candidates": 781,
+          "positive_edges": 530
+        },
+        "44b6_d754aa59": {
+          "eligible_targets": 70,
+          "covered_targets": 70,
+          "missed_parent_targets": 0,
+          "unknown_candidates": 176,
+          "labeled_candidates": 77,
+          "positive_edges": 70
+        },
+        "44b6_d78e09d9": {
+          "eligible_targets": 404,
+          "covered_targets": 376,
+          "missed_parent_targets": 28,
+          "unknown_candidates": 4977,
+          "labeled_candidates": 489,
+          "positive_edges": 376
+        },
+        "44b6_db3c847b": {
+          "eligible_targets": 143,
+          "covered_targets": 137,
+          "missed_parent_targets": 6,
+          "unknown_candidates": 1128,
+          "labeled_candidates": 145,
+          "positive_edges": 137
+        },
+        "44b6_ddf577ad": {
+          "eligible_targets": 616,
+          "covered_targets": 596,
+          "missed_parent_targets": 20,
+          "unknown_candidates": 12465,
+          "labeled_candidates": 1290,
+          "positive_edges": 596
+        },
+        "44b6_deabac95": {
+          "eligible_targets": 119,
+          "covered_targets": 115,
+          "missed_parent_targets": 4,
+          "unknown_candidates": 1247,
+          "labeled_candidates": 133,
+          "positive_edges": 115
+        },
+        "44b6_e28840c6": {
+          "eligible_targets": 237,
+          "covered_targets": 208,
+          "missed_parent_targets": 29,
+          "unknown_candidates": 3610,
+          "labeled_candidates": 297,
+          "positive_edges": 208
+        },
+        "44b6_e29f0176": {
+          "eligible_targets": 39,
+          "covered_targets": 33,
+          "missed_parent_targets": 6,
+          "unknown_candidates": 444,
+          "labeled_candidates": 33,
+          "positive_edges": 33
+        },
+        "44b6_e31261b4": {
+          "eligible_targets": 100,
+          "covered_targets": 94,
+          "missed_parent_targets": 6,
+          "unknown_candidates": 2020,
+          "labeled_candidates": 94,
+          "positive_edges": 94
+        },
+        "44b6_e35b117d": {
+          "eligible_targets": 214,
+          "covered_targets": 189,
+          "missed_parent_targets": 25,
+          "unknown_candidates": 2538,
+          "labeled_candidates": 246,
+          "positive_edges": 189
+        },
+        "44b6_e57ff5c6": {
+          "eligible_targets": 153,
+          "covered_targets": 144,
+          "missed_parent_targets": 9,
+          "unknown_candidates": 2062,
+          "labeled_candidates": 144,
+          "positive_edges": 144
+        },
+        "44b6_eb2880fc": {
+          "eligible_targets": 330,
+          "covered_targets": 315,
+          "missed_parent_targets": 15,
+          "unknown_candidates": 5908,
+          "labeled_candidates": 452,
+          "positive_edges": 315
+        },
+        "44b6_f28707c6": {
+          "eligible_targets": 53,
+          "covered_targets": 49,
+          "missed_parent_targets": 4,
+          "unknown_candidates": 693,
+          "labeled_candidates": 49,
+          "positive_edges": 49
+        }
+      }
+    }
+  ],
+  "decision": "reject",
+  "decision_rule": "Adopt only when the embryo-level paired 95% CI lower bound for composite score is > 0.",
+  "limitations": [
+    "Unmatched detections are retained in assignment but are unknown under sparse GEFF labels, not asserted false positives.",
+    "Only 2 embryo prefixes are independent biological groups; volumes are not independent organisms.",
+    "This is an offline sparse-label proxy, not an official competition score or submission."
+  ],
+  "seconds": 8507.944646596909
+}

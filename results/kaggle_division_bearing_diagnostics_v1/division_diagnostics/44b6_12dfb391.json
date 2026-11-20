@@ -1,0 +1,2315 @@
+{
+  "sample": "44b6_12dfb391",
+  "embryo": "44b6",
+  "ceiling": {
+    "gt_divisions": 1,
+    "match_gate_um": 7.0,
+    "binary_adjacent": 1,
+    "matched_daughters": 1,
+    "matched_triplet": 1,
+    "raw_two_distinct_daughters": 1,
+    "matched_triplet_fraction": 1.0,
+    "events": [
+      {
+        "parent_gt": 172000000050,
+        "daughter_gt": [
+          173000000050,
+          173000000051
+        ],
+        "times": [
+          66,
+          67,
+          67
+        ],
+        "binary_adjacent": true,
+        "matched_daughters": true,
+        "matched_triplet": true,
+        "raw_two_distinct_daughters": true,
+        "raw_parent_present": true
+      }
+    ]
+  },
+  "conflicts": {
+    "counts": {
+      "second_daughter_already_owned": 657,
+      "baseline_continuation_not_a_proposed_daughter": 101,
+      "parent_baseline_child_count_not_one": 74,
+      "geometry": 81
+    },
+    "examples": [
+      {
+        "parent": 11,
+        "daughters": [
+          412,
+          545
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          412
+        ],
+        "daughter_incoming": [
+          [
+            11
+          ],
+          [
+            73
+          ]
+        ],
+        "times": [
+          0,
+          1,
+          1
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            2.2980970388562794,
+            8.125
+          ],
+          "sister_um": 8.75089281159357,
+          "midpoint_um": 4.0625
+        },
+        "scores": [
+          0.842665433883667,
+          0.5316240191459656
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 60,
+        "daughters": [
+          575,
+          590
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          590
+        ],
+        "daughter_incoming": [
+          [
+            134
+          ],
+          [
+            60
+          ]
+        ],
+        "times": [
+          0,
+          1,
+          1
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            3.471001521535247,
+            1.625
+          ],
+          "sister_um": 2.03125,
+          "midpoint_um": 2.5125174906107617
+        },
+        "scores": [
+          0.9657691717147827,
+          0.9799061417579651
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 93,
+        "daughters": [
+          430,
+          483
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          491
+        ],
+        "daughter_incoming": [
+          [
+            75
+          ],
+          [
+            102
+          ]
+        ],
+        "times": [
+          0,
+          1,
+          1
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            9.518741792511236,
+            1.625
+          ],
+          "sister_um": 10.938616014491961,
+          "midpoint_um": 4.087811771366803
+        },
+        "scores": [
+          0.7683315277099609,
+          0.8094947338104248
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 163,
+        "daughters": [
+          531,
+          710
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          531
+        ],
+        "daughter_incoming": [
+          [
+            163
+          ],
+          [
+            390
+          ]
+        ],
+        "times": [
+          0,
+          1,
+          1
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            0.8125,
+            10.60149053494366
+          ],
+          "sister_um": 10.476210028559947,
+          "midpoint_um": 5.39334170673665
+        },
+        "scores": [
+          0.9332415461540222,
+          0.6301103830337524
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 213,
+        "daughters": [
+          638,
+          649
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          649
+        ],
+        "daughter_incoming": [
+          [
+            270
+          ],
+          [
+            213
+          ]
+        ],
+        "times": [
+          0,
+          1,
+          1
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            7.971200603579112,
+            1.284675299443404
+          ],
+          "sister_um": 7.001185725468223,
+          "midpoint_um": 4.510106922582324
+        },
+        "scores": [
+          0.6537651419639587,
+          0.8378442525863647
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 216,
+        "daughters": [
+          580,
+          604
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          580
+        ],
+        "daughter_incoming": [
+          [
+            216
+          ],
+          [
+            225
+          ]
+        ],
+        "times": [
+          0,
+          1,
+          1
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            10.546863425919575,
+            2.0714766773970688
+          ],
+          "sister_um": 10.405076885828379,
+          "midpoint_um": 5.540511314400504
+        },
+        "scores": [
+          0.7632194757461548,
+          0.9632411599159241
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 441,
+        "daughters": [
+          903,
+          1012
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          903
+        ],
+        "daughter_incoming": [
+          [
+            441
+          ],
+          [
+            619
+          ]
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.7235727791422095,
+            7.129658564756099
+          ],
+          "sister_um": 8.463270828999862,
+          "midpoint_um": 2.9991046841099096
+        },
+        "scores": [
+          0.7676970362663269,
+          0.530541718006134
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 462,
+        "daughters": [
+          846,
+          893
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          893
+        ],
+        "daughter_incoming": [
+          [
+            420
+          ],
+          [
+            462
+          ]
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            10.436751470165417,
+            2.0714766773970688
+          ],
+          "sister_um": 10.099214851908043,
+          "midpoint_um": 5.577621650959305
+        },
+        "scores": [
+          0.5030311942100525,
+          0.5469945073127747
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 490,
+        "daughters": [
+          870,
+          874
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          874
+        ],
+        "daughter_incoming": [
+          [
+            563
+          ],
+          [
+            490
+          ]
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            8.84468855443763,
+            2.0714766773970688
+          ],
+          "sister_um": 9.192388155425117,
+          "midpoint_um": 4.487177913232324
+        },
+        "scores": [
+          0.5244048833847046,
+          0.8516775965690613
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 590,
+        "daughters": [
+          905,
+          928
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          905
+        ],
+        "daughter_incoming": [
+          [
+            590
+          ],
+          [
+            575
+          ]
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            3.374565944310468,
+            4.958913218891817
+          ],
+          "sister_um": 4.0625,
+          "midpoint_um": 3.72334275215162
+        },
+        "scores": [
+          0.9292902946472168,
+          0.5307456851005554
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 615,
+        "daughters": [
+          1168,
+          1180
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          1044
+        ],
+        "daughter_incoming": [
+          [
+            686
+          ],
+          []
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            2.333728575156074,
+            8.012502437597133
+          ],
+          "sister_um": 8.694129664607033,
+          "midpoint_um": 3.990773049328914
+        },
+        "scores": [
+          0.9671196937561035,
+          0.6205121278762817
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 665,
+        "daughters": [
+          1108,
+          1212
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          1212,
+          1108
+        ],
+        "daughter_incoming": [
+          [
+            665
+          ],
+          [
+            665
+          ]
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            3.374565944310468,
+            3.374565944310468
+          ],
+          "sister_um": 6.5,
+          "midpoint_um": 0.9084026158592896
+        },
+        "scores": [
+          0.7087100148200989,
+          0.7483080625534058
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 680,
+        "daughters": [
+          988,
+          1135
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1135
+        ],
+        "daughter_incoming": [
+          [
+            501
+          ],
+          [
+            680
+          ]
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            12.281925871987667,
+            2.8145825622994254
+          ],
+          "sister_um": 11.619034087436011,
+          "midpoint_um": 6.75524246650333
+        },
+        "scores": [
+          0.5576614141464233,
+          0.9489945769309998
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 746,
+        "daughters": [
+          1094,
+          1223
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1094
+        ],
+        "daughter_incoming": [
+          [
+            746
+          ],
+          [
+            618
+          ]
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            2.8145825622994254,
+            19.87305906403189
+          ],
+          "sister_um": 18.532303932930194,
+          "midpoint_um": 10.750283880699383
+        },
+        "scores": [
+          0.814988374710083,
+          0.6120986938476562
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 754,
+        "daughters": [
+          1114,
+          1188
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1188
+        ],
+        "daughter_incoming": [
+          [
+            797
+          ],
+          [
+            754
+          ]
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            8.285906709588275,
+            0.0
+          ],
+          "sister_um": 8.285906709588275,
+          "midpoint_um": 4.1429533547941375
+        },
+        "scores": [
+          0.731088399887085,
+          0.6141719818115234
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 792,
+        "daughters": [
+          1159,
+          1228
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1159
+        ],
+        "daughter_incoming": [
+          [
+            792
+          ],
+          [
+            811
+          ]
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            2.1877232028983924,
+            7.094851236107774
+          ],
+          "sister_um": 6.214430032191206,
+          "midpoint_um": 4.231635414499931
+        },
+        "scores": [
+          0.7646636962890625,
+          0.6063930988311768
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 795,
+        "daughters": [
+          1150,
+          1216
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          1216,
+          1150
+        ],
+        "daughter_incoming": [
+          [
+            795
+          ],
+          [
+            795
+          ]
+        ],
+        "times": [
+          1,
+          2,
+          2
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.6750116604071745,
+            1.6750116604071745
+          ],
+          "sister_um": 3.25,
+          "midpoint_um": 0.40625
+        },
+        "scores": [
+          0.6323041319847107,
+          0.542805552482605
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 874,
+        "daughters": [
+          1247,
+          1350
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1350
+        ],
+        "daughter_incoming": [
+          [
+            872
+          ],
+          [
+            874
+          ]
+        ],
+        "times": [
+          2,
+          3,
+          3
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            6.625736987309412,
+            1.21875
+          ],
+          "sister_um": 7.632744530147724,
+          "midpoint_um": 2.850995234672447
+        },
+        "scores": [
+          0.5310983061790466,
+          0.6984527707099915
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 905,
+        "daughters": [
+          1325,
+          1404
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1325
+        ],
+        "daughter_incoming": [
+          [
+            905
+          ],
+          [
+            928
+          ]
+        ],
+        "times": [
+          2,
+          3,
+          3
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            0.9084026158592896,
+            3.6787502123683256
+          ],
+          "sister_um": 3.65625,
+          "midpoint_um": 1.958866560826694
+        },
+        "scores": [
+          0.966331958770752,
+          0.8047835230827332
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 1098,
+        "daughters": [
+          1492,
+          1599
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1492
+        ],
+        "daughter_incoming": [
+          [
+            1098
+          ],
+          [
+            1129
+          ]
+        ],
+        "times": [
+          2,
+          3,
+          3
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.21875,
+            10.229113628511515
+          ],
+          "sister_um": 9.553355513247688,
+          "midpoint_um": 5.499400713089109
+        },
+        "scores": [
+          0.8095540404319763,
+          0.5393993258476257
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 1143,
+        "daughters": [
+          1323,
+          1439
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1323
+        ],
+        "daughter_incoming": [
+          [
+            1143
+          ],
+          [
+            1044
+          ]
+        ],
+        "times": [
+          2,
+          3,
+          3
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.86167137607581,
+            11.497664504693986
+          ],
+          "sister_um": 13.11376006814979,
+          "midpoint_um": 4.983811684469027
+        },
+        "scores": [
+          0.7617496848106384,
+          0.5393648743629456
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 1197,
+        "daughters": [
+          1461,
+          1562
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1562
+        ],
+        "daughter_incoming": [
+          [
+            1106
+          ],
+          [
+            1197
+          ]
+        ],
+        "times": [
+          2,
+          3,
+          3
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            17.875,
+            1.86167137607581
+          ],
+          "sister_um": 16.27537081950823,
+          "midpoint_um": 9.760573693596346
+        },
+        "scores": [
+          0.6012954711914062,
+          0.7157267928123474
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 1243,
+        "daughters": [
+          1659,
+          1836
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1836
+        ],
+        "daughter_incoming": [
+          [
+            1446
+          ],
+          [
+            1243
+          ]
+        ],
+        "times": [
+          3,
+          4,
+          4
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.21875,
+            10.25328643960072
+          ],
+          "sister_um": 10.5625,
+          "midpoint_um": 5.041429918683786
+        },
+        "scores": [
+          0.6687973141670227,
+          0.5009042620658875
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 1277,
+        "daughters": [
+          1687,
+          1905
+        ],
+        "reason": "second_daughter_already_owned",
+        "baseline_children": [
+          1687
+        ],
+        "daughter_incoming": [
+          [
+            1277
+          ],
+          [
+            1376
+          ]
+        ],
+        "times": [
+          3,
+          4,
+          4
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            2.03125,
+            6.942003043070494
+          ],
+          "sister_um": 8.569853138327401,
+          "midpoint_um": 2.792507064113715
+        },
+        "scores": [
+          0.7576737403869629,
+          0.5163393020629883
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 1282,
+        "daughters": [
+          1697,
+          1710
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          1697,
+          1710
+        ],
+        "daughter_incoming": [
+          [
+            1282
+          ],
+          [
+            1282
+          ]
+        ],
+        "times": [
+          3,
+          4,
+          4
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            0.9084026158592896,
+            7.44668550430324
+          ],
+          "sister_um": 7.048174076489598,
+          "midpoint_um": 3.9648418257384495
+        },
+        "scores": [
+          0.897515058517456,
+          0.501376211643219
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 1713,
+        "daughters": [
+          2127,
+          2202
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          2221
+        ],
+        "daughter_incoming": [
+          [
+            1690
+          ],
+          [
+            1695
+          ]
+        ],
+        "times": [
+          4,
+          5,
+          5
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            8.760317577719428,
+            2.03125
+          ],
+          "sister_um": 8.443747686898277,
+          "midpoint_um": 4.755034338729848
+        },
+        "scores": [
+          0.647817075252533,
+          0.5475851893424988
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 1898,
+        "daughters": [
+          2206,
+          2390
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          2495
+        ],
+        "daughter_incoming": [
+          [],
+          [
+            1812
+          ]
+        ],
+        "times": [
+          4,
+          5,
+          5
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            26.453083468662022,
+            1.8168052317185792
+          ],
+          "sister_um": 27.008751475216325,
+          "midpoint_um": 13.006346107285474
+        },
+        "scores": [
+          0.651959240436554,
+          0.6578940749168396
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 1941,
+        "daughters": [
+          2312,
+          2408
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          2438
+        ],
+        "daughter_incoming": [
+          [
+            1930
+          ],
+          [
+            1807
+          ]
+        ],
+        "times": [
+          4,
+          5,
+          5
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            5.984436194204096,
+            7.621925609713073
+          ],
+          "sister_um": 9.056733078903232,
+          "midpoint_um": 5.142714241101191
+        },
+        "scores": [
+          0.6947789192199707,
+          0.5398277640342712
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 2123,
+        "daughters": [
+          2527,
+          2551
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          2537
+        ],
+        "daughter_incoming": [
+          [
+            2287
+          ],
+          [
+            2152
+          ]
+        ],
+        "times": [
+          5,
+          6,
+          6
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            2.8726212985703494,
+            11.294919004246998
+          ],
+          "sister_um": 10.188698165737367,
+          "midpoint_um": 6.477745104635177
+        },
+        "scores": [
+          0.6078941226005554,
+          0.5269834399223328
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 2358,
+        "daughters": [
+          2878,
+          2906
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          2704
+        ],
+        "daughter_incoming": [
+          [
+            2452
+          ],
+          [
+            2504
+          ]
+        ],
+        "times": [
+          5,
+          6,
+          6
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            13.03169963253067,
+            1.86167137607581
+          ],
+          "sister_um": 11.490485194281398,
+          "midpoint_um": 7.323776028286228
+        },
+        "scores": [
+          0.5949087142944336,
+          0.7677667737007141
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 2372,
+        "daughters": [
+          2787,
+          2896
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          2787,
+          2896
+        ],
+        "daughter_incoming": [
+          [
+            2372
+          ],
+          [
+            2372
+          ]
+        ],
+        "times": [
+          5,
+          6,
+          6
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.4647552056572457,
+            7.141223306444072
+          ],
+          "sister_um": 6.080193253507654,
+          "midpoint_um": 4.162823748671087
+        },
+        "scores": [
+          0.845538318157196,
+          0.7933503985404968
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 2537,
+        "daughters": [
+          2945,
+          2994
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          3076
+        ],
+        "daughter_incoming": [
+          [
+            2523
+          ],
+          [
+            2764
+          ]
+        ],
+        "times": [
+          6,
+          7,
+          7
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            11.497664504693986,
+            1.7235727791422095
+          ],
+          "sister_um": 12.248285913241086,
+          "midpoint_um": 5.484375
+        },
+        "scores": [
+          0.5412618517875671,
+          0.7095417380332947
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 2667,
+        "daughters": [
+          2999,
+          3240
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          2999,
+          3240
+        ],
+        "daughter_incoming": [
+          [
+            2667
+          ],
+          [
+            2667
+          ]
+        ],
+        "times": [
+          6,
+          7,
+          7
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.21875,
+            6.09375
+          ],
+          "sister_um": 7.10647262184271,
+          "midpoint_um": 2.5853591687133144
+        },
+        "scores": [
+          0.5056448578834534,
+          0.628905713558197
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 2796,
+        "daughters": [
+          2956,
+          3227
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          3227,
+          2956
+        ],
+        "daughter_incoming": [
+          [
+            2796
+          ],
+          [
+            2796
+          ]
+        ],
+        "times": [
+          6,
+          7,
+          7
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            4.823951472859154,
+            1.6750116604071745
+          ],
+          "sister_um": 5.658407737606049,
+          "midpoint_um": 2.243588956616162
+        },
+        "scores": [
+          0.5763083100318909,
+          0.502413809299469
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 3828,
+        "daughters": [
+          4246,
+          4248
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          4245
+        ],
+        "daughter_incoming": [
+          [
+            3931
+          ],
+          [
+            3928
+          ]
+        ],
+        "times": [
+          9,
+          10,
+          10
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            2.03125,
+            6.809990937035085
+          ],
+          "sister_um": 7.10647262184271,
+          "midpoint_um": 3.553236310921355
+        },
+        "scores": [
+          0.8183413147926331,
+          0.5944440960884094
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 3935,
+        "daughters": [
+          4426,
+          4498
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          4397
+        ],
+        "daughter_incoming": [
+          [
+            3915
+          ],
+          [
+            3971
+          ]
+        ],
+        "times": [
+          9,
+          10,
+          10
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            7.379897738112636,
+            1.625
+          ],
+          "sister_um": 6.9181882111576005,
+          "midpoint_um": 4.072643586326945
+        },
+        "scores": [
+          0.7602586150169373,
+          0.6590967774391174
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 4219,
+        "daughters": [
+          4647,
+          4648
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          4648,
+          4647
+        ],
+        "daughter_incoming": [
+          [
+            4219
+          ],
+          [
+            4219
+          ]
+        ],
+        "times": [
+          9,
+          10,
+          10
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            6.512682938889317,
+            1.625
+          ],
+          "sister_um": 6.3066959703556345,
+          "midpoint_um": 3.547425618053887
+        },
+        "scores": [
+          0.6921823620796204,
+          0.7793931365013123
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 4327,
+        "daughters": [
+          4691,
+          4852
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          4732
+        ],
+        "daughter_incoming": [
+          [
+            4370
+          ],
+          [
+            4434
+          ]
+        ],
+        "times": [
+          10,
+          11,
+          11
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            3.832554834897995,
+            7.971200603579112
+          ],
+          "sister_um": 7.643548137154629,
+          "midpoint_um": 4.950585902825038
+        },
+        "scores": [
+          0.5554276704788208,
+          0.6141706109046936
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 4587,
+        "daughters": [
+          5025,
+          5066
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          5009
+        ],
+        "daughter_incoming": [
+          [
+            4609
+          ],
+          [
+            4494
+          ]
+        ],
+        "times": [
+          10,
+          11,
+          11
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            4.182599744775969,
+            11.83715185602094
+          ],
+          "sister_um": 8.53125,
+          "midpoint_um": 7.785280708049325
+        },
+        "scores": [
+          0.617831289768219,
+          0.8510357737541199
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 5605,
+        "daughters": [
+          6047,
+          6137
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          6137,
+          6047
+        ],
+        "daughter_incoming": [
+          [
+            5605
+          ],
+          [
+            5605
+          ]
+        ],
+        "times": [
+          13,
+          14,
+          14
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            6.809990937035085,
+            4.33756303988772
+          ],
+          "sister_um": 5.759587794495366,
+          "midpoint_um": 4.929706071676586
+        },
+        "scores": [
+          0.5130773186683655,
+          0.6207107901573181
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 5663,
+        "daughters": [
+          6054,
+          6118
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          6122
+        ],
+        "daughter_incoming": [
+          [
+            5762
+          ],
+          [
+            5865
+          ]
+        ],
+        "times": [
+          13,
+          14,
+          14
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.6750116604071745,
+            12.75650875533741
+          ],
+          "sister_um": 11.668642875780371,
+          "midpoint_um": 6.98052886270983
+        },
+        "scores": [
+          0.8357517123222351,
+          0.5163818001747131
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 5786,
+        "daughters": [
+          6178,
+          6204
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          6178,
+          6204
+        ],
+        "daughter_incoming": [
+          [
+            5786
+          ],
+          [
+            5786
+          ]
+        ],
+        "times": [
+          13,
+          14,
+          14
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.284675299443404,
+            6.345827861674157
+          ],
+          "sister_um": 5.296851954227152,
+          "midpoint_um": 3.734407688141454
+        },
+        "scores": [
+          0.9212000370025635,
+          0.8043458461761475
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 5891,
+        "daughters": [
+          6321,
+          6351
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          6321,
+          6351
+        ],
+        "daughter_incoming": [
+          [
+            5891
+          ],
+          [
+            5891
+          ]
+        ],
+        "times": [
+          13,
+          14,
+          14
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            0.40625,
+            3.2752922102462856
+          ],
+          "sister_um": 3.25,
+          "midpoint_um": 1.6750116604071745
+        },
+        "scores": [
+          0.5770106911659241,
+          0.6074711680412292
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 5913,
+        "daughters": [
+          6219,
+          6332
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          6352
+        ],
+        "daughter_incoming": [
+          [
+            5853
+          ],
+          [
+            5893
+          ]
+        ],
+        "times": [
+          13,
+          14,
+          14
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            5.540511314400504,
+            6.700046641628698
+          ],
+          "sister_um": 11.619034087436011,
+          "midpoint_um": 2.0108349089992443
+        },
+        "scores": [
+          0.7739682197570801,
+          0.6092914342880249
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 5940,
+        "daughters": [
+          6494,
+          6685
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          6411
+        ],
+        "daughter_incoming": [
+          [
+            6153
+          ],
+          [
+            6022
+          ]
+        ],
+        "times": [
+          14,
+          15,
+          15
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.6750116604071745,
+            8.608283165794443
+          ],
+          "sister_um": 10.164371752597402,
+          "midpoint_um": 3.553236310921355
+        },
+        "scores": [
+          0.7463626265525818,
+          0.7351770997047424
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 6176,
+        "daughters": [
+          6552,
+          6715
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          6642
+        ],
+        "daughter_incoming": [
+          [
+            6230
+          ],
+          [
+            5982
+          ]
+        ],
+        "times": [
+          14,
+          15,
+          15
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            10.091040658054053,
+            1.6750116604071745
+          ],
+          "sister_um": 9.884489111734608,
+          "midpoint_um": 5.28125
+        },
+        "scores": [
+          0.5154169201850891,
+          0.5408153533935547
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 6334,
+        "daughters": [
+          6765,
+          6789
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          6765,
+          6727
+        ],
+        "daughter_incoming": [
+          [
+            6334
+          ],
+          [
+            6228
+          ]
+        ],
+        "times": [
+          14,
+          15,
+          15
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            1.6750116604071745,
+            12.462012590769598
+          ],
+          "sister_um": 12.065009453995467,
+          "midpoint_um": 6.531661171267995
+        },
+        "scores": [
+          0.6753126978874207,
+          0.5635718703269958
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 6471,
+        "daughters": [
+          6873,
+          6906
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          6898
+        ],
+        "daughter_incoming": [
+          [
+            6502
+          ],
+          [
+            6383
+          ]
+        ],
+        "times": [
+          15,
+          16,
+          16
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            0.5745242597140698,
+            8.295859754268994
+          ],
+          "sister_um": 7.929683651476899,
+          "midpoint_um": 4.34231653505649
+        },
+        "scores": [
+          0.600136935710907,
+          0.7629448771476746
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 7007,
+        "daughters": [
+          7330,
+          7377
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          7296
+        ],
+        "daughter_incoming": [
+          [
+            6947
+          ],
+          [
+            6848
+          ]
+        ],
+        "times": [
+          16,
+          17,
+          17
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            9.484001743067111,
+            1.284675299443404
+          ],
+          "sister_um": 10.123697832931404,
+          "midpoint_um": 4.491773078710121
+        },
+        "scores": [
+          0.6558492183685303,
+          0.6910772919654846
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 7190,
+        "daughters": [
+          7583,
+          7640
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          7515
+        ],
+        "daughter_incoming": [
+          [
+            7154
+          ],
+          [
+            7113
+          ]
+        ],
+        "times": [
+          16,
+          17,
+          17
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            6.5253412267099105,
+            2.8145825622994254
+          ],
+          "sister_um": 8.617863895711048,
+          "midpoint_um": 2.5853591687133144
+        },
+        "scores": [
+          0.5755939483642578,
+          0.6230916380882263
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 7193,
+        "daughters": [
+          7638,
+          7652
+        ],
+        "reason": "baseline_continuation_not_a_proposed_daughter",
+        "baseline_children": [
+          7655
+        ],
+        "daughter_incoming": [
+          [],
+          [
+            7212
+          ]
+        ],
+        "times": [
+          16,
+          17,
+          17
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            16.87282972155234,
+            7.3125
+          ],
+          "sister_um": 11.83715185602094,
+          "midpoint_um": 11.578125
+        },
+        "scores": [
+          0.6080584526062012,
+          0.7195236682891846
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 7524,
+        "daughters": [
+          7882,
+          7905
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          7905,
+          7882
+        ],
+        "daughter_incoming": [
+          [
+            7524
+          ],
+          [
+            7524
+          ]
+        ],
+        "times": [
+          17,
+          18,
+          18
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            4.614113030962723,
+            2.368824207280903
+          ],
+          "sister_um": 4.394265616971737,
+          "midpoint_um": 2.936544059881445
+        },
+        "scores": [
+          0.5199539065361023,
+          0.8646189570426941
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 7654,
+        "daughters": [
+          8067,
+          8083
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          8067,
+          8083
+        ],
+        "daughter_incoming": [
+          [
+            7654
+          ],
+          [
+            7654
+          ]
+        ],
+        "times": [
+          17,
+          18,
+          18
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            0.40625,
+            4.021669817998489
+          ],
+          "sister_um": 3.832554834897995,
+          "midpoint_um": 2.1206872596224553
+        },
+        "scores": [
+          0.6566402316093445,
+          0.6380529403686523
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 8031,
+        "daughters": [
+          8404,
+          8474
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          8474,
+          8404
+        ],
+        "daughter_incoming": [
+          [
+            8031
+          ],
+          [
+            8031
+          ]
+        ],
+        "times": [
+          18,
+          19,
+          19
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            5.2183757350827085,
+            1.625
+          ],
+          "sister_um": 4.394265616971737,
+          "midpoint_um": 3.1794091555075137
+        },
+        "scores": [
+          0.7144320607185364,
+          0.5744045376777649
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 9014,
+        "daughters": [
+          9482,
+          9510
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          9482,
+          9510
+        ],
+        "daughter_incoming": [
+          [
+            9014
+          ],
+          [
+            9014
+          ]
+        ],
+        "times": [
+          21,
+          22,
+          22
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            2.8726212985703494,
+            6.080193253507654
+          ],
+          "sister_um": 6.107276653713994,
+          "midpoint_um": 3.644947809125667
+        },
+        "scores": [
+          0.7541521191596985,
+          0.6372203826904297
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 9406,
+        "daughters": [
+          9823,
+          9824
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          9824,
+          9823
+        ],
+        "daughter_incoming": [
+          [
+            9406
+          ],
+          [
+            9406
+          ]
+        ],
+        "times": [
+          21,
+          22,
+          22
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            2.1877232028983924,
+            1.86167137607581
+          ],
+          "sister_um": 3.6336104634371584,
+          "midpoint_um": 0.9084026158592896
+        },
+        "scores": [
+          0.8961963653564453,
+          0.9283865094184875
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 9705,
+        "daughters": [
+          10032,
+          10202
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          10202,
+          10032
+        ],
+        "daughter_incoming": [
+          [
+            9705
+          ],
+          [
+            9705
+          ]
+        ],
+        "times": [
+          22,
+          23,
+          23
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            4.318496736423452,
+            1.625
+          ],
+          "sister_um": 3.471001521535247,
+          "midpoint_um": 2.762798697086887
+        },
+        "scores": [
+          0.5575957298278809,
+          0.7354055047035217
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 10256,
+        "daughters": [
+          10689,
+          10713
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          10689,
+          10713
+        ],
+        "daughter_incoming": [
+          [
+            10256
+          ],
+          [
+            10256
+          ]
+        ],
+        "times": [
+          23,
+          24,
+          24
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            2.0714766773970688,
+            8.443747686898277
+          ],
+          "sister_um": 7.198768340834423,
+          "midpoint_um": 4.983811684469027
+        },
+        "scores": [
+          0.5821451544761658,
+          0.5967325568199158
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 10682,
+        "daughters": [
+          11159,
+          11183
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          11183,
+          11159
+        ],
+        "daughter_incoming": [
+          [
+            10682
+          ],
+          [
+            10682
+          ]
+        ],
+        "times": [
+          24,
+          25,
+          25
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            6.039340428598143,
+            1.6750116604071745
+          ],
+          "sister_um": 5.540511314400504,
+          "midpoint_um": 3.4590941055788003
+        },
+        "scores": [
+          0.6316652894020081,
+          0.6029118895530701
+        ],
+        "sparse_label": "unknown"
+      },
+      {
+        "parent": 10707,
+        "daughters": [
+          11121,
+          11155
+        ],
+        "reason": "parent_baseline_child_count_not_one",
+        "baseline_children": [
+          11155,
+          11121
+        ],
+        "daughter_incoming": [
+          [
+            10707
+          ],
+          [
+            10707
+          ]
+        ],
+        "times": [
+          24,
+          25,
+          25
+        ],
+        "geometry": {
+          "parent_distances_um": [
+            5.138701197773616,
+            1.284675299443404
+          ],
+          "sister_um": 4.908737426772795,
+          "midpoint_um": 2.8292038688030243
+        },
+        "scores": [
+          0.5205647349357605,
+          0.5368066430091858
+        ],
+        "sparse_label": "unknown"
+      }
+    ]
+  },
+  "seconds": {
+    "detection": 42.08871348700001,
+    "classical": 5.708338346999994,
+    "trackastra": 109.63526730199999
+  },
+  "trackastra": {
+    "first_evaluable_t": 0,
+    "frames": 100,
+    "graph_nodes": 30338,
+    "graph_edges": 23613
+  },
+  "candidate_audit": {
+    "events": [
+      {
+        "parent_gt": 172000000050,
+        "binary_adjacent": true,
+        "daughter_edges": [
+          {
+            "edge": [
+              30992,
+              31498
+            ],
+            "model_weight": 0.2792750895023346,
+            "stage": "below_default_greedy_threshold"
+          },
+          {
+            "edge": [
+              30992,
+              31499
+            ],
+            "model_weight": 0.6852706074714661,
+            "stage": "selected"
+          }
+        ]
+      }
+    ],
+    "raw_weight_count": 233990,
+    "candidate_edge_count": 233486
+  }
+}

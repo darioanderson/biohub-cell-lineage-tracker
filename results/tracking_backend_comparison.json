@@ -1,0 +1,195 @@
+{
+  "scope": "exact synthetic observations; detector excluded; not real-data evidence",
+  "rows": [
+    {
+      "scenario": "stationary",
+      "backend": "framewise",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 21,
+      "truth_edges": 21,
+      "runtime_ms": 2.680799996596761
+    },
+    {
+      "scenario": "stationary",
+      "backend": "global",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 21,
+      "truth_edges": 21,
+      "runtime_ms": 424.2296000011265
+    },
+    {
+      "scenario": "uniform_translation",
+      "backend": "framewise",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 21,
+      "truth_edges": 21,
+      "runtime_ms": 2.470500003255438
+    },
+    {
+      "scenario": "uniform_translation",
+      "backend": "global",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 21,
+      "truth_edges": 21,
+      "runtime_ms": 3.4527999960118905
+    },
+    {
+      "scenario": "crossing",
+      "backend": "framewise",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 14,
+      "truth_edges": 14,
+      "runtime_ms": 4.012500001408625
+    },
+    {
+      "scenario": "crossing",
+      "backend": "global",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 14,
+      "truth_edges": 14,
+      "runtime_ms": 1.8403000067337416
+    },
+    {
+      "scenario": "dense_packing",
+      "backend": "framewise",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 63,
+      "truth_edges": 63,
+      "runtime_ms": 4.906599999230821
+    },
+    {
+      "scenario": "dense_packing",
+      "backend": "global",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 63,
+      "truth_edges": 63,
+      "runtime_ms": 48.269899998558685
+    },
+    {
+      "scenario": "entering_leaving",
+      "backend": "framewise",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 10,
+      "truth_edges": 10,
+      "runtime_ms": 1.5739000009489246
+    },
+    {
+      "scenario": "entering_leaving",
+      "backend": "global",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 10,
+      "truth_edges": 10,
+      "runtime_ms": 1.4432000025408342
+    },
+    {
+      "scenario": "one_mitosis",
+      "backend": "framewise",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 11,
+      "truth_edges": 11,
+      "runtime_ms": 5.201699997996911
+    },
+    {
+      "scenario": "one_mitosis",
+      "backend": "global",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 11,
+      "truth_edges": 11,
+      "runtime_ms": 4.255300002114382
+    },
+    {
+      "scenario": "multiple_mitoses",
+      "backend": "framewise",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 22,
+      "truth_edges": 22,
+      "runtime_ms": 3.420900000492111
+    },
+    {
+      "scenario": "multiple_mitoses",
+      "backend": "global",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 22,
+      "truth_edges": 22,
+      "runtime_ms": 4.330299998400733
+    },
+    {
+      "scenario": "no_division",
+      "backend": "framewise",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 21,
+      "truth_edges": 21,
+      "runtime_ms": 3.224100000807084
+    },
+    {
+      "scenario": "no_division",
+      "backend": "global",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 21,
+      "truth_edges": 21,
+      "runtime_ms": 1.5396999951917678
+    },
+    {
+      "scenario": "low_snr",
+      "backend": "framewise",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 21,
+      "truth_edges": 21,
+      "runtime_ms": 2.9447999986587092
+    },
+    {
+      "scenario": "low_snr",
+      "backend": "global",
+      "edge_precision": 1.0,
+      "edge_recall": 1.0,
+      "edge_f1": 1.0,
+      "predicted_edges": 21,
+      "truth_edges": 21,
+      "runtime_ms": 2.386399995884858
+    }
+  ],
+  "summary": {
+    "framewise": {
+      "mean_edge_f1": 1.0,
+      "total_runtime_ms": 30.435799999395385
+    },
+    "global": {
+      "mean_edge_f1": 1.0,
+      "total_runtime_ms": 491.7474999965634
+    }
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "path": "C:\\Projects\\cell-tracking\\.venv",
+    "files": 42492,
+    "bytes": 2286716618,
+    "gib": 2.13
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\advanced",
+    "files": 30105,
+    "bytes": 7772653798,
+    "gib": 7.239
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\advanced-backup-before-cleanup",
+    "files": 31715,
+    "bytes": 1502362117,
+    "gib": 1.399
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\advanced.zip",
+    "files": 1,
+    "bytes": 700650689,
+    "gib": 0.653
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\baseline",
+    "files": 89,
+    "bytes": 5421038,
+    "gib": 0.005
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\comparison",
+    "files": 3,
+    "bytes": 386444,
+    "gib": 0.0
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\data",
+    "files": 784,
+    "bytes": 240931694,
+    "gib": 0.224
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\experiments",
+    "files": 0,
+    "bytes": 0,
+    "gib": 0.0
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\README.md",
+    "files": 1,
+    "bytes": 2514,
+    "gib": 0.0
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\reviews",
+    "files": 2,
+    "bytes": 8399665,
+    "gib": 0.008
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\tools",
+    "files": 1,
+    "bytes": 1059,
+    "gib": 0.0
+  },
+  {
+    "path": "C:\\Projects\\cell-tracking\\work",
+    "files": 166,
+    "bytes": 3965116027,
+    "gib": 3.693
+  },
+  {
+    "path": "C:\\Users\\Admin\\Desktop\\biohub_data\\test",
+    "files": 102,
+    "bytes": 456757564,
+    "gib": 0.425
+  },
+  {
+    "path": "C:\\Users\\Admin\\Desktop\\biohub_data\\train",
+    "files": 369,
+    "bytes": 1510445660,
+    "gib": 1.407
+  }
+]

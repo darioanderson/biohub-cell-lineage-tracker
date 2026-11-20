@@ -1,0 +1,11 @@
+{
+  "matched": 282,
+  "reference": 294,
+  "predicted": 301,
+  "precision": 0.9368770764119602,
+  "recall": 0.9591836734693877,
+  "f1": 0.9478991596638655,
+  "gate_voxels": 3,
+  "reference_type": "published generated SegNuc masks",
+  "scope": "three held-out Sample18 frames; pipeline detections after tracking pruning"
+}

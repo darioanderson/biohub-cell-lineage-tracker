@@ -1,0 +1,17 @@
+{
+  "id": "dushi2/biohub-cshaper-link-audit",
+  "id_no": 145195525,
+  "title": "Biohub CShaper Link Audit",
+  "code_file": "biohub-cshaper-link-audit.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

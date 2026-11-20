@@ -1,0 +1,73 @@
+{
+  "source_hashes": {
+    "advanced/scripts/train_ctc_detector.py": "61244c8b113557b7904428d5b32abfe4a01730dc576f5c225bf8865cf0bb4c9e",
+    "advanced/scripts/compare_ctc_detector.py": "0b5bdc5422c6bd78735f529161f846fd7215da0359574852a2769abb3fd1c782",
+    "advanced/scripts/test_ctc_training.py": "b15cf83143bcb50a1f4c19973a98b2bdcdf23c524730cc26bdccf64722a61f79",
+    "baseline/src/biohub/analysis.py": "402474c2ce12c37b708e4fcfac4af2a62a43c7323edfb6bb7ad1827e4c95389f",
+    "baseline/src/biohub/config.py": "540349014f374f8d234e31383514c8f1e6191497b66726ef7a04c14e46f3b0c5",
+    "baseline/src/biohub/data.py": "47849fc821784a9254e6699bc40a701c242e2b906d5848a06930c297e8c3477b",
+    "baseline/src/biohub/dataset_catalog.py": "d4a5eca0e691d4b242c179e4551c1bf14d9adf63f6a36f96142565d8bfe6aeaa",
+    "baseline/src/biohub/detection.py": "8e2fadfa1f7352f8f2086b9991baeffcb46e77aa93b72ef2bfc5e991e2fb4953",
+    "baseline/src/biohub/detector.py": "78d4512a97ee8e6751ef7d697c68f9cb0232b9f3485a9b5b1ec89c331260f271",
+    "baseline/src/biohub/export.py": "7737b759061963a55cab7c5318715c708216c66ed386610c8bb167b4005b1669",
+    "baseline/src/biohub/sample_data.py": "dc5d316222603918cd744adb2fe6d03d87c831568defeddece049c8f3e2be966",
+    "baseline/src/biohub/submission.py": "a9fc6fd7df45eae387ddc50852a357513947df79855ab2fb758623009eb679a5",
+    "baseline/src/biohub/tracking.py": "a3a87be96597c5331b4857e9af522c1ad7ce8228b8e2fc1f924d002d2a98693b",
+    "baseline/src/biohub/tuning.py": "8d8c4f925b6a6f96c8ef92835d135adce581a66f25466c35ccda9336edf7c57f",
+    "baseline/src/biohub/validation.py": "eb0083f2bdf4901a5f7064a7feb98598278865a7f14efe56254cd0d6b0fa38ff",
+    "baseline/src/biohub/visualization.py": "aab1103e79ec964e8ff09ef871329a8257282415d896b7fef5c3b05e5595b43e",
+    "baseline/src/biohub/__init__.py": "ebee7113de80760c611cab98233426a3f0450ec8ae0385342981d5f19f4fa607",
+    "baseline/src/data/__init__.py": "34a1c2824b684db7fad821fb2197a0a462ea9034dcac4ec035066c3907971d78",
+    "baseline/src/detection/__init__.py": "196d108c3ca8ce793ab403c5b423b3de2037f3b9ce650b8853119a466ccfc9c1",
+    "baseline/src/export/__init__.py": "e8f8d243e50f38f669e367dee4478349af5dcbf467f7817f593ff7f85de1898c",
+    "baseline/src/tracking/__init__.py": "bbec0b538e5c105dc725aa04efb5fd97201e811f56957139452fb63231b2abd5",
+    "baseline/src/visualization/__init__.py": "878b21c8648f9c0efb5675f89295978559f18b0b50517cb26be79516ff480e48"
+  },
+  "dataset_url": "https://data.celltrackingchallenge.net/training-datasets/Fluo-N3DH-CHO.zip",
+  "dataset_sha256": "48d7e32b6408dddd04f1b6e4153e91f19181b405f4c75610629a25e05d40fe77",
+  "epochs_max": 30,
+  "steps_per_epoch": 30,
+  "seed": 42,
+  "train_sequence": "01",
+  "train_frames": [
+    0,
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21,
+    24,
+    27,
+    30,
+    33,
+    36,
+    39,
+    42,
+    45,
+    48,
+    51,
+    54,
+    57
+  ],
+  "validation_frames": [
+    70,
+    77,
+    84,
+    91
+  ],
+  "heldout_sequence": "02",
+  "heldout_frame_step": 5,
+  "threshold_grid": [
+    0.15,
+    0.25,
+    0.4,
+    0.55
+  ],
+  "limitations": [
+    "CHO centroid detection only, not Biohub tracking or official CTC scores",
+    "Validation selects epoch/threshold on sequence 01 only; evaluate sequence 02 once",
+    "Original controls include shallow-volume adapter; not exhaustively tuned"
+  ]
+}

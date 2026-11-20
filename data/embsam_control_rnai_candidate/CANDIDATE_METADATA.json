@@ -1,0 +1,49 @@
+{
+  "source": "https://doi.org/10.6084/m9.figshare.29064530",
+  "metadata_evidence": "results/dataset_search_20261119/Supplementary Data 3.pdf",
+  "control": {
+    "sample": "Emb20",
+    "genotype": "wild-type",
+    "strain": "YC0032",
+    "timepoints": 165,
+    "frame_interval_s": 2
+  },
+  "perturbed": {
+    "sample": "Emb21",
+    "genotype": "nop-1 RNAi",
+    "strain": "YC0032",
+    "timepoints": 66,
+    "frame_interval_s": 20
+  },
+  "caveats": [
+    "RNAi perturbation, not a genetic mutant",
+    "Image axes and nuclear-channel suitability require TIFF inspection",
+    "No corresponding lineage annotations verified for this pair",
+    "Different cadence and developmental stages; not yet aligned",
+    "Not yet integrated into the app"
+  ],
+  "download_status": "Both TIFF images downloaded, archive CRC verified, every pixel decoded",
+  "app_suitability": "rejected_for_current_3d_lineage_workflow",
+  "verified_image_shapes": {
+    "control": [
+      165,
+      2,
+      280,
+      281
+    ],
+    "perturbed": [
+      67,
+      2,
+      460,
+      376
+    ]
+  },
+  "source_tiff_axes": "ZCYX for both; metadata has no separate time axis",
+  "annotation_audit": "Cell Tracing Result.zip and Dataset nucloc.zip contain Emb1-Emb9 only; no Emb20/Emb21 labels",
+  "limitations": [
+    "No verified independent T and Z axes; cannot silently map channels into depth",
+    "Source table lists 66 Emb21 timepoints, TIFF contains 67 planes; unresolved discrepancy",
+    "Raw images show different developmental stages",
+    "No model inference or training performed; no lineage predictions created"
+  ]
+}

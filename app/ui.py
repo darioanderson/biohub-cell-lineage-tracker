@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import io
+import hashlib
 from pathlib import Path
 from typing import Optional, Tuple
 
@@ -14,6 +15,16 @@ from biohub.config import Config, PIPELINE_VERSION, SCALE
 from biohub.dataset_catalog import DatasetCatalog, DatasetEntry, discover_catalog, load_zarr_preview
 from biohub.export import division_events
 from biohub.sample_data import ensure_sample_data, load_sample_volume, synthetic_volume
+
+
+def invalidate_analysis():
+    """A changed input must never inherit predictions or review edits."""
+    st.session_state.result = None
+    st.session_state.curation_audit = None
+    for key in list(st.session_state):
+        if key in ('overlay_gif', 'review_frame', 'det_t', 'det_z', 'vol_t', 'vol_z',
+                   'lineage_focus_node', 'result_requested_config_hash', 'input_sha256') or key.startswith(('curate_', 'lineage_role_jump_')):
+            st.session_state.pop(key, None)
 
 
 def init_session() -> None:
@@ -49,6 +60,9 @@ def select_dataset_entry(label: str) -> DatasetEntry:
     entry = catalog.by_label(label)
     if entry is None:
         raise ValueError(f"Unknown dataset: {label}")
+    if st.session_state.get('selected_entry') != entry:
+        invalidate_analysis()
+        st.session_state.volume_4d = None
     st.session_state.selected_entry = entry
     st.session_state.dataset_name = entry.name
     return entry
@@ -60,6 +74,7 @@ def load_selected_volume(
     progress=None,
 ) -> np.ndarray:
     vol4d = load_zarr_preview(entry, max_frames=preview_frames, progress_callback=progress)
+    invalidate_analysis()
     st.session_state.volume_4d = vol4d
     st.session_state.volume_source = "biohub"
     return vol4d
@@ -70,6 +85,7 @@ def load_demo_volume(preview_frames: int) -> Tuple[np.ndarray, str]:
     vol4d = load_sample_volume(path)
     if preview_frames and vol4d.shape[0] > preview_frames:
         vol4d = vol4d[:preview_frames]
+    invalidate_analysis()
     st.session_state.volume_4d = vol4d
     st.session_state.volume_source = "demo"
     st.session_state.selected_entry = None
@@ -79,8 +95,16 @@ def load_demo_volume(preview_frames: int) -> Tuple[np.ndarray, str]:
 
 def load_uploaded_npy(uploaded_bytes: bytes, preview_frames: int) -> Tuple[np.ndarray, str]:
     vol4d = np.load(io.BytesIO(uploaded_bytes), allow_pickle=False)
-    if vol4d.ndim != 4:
+    if not isinstance(vol4d, np.ndarray) or vol4d.ndim != 4 or min(vol4d.shape) < 1:
         raise ValueError(f"Expected 4D array (T,Z,Y,X); got shape {vol4d.shape}.")
+    if vol4d.dtype.kind not in 'uif' or not np.isfinite(vol4d).all():
+        raise ValueError('The movie must contain finite numeric intensities.')
+    invalidate_analysis()
+    digest = hashlib.sha256(uploaded_bytes).hexdigest()
+    from app.recording_metadata import known_recording, calibrated_config
+    info = known_recording(digest)
+    st.session_state.cfg = calibrated_config(st.session_state.cfg, info)
+    st.session_state.input_sha256 = digest
     if preview_frames and vol4d.shape[0] > preview_frames:
         vol4d = vol4d[:preview_frames]
     st.session_state.volume_4d = vol4d
@@ -97,13 +121,21 @@ def run_pipeline_on_session(cfg: Config, preview_frames: int) -> AnalysisResult:
     if entry is not None and st.session_state.volume_source == "biohub":
         # Stream from zarr for full runs; preview mode caps frames inside the pipeline.
         max_frames = preview_frames if preview_frames < entry.shape[0] else None
-        return run_tracking_pipeline(entry.zarr_path, cfg, dataset_name=name, max_frames=max_frames)
-
-    vol4d = st.session_state.volume_4d
-    if vol4d is None:
-        raise ValueError("No volume loaded.")
-    frames = vol4d[:preview_frames] if preview_frames and vol4d.shape[0] > preview_frames else vol4d
-    return run_tracking_pipeline(list(frames), cfg, dataset_name=name)
+        result = run_tracking_pipeline(entry.zarr_path, cfg, dataset_name=name, max_frames=max_frames)
+        result.stats['input_paths'] = [str(entry.zarr_path)]
+    else:
+        vol4d = st.session_state.volume_4d
+        if vol4d is None:
+            raise ValueError("No volume loaded.")
+        frames = vol4d[:preview_frames] if preview_frames and vol4d.shape[0] > preview_frames else vol4d
+        result = run_tracking_pipeline(frames, cfg, dataset_name=name)
+        from app.recording_metadata import known_recording
+        info = known_recording(st.session_state.get('input_sha256'))
+        result.stats.update(time_interval_verified=info['time_verified'], spatial_calibration_verified=info['spatial_verified'],
+                            input_sha256=st.session_state.get('input_sha256'))
+    from biohub.manifest import config_sha256
+    st.session_state.result_requested_config_hash = config_sha256(cfg)
+    return result
 
 
 def sidebar_settings(cfg: Config) -> tuple[Config, str, int]:
@@ -124,7 +156,10 @@ def sidebar_settings(cfg: Config) -> tuple[Config, str, int]:
             preview_max_frames=int(preview_frames),
         )
         st.caption(f"Pipeline v{PIPELINE_VERSION}")
-        st.caption(f"Voxel scale (Z,Y,X): {SCALE[0]}, {SCALE[1]}, {SCALE[2]} µm")
+        if st.session_state.get("result") is not None and st.session_state.result.stats.get("spacing_note"):
+            st.caption(st.session_state.result.stats['spacing_note'])
+        else:
+            st.caption(f"Voxel scale (Z,Y,X): {cfg.voxel_size_zyx_um[0]}, {cfg.voxel_size_zyx_um[1]}, {cfg.voxel_size_zyx_um[2]} µm")
     return cfg, mode, int(preview_frames)
 
 
@@ -141,6 +176,9 @@ def render_dataset_sidebar() -> tuple[str, Optional[bytes]]:
         }[x],
         index=0 if st.session_state.volume_source != "demo" else 1,
     )
+    if source != st.session_state.volume_source:
+        invalidate_analysis()
+        st.session_state.update(volume_4d=None, selected_entry=None, dataset_name='')
     st.session_state.volume_source = source
     uploaded = None
 

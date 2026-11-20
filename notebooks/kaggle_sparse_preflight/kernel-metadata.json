@@ -1,0 +1,16 @@
+{
+  "id": "dushi2/biohub-sparse-detector-preflight",
+  "title": "Biohub Sparse Detector Preflight",
+  "code_file": "run.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

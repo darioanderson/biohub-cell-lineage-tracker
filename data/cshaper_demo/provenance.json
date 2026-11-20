@@ -1,0 +1,35 @@
+[
+  {
+    "frame": 80,
+    "file": "Sample18_080_rawNuc.nii.gz",
+    "sha256": "276f30b2d3cc329a0ced2684e898151354de9440f15ddd6980ad4bea88703f2d",
+    "header_spacing": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "key": "1UaWnN_mcswCrCc32XRmezX7zQe3LCUZA"
+  },
+  {
+    "frame": 81,
+    "file": "Sample18_081_rawNuc.nii.gz",
+    "sha256": "61fcc7ee8bc732474f337904309c66f6aaa7ac03a22d7cd897b775ebff25f53f",
+    "header_spacing": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "key": "1qtbetlw0XTlLzKSht79qTPRdU4s5jtWb"
+  },
+  {
+    "frame": 82,
+    "file": "Sample18_082_rawNuc.nii.gz",
+    "sha256": "fa000fdb6e872eed9385d280b0b2bd20f41ce53b92677249a71409209ef7f989",
+    "header_spacing": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "key": "14OGVfDkzn-TcW4WGhFd0mByKBvCgF4Si"
+  }
+]

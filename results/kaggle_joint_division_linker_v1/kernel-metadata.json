@@ -1,0 +1,19 @@
+{
+  "id": "dushi2/biohub-joint-division-linker",
+  "id_no": 135181582,
+  "title": "Biohub Joint Division Linker",
+  "code_file": "biohub-joint-division-linker.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": []
+}

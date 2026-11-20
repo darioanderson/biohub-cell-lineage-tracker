@@ -1,0 +1,36 @@
+{
+  "label_type": "published generated SegNuc masks, not manual truth",
+  "source": "https://doi.org/10.6084/m9.figshare.12839315",
+  "files": [
+    {
+      "file": "Sample18_080_segNuc.nii.gz",
+      "sha256": "1e0dea96a391905d6886617de86cb2ce5f9b6a8cabe51558c0a33eb49b1d6a13",
+      "shape": [
+        184,
+        256,
+        114
+      ],
+      "affine_verified": true
+    },
+    {
+      "file": "Sample18_081_segNuc.nii.gz",
+      "sha256": "30639b8c85eabffd688b4e63486caef65dd3127fdb6610692d95573932809211",
+      "shape": [
+        184,
+        256,
+        114
+      ],
+      "affine_verified": true
+    },
+    {
+      "file": "Sample18_082_segNuc.nii.gz",
+      "sha256": "998864dfac6b206821fefae0012a6d77554553d7ce887dc559559b01a2d27304",
+      "shape": [
+        184,
+        256,
+        114
+      ],
+      "affine_verified": true
+    }
+  ]
+}

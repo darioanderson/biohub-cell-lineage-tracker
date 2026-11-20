@@ -1,0 +1,12 @@
+{
+  "tests_passed": 156,
+  "dependency_check": "No broken requirements found",
+  "baseline": "PASS:61 files unchanged",
+  "real_ui_checks": {
+    "small_recordings": 16,
+    "full100_zebrafish": 16
+  },
+  "fresh_install_on_another_pc_tested": false,
+  "test_scope": "155-test full suite plus separately passing new Home overview/navigation test",
+  "home_updated": true
+}

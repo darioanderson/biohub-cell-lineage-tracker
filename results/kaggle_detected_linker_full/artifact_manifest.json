@@ -1,0 +1,147 @@
+{
+  "source": "https://www.kaggle.com/code/dushi2/biohub-real-detected-linker-full",
+  "run_state": "completed",
+  "decision": "reject",
+  "logical_samples": 199,
+  "embryos": {
+    "44b6": 71,
+    "6bba": 128
+  },
+  "files": [
+    {
+      "path": "biohub-real-detected-linker-full.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "detected_linker_full/details.csv",
+      "bytes": 81862,
+      "sha256": "e5307a334d92ba57fc239144c6f9b869e446f6c6af6ece3acd583fa776d69005"
+    },
+    {
+      "path": "detected_linker_full/fold_44b6.pt",
+      "bytes": 13417,
+      "sha256": "6e81d1811ae7217a4b5ef8c4e7bb9f845379841c692e4f392d4d98b00bf7148a"
+    },
+    {
+      "path": "detected_linker_full/fold_6bba.pt",
+      "bytes": 13417,
+      "sha256": "bbbb0d2c4ad0b14a1afb9997ffa3b7020be964dd174920627c4f591c86320088"
+    },
+    {
+      "path": "detected_linker_full/status.json",
+      "bytes": 136,
+      "sha256": "f6f334d4edda844002b2e0d3b1a4610d53c13cf07d1242e7b7b911a7b6256184"
+    },
+    {
+      "path": "detected_linker_full/summary.json",
+      "bytes": 54783,
+      "sha256": "b9fa9ba55febd736b1a42c7e3311a54515bfff38fb7b694d3a3732a8ae977624"
+    },
+    {
+      "path": "detected_linker_project/scripts/evaluate_detected_linker.py",
+      "bytes": 16911,
+      "sha256": "2f2b8cd11983b330db1cdf154022c2670711cca9e292fb7b5fe49470c12664df"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/__init__.py",
+      "bytes": 680,
+      "sha256": "21f4d29886e55fe9a887e385fc47e883755c89b634c644506e3b9555f907ea90"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/analysis.py",
+      "bytes": 8497,
+      "sha256": "d7b103f171ee8511de1d3292b3f4f5bc225cac780fafd008e4f5858de20c1e27"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/cache.py",
+      "bytes": 2378,
+      "sha256": "b1c7e0f15857e147d393f72450eefcb67b18d64feb0cb3fb5727779330894774"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/config.py",
+      "bytes": 8123,
+      "sha256": "3d52e3e1c68f378b5d6f5a74854033bf86c785bce35c6ac472877802b1936346"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/data.py",
+      "bytes": 8427,
+      "sha256": "1b466eaf4f6eb24d9d64a516ffdfc1be131c6b4c5e5b503cae35237d1e6210cd"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/dataset_catalog.py",
+      "bytes": 6474,
+      "sha256": "d4a5eca0e691d4b242c179e4551c1bf14d9adf63f6a36f96142565d8bfe6aeaa"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/detection.py",
+      "bytes": 12525,
+      "sha256": "8e2fadfa1f7352f8f2086b9991baeffcb46e77aa93b72ef2bfc5e991e2fb4953"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/detector.py",
+      "bytes": 2184,
+      "sha256": "78d4512a97ee8e6751ef7d697c68f9cb0232b9f3485a9b5b1ec89c331260f271"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/export.py",
+      "bytes": 2811,
+      "sha256": "db74ed88871c8f65093ab496cdb421b060b64a90eaff8f603b027e2e4af1005a"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/learned_linker.py",
+      "bytes": 5083,
+      "sha256": "38b5bb4f2e5ccf6e484ff1a31a703c77bcb39460f3e51d8c1cda2f6082f378a0"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/manifest.py",
+      "bytes": 2825,
+      "sha256": "1b8e422c03f78e4a14967d39f79c0b2df51f7c34003e245e1ddc256127b12b67"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/sample_data.py",
+      "bytes": 8098,
+      "sha256": "5e69d91fc7014685257ab756bc29deb2e687cab67513e62253d8d8406f8ae44b"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/scientific.py",
+      "bytes": 4586,
+      "sha256": "1a76bb37d0c891cef20fd5150ac8f5f06606fc599247f18b059437e28a2a8072"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/submission.py",
+      "bytes": 12751,
+      "sha256": "31b45b5aead279d9a679f08e8c43b89bcb3b155cabeb9571048f73e7128bdb0d"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/tracking.py",
+      "bytes": 18214,
+      "sha256": "20bb356c02a2db5d7b4a939323bf95031ba20dce2e255e3719f4d46d4e77d536"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/tuning.py",
+      "bytes": 19479,
+      "sha256": "5755756c47ff8cdc54677ef5f2b06147e22a135c4286105a82347281a9fd268f"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/validation.py",
+      "bytes": 4903,
+      "sha256": "0ce295d5a15673af5bb23b015e8ea9ede0fac4a53e3071d7085ca78268452f42"
+    },
+    {
+      "path": "detected_linker_project/src/biohub/visualization.py",
+      "bytes": 13251,
+      "sha256": "6a84c962fcabdbb19254733afa1e09e0dfcb5d55cbb39ec05072806f8cfdb641"
+    },
+    {
+      "path": "notebook/biohub-real-detected-linker-full.ipynb",
+      "bytes": 69574,
+      "sha256": "102cc257c9defd5e6926c4b81339450d1864bd47a594dc4387ff2430c9931a96"
+    },
+    {
+      "path": "notebook/kernel-metadata.json",
+      "bytes": 513,
+      "sha256": "c3e809ca98d2973ed025edc3aef0e6629f85f75ff0396a84875f6adb0abe5f04"
+    }
+  ]
+}

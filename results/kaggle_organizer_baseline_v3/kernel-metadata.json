@@ -1,0 +1,23 @@
+{
+  "id": "dushi2/biohub-organizer-pretrained-submission-check",
+  "id_no": 144838439,
+  "title": "Biohub Organizer Pretrained Submission Check",
+  "code_file": "biohub-organizer-pretrained-submission-check.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "thibautgoldsborough/cellmot-baseline-artifacts"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "model": "Cellpose 3.1.1.1 pretrained nuclei",
+  "mode": "2D MIP with intensity-derived Z",
+  "xy_stride": 2,
+  "diameter": "pretrained size estimator from first frame, fixed for recording",
+  "reference": "Published CellTracing CSV; one-based Z assumed; registration not independently verified",
+  "gate_um": 3.0,
+  "metrics": "descriptive reference agreement on these ten early frames; not a held-out development study"
+}

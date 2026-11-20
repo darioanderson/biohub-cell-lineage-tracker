@@ -1,0 +1,19 @@
+{
+  "package": "cellpose",
+  "version": "3.1.1.1",
+  "checkpoint_source": "https://www.cellpose.org/models/nucleitorch_0",
+  "size_model_source": "https://www.cellpose.org/models/size_nucleitorch_0.npy",
+  "inference_mode": "2D nuclei, maximum projection, intensity-derived Z",
+  "training_performed_by_this_project": false,
+  "license": "BSD",
+  "weights": {
+    "nucleitorch_0": {
+      "bytes": 26563614,
+      "sha256": "89ca45e4a45048d5010d29621466b1274b91b3dcb9714dce9f9e90a9a8671303"
+    },
+    "size_nucleitorch_0.npy": {
+      "bytes": 3627,
+      "sha256": "a79107c9f284b569dd65f3a7363014d613a3403241c062822f07b6f026b4d3ef"
+    }
+  }
+}

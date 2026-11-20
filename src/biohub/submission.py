@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import gc
+import logging
 import time
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -15,16 +16,27 @@ from biohub.data import (
     list_datasets,
     load_geff_graph,
     load_volume,
+    read_physical_metadata,
     read_estimated_nodes,
     read_zarr_meta,
 )
 from biohub.detector import get_detector
-from biohub.tracking import close_frame_gaps, count_divisions, link_frames, prune_isolated_nodes
+from biohub.tracking import (
+    annotate_lineage_ids,
+    close_frame_gaps,
+    count_divisions,
+    graph_invariant_errors,
+    link_frames,
+    link_sequence_global,
+    prune_isolated_nodes,
+)
 from biohub.tuning import hyperparameter_search
 
+logger = logging.getLogger(__name__)
 
-def _node_row(dataset: str, node_id: int, t: int, zyx) -> dict:
-    z, y, x = [int(v) for v in zyx]
+
+def _node_row(dataset: str, node_id: int, t: int, zyx, raw_detection_score=None, intensity=None) -> dict:
+    z, y, x = [float(v) for v in zyx]
     return {
         "dataset": dataset,
         "row_type": "node",
@@ -35,6 +47,8 @@ def _node_row(dataset: str, node_id: int, t: int, zyx) -> dict:
         "x": x,
         "source_id": -1,
         "target_id": -1,
+        "raw_detection_score": float(raw_detection_score) if raw_detection_score is not None else np.nan,
+        "intensity": float(intensity) if intensity is not None else np.nan,
     }
 
 
@@ -101,7 +115,7 @@ def apply_train_tuning(cfg: Config) -> Tuple[Config, Optional[pd.DataFrame]]:
     """Run v1.5 hyperparameter search when enabled and train data exists."""
     if not cfg.run_hyperparameter_search or cfg.train_dir is None:
         return cfg, None
-    print(f"Running hyperparameter search (v{PIPELINE_VERSION})...")
+    logger.info("Running hyperparameter search (v%s)...", PIPELINE_VERSION)
     best, table = hyperparameter_search(
         cfg.train_dir,
         cfg,
@@ -112,8 +126,7 @@ def apply_train_tuning(cfg: Config) -> Tuple[Config, Optional[pd.DataFrame]]:
         out_path = Path(cfg.hyperparam_results_path)
         out_path.parent.mkdir(parents=True, exist_ok=True)
         table.to_csv(out_path, index=False)
-        print(f"Wrote hyperparameter results to {out_path}")
-        print(table.head(5).to_string(index=False))
+        logger.info("Wrote hyperparameter results to %s\n%s", out_path, table.head(5).to_string(index=False))
     return best, table
 
 
@@ -123,9 +136,15 @@ def process_dataset(
     cfg: Config,
 ) -> Tuple[List[dict], Dict[str, object]]:
     """Run detection + tracking on one dataset."""
-    detector = get_detector(cfg)
     zarr_path = split_dir / f"{name}.zarr"
     shape, dtype = read_zarr_meta(zarr_path)
+    voxel_size, frame_interval = read_physical_metadata(zarr_path)
+    if voxel_size is not None or frame_interval is not None:
+        cfg = cfg.copy_with(
+            voxel_size_zyx_um=voxel_size or cfg.voxel_size_zyx_um,
+            frame_interval_s=frame_interval or cfg.frame_interval_s,
+        )
+    detector = get_detector(cfg)
     n_t = shape[0]
 
     node_rows: List[dict] = []
@@ -133,6 +152,7 @@ def process_dataset(
     frame_ids: List[List[int]] = []
     frame_centroids: List[np.ndarray] = []
     frame_intensities: List[np.ndarray] = []
+    frame_image_features: List[np.ndarray] = []
     node_id = 1
     prev_count: Optional[int] = None
     frame_counts: List[int] = []
@@ -142,27 +162,38 @@ def process_dataset(
     for t in range(n_t):
         vol = load_volume(zarr_path, t, shape, dtype)
         coords, scores, intens = detector.detect(vol, cfg, prev_count=prev_count)
+        if cfg.linker_backend == "image_learned":
+            from biohub.learned_linker import extract_local_image_features
+            image_features = extract_local_image_features(vol, coords)
+        else:
+            image_features = np.empty((len(coords), 0), dtype=np.float32)
         del vol
         gc.collect()
 
         if len(coords):
             order = np.lexsort((coords[:, 2], coords[:, 1], coords[:, 0]))
             coords = coords[order]
+            scores = scores[order]
             intens = intens[order]
+            image_features = image_features[order]
 
         curr_ids = list(range(node_id, node_id + len(coords)))
         node_id += len(coords)
         frame_ids.append(curr_ids)
         frame_centroids.append(coords)
         frame_intensities.append(intens)
+        frame_image_features.append(image_features)
         frame_counts.append(len(coords))
         prev_count = len(coords)
 
-        for nid, pt in zip(curr_ids, coords):
-            node_rows.append(_node_row(name, nid, t, pt))
+        for nid, pt, raw_score, intensity in zip(curr_ids, coords, scores, intens):
+            node_rows.append(_node_row(name, nid, t, pt, raw_score, intensity))
             position_by_id[int(nid)] = pt.astype(np.float64)
 
-    for t in range(1, n_t):
+    if cfg.tracking_backend == "global":
+        for s, u in link_sequence_global(frame_ids, frame_centroids, frame_intensities, cfg):
+            edge_rows.append(_edge_row(name, s, u))
+    for t in range(1, n_t) if cfg.tracking_backend == "framewise" else ():
         prev_ids = frame_ids[t - 1]
         curr_ids = frame_ids[t]
         prev_xyz = frame_centroids[t - 1]
@@ -183,6 +214,8 @@ def process_dataset(
             prev_intensity=prev_int,
             curr_intensity=curr_int,
             prev_velocity=prev_vel if cfg.use_rich_linking else None,
+            prev_image_features=frame_image_features[t - 1] if cfg.linker_backend == "image_learned" else None,
+            curr_image_features=frame_image_features[t] if cfg.linker_backend == "image_learned" else None,
         )
         for s, u in links:
             edge_rows.append(_edge_row(name, s, u))
@@ -192,7 +225,7 @@ def process_dataset(
                 ) * cfg.scale_array
 
     pair_edges = [(int(e["source_id"]), int(e["target_id"])) for e in edge_rows]
-    for s, u in close_frame_gaps(frame_ids, frame_centroids, frame_intensities, pair_edges, cfg):
+    for s, u in close_frame_gaps(frame_ids, frame_centroids, frame_intensities, pair_edges, cfg) if cfg.tracking_backend == "framewise" else ():
         edge_rows.append(_edge_row(name, s, u))
 
     nodes_before = len(node_rows)
@@ -202,7 +235,13 @@ def process_dataset(
     if cfg.prune_isolated_nodes:
         node_rows, edge_rows, prune_stats = prune_isolated_nodes(node_rows, edge_rows, cfg)
     else:
-        prune_stats = {"removed_isolated": 0}
+        prune_stats = {"removed_isolated": 0, "flagged_isolated": 0}
+
+    annotate_lineage_ids(node_rows, edge_rows)
+    allowed_gap = cfg.global_max_frame_gap if cfg.tracking_backend == "global" else (2 if cfg.gap_close_enabled else 1)
+    invariant_errors = graph_invariant_errors(node_rows, edge_rows, allowed_gap=allowed_gap)
+    if invariant_errors:
+        raise ValueError("Invalid tracking graph: " + "; ".join(invariant_errors))
 
     stats = {
         "dataset": name,
@@ -214,6 +253,7 @@ def process_dataset(
         "divisions": count_divisions(edge_rows),
         "divisions_before_prune": div_before,
         "removed_isolated": prune_stats.get("removed_isolated", 0),
+        "flagged_isolated": prune_stats.get("flagged_isolated", 0),
         "count_min": int(min(frame_counts)) if frame_counts else 0,
         "count_max": int(max(frame_counts)) if frame_counts else 0,
         "count_mean": float(np.mean(frame_counts)) if frame_counts else 0.0,
@@ -235,14 +275,14 @@ def build_submission(cfg: Optional[Config] = None) -> Tuple[pd.DataFrame, pd.Dat
         if cfg.run_density_calibration:
             calibrate_detection(cfg.train_dir, cfg, cfg.eda_sample_limit, cfg.calibration_frames)
         else:
-            print(f"Skipping density calibration; using thresh_rel={cfg.thresh_rel:.2f}")
+            logger.info("Skipping density calibration; using thresh_rel=%.2f", cfg.thresh_rel)
 
     datasets = list_datasets(cfg.test_dir)
     all_rows: List[dict] = []
     all_stats = []
     t0 = time.time()
 
-    print(
+    logger.info(
         f"Pipeline v{PIPELINE_VERSION} | detector={cfg.detector_backend} | "
         f"dog={cfg.use_dog_bandpass} | thresh_rel={cfg.thresh_rel:.2f}"
     )
@@ -252,7 +292,7 @@ def build_submission(cfg: Optional[Config] = None) -> Tuple[pd.DataFrame, pd.Dat
         all_rows.extend(rows)
         all_stats.append(stats)
         elapsed = time.time() - t0
-        print(
+        logger.info(
             f"[{i}/{len(datasets)}] {name}: "
             f"{stats['nodes_after_prune']} nodes, {stats['edges_after_prune']} edges, "
             f"{stats['divisions']} divisions ({elapsed:.0f}s)"
@@ -260,9 +300,13 @@ def build_submission(cfg: Optional[Config] = None) -> Tuple[pd.DataFrame, pd.Dat
 
     cols = ["dataset", "row_type", "node_id", "t", "z", "y", "x", "source_id", "target_id"]
     sub = pd.DataFrame(all_rows)[cols]
+    node_mask = sub["row_type"].eq("node")
+    sub.loc[node_mask, ["z", "y", "x"]] = np.rint(
+        sub.loc[node_mask, ["z", "y", "x"]].astype(float)
+    ).astype(int)
     sub.index.name = "id"
     sub.to_csv(cfg.output_path)
-    print(f"Wrote {cfg.output_path} ({len(sub):,} rows) in {(time.time()-t0)/60:.1f} min")
+    logger.info("Wrote %s (%s rows) in %.1f min", cfg.output_path, f"{len(sub):,}", (time.time()-t0)/60)
     return sub, pd.DataFrame(all_stats)
 
 
@@ -277,6 +321,9 @@ def validate_submission(sub: pd.DataFrame, test_dir: Path) -> None:
 
     nodes = sub[sub.row_type == "node"]
     edges = sub[sub.row_type == "edge"]
+    assert sub["row_type"].isin(["node", "edge"]).all(), "Invalid row_type"
+    assert sub["dataset"].isin(datasets).all(), "Unexpected dataset"
+    assert not nodes.duplicated(["dataset", "node_id"]).any(), "Duplicate node_id within dataset"
     assert (nodes[["node_id", "t", "z", "y", "x"]] >= 0).all().all()
     assert (nodes[["source_id", "target_id"]] == -1).all().all()
     assert (edges[["node_id", "t", "z", "y", "x"]] == -1).all().all()
@@ -287,8 +334,16 @@ def validate_submission(sub: pd.DataFrame, test_dir: Path) -> None:
         e = grp[grp.row_type == "edge"]
         assert e["source_id"].astype(int).isin(nset).all(), f"dangling source in {ds}"
         assert e["target_id"].astype(int).isin(nset).all(), f"dangling target in {ds}"
+        times = grp.loc[grp.row_type == "node"].set_index("node_id")["t"]
+        if len(e):
+            source_times = e["source_id"].map(times).to_numpy()
+            target_times = e["target_id"].map(times).to_numpy()
+            assert (source_times < target_times).all(), f"non-forward edge in {ds}"
+            assert not e.duplicated(["source_id", "target_id"]).any(), f"duplicate edge in {ds}"
+            assert e.groupby("target_id").size().max() <= 1, f"multiple parents in {ds}"
+            assert e.groupby("source_id").size().max() <= 2, f"more than two daughters in {ds}"
 
-    print("Validation passed")
+    logger.info("Validation passed")
 
 
 def local_recall_proxy(

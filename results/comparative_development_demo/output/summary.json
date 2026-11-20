@@ -1,0 +1,13 @@
+{
+  "reference": "C:\\Projects\\cell-tracking\\advanced\\results\\comparative_development_demo\\reference_events.csv",
+  "observed": "C:\\Projects\\cell-tracking\\advanced\\results\\comparative_development_demo\\observed_events.csv",
+  "time_tolerance_s": 1.0,
+  "divergence_count": 3,
+  "first_divergence_time_s": 10.0,
+  "counts_by_type": {
+    "timing_shift": 1,
+    "unexpected_observed_event": 1,
+    "missing_observed_event": 1
+  },
+  "interpretation": "Event differences require biological review; they are not a genetic diagnosis."
+}

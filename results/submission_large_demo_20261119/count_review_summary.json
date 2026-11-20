@@ -1,0 +1,16 @@
+{
+  "count_agreement_only": {
+    "control": {
+      "frames": 30,
+      "equal_count_frames": 30,
+      "mismatched_count_frames": 0
+    },
+    "variant": {
+      "frames": 30,
+      "equal_count_frames": 5,
+      "mismatched_count_frames": 25
+    }
+  },
+  "not_detection_accuracy": true,
+  "biological_stages_aligned": false
+}

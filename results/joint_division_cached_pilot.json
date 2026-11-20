@@ -1,0 +1,6169 @@
+{
+  "purpose": "fixed-parameter engineering pilot; full edge metrics unavailable without GT edge tables",
+  "samples": [
+    {
+      "sample": "44b6_12dfb391",
+      "graph_audit": {
+        "accepted": 173,
+        "eligible": 185,
+        "edits": [
+          {
+            "parent": 22270,
+            "daughters": [
+              22793,
+              22985
+            ],
+            "added": [
+              22270,
+              22985
+            ],
+            "removed": [
+              22318,
+              22985
+            ],
+            "unresolved_termination": 22318,
+            "gain": 3.716776905793287
+          },
+          {
+            "parent": 33669,
+            "daughters": [
+              34207,
+              34204
+            ],
+            "added": [
+              33669,
+              34204
+            ],
+            "removed": [
+              33635,
+              34204
+            ],
+            "unresolved_termination": 33635,
+            "gain": 3.044558612470984
+          },
+          {
+            "parent": 19732,
+            "daughters": [
+              20366,
+              20262
+            ],
+            "added": [
+              19732,
+              20262
+            ],
+            "removed": [
+              19726,
+              20262
+            ],
+            "unresolved_termination": 19726,
+            "gain": 3.022895584251941
+          },
+          {
+            "parent": 21710,
+            "daughters": [
+              22444,
+              22448
+            ],
+            "added": [
+              21710,
+              22448
+            ],
+            "removed": [
+              21960,
+              22448
+            ],
+            "unresolved_termination": 21960,
+            "gain": 2.736010866577003
+          },
+          {
+            "parent": 11309,
+            "daughters": [
+              11722,
+              11706
+            ],
+            "added": [
+              11309,
+              11706
+            ],
+            "removed": [
+              11302,
+              11706
+            ],
+            "unresolved_termination": 11302,
+            "gain": 2.675609092794349
+          },
+          {
+            "parent": 1445,
+            "daughters": [
+              1840,
+              1738
+            ],
+            "added": [
+              1445,
+              1738
+            ],
+            "removed": [
+              1429,
+              1738
+            ],
+            "unresolved_termination": 1429,
+            "gain": 2.457959193596918
+          },
+          {
+            "parent": 491,
+            "daughters": [
+              1001,
+              1002
+            ],
+            "added": [
+              491,
+              1002
+            ],
+            "removed": [
+              610,
+              1002
+            ],
+            "unresolved_termination": 610,
+            "gain": 2.4225501583203775
+          },
+          {
+            "parent": 25938,
+            "daughters": [
+              26575,
+              26661
+            ],
+            "added": [
+              25938,
+              26661
+            ],
+            "removed": [
+              25900,
+              26661
+            ],
+            "unresolved_termination": 25900,
+            "gain": 2.3462617381164383
+          },
+          {
+            "parent": 2686,
+            "daughters": [
+              3048,
+              3111
+            ],
+            "added": [
+              2686,
+              3111
+            ],
+            "removed": [
+              2840,
+              3111
+            ],
+            "unresolved_termination": 2840,
+            "gain": 2.329669172163889
+          },
+          {
+            "parent": 25936,
+            "daughters": [
+              26361,
+              26504
+            ],
+            "added": [
+              25936,
+              26504
+            ],
+            "removed": [
+              26109,
+              26504
+            ],
+            "unresolved_termination": 26109,
+            "gain": 2.305756276154384
+          },
+          {
+            "parent": 905,
+            "daughters": [
+              1325,
+              1404
+            ],
+            "added": [
+              905,
+              1404
+            ],
+            "removed": [
+              928,
+              1404
+            ],
+            "unresolved_termination": 928,
+            "gain": 2.296590011044063
+          },
+          {
+            "parent": 20221,
+            "daughters": [
+              20863,
+              20791
+            ],
+            "added": [
+              20221,
+              20791
+            ],
+            "removed": [
+              20523,
+              20791
+            ],
+            "unresolved_termination": 20523,
+            "gain": 2.275537014615745
+          },
+          {
+            "parent": 27923,
+            "daughters": [
+              28405,
+              28558
+            ],
+            "added": [
+              27923,
+              28558
+            ],
+            "removed": [
+              27989,
+              28558
+            ],
+            "unresolved_termination": 27989,
+            "gain": 2.1599737380639477
+          },
+          {
+            "parent": 14838,
+            "daughters": [
+              15413,
+              15322
+            ],
+            "added": [
+              14838,
+              15322
+            ],
+            "removed": [
+              14990,
+              15322
+            ],
+            "unresolved_termination": 14990,
+            "gain": 2.0704662005770986
+          },
+          {
+            "parent": 34903,
+            "daughters": [
+              35511,
+              35573
+            ],
+            "added": [
+              34903,
+              35573
+            ],
+            "removed": [
+              34826,
+              35573
+            ],
+            "unresolved_termination": 34826,
+            "gain": 2.0371981701935775
+          },
+          {
+            "parent": 22394,
+            "daughters": [
+              22879,
+              22708
+            ],
+            "added": [
+              22394,
+              22708
+            ],
+            "removed": [
+              22228,
+              22708
+            ],
+            "unresolved_termination": 22228,
+            "gain": 1.9167723021719345
+          },
+          {
+            "parent": 17345,
+            "daughters": [
+              17812,
+              17744
+            ],
+            "added": [
+              17345,
+              17744
+            ],
+            "removed": [
+              17246,
+              17744
+            ],
+            "unresolved_termination": 17246,
+            "gain": 1.8112604584127943
+          },
+          {
+            "parent": 6268,
+            "daughters": [
+              6699,
+              6674
+            ],
+            "added": [
+              6268,
+              6674
+            ],
+            "removed": [
+              6260,
+              6674
+            ],
+            "unresolved_termination": 6260,
+            "gain": 1.8071587711630621
+          },
+          {
+            "parent": 25573,
+            "daughters": [
+              25903,
+              26105
+            ],
+            "added": [
+              25573,
+              26105
+            ],
+            "removed": [
+              25730,
+              26105
+            ],
+            "unresolved_termination": 25730,
+            "gain": 1.8009351344484301
+          },
+          {
+            "parent": 25220,
+            "daughters": [
+              25646,
+              25543
+            ],
+            "added": [
+              25220,
+              25543
+            ],
+            "removed": [
+              25152,
+              25543
+            ],
+            "unresolved_termination": 25152,
+            "gain": 1.7974089338002708
+          },
+          {
+            "parent": 17915,
+            "daughters": [
+              18337,
+              18402
+            ],
+            "added": [
+              17915,
+              18402
+            ],
+            "removed": [
+              17835,
+              18402
+            ],
+            "unresolved_termination": 17835,
+            "gain": 1.7489299200498403
+          },
+          {
+            "parent": 10229,
+            "daughters": [
+              10648,
+              10633
+            ],
+            "added": [
+              10229,
+              10633
+            ],
+            "removed": [
+              10152,
+              10633
+            ],
+            "unresolved_termination": 10152,
+            "gain": 1.7029969712407622
+          },
+          {
+            "parent": 45608,
+            "daughters": [
+              46260,
+              46050
+            ],
+            "added": [
+              45608,
+              46050
+            ],
+            "removed": [
+              45475,
+              46050
+            ],
+            "unresolved_termination": 45475,
+            "gain": 1.6783028237851614
+          },
+          {
+            "parent": 11841,
+            "daughters": [
+              12195,
+              12237
+            ],
+            "added": [
+              11841,
+              12237
+            ],
+            "removed": [
+              11726,
+              12237
+            ],
+            "unresolved_termination": 11726,
+            "gain": 1.6347547203587518
+          },
+          {
+            "parent": 800,
+            "daughters": [
+              1185,
+              1201
+            ],
+            "added": [
+              800,
+              1201
+            ],
+            "removed": [
+              698,
+              1201
+            ],
+            "unresolved_termination": 698,
+            "gain": 1.620956576786071
+          },
+          {
+            "parent": 26521,
+            "daughters": [
+              26907,
+              27152
+            ],
+            "added": [
+              26521,
+              27152
+            ],
+            "removed": [
+              26757,
+              27152
+            ],
+            "unresolved_termination": 26757,
+            "gain": 1.6133886189011295
+          },
+          {
+            "parent": 34000,
+            "daughters": [
+              34309,
+              34578
+            ],
+            "added": [
+              34000,
+              34578
+            ],
+            "removed": [
+              33833,
+              34578
+            ],
+            "unresolved_termination": 33833,
+            "gain": 1.5876770630992558
+          },
+          {
+            "parent": 2305,
+            "daughters": [
+              2652,
+              2746
+            ],
+            "added": [
+              2305,
+              2746
+            ],
+            "removed": [
+              2326,
+              2746
+            ],
+            "unresolved_termination": 2326,
+            "gain": 1.5531108197689414
+          },
+          {
+            "parent": 20773,
+            "daughters": [
+              21228,
+              21239
+            ],
+            "added": [
+              20773,
+              21239
+            ],
+            "removed": [
+              20690,
+              21239
+            ],
+            "unresolved_termination": 20690,
+            "gain": 1.5396925209216321
+          },
+          {
+            "parent": 16774,
+            "daughters": [
+              17588,
+              17243
+            ],
+            "added": [
+              16774,
+              17243
+            ],
+            "removed": [
+              17110,
+              17243
+            ],
+            "unresolved_termination": 17110,
+            "gain": 1.5190097082070615
+          },
+          {
+            "parent": 45603,
+            "daughters": [
+              46215,
+              46123
+            ],
+            "added": [
+              45603,
+              46123
+            ],
+            "removed": [
+              45676,
+              46123
+            ],
+            "unresolved_termination": 45676,
+            "gain": 1.5055380524740158
+          },
+          {
+            "parent": 7309,
+            "daughters": [
+              7780,
+              7966
+            ],
+            "added": [
+              7309,
+              7966
+            ],
+            "removed": [
+              7588,
+              7966
+            ],
+            "unresolved_termination": 7588,
+            "gain": 1.497083279254255
+          },
+          {
+            "parent": 12213,
+            "daughters": [
+              12651,
+              12637
+            ],
+            "added": [
+              12213,
+              12637
+            ],
+            "removed": [
+              12149,
+              12637
+            ],
+            "unresolved_termination": 12149,
+            "gain": 1.4918010932591232
+          },
+          {
+            "parent": 24413,
+            "daughters": [
+              24946,
+              24902
+            ],
+            "added": [
+              24413,
+              24902
+            ],
+            "removed": [
+              24429,
+              24902
+            ],
+            "unresolved_termination": 24429,
+            "gain": 1.4841086133202626
+          },
+          {
+            "parent": 28367,
+            "daughters": [
+              28935,
+              29190
+            ],
+            "added": [
+              28367,
+              29190
+            ],
+            "removed": [
+              28693,
+              29190
+            ],
+            "unresolved_termination": 28693,
+            "gain": 1.4473672183134356
+          },
+          {
+            "parent": 42359,
+            "daughters": [
+              42911,
+              42991
+            ],
+            "added": [
+              42359,
+              42991
+            ],
+            "removed": [
+              42393,
+              42991
+            ],
+            "unresolved_termination": 42393,
+            "gain": 1.4157931282710547
+          },
+          {
+            "parent": 10791,
+            "daughters": [
+              11242,
+              11289
+            ],
+            "added": [
+              10791,
+              11289
+            ],
+            "removed": [
+              10866,
+              11289
+            ],
+            "unresolved_termination": 10866,
+            "gain": 1.3888284188672826
+          },
+          {
+            "parent": 19100,
+            "daughters": [
+              19674,
+              19608
+            ],
+            "added": [
+              19100,
+              19608
+            ],
+            "removed": [
+              19131,
+              19608
+            ],
+            "unresolved_termination": 19131,
+            "gain": 1.3875947962732083
+          },
+          {
+            "parent": 6602,
+            "daughters": [
+              7192,
+              7218
+            ],
+            "added": [
+              6602,
+              7218
+            ],
+            "removed": [
+              6742,
+              7218
+            ],
+            "unresolved_termination": 6742,
+            "gain": 1.3639246442652175
+          },
+          {
+            "parent": 26699,
+            "daughters": [
+              27139,
+              27073
+            ],
+            "added": [
+              26699,
+              27073
+            ],
+            "removed": [
+              26393,
+              27073
+            ],
+            "unresolved_termination": 26393,
+            "gain": 1.360470069324526
+          },
+          {
+            "parent": 38092,
+            "daughters": [
+              38677,
+              38659
+            ],
+            "added": [
+              38092,
+              38659
+            ],
+            "removed": [
+              38118,
+              38659
+            ],
+            "unresolved_termination": 38118,
+            "gain": 1.3529510040358623
+          },
+          {
+            "parent": 2189,
+            "daughters": [
+              2532,
+              2561
+            ],
+            "added": [
+              2189,
+              2561
+            ],
+            "removed": [
+              2221,
+              2561
+            ],
+            "unresolved_termination": 2221,
+            "gain": 1.3518418019580287
+          },
+          {
+            "parent": 15937,
+            "daughters": [
+              16492,
+              16408
+            ],
+            "added": [
+              15937,
+              16408
+            ],
+            "removed": [
+              15985,
+              16408
+            ],
+            "unresolved_termination": 15985,
+            "gain": 1.343838797189536
+          },
+          {
+            "parent": 13214,
+            "daughters": [
+              13685,
+              13742
+            ],
+            "added": [
+              13214,
+              13742
+            ],
+            "removed": [
+              13090,
+              13742
+            ],
+            "unresolved_termination": 13090,
+            "gain": 1.3407540119894725
+          },
+          {
+            "parent": 9161,
+            "daughters": [
+              9769,
+              9597
+            ],
+            "added": [
+              9161,
+              9597
+            ],
+            "removed": [
+              9176,
+              9597
+            ],
+            "unresolved_termination": 9176,
+            "gain": 1.3367575296029306
+          },
+          {
+            "parent": 23913,
+            "daughters": [
+              24475,
+              24278
+            ],
+            "added": [
+              23913,
+              24278
+            ],
+            "removed": [
+              23794,
+              24278
+            ],
+            "unresolved_termination": 23794,
+            "gain": 1.332531205767146
+          },
+          {
+            "parent": 25946,
+            "daughters": [
+              26387,
+              26389
+            ],
+            "added": [
+              25946,
+              26389
+            ],
+            "removed": [
+              25807,
+              26389
+            ],
+            "unresolved_termination": 25807,
+            "gain": 1.3244571398496097
+          },
+          {
+            "parent": 26845,
+            "daughters": [
+              27524,
+              27315
+            ],
+            "added": [
+              26845,
+              27315
+            ],
+            "removed": [
+              26836,
+              27315
+            ],
+            "unresolved_termination": 26836,
+            "gain": 1.3208704620384928
+          },
+          {
+            "parent": 15609,
+            "daughters": [
+              15977,
+              16197
+            ],
+            "added": [
+              15609,
+              16197
+            ],
+            "removed": [
+              15761,
+              16197
+            ],
+            "unresolved_termination": 15761,
+            "gain": 1.293088292712281
+          },
+          {
+            "parent": 29142,
+            "daughters": [
+              29649,
+              29412
+            ],
+            "added": [
+              29142,
+              29412
+            ],
+            "removed": [
+              29255,
+              29412
+            ],
+            "unresolved_termination": 29255,
+            "gain": 1.2627727596839224
+          },
+          {
+            "parent": 4144,
+            "daughters": [
+              4583,
+              4553
+            ],
+            "added": [
+              4144,
+              4553
+            ],
+            "removed": [
+              4103,
+              4553
+            ],
+            "unresolved_termination": 4103,
+            "gain": 1.2570283746606608
+          },
+          {
+            "parent": 486,
+            "daughters": [
+              813,
+              816
+            ],
+            "added": [
+              486,
+              816
+            ],
+            "removed": [
+              433,
+              816
+            ],
+            "unresolved_termination": 433,
+            "gain": 1.2567438300504894
+          },
+          {
+            "parent": 11956,
+            "daughters": [
+              12270,
+              12377
+            ],
+            "added": [
+              11956,
+              12377
+            ],
+            "removed": [
+              11754,
+              12377
+            ],
+            "unresolved_termination": 11754,
+            "gain": 1.2498030655927808
+          },
+          {
+            "parent": 42531,
+            "daughters": [
+              43313,
+              43120
+            ],
+            "added": [
+              42531,
+              43120
+            ],
+            "removed": [
+              42907,
+              43120
+            ],
+            "unresolved_termination": 42907,
+            "gain": 1.2383412607941773
+          },
+          {
+            "parent": 15572,
+            "daughters": [
+              15892,
+              15877
+            ],
+            "added": [
+              15572,
+              15877
+            ],
+            "removed": [
+              15410,
+              15877
+            ],
+            "unresolved_termination": 15410,
+            "gain": 1.2317487614119904
+          },
+          {
+            "parent": 15861,
+            "daughters": [
+              16402,
+              16287
+            ],
+            "added": [
+              15861,
+              16287
+            ],
+            "removed": [
+              15912,
+              16287
+            ],
+            "unresolved_termination": 15912,
+            "gain": 1.2315293050990672
+          },
+          {
+            "parent": 1821,
+            "daughters": [
+              2131,
+              2236
+            ],
+            "added": [
+              1821,
+              2236
+            ],
+            "removed": [
+              1892,
+              2236
+            ],
+            "unresolved_termination": 1892,
+            "gain": 1.2096861585701402
+          },
+          {
+            "parent": 29265,
+            "daughters": [
+              29863,
+              29727
+            ],
+            "added": [
+              29265,
+              29727
+            ],
+            "removed": [
+              29378,
+              29727
+            ],
+            "unresolved_termination": 29378,
+            "gain": 1.1884985109233417
+          },
+          {
+            "parent": 7038,
+            "daughters": [
+              7488,
+              7266
+            ],
+            "added": [
+              7038,
+              7266
+            ],
+            "removed": [
+              6867,
+              7266
+            ],
+            "unresolved_termination": 6867,
+            "gain": 1.1799380338054357
+          },
+          {
+            "parent": 4350,
+            "daughters": [
+              4910,
+              4923
+            ],
+            "added": [
+              4350,
+              4923
+            ],
+            "removed": [
+              4466,
+              4923
+            ],
+            "unresolved_termination": 4466,
+            "gain": 1.1786982850182188
+          },
+          {
+            "parent": 15907,
+            "daughters": [
+              16435,
+              16539
+            ],
+            "added": [
+              15907,
+              16539
+            ],
+            "removed": [
+              15846,
+              16539
+            ],
+            "unresolved_termination": 15846,
+            "gain": 1.1746650661313085
+          },
+          {
+            "parent": 8245,
+            "daughters": [
+              8621,
+              8737
+            ],
+            "added": [
+              8245,
+              8737
+            ],
+            "removed": [
+              8241,
+              8737
+            ],
+            "unresolved_termination": 8241,
+            "gain": 1.158939872096169
+          },
+          {
+            "parent": 44467,
+            "daughters": [
+              44898,
+              44777
+            ],
+            "added": [
+              44467,
+              44777
+            ],
+            "removed": [
+              44345,
+              44777
+            ],
+            "unresolved_termination": 44345,
+            "gain": 1.153457632805092
+          },
+          {
+            "parent": 32260,
+            "daughters": [
+              32783,
+              32877
+            ],
+            "added": [
+              32260,
+              32877
+            ],
+            "removed": [
+              32394,
+              32877
+            ],
+            "unresolved_termination": 32394,
+            "gain": 1.1462029543578003
+          },
+          {
+            "parent": 23909,
+            "daughters": [
+              24578,
+              24527
+            ],
+            "added": [
+              23909,
+              24527
+            ],
+            "removed": [
+              23846,
+              24527
+            ],
+            "unresolved_termination": 23846,
+            "gain": 1.1450339148554056
+          },
+          {
+            "parent": 9564,
+            "daughters": [
+              9980,
+              10100
+            ],
+            "added": [
+              9564,
+              10100
+            ],
+            "removed": [
+              9750,
+              10100
+            ],
+            "unresolved_termination": 9750,
+            "gain": 1.1274371577725049
+          },
+          {
+            "parent": 38732,
+            "daughters": [
+              39352,
+              39311
+            ],
+            "added": [
+              38732,
+              39311
+            ],
+            "removed": [
+              38693,
+              39311
+            ],
+            "unresolved_termination": 38693,
+            "gain": 1.1231441099384676
+          },
+          {
+            "parent": 20854,
+            "daughters": [
+              21366,
+              21351
+            ],
+            "added": [
+              20854,
+              21351
+            ],
+            "removed": [
+              20784,
+              21351
+            ],
+            "unresolved_termination": 20784,
+            "gain": 1.08286375728098
+          },
+          {
+            "parent": 39044,
+            "daughters": [
+              39562,
+              39635
+            ],
+            "added": [
+              39044,
+              39635
+            ],
+            "removed": [
+              39103,
+              39635
+            ],
+            "unresolved_termination": 39103,
+            "gain": 1.06950673117194
+          },
+          {
+            "parent": 16014,
+            "daughters": [
+              16444,
+              16656
+            ],
+            "added": [
+              16014,
+              16656
+            ],
+            "removed": [
+              15791,
+              16656
+            ],
+            "unresolved_termination": 15791,
+            "gain": 1.0631124566377264
+          },
+          {
+            "parent": 33197,
+            "daughters": [
+              33762,
+              33936
+            ],
+            "added": [
+              33197,
+              33936
+            ],
+            "removed": [
+              33132,
+              33936
+            ],
+            "unresolved_termination": 33132,
+            "gain": 1.0385134923780792
+          },
+          {
+            "parent": 36717,
+            "daughters": [
+              37205,
+              37090
+            ],
+            "added": [
+              36717,
+              37090
+            ],
+            "removed": [
+              36540,
+              37090
+            ],
+            "unresolved_termination": 36540,
+            "gain": 1.0336105665770718
+          },
+          {
+            "parent": 8705,
+            "daughters": [
+              9156,
+              9089
+            ],
+            "added": [
+              8705,
+              9089
+            ],
+            "removed": [
+              8623,
+              9089
+            ],
+            "unresolved_termination": 8623,
+            "gain": 1.033100305992158
+          },
+          {
+            "parent": 29249,
+            "daughters": [
+              29751,
+              29786
+            ],
+            "added": [
+              29249,
+              29786
+            ],
+            "removed": [
+              29301,
+              29786
+            ],
+            "unresolved_termination": 29301,
+            "gain": 1.0250059277547408
+          },
+          {
+            "parent": 13051,
+            "daughters": [
+              13467,
+              13773
+            ],
+            "added": [
+              13051,
+              13773
+            ],
+            "removed": [
+              13115,
+              13773
+            ],
+            "unresolved_termination": 13115,
+            "gain": 1.0217036266703594
+          },
+          {
+            "parent": 41066,
+            "daughters": [
+              41812,
+              41822
+            ],
+            "added": [
+              41066,
+              41822
+            ],
+            "removed": [
+              41025,
+              41822
+            ],
+            "unresolved_termination": 41025,
+            "gain": 1.0148491004864701
+          },
+          {
+            "parent": 19958,
+            "daughters": [
+              20287,
+              20406
+            ],
+            "added": [
+              19958,
+              20406
+            ],
+            "removed": [
+              20122,
+              20406
+            ],
+            "unresolved_termination": 20122,
+            "gain": 1.0072278716386345
+          },
+          {
+            "parent": 10348,
+            "daughters": [
+              10861,
+              10858
+            ],
+            "added": [
+              10348,
+              10858
+            ],
+            "removed": [
+              10426,
+              10858
+            ],
+            "unresolved_termination": 10426,
+            "gain": 0.9990250269175378
+          },
+          {
+            "parent": 30530,
+            "daughters": [
+              31264,
+              31123
+            ],
+            "added": [
+              30530,
+              31123
+            ],
+            "removed": [
+              30569,
+              31123
+            ],
+            "unresolved_termination": 30569,
+            "gain": 0.9921962781774556
+          },
+          {
+            "parent": 37800,
+            "daughters": [
+              38128,
+              38284
+            ],
+            "added": [
+              37800,
+              38284
+            ],
+            "removed": [
+              37887,
+              38284
+            ],
+            "unresolved_termination": 37887,
+            "gain": 0.9909808439745893
+          },
+          {
+            "parent": 25843,
+            "daughters": [
+              26385,
+              26543
+            ],
+            "added": [
+              25843,
+              26543
+            ],
+            "removed": [
+              26091,
+              26543
+            ],
+            "unresolved_termination": 26091,
+            "gain": 0.9877730546772303
+          },
+          {
+            "parent": 3935,
+            "daughters": [
+              4397,
+              4498
+            ],
+            "added": [
+              3935,
+              4498
+            ],
+            "removed": [
+              3971,
+              4498
+            ],
+            "unresolved_termination": 3971,
+            "gain": 0.9863526451951703
+          },
+          {
+            "parent": 40914,
+            "daughters": [
+              41557,
+              41543
+            ],
+            "added": [
+              40914,
+              41543
+            ],
+            "removed": [
+              40915,
+              41543
+            ],
+            "unresolved_termination": 40915,
+            "gain": 0.9808462577083108
+          },
+          {
+            "parent": 22124,
+            "daughters": [
+              22608,
+              22629
+            ],
+            "added": [
+              22124,
+              22629
+            ],
+            "removed": [
+              22067,
+              22629
+            ],
+            "unresolved_termination": 22067,
+            "gain": 0.9721376537481705
+          },
+          {
+            "parent": 9921,
+            "daughters": [
+              10322,
+              10523
+            ],
+            "added": [
+              9921,
+              10523
+            ],
+            "removed": [
+              10048,
+              10523
+            ],
+            "unresolved_termination": 10048,
+            "gain": 0.9713280347134805
+          },
+          {
+            "parent": 44440,
+            "daughters": [
+              44869,
+              44836
+            ],
+            "added": [
+              44440,
+              44836
+            ],
+            "removed": [
+              44206,
+              44836
+            ],
+            "unresolved_termination": 44206,
+            "gain": 0.9703230855003915
+          },
+          {
+            "parent": 15905,
+            "daughters": [
+              16361,
+              16289
+            ],
+            "added": [
+              15905,
+              16289
+            ],
+            "removed": [
+              15814,
+              16289
+            ],
+            "unresolved_termination": 15814,
+            "gain": 0.9645836713648794
+          },
+          {
+            "parent": 47071,
+            "daughters": [
+              47545,
+              47626
+            ],
+            "added": [
+              47071,
+              47626
+            ],
+            "removed": [
+              47072,
+              47626
+            ],
+            "unresolved_termination": 47072,
+            "gain": 0.964383636517844
+          },
+          {
+            "parent": 9075,
+            "daughters": [
+              9572,
+              9509
+            ],
+            "added": [
+              9075,
+              9509
+            ],
+            "removed": [
+              9142,
+              9509
+            ],
+            "unresolved_termination": 9142,
+            "gain": 0.9544762755254772
+          },
+          {
+            "parent": 16184,
+            "daughters": [
+              16669,
+              16629
+            ],
+            "added": [
+              16184,
+              16629
+            ],
+            "removed": [
+              16131,
+              16629
+            ],
+            "unresolved_termination": 16131,
+            "gain": 0.9528505899155106
+          },
+          {
+            "parent": 10527,
+            "daughters": [
+              10918,
+              11076
+            ],
+            "added": [
+              10527,
+              11076
+            ],
+            "removed": [
+              10351,
+              11076
+            ],
+            "unresolved_termination": 10351,
+            "gain": 0.9476799229691608
+          },
+          {
+            "parent": 5893,
+            "daughters": [
+              6332,
+              6352
+            ],
+            "added": [
+              5893,
+              6352
+            ],
+            "removed": [
+              5913,
+              6352
+            ],
+            "unresolved_termination": 5913,
+            "gain": 0.9357683800450662
+          },
+          {
+            "parent": 44661,
+            "daughters": [
+              45243,
+              45174
+            ],
+            "added": [
+              44661,
+              45174
+            ],
+            "removed": [
+              44653,
+              45174
+            ],
+            "unresolved_termination": 44653,
+            "gain": 0.9302114238128434
+          },
+          {
+            "parent": 13911,
+            "daughters": [
+              14465,
+              14368
+            ],
+            "added": [
+              13911,
+              14368
+            ],
+            "removed": [
+              13951,
+              14368
+            ],
+            "unresolved_termination": 13951,
+            "gain": 0.9202021384441488
+          },
+          {
+            "parent": 10584,
+            "daughters": [
+              10824,
+              10905
+            ],
+            "added": [
+              10584,
+              10905
+            ],
+            "removed": [
+              10414,
+              10905
+            ],
+            "unresolved_termination": 10414,
+            "gain": 0.9147131896521334
+          },
+          {
+            "parent": 37706,
+            "daughters": [
+              38216,
+              38365
+            ],
+            "added": [
+              37706,
+              38365
+            ],
+            "removed": [
+              37829,
+              38365
+            ],
+            "unresolved_termination": 37829,
+            "gain": 0.9116012508763995
+          },
+          {
+            "parent": 33346,
+            "daughters": [
+              33773,
+              33955
+            ],
+            "added": [
+              33346,
+              33955
+            ],
+            "removed": [
+              33619,
+              33955
+            ],
+            "unresolved_termination": 33619,
+            "gain": 0.9004753636342533
+          },
+          {
+            "parent": 16636,
+            "daughters": [
+              17069,
+              17026
+            ],
+            "added": [
+              16636,
+              17026
+            ],
+            "removed": [
+              16454,
+              17026
+            ],
+            "unresolved_termination": 16454,
+            "gain": 0.8874360041979448
+          },
+          {
+            "parent": 2773,
+            "daughters": [
+              3226,
+              3249
+            ],
+            "added": [
+              2773,
+              3249
+            ],
+            "removed": [
+              2821,
+              3249
+            ],
+            "unresolved_termination": 2821,
+            "gain": 0.8822466192169973
+          },
+          {
+            "parent": 14198,
+            "daughters": [
+              14754,
+              14713
+            ],
+            "added": [
+              14198,
+              14713
+            ],
+            "removed": [
+              14161,
+              14713
+            ],
+            "unresolved_termination": 14161,
+            "gain": 0.8745075064828736
+          },
+          {
+            "parent": 22829,
+            "daughters": [
+              23533,
+              23344
+            ],
+            "added": [
+              22829,
+              23344
+            ],
+            "removed": [
+              23073,
+              23344
+            ],
+            "unresolved_termination": 23073,
+            "gain": 0.8671585837048044
+          },
+          {
+            "parent": 23915,
+            "daughters": [
+              24451,
+              24385
+            ],
+            "added": [
+              23915,
+              24385
+            ],
+            "removed": [
+              23822,
+              24385
+            ],
+            "unresolved_termination": 23822,
+            "gain": 0.8552769732259955
+          },
+          {
+            "parent": 14408,
+            "daughters": [
+              14977,
+              15069
+            ],
+            "added": [
+              14408,
+              15069
+            ],
+            "removed": [
+              14588,
+              15069
+            ],
+            "unresolved_termination": 14588,
+            "gain": 0.8523504028915008
+          },
+          {
+            "parent": 12099,
+            "daughters": [
+              12611,
+              12557
+            ],
+            "added": [
+              12099,
+              12557
+            ],
+            "removed": [
+              12123,
+              12557
+            ],
+            "unresolved_termination": 12123,
+            "gain": 0.8511467085822861
+          },
+          {
+            "parent": 22238,
+            "daughters": [
+              22808,
+              22853
+            ],
+            "added": [
+              22238,
+              22853
+            ],
+            "removed": [
+              22200,
+              22853
+            ],
+            "unresolved_termination": 22200,
+            "gain": 0.8469122694557949
+          },
+          {
+            "parent": 33685,
+            "daughters": [
+              34227,
+              34224
+            ],
+            "added": [
+              33685,
+              34224
+            ],
+            "removed": [
+              33784,
+              34224
+            ],
+            "unresolved_termination": 33784,
+            "gain": 0.840308772989331
+          },
+          {
+            "parent": 7814,
+            "daughters": [
+              8205,
+              8264
+            ],
+            "added": [
+              7814,
+              8264
+            ],
+            "removed": [
+              7817,
+              8264
+            ],
+            "unresolved_termination": 7817,
+            "gain": 0.84015869835495
+          },
+          {
+            "parent": 35484,
+            "daughters": [
+              35889,
+              36141
+            ],
+            "added": [
+              35484,
+              36141
+            ],
+            "removed": [
+              35713,
+              36141
+            ],
+            "unresolved_termination": 35713,
+            "gain": 0.8390572589607412
+          },
+          {
+            "parent": 43714,
+            "daughters": [
+              44284,
+              44241
+            ],
+            "added": [
+              43714,
+              44241
+            ],
+            "removed": [
+              43614,
+              44241
+            ],
+            "unresolved_termination": 43614,
+            "gain": 0.8332458806613166
+          },
+          {
+            "parent": 30632,
+            "daughters": [
+              31394,
+              31280
+            ],
+            "added": [
+              30632,
+              31280
+            ],
+            "removed": [
+              30920,
+              31280
+            ],
+            "unresolved_termination": 30920,
+            "gain": 0.8305081279476507
+          },
+          {
+            "parent": 5038,
+            "daughters": [
+              5466,
+              5431
+            ],
+            "added": [
+              5038,
+              5431
+            ],
+            "removed": [
+              4922,
+              5431
+            ],
+            "unresolved_termination": 4922,
+            "gain": 0.8260084112088062
+          },
+          {
+            "parent": 34257,
+            "daughters": [
+              34812,
+              34855
+            ],
+            "added": [
+              34257,
+              34855
+            ],
+            "removed": [
+              34282,
+              34855
+            ],
+            "unresolved_termination": 34282,
+            "gain": 0.8210828056355719
+          },
+          {
+            "parent": 35413,
+            "daughters": [
+              36008,
+              35983
+            ],
+            "added": [
+              35413,
+              35983
+            ],
+            "removed": [
+              35444,
+              35983
+            ],
+            "unresolved_termination": 35444,
+            "gain": 0.8084962503521576
+          },
+          {
+            "parent": 41871,
+            "daughters": [
+              42388,
+              42391
+            ],
+            "added": [
+              41871,
+              42391
+            ],
+            "removed": [
+              41728,
+              42391
+            ],
+            "unresolved_termination": 41728,
+            "gain": 0.8069175534503794
+          },
+          {
+            "parent": 42548,
+            "daughters": [
+              43351,
+              43345
+            ],
+            "added": [
+              42548,
+              43345
+            ],
+            "removed": [
+              42870,
+              43345
+            ],
+            "unresolved_termination": 42870,
+            "gain": 0.8005895992229184
+          },
+          {
+            "parent": 42707,
+            "daughters": [
+              43138,
+              43136
+            ],
+            "added": [
+              42707,
+              43136
+            ],
+            "removed": [
+              42624,
+              43136
+            ],
+            "unresolved_termination": 42624,
+            "gain": 0.7997797967127365
+          },
+          {
+            "parent": 25073,
+            "daughters": [
+              25526,
+              25454
+            ],
+            "added": [
+              25073,
+              25454
+            ],
+            "removed": [
+              24919,
+              25454
+            ],
+            "unresolved_termination": 24919,
+            "gain": 0.7966044027739845
+          },
+          {
+            "parent": 18293,
+            "daughters": [
+              18752,
+              18790
+            ],
+            "added": [
+              18293,
+              18790
+            ],
+            "removed": [
+              18236,
+              18790
+            ],
+            "unresolved_termination": 18236,
+            "gain": 0.7926731118188775
+          },
+          {
+            "parent": 18256,
+            "daughters": [
+              18871,
+              18806
+            ],
+            "added": [
+              18256,
+              18806
+            ],
+            "removed": [
+              18486,
+              18806
+            ],
+            "unresolved_termination": 18486,
+            "gain": 0.7797787333745154
+          },
+          {
+            "parent": 25892,
+            "daughters": [
+              26460,
+              26355
+            ],
+            "added": [
+              25892,
+              26355
+            ],
+            "removed": [
+              25797,
+              26355
+            ],
+            "unresolved_termination": 25797,
+            "gain": 0.778991434322047
+          },
+          {
+            "parent": 24770,
+            "daughters": [
+              25278,
+              25419
+            ],
+            "added": [
+              24770,
+              25419
+            ],
+            "removed": [
+              25039,
+              25419
+            ],
+            "unresolved_termination": 25039,
+            "gain": 0.7643791580738
+          },
+          {
+            "parent": 40390,
+            "daughters": [
+              40796,
+              40917
+            ],
+            "added": [
+              40390,
+              40917
+            ],
+            "removed": [
+              40416,
+              40917
+            ],
+            "unresolved_termination": 40416,
+            "gain": 0.7608132931833
+          },
+          {
+            "parent": 8906,
+            "daughters": [
+              9294,
+              9302
+            ],
+            "added": [
+              8906,
+              9302
+            ],
+            "removed": [
+              8944,
+              9302
+            ],
+            "unresolved_termination": 8944,
+            "gain": 0.7587488971501712
+          },
+          {
+            "parent": 21464,
+            "daughters": [
+              21833,
+              21802
+            ],
+            "added": [
+              21464,
+              21802
+            ],
+            "removed": [
+              21300,
+              21802
+            ],
+            "unresolved_termination": 21300,
+            "gain": 0.7572880982438515
+          },
+          {
+            "parent": 33796,
+            "daughters": [
+              34562,
+              34306
+            ],
+            "added": [
+              33796,
+              34306
+            ],
+            "removed": [
+              33873,
+              34306
+            ],
+            "unresolved_termination": 33873,
+            "gain": 0.7543774946333561
+          },
+          {
+            "parent": 14888,
+            "daughters": [
+              15379,
+              15421
+            ],
+            "added": [
+              14888,
+              15421
+            ],
+            "removed": [
+              15016,
+              15421
+            ],
+            "unresolved_termination": 15016,
+            "gain": 0.752003030171585
+          },
+          {
+            "parent": 28085,
+            "daughters": [
+              28599,
+              28488
+            ],
+            "added": [
+              28085,
+              28488
+            ],
+            "removed": [
+              28045,
+              28488
+            ],
+            "unresolved_termination": 28045,
+            "gain": 0.7465591314078308
+          },
+          {
+            "parent": 26354,
+            "daughters": [
+              26929,
+              26864
+            ],
+            "added": [
+              26354,
+              26864
+            ],
+            "removed": [
+              26326,
+              26864
+            ],
+            "unresolved_termination": 26326,
+            "gain": 0.7378674313867943
+          },
+          {
+            "parent": 19529,
+            "daughters": [
+              20024,
+              20062
+            ],
+            "added": [
+              19529,
+              20062
+            ],
+            "removed": [
+              19515,
+              20062
+            ],
+            "unresolved_termination": 19515,
+            "gain": 0.7370172251845362
+          },
+          {
+            "parent": 42361,
+            "daughters": [
+              42969,
+              42901
+            ],
+            "added": [
+              42361,
+              42901
+            ],
+            "removed": [
+              42352,
+              42901
+            ],
+            "unresolved_termination": 42352,
+            "gain": 0.7255746077446179
+          },
+          {
+            "parent": 34304,
+            "daughters": [
+              34767,
+              34840
+            ],
+            "added": [
+              34304,
+              34840
+            ],
+            "removed": [
+              34294,
+              34840
+            ],
+            "unresolved_termination": 34294,
+            "gain": 0.7127984833957075
+          },
+          {
+            "parent": 4095,
+            "daughters": [
+              4509,
+              4420
+            ],
+            "added": [
+              4095,
+              4420
+            ],
+            "removed": [
+              4119,
+              4420
+            ],
+            "unresolved_termination": 4119,
+            "gain": 0.7117883446851332
+          },
+          {
+            "parent": 46536,
+            "daughters": [
+              47432,
+              47186
+            ],
+            "added": [
+              46536,
+              47186
+            ],
+            "removed": [
+              46571,
+              47186
+            ],
+            "unresolved_termination": 46571,
+            "gain": 0.7102633325341554
+          },
+          {
+            "parent": 29525,
+            "daughters": [
+              30059,
+              30066
+            ],
+            "added": [
+              29525,
+              30066
+            ],
+            "removed": [
+              29522,
+              30066
+            ],
+            "unresolved_termination": 29522,
+            "gain": 0.707871820066222
+          },
+          {
+            "parent": 2353,
+            "daughters": [
+              2585,
+              2704
+            ],
+            "added": [
+              2353,
+              2704
+            ],
+            "removed": [
+              2358,
+              2704
+            ],
+            "unresolved_termination": 2358,
+            "gain": 0.7057945198807183
+          },
+          {
+            "parent": 10170,
+            "daughters": [
+              10368,
+              10466
+            ],
+            "added": [
+              10170,
+              10466
+            ],
+            "removed": [
+              9885,
+              10466
+            ],
+            "unresolved_termination": 9885,
+            "gain": 0.7025528367996801
+          },
+          {
+            "parent": 1970,
+            "daughters": [
+              2228,
+              2387
+            ],
+            "added": [
+              1970,
+              2387
+            ],
+            "removed": [
+              1875,
+              2387
+            ],
+            "unresolved_termination": 1875,
+            "gain": 0.7011531859291493
+          },
+          {
+            "parent": 18845,
+            "daughters": [
+              19386,
+              19374
+            ],
+            "added": [
+              18845,
+              19374
+            ],
+            "removed": [
+              18725,
+              19374
+            ],
+            "unresolved_termination": 18725,
+            "gain": 0.6982831849518403
+          },
+          {
+            "parent": 2293,
+            "daughters": [
+              2720,
+              2514
+            ],
+            "added": [
+              2293,
+              2514
+            ],
+            "removed": [
+              2102,
+              2514
+            ],
+            "unresolved_termination": 2102,
+            "gain": 0.6934753746188504
+          },
+          {
+            "parent": 39246,
+            "daughters": [
+              39795,
+              39925
+            ],
+            "added": [
+              39246,
+              39925
+            ],
+            "removed": [
+              39239,
+              39925
+            ],
+            "unresolved_termination": 39239,
+            "gain": 0.6916620824252366
+          },
+          {
+            "parent": 20369,
+            "daughters": [
+              20805,
+              20779
+            ],
+            "added": [
+              20369,
+              20779
+            ],
+            "removed": [
+              20279,
+              20779
+            ],
+            "unresolved_termination": 20279,
+            "gain": 0.6868035243633426
+          },
+          {
+            "parent": 42028,
+            "daughters": [
+              42659,
+              42585
+            ],
+            "added": [
+              42028,
+              42585
+            ],
+            "removed": [
+              41908,
+              42585
+            ],
+            "unresolved_termination": 41908,
+            "gain": 0.680116058880798
+          },
+          {
+            "parent": 25018,
+            "daughters": [
+              25335,
+              25288
+            ],
+            "added": [
+              25018,
+              25288
+            ],
+            "removed": [
+              24808,
+              25288
+            ],
+            "unresolved_termination": 24808,
+            "gain": 0.6709613859004102
+          },
+          {
+            "parent": 8723,
+            "daughters": [
+              9134,
+              9025
+            ],
+            "added": [
+              8723,
+              9025
+            ],
+            "removed": [
+              8648,
+              9025
+            ],
+            "unresolved_termination": 8648,
+            "gain": 0.6634476891461023
+          },
+          {
+            "parent": 44953,
+            "daughters": [
+              45336,
+              45515
+            ],
+            "added": [
+              44953,
+              45515
+            ],
+            "removed": [
+              44954,
+              45515
+            ],
+            "unresolved_termination": 44954,
+            "gain": 0.6607460853458058
+          },
+          {
+            "parent": 36162,
+            "daughters": [
+              36654,
+              36499
+            ],
+            "added": [
+              36162,
+              36499
+            ],
+            "removed": [
+              36284,
+              36499
+            ],
+            "unresolved_termination": 36284,
+            "gain": 0.6574732921512716
+          },
+          {
+            "parent": 41189,
+            "daughters": [
+              41742,
+              41784
+            ],
+            "added": [
+              41189,
+              41784
+            ],
+            "removed": [
+              41075,
+              41784
+            ],
+            "unresolved_termination": 41075,
+            "gain": 0.6508505794325004
+          },
+          {
+            "parent": 46016,
+            "daughters": [
+              46525,
+              46572
+            ],
+            "added": [
+              46016,
+              46572
+            ],
+            "removed": [
+              45876,
+              46572
+            ],
+            "unresolved_termination": 45876,
+            "gain": 0.6502662470933533
+          },
+          {
+            "parent": 26340,
+            "daughters": [
+              26869,
+              27082
+            ],
+            "added": [
+              26340,
+              27082
+            ],
+            "removed": [
+              26493,
+              27082
+            ],
+            "unresolved_termination": 26493,
+            "gain": 0.6403839924414609
+          },
+          {
+            "parent": 4877,
+            "daughters": [
+              5268,
+              5347
+            ],
+            "added": [
+              4877,
+              5347
+            ],
+            "removed": [
+              4707,
+              5347
+            ],
+            "unresolved_termination": 4707,
+            "gain": 0.6315707261321573
+          },
+          {
+            "parent": 34313,
+            "daughters": [
+              35222,
+              34786
+            ],
+            "added": [
+              34313,
+              34786
+            ],
+            "removed": [
+              34240,
+              34786
+            ],
+            "unresolved_termination": 34240,
+            "gain": 0.6291949503996681
+          },
+          {
+            "parent": 23262,
+            "daughters": [
+              23790,
+              23833
+            ],
+            "added": [
+              23262,
+              23833
+            ],
+            "removed": [
+              23259,
+              23833
+            ],
+            "unresolved_termination": 23259,
+            "gain": 0.6289548454729255
+          },
+          {
+            "parent": 33711,
+            "daughters": [
+              34218,
+              34469
+            ],
+            "added": [
+              33711,
+              34469
+            ],
+            "removed": [
+              33983,
+              34469
+            ],
+            "unresolved_termination": 33983,
+            "gain": 0.6229187074854479
+          },
+          {
+            "parent": 26487,
+            "daughters": [
+              27028,
+              27019
+            ],
+            "added": [
+              26487,
+              27019
+            ],
+            "removed": [
+              26494,
+              27019
+            ],
+            "unresolved_termination": 26494,
+            "gain": 0.6160624154862884
+          },
+          {
+            "parent": 37814,
+            "daughters": [
+              38318,
+              38303
+            ],
+            "added": [
+              37814,
+              38303
+            ],
+            "removed": [
+              37738,
+              38303
+            ],
+            "unresolved_termination": 37738,
+            "gain": 0.607001208613767
+          },
+          {
+            "parent": 22319,
+            "daughters": [
+              22756,
+              22801
+            ],
+            "added": [
+              22319,
+              22801
+            ],
+            "removed": [
+              22385,
+              22801
+            ],
+            "unresolved_termination": 22385,
+            "gain": 0.6000858732301926
+          },
+          {
+            "parent": 45065,
+            "daughters": [
+              45772,
+              45554
+            ],
+            "added": [
+              45065,
+              45554
+            ],
+            "removed": [
+              44949,
+              45554
+            ],
+            "unresolved_termination": 44949,
+            "gain": 0.5917456345034269
+          },
+          {
+            "parent": 41039,
+            "daughters": [
+              41655,
+              41382
+            ],
+            "added": [
+              41039,
+              41382
+            ],
+            "removed": [
+              40989,
+              41382
+            ],
+            "unresolved_termination": 40989,
+            "gain": 0.5861233361003062
+          },
+          {
+            "parent": 24539,
+            "daughters": [
+              25201,
+              25189
+            ],
+            "added": [
+              24539,
+              25189
+            ],
+            "removed": [
+              24704,
+              25189
+            ],
+            "unresolved_termination": 24704,
+            "gain": 0.5812670608031785
+          },
+          {
+            "parent": 30559,
+            "daughters": [
+              31138,
+              31121
+            ],
+            "added": [
+              30559,
+              31121
+            ],
+            "removed": [
+              30636,
+              31121
+            ],
+            "unresolved_termination": 30636,
+            "gain": 0.5621828317462909
+          },
+          {
+            "parent": 10782,
+            "daughters": [
+              11247,
+              11301
+            ],
+            "added": [
+              10782,
+              11301
+            ],
+            "removed": [
+              10934,
+              11301
+            ],
+            "unresolved_termination": 10934,
+            "gain": 0.5521113420861372
+          },
+          {
+            "parent": 26940,
+            "daughters": [
+              27453,
+              27386
+            ],
+            "added": [
+              26940,
+              27386
+            ],
+            "removed": [
+              27044,
+              27386
+            ],
+            "unresolved_termination": 27044,
+            "gain": 0.5514114318022216
+          },
+          {
+            "parent": 30236,
+            "daughters": [
+              30735,
+              30524
+            ],
+            "added": [
+              30236,
+              30524
+            ],
+            "removed": [
+              29930,
+              30524
+            ],
+            "unresolved_termination": 29930,
+            "gain": 0.5361604714178572
+          },
+          {
+            "parent": 11734,
+            "daughters": [
+              12334,
+              12227
+            ],
+            "added": [
+              11734,
+              12227
+            ],
+            "removed": [
+              11697,
+              12227
+            ],
+            "unresolved_termination": 11697,
+            "gain": 0.535751726769411
+          },
+          {
+            "parent": 27273,
+            "daughters": [
+              27754,
+              27793
+            ],
+            "added": [
+              27273,
+              27793
+            ],
+            "removed": [
+              27224,
+              27793
+            ],
+            "unresolved_termination": 27224,
+            "gain": 0.5335359745758139
+          },
+          {
+            "parent": 14090,
+            "daughters": [
+              14378,
+              14514
+            ],
+            "added": [
+              14090,
+              14514
+            ],
+            "removed": [
+              14106,
+              14514
+            ],
+            "unresolved_termination": 14106,
+            "gain": 0.5311159233860412
+          },
+          {
+            "parent": 2512,
+            "daughters": [
+              2944,
+              3299
+            ],
+            "added": [
+              2512,
+              3299
+            ],
+            "removed": [
+              2521,
+              3299
+            ],
+            "unresolved_termination": 2521,
+            "gain": 0.5240084662789828
+          },
+          {
+            "parent": 6205,
+            "daughters": [
+              6689,
+              6710
+            ],
+            "added": [
+              6205,
+              6710
+            ],
+            "removed": [
+              6259,
+              6710
+            ],
+            "unresolved_termination": 6259,
+            "gain": 0.5205335085994107
+          },
+          {
+            "parent": 37031,
+            "daughters": [
+              37575,
+              37610
+            ],
+            "added": [
+              37031,
+              37610
+            ],
+            "removed": [
+              37178,
+              37610
+            ],
+            "unresolved_termination": 37178,
+            "gain": 0.5199753820607604
+          },
+          {
+            "parent": 24904,
+            "daughters": [
+              25309,
+              25337
+            ],
+            "added": [
+              24904,
+              25337
+            ],
+            "removed": [
+              24963,
+              25337
+            ],
+            "unresolved_termination": 24963,
+            "gain": 0.5183388593865375
+          },
+          {
+            "parent": 28315,
+            "daughters": [
+              28844,
+              28863
+            ],
+            "added": [
+              28315,
+              28863
+            ],
+            "removed": [
+              28198,
+              28863
+            ],
+            "unresolved_termination": 28198,
+            "gain": 0.5134598059462352
+          },
+          {
+            "parent": 43569,
+            "daughters": [
+              43975,
+              44068
+            ],
+            "added": [
+              43569,
+              44068
+            ],
+            "removed": [
+              43581,
+              44068
+            ],
+            "unresolved_termination": 43581,
+            "gain": 0.5088463349456043
+          },
+          {
+            "parent": 10802,
+            "daughters": [
+              11202,
+              11265
+            ],
+            "added": [
+              10802,
+              11265
+            ],
+            "removed": [
+              10882,
+              11265
+            ],
+            "unresolved_termination": 10882,
+            "gain": 0.50843854536049
+          }
+        ],
+        "unrelated_edges_unchanged": true
+      },
+      "annotated_divisions": [
+        {
+          "parent_gt": 172000000050,
+          "baseline_complete": false,
+          "candidate_complete": false
+        }
+      ]
+    },
+    {
+      "sample": "44b6_267148e4",
+      "graph_audit": {
+        "accepted": 44,
+        "eligible": 44,
+        "edits": [
+          {
+            "parent": 7343,
+            "daughters": [
+              7559,
+              7547
+            ],
+            "added": [
+              7343,
+              7547
+            ],
+            "removed": [
+              7316,
+              7547
+            ],
+            "unresolved_termination": 7316,
+            "gain": 3.395114239042859
+          },
+          {
+            "parent": 16023,
+            "daughters": [
+              16182,
+              16204
+            ],
+            "added": [
+              16023,
+              16204
+            ],
+            "removed": [
+              16088,
+              16204
+            ],
+            "unresolved_termination": 16088,
+            "gain": 3.242017014173249
+          },
+          {
+            "parent": 15683,
+            "daughters": [
+              15918,
+              15863
+            ],
+            "added": [
+              15683,
+              15863
+            ],
+            "removed": [
+              15743,
+              15863
+            ],
+            "unresolved_termination": 15743,
+            "gain": 2.855334338705415
+          },
+          {
+            "parent": 10420,
+            "daughters": [
+              10548,
+              10487
+            ],
+            "added": [
+              10420,
+              10487
+            ],
+            "removed": [
+              10316,
+              10487
+            ],
+            "unresolved_termination": 10316,
+            "gain": 2.483071699195352
+          },
+          {
+            "parent": 16216,
+            "daughters": [
+              16352,
+              16370
+            ],
+            "added": [
+              16216,
+              16370
+            ],
+            "removed": [
+              16196,
+              16370
+            ],
+            "unresolved_termination": 16196,
+            "gain": 2.409868085744554
+          },
+          {
+            "parent": 3212,
+            "daughters": [
+              3428,
+              3370
+            ],
+            "added": [
+              3212,
+              3370
+            ],
+            "removed": [
+              3178,
+              3370
+            ],
+            "unresolved_termination": 3178,
+            "gain": 2.3647387767503982
+          },
+          {
+            "parent": 12973,
+            "daughters": [
+              13173,
+              13090
+            ],
+            "added": [
+              12973,
+              13090
+            ],
+            "removed": [
+              12901,
+              13090
+            ],
+            "unresolved_termination": 12901,
+            "gain": 2.342233176090776
+          },
+          {
+            "parent": 1322,
+            "daughters": [
+              1401,
+              1455
+            ],
+            "added": [
+              1322,
+              1455
+            ],
+            "removed": [
+              1314,
+              1455
+            ],
+            "unresolved_termination": 1314,
+            "gain": 2.2966454462821835
+          },
+          {
+            "parent": 10757,
+            "daughters": [
+              11007,
+              11058
+            ],
+            "added": [
+              10757,
+              11058
+            ],
+            "removed": [
+              10853,
+              11058
+            ],
+            "unresolved_termination": 10853,
+            "gain": 2.263650130714185
+          },
+          {
+            "parent": 3797,
+            "daughters": [
+              4011,
+              3993
+            ],
+            "added": [
+              3797,
+              3993
+            ],
+            "removed": [
+              3645,
+              3993
+            ],
+            "unresolved_termination": 3645,
+            "gain": 2.161728750567203
+          },
+          {
+            "parent": 11555,
+            "daughters": [
+              11749,
+              11725
+            ],
+            "added": [
+              11555,
+              11725
+            ],
+            "removed": [
+              11535,
+              11725
+            ],
+            "unresolved_termination": 11535,
+            "gain": 2.0643551464413963
+          },
+          {
+            "parent": 10013,
+            "daughters": [
+              10233,
+              10237
+            ],
+            "added": [
+              10013,
+              10237
+            ],
+            "removed": [
+              10009,
+              10237
+            ],
+            "unresolved_termination": 10009,
+            "gain": 2.0268250267251418
+          },
+          {
+            "parent": 15168,
+            "daughters": [
+              15336,
+              15334
+            ],
+            "added": [
+              15168,
+              15334
+            ],
+            "removed": [
+              15171,
+              15334
+            ],
+            "unresolved_termination": 15171,
+            "gain": 1.9945816825766576
+          },
+          {
+            "parent": 17383,
+            "daughters": [
+              17588,
+              17600
+            ],
+            "added": [
+              17383,
+              17600
+            ],
+            "removed": [
+              17414,
+              17600
+            ],
+            "unresolved_termination": 17414,
+            "gain": 1.977283748406128
+          },
+          {
+            "parent": 7062,
+            "daughters": [
+              7112,
+              7258
+            ],
+            "added": [
+              7062,
+              7258
+            ],
+            "removed": [
+              7081,
+              7258
+            ],
+            "unresolved_termination": 7081,
+            "gain": 1.9659763738845162
+          },
+          {
+            "parent": 6941,
+            "daughters": [
+              7209,
+              7142
+            ],
+            "added": [
+              6941,
+              7142
+            ],
+            "removed": [
+              7031,
+              7142
+            ],
+            "unresolved_termination": 7031,
+            "gain": 1.801755170543565
+          },
+          {
+            "parent": 13504,
+            "daughters": [
+              13623,
+              13667
+            ],
+            "added": [
+              13504,
+              13667
+            ],
+            "removed": [
+              13472,
+              13667
+            ],
+            "unresolved_termination": 13472,
+            "gain": 1.7309267030611677
+          },
+          {
+            "parent": 894,
+            "daughters": [
+              1046,
+              1013
+            ],
+            "added": [
+              894,
+              1013
+            ],
+            "removed": [
+              857,
+              1013
+            ],
+            "unresolved_termination": 857,
+            "gain": 1.6990460541056724
+          },
+          {
+            "parent": 8928,
+            "daughters": [
+              9209,
+              9167
+            ],
+            "added": [
+              8928,
+              9167
+            ],
+            "removed": [
+              8836,
+              9167
+            ],
+            "unresolved_termination": 8836,
+            "gain": 1.6545555589116172
+          },
+          {
+            "parent": 9071,
+            "daughters": [
+              9298,
+              9243
+            ],
+            "added": [
+              9071,
+              9243
+            ],
+            "removed": [
+              9067,
+              9243
+            ],
+            "unresolved_termination": 9067,
+            "gain": 1.5068875246604465
+          },
+          {
+            "parent": 9589,
+            "daughters": [
+              9826,
+              9759
+            ],
+            "added": [
+              9589,
+              9759
+            ],
+            "removed": [
+              9490,
+              9759
+            ],
+            "unresolved_termination": 9490,
+            "gain": 1.4001438448739607
+          },
+          {
+            "parent": 13495,
+            "daughters": [
+              13634,
+              13587
+            ],
+            "added": [
+              13495,
+              13587
+            ],
+            "removed": [
+              13426,
+              13587
+            ],
+            "unresolved_termination": 13426,
+            "gain": 1.3333160046558539
+          },
+          {
+            "parent": 17231,
+            "daughters": [
+              17358,
+              17348
+            ],
+            "added": [
+              17231,
+              17348
+            ],
+            "removed": [
+              17207,
+              17348
+            ],
+            "unresolved_termination": 17207,
+            "gain": 1.308683600608529
+          },
+          {
+            "parent": 5947,
+            "daughters": [
+              6166,
+              6239
+            ],
+            "added": [
+              5947,
+              6239
+            ],
+            "removed": [
+              6022,
+              6239
+            ],
+            "unresolved_termination": 6022,
+            "gain": 1.2643676155390293
+          },
+          {
+            "parent": 4061,
+            "daughters": [
+              4235,
+              4345
+            ],
+            "added": [
+              4061,
+              4345
+            ],
+            "removed": [
+              4138,
+              4345
+            ],
+            "unresolved_termination": 4138,
+            "gain": 1.2342216148415965
+          },
+          {
+            "parent": 11519,
+            "daughters": [
+              11719,
+              11738
+            ],
+            "added": [
+              11519,
+              11738
+            ],
+            "removed": [
+              11540,
+              11738
+            ],
+            "unresolved_termination": 11540,
+            "gain": 1.1970156744429452
+          },
+          {
+            "parent": 9289,
+            "daughters": [
+              9565,
+              9577
+            ],
+            "added": [
+              9289,
+              9577
+            ],
+            "removed": [
+              9415,
+              9577
+            ],
+            "unresolved_termination": 9415,
+            "gain": 1.1931455028863978
+          },
+          {
+            "parent": 2648,
+            "daughters": [
+              2763,
+              2837
+            ],
+            "added": [
+              2648,
+              2837
+            ],
+            "removed": [
+              2637,
+              2837
+            ],
+            "unresolved_termination": 2637,
+            "gain": 1.1478085175655766
+          },
+          {
+            "parent": 5990,
+            "daughters": [
+              6174,
+              6167
+            ],
+            "added": [
+              5990,
+              6167
+            ],
+            "removed": [
+              6009,
+              6167
+            ],
+            "unresolved_termination": 6009,
+            "gain": 1.1247217850916007
+          },
+          {
+            "parent": 9400,
+            "daughters": [
+              9615,
+              9651
+            ],
+            "added": [
+              9400,
+              9651
+            ],
+            "removed": [
+              9305,
+              9651
+            ],
+            "unresolved_termination": 9305,
+            "gain": 1.0162324057396797
+          },
+          {
+            "parent": 13001,
+            "daughters": [
+              13118,
+              13159
+            ],
+            "added": [
+              13001,
+              13159
+            ],
+            "removed": [
+              12971,
+              13159
+            ],
+            "unresolved_termination": 12971,
+            "gain": 0.992758211873638
+          },
+          {
+            "parent": 16604,
+            "daughters": [
+              16763,
+              16752
+            ],
+            "added": [
+              16604,
+              16752
+            ],
+            "removed": [
+              16599,
+              16752
+            ],
+            "unresolved_termination": 16599,
+            "gain": 0.9640875827401258
+          },
+          {
+            "parent": 249,
+            "daughters": [
+              389,
+              387
+            ],
+            "added": [
+              249,
+              387
+            ],
+            "removed": [
+              254,
+              387
+            ],
+            "unresolved_termination": 254,
+            "gain": 0.9529728841076297
+          },
+          {
+            "parent": 6841,
+            "daughters": [
+              6974,
+              6954
+            ],
+            "added": [
+              6841,
+              6954
+            ],
+            "removed": [
+              6821,
+              6954
+            ],
+            "unresolved_termination": 6821,
+            "gain": 0.9438108485019814
+          },
+          {
+            "parent": 10436,
+            "daughters": [
+              10525,
+              10635
+            ],
+            "added": [
+              10436,
+              10635
+            ],
+            "removed": [
+              10392,
+              10635
+            ],
+            "unresolved_termination": 10392,
+            "gain": 0.9246373390739147
+          },
+          {
+            "parent": 8053,
+            "daughters": [
+              8237,
+              8265
+            ],
+            "added": [
+              8053,
+              8265
+            ],
+            "removed": [
+              8050,
+              8265
+            ],
+            "unresolved_termination": 8050,
+            "gain": 0.895400807452843
+          },
+          {
+            "parent": 11205,
+            "daughters": [
+              11387,
+              11474
+            ],
+            "added": [
+              11205,
+              11474
+            ],
+            "removed": [
+              11169,
+              11474
+            ],
+            "unresolved_termination": 11169,
+            "gain": 0.886498069295405
+          },
+          {
+            "parent": 10524,
+            "daughters": [
+              10830,
+              10768
+            ],
+            "added": [
+              10524,
+              10768
+            ],
+            "removed": [
+              10526,
+              10768
+            ],
+            "unresolved_termination": 10526,
+            "gain": 0.8171103589864133
+          },
+          {
+            "parent": 4955,
+            "daughters": [
+              5087,
+              5039
+            ],
+            "added": [
+              4955,
+              5039
+            ],
+            "removed": [
+              4845,
+              5039
+            ],
+            "unresolved_termination": 4845,
+            "gain": 0.8151663204352197
+          },
+          {
+            "parent": 16534,
+            "daughters": [
+              16702,
+              16714
+            ],
+            "added": [
+              16534,
+              16714
+            ],
+            "removed": [
+              16479,
+              16714
+            ],
+            "unresolved_termination": 16479,
+            "gain": 0.7743717956282656
+          },
+          {
+            "parent": 11024,
+            "daughters": [
+              11121,
+              11156
+            ],
+            "added": [
+              11024,
+              11156
+            ],
+            "removed": [
+              11039,
+              11156
+            ],
+            "unresolved_termination": 11039,
+            "gain": 0.7143718472657627
+          },
+          {
+            "parent": 7207,
+            "daughters": [
+              7426,
+              7434
+            ],
+            "added": [
+              7207,
+              7434
+            ],
+            "removed": [
+              7203,
+              7434
+            ],
+            "unresolved_termination": 7203,
+            "gain": 0.6597855901985974
+          },
+          {
+            "parent": 12331,
+            "daughters": [
+              12572,
+              12541
+            ],
+            "added": [
+              12331,
+              12541
+            ],
+            "removed": [
+              12347,
+              12541
+            ],
+            "unresolved_termination": 12347,
+            "gain": 0.6132742428759386
+          },
+          {
+            "parent": 12756,
+            "daughters": [
+              12882,
+              12956
+            ],
+            "added": [
+              12756,
+              12956
+            ],
+            "removed": [
+              12727,
+              12956
+            ],
+            "unresolved_termination": 12727,
+            "gain": 0.5461200012620979
+          }
+        ],
+        "unrelated_edges_unchanged": true
+      },
+      "annotated_divisions": [
+        {
+          "parent_gt": 16000000001,
+          "baseline_complete": false,
+          "candidate_complete": false
+        }
+      ]
+    },
+    {
+      "sample": "6bba_05db0fb1",
+      "graph_audit": {
+        "accepted": 138,
+        "eligible": 142,
+        "edits": [
+          {
+            "parent": 6602,
+            "daughters": [
+              7185,
+              7209
+            ],
+            "added": [
+              6602,
+              7209
+            ],
+            "removed": [
+              6361,
+              7209
+            ],
+            "unresolved_termination": 6361,
+            "gain": 3.190722292255738
+          },
+          {
+            "parent": 7954,
+            "daughters": [
+              8525,
+              8554
+            ],
+            "added": [
+              7954,
+              8554
+            ],
+            "removed": [
+              8023,
+              8554
+            ],
+            "unresolved_termination": 8023,
+            "gain": 2.489440168774967
+          },
+          {
+            "parent": 2384,
+            "daughters": [
+              2906,
+              2949
+            ],
+            "added": [
+              2384,
+              2949
+            ],
+            "removed": [
+              2173,
+              2949
+            ],
+            "unresolved_termination": 2173,
+            "gain": 2.4699763054357935
+          },
+          {
+            "parent": 44419,
+            "daughters": [
+              45046,
+              44881
+            ],
+            "added": [
+              44419,
+              44881
+            ],
+            "removed": [
+              44199,
+              44881
+            ],
+            "unresolved_termination": 44199,
+            "gain": 2.4611665379927183
+          },
+          {
+            "parent": 31287,
+            "daughters": [
+              31885,
+              31876
+            ],
+            "added": [
+              31287,
+              31876
+            ],
+            "removed": [
+              31285,
+              31876
+            ],
+            "unresolved_termination": 31285,
+            "gain": 2.375655597034183
+          },
+          {
+            "parent": 2020,
+            "daughters": [
+              2573,
+              2774
+            ],
+            "added": [
+              2020,
+              2774
+            ],
+            "removed": [
+              2070,
+              2774
+            ],
+            "unresolved_termination": 2070,
+            "gain": 2.2846194093112095
+          },
+          {
+            "parent": 26055,
+            "daughters": [
+              26741,
+              26727
+            ],
+            "added": [
+              26055,
+              26727
+            ],
+            "removed": [
+              26234,
+              26727
+            ],
+            "unresolved_termination": 26234,
+            "gain": 2.2252423209467502
+          },
+          {
+            "parent": 3469,
+            "daughters": [
+              4138,
+              4240
+            ],
+            "added": [
+              3469,
+              4240
+            ],
+            "removed": [
+              3638,
+              4240
+            ],
+            "unresolved_termination": 3638,
+            "gain": 2.2053043571972357
+          },
+          {
+            "parent": 7614,
+            "daughters": [
+              8133,
+              8259
+            ],
+            "added": [
+              7614,
+              8259
+            ],
+            "removed": [
+              7783,
+              8259
+            ],
+            "unresolved_termination": 7783,
+            "gain": 2.1613450240589875
+          },
+          {
+            "parent": 31976,
+            "daughters": [
+              32493,
+              32549
+            ],
+            "added": [
+              31976,
+              32549
+            ],
+            "removed": [
+              31929,
+              32549
+            ],
+            "unresolved_termination": 31929,
+            "gain": 2.1034483741534418
+          },
+          {
+            "parent": 1078,
+            "daughters": [
+              1751,
+              1601
+            ],
+            "added": [
+              1078,
+              1601
+            ],
+            "removed": [
+              1144,
+              1601
+            ],
+            "unresolved_termination": 1144,
+            "gain": 2.0776020125771257
+          },
+          {
+            "parent": 2205,
+            "daughters": [
+              2990,
+              2818
+            ],
+            "added": [
+              2205,
+              2818
+            ],
+            "removed": [
+              2277,
+              2818
+            ],
+            "unresolved_termination": 2277,
+            "gain": 2.067733090580771
+          },
+          {
+            "parent": 53590,
+            "daughters": [
+              54182,
+              54146
+            ],
+            "added": [
+              53590,
+              54146
+            ],
+            "removed": [
+              53951,
+              54146
+            ],
+            "unresolved_termination": 53951,
+            "gain": 2.065153448797459
+          },
+          {
+            "parent": 52356,
+            "daughters": [
+              52964,
+              52922
+            ],
+            "added": [
+              52356,
+              52922
+            ],
+            "removed": [
+              52390,
+              52922
+            ],
+            "unresolved_termination": 52390,
+            "gain": 2.053399720811073
+          },
+          {
+            "parent": 53610,
+            "daughters": [
+              54138,
+              54124
+            ],
+            "added": [
+              53610,
+              54124
+            ],
+            "removed": [
+              53588,
+              54124
+            ],
+            "unresolved_termination": 53588,
+            "gain": 2.050748322990784
+          },
+          {
+            "parent": 37317,
+            "daughters": [
+              37770,
+              37834
+            ],
+            "added": [
+              37317,
+              37834
+            ],
+            "removed": [
+              37089,
+              37834
+            ],
+            "unresolved_termination": 37089,
+            "gain": 1.9741108621404577
+          },
+          {
+            "parent": 3302,
+            "daughters": [
+              3992,
+              3936
+            ],
+            "added": [
+              3302,
+              3936
+            ],
+            "removed": [
+              3398,
+              3936
+            ],
+            "unresolved_termination": 3398,
+            "gain": 1.933440953859646
+          },
+          {
+            "parent": 50876,
+            "daughters": [
+              51539,
+              51509
+            ],
+            "added": [
+              50876,
+              51509
+            ],
+            "removed": [
+              51044,
+              51509
+            ],
+            "unresolved_termination": 51044,
+            "gain": 1.9316902348629714
+          },
+          {
+            "parent": 769,
+            "daughters": [
+              1529,
+              1318
+            ],
+            "added": [
+              769,
+              1318
+            ],
+            "removed": [
+              1153,
+              1318
+            ],
+            "unresolved_termination": 1153,
+            "gain": 1.8678386741574347
+          },
+          {
+            "parent": 3956,
+            "daughters": [
+              4546,
+              4448
+            ],
+            "added": [
+              3956,
+              4448
+            ],
+            "removed": [
+              3835,
+              4448
+            ],
+            "unresolved_termination": 3835,
+            "gain": 1.8248038485132274
+          },
+          {
+            "parent": 13792,
+            "daughters": [
+              14438,
+              14437
+            ],
+            "added": [
+              13792,
+              14437
+            ],
+            "removed": [
+              13676,
+              14437
+            ],
+            "unresolved_termination": 13676,
+            "gain": 1.8048611448026772
+          },
+          {
+            "parent": 29626,
+            "daughters": [
+              30145,
+              30157
+            ],
+            "added": [
+              29626,
+              30157
+            ],
+            "removed": [
+              29604,
+              30157
+            ],
+            "unresolved_termination": 29604,
+            "gain": 1.7889731136179012
+          },
+          {
+            "parent": 19604,
+            "daughters": [
+              20218,
+              20225
+            ],
+            "added": [
+              19604,
+              20225
+            ],
+            "removed": [
+              19511,
+              20225
+            ],
+            "unresolved_termination": 19511,
+            "gain": 1.732580621957359
+          },
+          {
+            "parent": 25573,
+            "daughters": [
+              26068,
+              26063
+            ],
+            "added": [
+              25573,
+              26063
+            ],
+            "removed": [
+              25513,
+              26063
+            ],
+            "unresolved_termination": 25513,
+            "gain": 1.6737769926416828
+          },
+          {
+            "parent": 3280,
+            "daughters": [
+              3839,
+              3824
+            ],
+            "added": [
+              3280,
+              3824
+            ],
+            "removed": [
+              3129,
+              3824
+            ],
+            "unresolved_termination": 3129,
+            "gain": 1.6668724982947696
+          },
+          {
+            "parent": 49730,
+            "daughters": [
+              50273,
+              50283
+            ],
+            "added": [
+              49730,
+              50283
+            ],
+            "removed": [
+              49718,
+              50283
+            ],
+            "unresolved_termination": 49718,
+            "gain": 1.6447669770779694
+          },
+          {
+            "parent": 12170,
+            "daughters": [
+              12789,
+              12628
+            ],
+            "added": [
+              12170,
+              12628
+            ],
+            "removed": [
+              12176,
+              12628
+            ],
+            "unresolved_termination": 12176,
+            "gain": 1.5889709240159178
+          },
+          {
+            "parent": 11923,
+            "daughters": [
+              12770,
+              12558
+            ],
+            "added": [
+              11923,
+              12558
+            ],
+            "removed": [
+              11918,
+              12558
+            ],
+            "unresolved_termination": 11918,
+            "gain": 1.581442827320604
+          },
+          {
+            "parent": 38144,
+            "daughters": [
+              38681,
+              38693
+            ],
+            "added": [
+              38144,
+              38693
+            ],
+            "removed": [
+              38223,
+              38693
+            ],
+            "unresolved_termination": 38223,
+            "gain": 1.5202398840780238
+          },
+          {
+            "parent": 45479,
+            "daughters": [
+              45949,
+              45982
+            ],
+            "added": [
+              45479,
+              45982
+            ],
+            "removed": [
+              45665,
+              45982
+            ],
+            "unresolved_termination": 45665,
+            "gain": 1.5160642413528111
+          },
+          {
+            "parent": 29917,
+            "daughters": [
+              30394,
+              30504
+            ],
+            "added": [
+              29917,
+              30504
+            ],
+            "removed": [
+              29891,
+              30504
+            ],
+            "unresolved_termination": 29891,
+            "gain": 1.5001293727855902
+          },
+          {
+            "parent": 15624,
+            "daughters": [
+              16250,
+              16105
+            ],
+            "added": [
+              15624,
+              16105
+            ],
+            "removed": [
+              15692,
+              16105
+            ],
+            "unresolved_termination": 15692,
+            "gain": 1.4866262672944819
+          },
+          {
+            "parent": 54409,
+            "daughters": [
+              55112,
+              54901
+            ],
+            "added": [
+              54409,
+              54901
+            ],
+            "removed": [
+              54240,
+              54901
+            ],
+            "unresolved_termination": 54240,
+            "gain": 1.450793808846511
+          },
+          {
+            "parent": 44149,
+            "daughters": [
+              44690,
+              44708
+            ],
+            "added": [
+              44149,
+              44708
+            ],
+            "removed": [
+              44156,
+              44708
+            ],
+            "unresolved_termination": 44156,
+            "gain": 1.4101086303912644
+          },
+          {
+            "parent": 54809,
+            "daughters": [
+              55632,
+              55320
+            ],
+            "added": [
+              54809,
+              55320
+            ],
+            "removed": [
+              54803,
+              55320
+            ],
+            "unresolved_termination": 54803,
+            "gain": 1.401847905876509
+          },
+          {
+            "parent": 14982,
+            "daughters": [
+              15558,
+              15430
+            ],
+            "added": [
+              14982,
+              15430
+            ],
+            "removed": [
+              14851,
+              15430
+            ],
+            "unresolved_termination": 14851,
+            "gain": 1.3969081800196785
+          },
+          {
+            "parent": 9658,
+            "daughters": [
+              10445,
+              10412
+            ],
+            "added": [
+              9658,
+              10412
+            ],
+            "removed": [
+              9393,
+              10412
+            ],
+            "unresolved_termination": 9393,
+            "gain": 1.388549375637465
+          },
+          {
+            "parent": 10557,
+            "daughters": [
+              11146,
+              11086
+            ],
+            "added": [
+              10557,
+              11086
+            ],
+            "removed": [
+              10310,
+              11086
+            ],
+            "unresolved_termination": 10310,
+            "gain": 1.3873764734247576
+          },
+          {
+            "parent": 35280,
+            "daughters": [
+              35810,
+              35867
+            ],
+            "added": [
+              35280,
+              35867
+            ],
+            "removed": [
+              35181,
+              35867
+            ],
+            "unresolved_termination": 35181,
+            "gain": 1.3610160586034834
+          },
+          {
+            "parent": 3082,
+            "daughters": [
+              3762,
+              3720
+            ],
+            "added": [
+              3082,
+              3720
+            ],
+            "removed": [
+              3174,
+              3720
+            ],
+            "unresolved_termination": 3174,
+            "gain": 1.3583013560767434
+          },
+          {
+            "parent": 38202,
+            "daughters": [
+              38689,
+              38733
+            ],
+            "added": [
+              38202,
+              38733
+            ],
+            "removed": [
+              38146,
+              38733
+            ],
+            "unresolved_termination": 38146,
+            "gain": 1.3500130701410202
+          },
+          {
+            "parent": 3253,
+            "daughters": [
+              3964,
+              3939
+            ],
+            "added": [
+              3253,
+              3939
+            ],
+            "removed": [
+              3103,
+              3939
+            ],
+            "unresolved_termination": 3103,
+            "gain": 1.335145551764651
+          },
+          {
+            "parent": 41483,
+            "daughters": [
+              41992,
+              42002
+            ],
+            "added": [
+              41483,
+              42002
+            ],
+            "removed": [
+              41443,
+              42002
+            ],
+            "unresolved_termination": 41443,
+            "gain": 1.3137929715047671
+          },
+          {
+            "parent": 12866,
+            "daughters": [
+              13691,
+              13648
+            ],
+            "added": [
+              12866,
+              13648
+            ],
+            "removed": [
+              12877,
+              13648
+            ],
+            "unresolved_termination": 12877,
+            "gain": 1.3006491709865362
+          },
+          {
+            "parent": 16197,
+            "daughters": [
+              16817,
+              16721
+            ],
+            "added": [
+              16197,
+              16721
+            ],
+            "removed": [
+              15998,
+              16721
+            ],
+            "unresolved_termination": 15998,
+            "gain": 1.298858650423176
+          },
+          {
+            "parent": 49736,
+            "daughters": [
+              50289,
+              50356
+            ],
+            "added": [
+              49736,
+              50356
+            ],
+            "removed": [
+              49783,
+              50356
+            ],
+            "unresolved_termination": 49783,
+            "gain": 1.2870813455421788
+          },
+          {
+            "parent": 12458,
+            "daughters": [
+              12976,
+              13038
+            ],
+            "added": [
+              12458,
+              13038
+            ],
+            "removed": [
+              12487,
+              13038
+            ],
+            "unresolved_termination": 12487,
+            "gain": 1.282846893765246
+          },
+          {
+            "parent": 37030,
+            "daughters": [
+              37623,
+              37596
+            ],
+            "added": [
+              37030,
+              37596
+            ],
+            "removed": [
+              37094,
+              37596
+            ],
+            "unresolved_termination": 37094,
+            "gain": 1.2793899166353457
+          },
+          {
+            "parent": 27120,
+            "daughters": [
+              27831,
+              27750
+            ],
+            "added": [
+              27120,
+              27750
+            ],
+            "removed": [
+              27213,
+              27750
+            ],
+            "unresolved_termination": 27213,
+            "gain": 1.2606966471313448
+          },
+          {
+            "parent": 40757,
+            "daughters": [
+              41392,
+              41268
+            ],
+            "added": [
+              40757,
+              41268
+            ],
+            "removed": [
+              40670,
+              41268
+            ],
+            "unresolved_termination": 40670,
+            "gain": 1.2543440916194855
+          },
+          {
+            "parent": 35579,
+            "daughters": [
+              36216,
+              35989
+            ],
+            "added": [
+              35579,
+              35989
+            ],
+            "removed": [
+              35509,
+              35989
+            ],
+            "unresolved_termination": 35509,
+            "gain": 1.2144530514943301
+          },
+          {
+            "parent": 7575,
+            "daughters": [
+              8316,
+              8328
+            ],
+            "added": [
+              7575,
+              8328
+            ],
+            "removed": [
+              7985,
+              8328
+            ],
+            "unresolved_termination": 7985,
+            "gain": 1.1914341082736468
+          },
+          {
+            "parent": 27177,
+            "daughters": [
+              27859,
+              27838
+            ],
+            "added": [
+              27177,
+              27838
+            ],
+            "removed": [
+              27239,
+              27838
+            ],
+            "unresolved_termination": 27239,
+            "gain": 1.1572690856259773
+          },
+          {
+            "parent": 33589,
+            "daughters": [
+              34198,
+              34150
+            ],
+            "added": [
+              33589,
+              34150
+            ],
+            "removed": [
+              33641,
+              34150
+            ],
+            "unresolved_termination": 33641,
+            "gain": 1.1457397099002005
+          },
+          {
+            "parent": 27666,
+            "daughters": [
+              28172,
+              28239
+            ],
+            "added": [
+              27666,
+              28239
+            ],
+            "removed": [
+              27545,
+              28239
+            ],
+            "unresolved_termination": 27545,
+            "gain": 1.1157966780431197
+          },
+          {
+            "parent": 9860,
+            "daughters": [
+              10382,
+              10229
+            ],
+            "added": [
+              9860,
+              10229
+            ],
+            "removed": [
+              9758,
+              10229
+            ],
+            "unresolved_termination": 9758,
+            "gain": 1.0993254348693005
+          },
+          {
+            "parent": 3211,
+            "daughters": [
+              3855,
+              3922
+            ],
+            "added": [
+              3211,
+              3922
+            ],
+            "removed": [
+              3521,
+              3922
+            ],
+            "unresolved_termination": 3521,
+            "gain": 1.0914208605359963
+          },
+          {
+            "parent": 15446,
+            "daughters": [
+              16207,
+              16017
+            ],
+            "added": [
+              15446,
+              16017
+            ],
+            "removed": [
+              15540,
+              16017
+            ],
+            "unresolved_termination": 15540,
+            "gain": 1.0870938512290351
+          },
+          {
+            "parent": 41542,
+            "daughters": [
+              42325,
+              42151
+            ],
+            "added": [
+              41542,
+              42151
+            ],
+            "removed": [
+              41931,
+              42151
+            ],
+            "unresolved_termination": 41931,
+            "gain": 1.0342015189282845
+          },
+          {
+            "parent": 10916,
+            "daughters": [
+              11693,
+              11870
+            ],
+            "added": [
+              10916,
+              11870
+            ],
+            "removed": [
+              11253,
+              11870
+            ],
+            "unresolved_termination": 11253,
+            "gain": 1.027903720365622
+          },
+          {
+            "parent": 6267,
+            "daughters": [
+              7157,
+              7449
+            ],
+            "added": [
+              6267,
+              7449
+            ],
+            "removed": [
+              6500,
+              7449
+            ],
+            "unresolved_termination": 6500,
+            "gain": 1.0011495923125304
+          },
+          {
+            "parent": 9399,
+            "daughters": [
+              10018,
+              10152
+            ],
+            "added": [
+              9399,
+              10152
+            ],
+            "removed": [
+              9549,
+              10152
+            ],
+            "unresolved_termination": 9549,
+            "gain": 0.9895574094880453
+          },
+          {
+            "parent": 42115,
+            "daughters": [
+              42690,
+              42606
+            ],
+            "added": [
+              42115,
+              42606
+            ],
+            "removed": [
+              42106,
+              42606
+            ],
+            "unresolved_termination": 42106,
+            "gain": 0.9707234001491387
+          },
+          {
+            "parent": 51043,
+            "daughters": [
+              51658,
+              51730
+            ],
+            "added": [
+              51043,
+              51730
+            ],
+            "removed": [
+              50979,
+              51730
+            ],
+            "unresolved_termination": 50979,
+            "gain": 0.9699647927801509
+          },
+          {
+            "parent": 36128,
+            "daughters": [
+              36595,
+              36536
+            ],
+            "added": [
+              36128,
+              36536
+            ],
+            "removed": [
+              36165,
+              36536
+            ],
+            "unresolved_termination": 36165,
+            "gain": 0.9569652902443595
+          },
+          {
+            "parent": 26849,
+            "daughters": [
+              27567,
+              27412
+            ],
+            "added": [
+              26849,
+              27412
+            ],
+            "removed": [
+              26857,
+              27412
+            ],
+            "unresolved_termination": 26857,
+            "gain": 0.9026796353922504
+          },
+          {
+            "parent": 29412,
+            "daughters": [
+              30053,
+              29993
+            ],
+            "added": [
+              29412,
+              29993
+            ],
+            "removed": [
+              29255,
+              29993
+            ],
+            "unresolved_termination": 29255,
+            "gain": 0.8978076428095136
+          },
+          {
+            "parent": 43166,
+            "daughters": [
+              43871,
+              43708
+            ],
+            "added": [
+              43166,
+              43708
+            ],
+            "removed": [
+              43508,
+              43708
+            ],
+            "unresolved_termination": 43508,
+            "gain": 0.8942291080224543
+          },
+          {
+            "parent": 39217,
+            "daughters": [
+              39755,
+              39769
+            ],
+            "added": [
+              39217,
+              39769
+            ],
+            "removed": [
+              39031,
+              39769
+            ],
+            "unresolved_termination": 39031,
+            "gain": 0.8931911349725699
+          },
+          {
+            "parent": 25341,
+            "daughters": [
+              25971,
+              26050
+            ],
+            "added": [
+              25341,
+              26050
+            ],
+            "removed": [
+              25360,
+              26050
+            ],
+            "unresolved_termination": 25360,
+            "gain": 0.8897455782650912
+          },
+          {
+            "parent": 42245,
+            "daughters": [
+              42832,
+              42732
+            ],
+            "added": [
+              42245,
+              42732
+            ],
+            "removed": [
+              42069,
+              42732
+            ],
+            "unresolved_termination": 42069,
+            "gain": 0.8725250204413049
+          },
+          {
+            "parent": 46485,
+            "daughters": [
+              47054,
+              47020
+            ],
+            "added": [
+              46485,
+              47020
+            ],
+            "removed": [
+              46394,
+              47020
+            ],
+            "unresolved_termination": 46394,
+            "gain": 0.8600768158906931
+          },
+          {
+            "parent": 47135,
+            "daughters": [
+              47660,
+              47567
+            ],
+            "added": [
+              47135,
+              47567
+            ],
+            "removed": [
+              47114,
+              47567
+            ],
+            "unresolved_termination": 47114,
+            "gain": 0.8568291816637301
+          },
+          {
+            "parent": 17489,
+            "daughters": [
+              18058,
+              18169
+            ],
+            "added": [
+              17489,
+              18169
+            ],
+            "removed": [
+              17476,
+              18169
+            ],
+            "unresolved_termination": 17476,
+            "gain": 0.8546312370995595
+          },
+          {
+            "parent": 26496,
+            "daughters": [
+              27399,
+              27127
+            ],
+            "added": [
+              26496,
+              27127
+            ],
+            "removed": [
+              26594,
+              27127
+            ],
+            "unresolved_termination": 26594,
+            "gain": 0.8450475819056953
+          },
+          {
+            "parent": 9743,
+            "daughters": [
+              10319,
+              10357
+            ],
+            "added": [
+              9743,
+              10357
+            ],
+            "removed": [
+              9807,
+              10357
+            ],
+            "unresolved_termination": 9807,
+            "gain": 0.8436149146698484
+          },
+          {
+            "parent": 14144,
+            "daughters": [
+              14818,
+              14858
+            ],
+            "added": [
+              14144,
+              14858
+            ],
+            "removed": [
+              14362,
+              14858
+            ],
+            "unresolved_termination": 14362,
+            "gain": 0.8333933570539211
+          },
+          {
+            "parent": 13416,
+            "daughters": [
+              13968,
+              14022
+            ],
+            "added": [
+              13416,
+              14022
+            ],
+            "removed": [
+              13532,
+              14022
+            ],
+            "unresolved_termination": 13532,
+            "gain": 0.8273858931796987
+          },
+          {
+            "parent": 56739,
+            "daughters": [
+              57309,
+              57175
+            ],
+            "added": [
+              56739,
+              57175
+            ],
+            "removed": [
+              56487,
+              57175
+            ],
+            "unresolved_termination": 56487,
+            "gain": 0.8079350454481526
+          },
+          {
+            "parent": 34598,
+            "daughters": [
+              35270,
+              35012
+            ],
+            "added": [
+              34598,
+              35012
+            ],
+            "removed": [
+              34378,
+              35012
+            ],
+            "unresolved_termination": 34378,
+            "gain": 0.8037936264625076
+          },
+          {
+            "parent": 8040,
+            "daughters": [
+              8478,
+              8510
+            ],
+            "added": [
+              8040,
+              8510
+            ],
+            "removed": [
+              7792,
+              8510
+            ],
+            "unresolved_termination": 7792,
+            "gain": 0.7803363249928927
+          },
+          {
+            "parent": 2854,
+            "daughters": [
+              3647,
+              3509
+            ],
+            "added": [
+              2854,
+              3509
+            ],
+            "removed": [
+              2801,
+              3509
+            ],
+            "unresolved_termination": 2801,
+            "gain": 0.7751424640958102
+          },
+          {
+            "parent": 3943,
+            "daughters": [
+              4543,
+              4507
+            ],
+            "added": [
+              3943,
+              4507
+            ],
+            "removed": [
+              3978,
+              4507
+            ],
+            "unresolved_termination": 3978,
+            "gain": 0.7721857979188893
+          },
+          {
+            "parent": 37964,
+            "daughters": [
+              38566,
+              38412
+            ],
+            "added": [
+              37964,
+              38412
+            ],
+            "removed": [
+              37819,
+              38412
+            ],
+            "unresolved_termination": 37819,
+            "gain": 0.7714101077539199
+          },
+          {
+            "parent": 6486,
+            "daughters": [
+              7054,
+              6861
+            ],
+            "added": [
+              6486,
+              6861
+            ],
+            "removed": [
+              6263,
+              6861
+            ],
+            "unresolved_termination": 6263,
+            "gain": 0.7661314799721803
+          },
+          {
+            "parent": 45275,
+            "daughters": [
+              45803,
+              45800
+            ],
+            "added": [
+              45275,
+              45800
+            ],
+            "removed": [
+              45671,
+              45800
+            ],
+            "unresolved_termination": 45671,
+            "gain": 0.7638128744896433
+          },
+          {
+            "parent": 27846,
+            "daughters": [
+              28513,
+              28707
+            ],
+            "added": [
+              27846,
+              28707
+            ],
+            "removed": [
+              27932,
+              28707
+            ],
+            "unresolved_termination": 27932,
+            "gain": 0.7521372547951388
+          },
+          {
+            "parent": 9246,
+            "daughters": [
+              9721,
+              9899
+            ],
+            "added": [
+              9246,
+              9899
+            ],
+            "removed": [
+              8965,
+              9899
+            ],
+            "unresolved_termination": 8965,
+            "gain": 0.7480722742666195
+          },
+          {
+            "parent": 31572,
+            "daughters": [
+              32295,
+              32248
+            ],
+            "added": [
+              31572,
+              32248
+            ],
+            "removed": [
+              31752,
+              32248
+            ],
+            "unresolved_termination": 31752,
+            "gain": 0.7424584591961776
+          },
+          {
+            "parent": 40338,
+            "daughters": [
+              40868,
+              40865
+            ],
+            "added": [
+              40338,
+              40865
+            ],
+            "removed": [
+              40376,
+              40865
+            ],
+            "unresolved_termination": 40376,
+            "gain": 0.7388611893735035
+          },
+          {
+            "parent": 49764,
+            "daughters": [
+              50351,
+              50421
+            ],
+            "added": [
+              49764,
+              50421
+            ],
+            "removed": [
+              49752,
+              50421
+            ],
+            "unresolved_termination": 49752,
+            "gain": 0.7355096193512696
+          },
+          {
+            "parent": 36284,
+            "daughters": [
+              36671,
+              36775
+            ],
+            "added": [
+              36284,
+              36775
+            ],
+            "removed": [
+              36392,
+              36775
+            ],
+            "unresolved_termination": 36392,
+            "gain": 0.7293220186114535
+          },
+          {
+            "parent": 18122,
+            "daughters": [
+              18779,
+              18851
+            ],
+            "added": [
+              18122,
+              18851
+            ],
+            "removed": [
+              18100,
+              18851
+            ],
+            "unresolved_termination": 18100,
+            "gain": 0.7281057297948332
+          },
+          {
+            "parent": 27911,
+            "daughters": [
+              28534,
+              28438
+            ],
+            "added": [
+              27911,
+              28438
+            ],
+            "removed": [
+              27979,
+              28438
+            ],
+            "unresolved_termination": 27979,
+            "gain": 0.7278298173545767
+          },
+          {
+            "parent": 27321,
+            "daughters": [
+              27997,
+              27854
+            ],
+            "added": [
+              27321,
+              27854
+            ],
+            "removed": [
+              27128,
+              27854
+            ],
+            "unresolved_termination": 27128,
+            "gain": 0.725392065475494
+          },
+          {
+            "parent": 46524,
+            "daughters": [
+              47260,
+              46978
+            ],
+            "added": [
+              46524,
+              46978
+            ],
+            "removed": [
+              46432,
+              46978
+            ],
+            "unresolved_termination": 46432,
+            "gain": 0.7215134141667239
+          },
+          {
+            "parent": 25384,
+            "daughters": [
+              26085,
+              26076
+            ],
+            "added": [
+              25384,
+              26076
+            ],
+            "removed": [
+              25485,
+              26076
+            ],
+            "unresolved_termination": 25485,
+            "gain": 0.716454345712122
+          },
+          {
+            "parent": 4103,
+            "daughters": [
+              4629,
+              4733
+            ],
+            "added": [
+              4103,
+              4733
+            ],
+            "removed": [
+              3892,
+              4733
+            ],
+            "unresolved_termination": 3892,
+            "gain": 0.7139191652565273
+          },
+          {
+            "parent": 34312,
+            "daughters": [
+              34930,
+              34978
+            ],
+            "added": [
+              34312,
+              34978
+            ],
+            "removed": [
+              34380,
+              34978
+            ],
+            "unresolved_termination": 34380,
+            "gain": 0.7079748627086511
+          },
+          {
+            "parent": 4278,
+            "daughters": [
+              4943,
+              4891
+            ],
+            "added": [
+              4278,
+              4891
+            ],
+            "removed": [
+              4260,
+              4891
+            ],
+            "unresolved_termination": 4260,
+            "gain": 0.703659075922775
+          },
+          {
+            "parent": 6576,
+            "daughters": [
+              7171,
+              7248
+            ],
+            "added": [
+              6576,
+              7248
+            ],
+            "removed": [
+              6393,
+              7248
+            ],
+            "unresolved_termination": 6393,
+            "gain": 0.6947322762392261
+          },
+          {
+            "parent": 37033,
+            "daughters": [
+              37615,
+              37566
+            ],
+            "added": [
+              37033,
+              37566
+            ],
+            "removed": [
+              37046,
+              37566
+            ],
+            "unresolved_termination": 37046,
+            "gain": 0.6941872574359469
+          },
+          {
+            "parent": 55234,
+            "daughters": [
+              55802,
+              55777
+            ],
+            "added": [
+              55234,
+              55777
+            ],
+            "removed": [
+              55261,
+              55777
+            ],
+            "unresolved_termination": 55261,
+            "gain": 0.6919407359543599
+          },
+          {
+            "parent": 8650,
+            "daughters": [
+              9252,
+              9234
+            ],
+            "added": [
+              8650,
+              9234
+            ],
+            "removed": [
+              8608,
+              9234
+            ],
+            "unresolved_termination": 8608,
+            "gain": 0.6827007960578393
+          },
+          {
+            "parent": 53124,
+            "daughters": [
+              53582,
+              53604
+            ],
+            "added": [
+              53124,
+              53604
+            ],
+            "removed": [
+              53065,
+              53604
+            ],
+            "unresolved_termination": 53065,
+            "gain": 0.6699873364754412
+          },
+          {
+            "parent": 56943,
+            "daughters": [
+              57444,
+              57423
+            ],
+            "added": [
+              56943,
+              57423
+            ],
+            "removed": [
+              56870,
+              57423
+            ],
+            "unresolved_termination": 56870,
+            "gain": 0.6663334745837015
+          },
+          {
+            "parent": 41538,
+            "daughters": [
+              42119,
+              42031
+            ],
+            "added": [
+              41538,
+              42031
+            ],
+            "removed": [
+              41432,
+              42031
+            ],
+            "unresolved_termination": 41432,
+            "gain": 0.665465469256882
+          },
+          {
+            "parent": 32862,
+            "daughters": [
+              33206,
+              33467
+            ],
+            "added": [
+              32862,
+              33467
+            ],
+            "removed": [
+              32698,
+              33467
+            ],
+            "unresolved_termination": 32698,
+            "gain": 0.6645430323022443
+          },
+          {
+            "parent": 31530,
+            "daughters": [
+              32336,
+              32314
+            ],
+            "added": [
+              31530,
+              32314
+            ],
+            "removed": [
+              31703,
+              32314
+            ],
+            "unresolved_termination": 31703,
+            "gain": 0.6629297738117366
+          },
+          {
+            "parent": 22666,
+            "daughters": [
+              23123,
+              23263
+            ],
+            "added": [
+              22666,
+              23263
+            ],
+            "removed": [
+              22733,
+              23263
+            ],
+            "unresolved_termination": 22733,
+            "gain": 0.6599987323470533
+          },
+          {
+            "parent": 55780,
+            "daughters": [
+              56337,
+              56320
+            ],
+            "added": [
+              55780,
+              56320
+            ],
+            "removed": [
+              55841,
+              56320
+            ],
+            "unresolved_termination": 55841,
+            "gain": 0.6591383166429692
+          },
+          {
+            "parent": 43653,
+            "daughters": [
+              44237,
+              44163
+            ],
+            "added": [
+              43653,
+              44163
+            ],
+            "removed": [
+              43697,
+              44163
+            ],
+            "unresolved_termination": 43697,
+            "gain": 0.6516426656274887
+          },
+          {
+            "parent": 53025,
+            "daughters": [
+              53736,
+              53641
+            ],
+            "added": [
+              53025,
+              53641
+            ],
+            "removed": [
+              53069,
+              53641
+            ],
+            "unresolved_termination": 53069,
+            "gain": 0.6397766040348787
+          },
+          {
+            "parent": 34703,
+            "daughters": [
+              35125,
+              35016
+            ],
+            "added": [
+              34703,
+              35016
+            ],
+            "removed": [
+              34547,
+              35016
+            ],
+            "unresolved_termination": 34547,
+            "gain": 0.6384933262450792
+          },
+          {
+            "parent": 43590,
+            "daughters": [
+              44186,
+              44223
+            ],
+            "added": [
+              43590,
+              44223
+            ],
+            "removed": [
+              43664,
+              44223
+            ],
+            "unresolved_termination": 43664,
+            "gain": 0.6343571077763537
+          },
+          {
+            "parent": 27451,
+            "daughters": [
+              28268,
+              28050
+            ],
+            "added": [
+              27451,
+              28050
+            ],
+            "removed": [
+              27170,
+              28050
+            ],
+            "unresolved_termination": 27170,
+            "gain": 0.6334233471441748
+          },
+          {
+            "parent": 10209,
+            "daughters": [
+              10975,
+              11066
+            ],
+            "added": [
+              10209,
+              11066
+            ],
+            "removed": [
+              10431,
+              11066
+            ],
+            "unresolved_termination": 10431,
+            "gain": 0.6058218136538733
+          },
+          {
+            "parent": 14715,
+            "daughters": [
+              15465,
+              15544
+            ],
+            "added": [
+              14715,
+              15544
+            ],
+            "removed": [
+              14825,
+              15544
+            ],
+            "unresolved_termination": 14825,
+            "gain": 0.6037307925219924
+          },
+          {
+            "parent": 49554,
+            "daughters": [
+              50219,
+              50181
+            ],
+            "added": [
+              49554,
+              50181
+            ],
+            "removed": [
+              49445,
+              50181
+            ],
+            "unresolved_termination": 49445,
+            "gain": 0.6034765258507024
+          },
+          {
+            "parent": 32091,
+            "daughters": [
+              32497,
+              32469
+            ],
+            "added": [
+              32091,
+              32469
+            ],
+            "removed": [
+              31939,
+              32469
+            ],
+            "unresolved_termination": 31939,
+            "gain": 0.6033551424152326
+          },
+          {
+            "parent": 56096,
+            "daughters": [
+              56672,
+              56652
+            ],
+            "added": [
+              56096,
+              56652
+            ],
+            "removed": [
+              55940,
+              56652
+            ],
+            "unresolved_termination": 55940,
+            "gain": 0.5986976370274011
+          },
+          {
+            "parent": 13095,
+            "daughters": [
+              13522,
+              13605
+            ],
+            "added": [
+              13095,
+              13605
+            ],
+            "removed": [
+              12889,
+              13605
+            ],
+            "unresolved_termination": 12889,
+            "gain": 0.5977116963777922
+          },
+          {
+            "parent": 5502,
+            "daughters": [
+              6073,
+              6075
+            ],
+            "added": [
+              5502,
+              6075
+            ],
+            "removed": [
+              5439,
+              6075
+            ],
+            "unresolved_termination": 5439,
+            "gain": 0.5977070319020095
+          },
+          {
+            "parent": 33005,
+            "daughters": [
+              33758,
+              33607
+            ],
+            "added": [
+              33005,
+              33607
+            ],
+            "removed": [
+              33016,
+              33607
+            ],
+            "unresolved_termination": 33016,
+            "gain": 0.5970017168854411
+          },
+          {
+            "parent": 51927,
+            "daughters": [
+              52482,
+              52486
+            ],
+            "added": [
+              51927,
+              52486
+            ],
+            "removed": [
+              51949,
+              52486
+            ],
+            "unresolved_termination": 51949,
+            "gain": 0.5932408531240525
+          },
+          {
+            "parent": 53532,
+            "daughters": [
+              54027,
+              54087
+            ],
+            "added": [
+              53532,
+              54087
+            ],
+            "removed": [
+              53522,
+              54087
+            ],
+            "unresolved_termination": 53522,
+            "gain": 0.5905276227184191
+          },
+          {
+            "parent": 42578,
+            "daughters": [
+              43099,
+              43290
+            ],
+            "added": [
+              42578,
+              43290
+            ],
+            "removed": [
+              42741,
+              43290
+            ],
+            "unresolved_termination": 42741,
+            "gain": 0.581532829221429
+          },
+          {
+            "parent": 23814,
+            "daughters": [
+              24556,
+              24552
+            ],
+            "added": [
+              23814,
+              24552
+            ],
+            "removed": [
+              23583,
+              24552
+            ],
+            "unresolved_termination": 23583,
+            "gain": 0.5764795712290587
+          },
+          {
+            "parent": 20171,
+            "daughters": [
+              20770,
+              20798
+            ],
+            "added": [
+              20171,
+              20798
+            ],
+            "removed": [
+              20052,
+              20798
+            ],
+            "unresolved_termination": 20052,
+            "gain": 0.5740752451274893
+          },
+          {
+            "parent": 26236,
+            "daughters": [
+              26798,
+              26835
+            ],
+            "added": [
+              26236,
+              26835
+            ],
+            "removed": [
+              26204,
+              26835
+            ],
+            "unresolved_termination": 26204,
+            "gain": 0.5594815398510573
+          },
+          {
+            "parent": 6669,
+            "daughters": [
+              7331,
+              7112
+            ],
+            "added": [
+              6669,
+              7112
+            ],
+            "removed": [
+              6805,
+              7112
+            ],
+            "unresolved_termination": 6805,
+            "gain": 0.5487736363007043
+          },
+          {
+            "parent": 57024,
+            "daughters": [
+              57449,
+              57797
+            ],
+            "added": [
+              57024,
+              57797
+            ],
+            "removed": [
+              57256,
+              57797
+            ],
+            "unresolved_termination": 57256,
+            "gain": 0.5412721313146505
+          },
+          {
+            "parent": 8479,
+            "daughters": [
+              9198,
+              9244
+            ],
+            "added": [
+              8479,
+              9244
+            ],
+            "removed": [
+              8571,
+              9244
+            ],
+            "unresolved_termination": 8571,
+            "gain": 0.5370168929810355
+          },
+          {
+            "parent": 12263,
+            "daughters": [
+              12963,
+              13060
+            ],
+            "added": [
+              12263,
+              13060
+            ],
+            "removed": [
+              12406,
+              13060
+            ],
+            "unresolved_termination": 12406,
+            "gain": 0.5348801159275149
+          },
+          {
+            "parent": 30186,
+            "daughters": [
+              30789,
+              30830
+            ],
+            "added": [
+              30186,
+              30830
+            ],
+            "removed": [
+              30193,
+              30830
+            ],
+            "unresolved_termination": 30193,
+            "gain": 0.5164754916426495
+          },
+          {
+            "parent": 15005,
+            "daughters": [
+              15678,
+              15717
+            ],
+            "added": [
+              15005,
+              15717
+            ],
+            "removed": [
+              15027,
+              15717
+            ],
+            "unresolved_termination": 15027,
+            "gain": 0.509404972394434
+          },
+          {
+            "parent": 42843,
+            "daughters": [
+              43351,
+              43152
+            ],
+            "added": [
+              42843,
+              43152
+            ],
+            "removed": [
+              42568,
+              43152
+            ],
+            "unresolved_termination": 42568,
+            "gain": 0.5058476465991544
+          },
+          {
+            "parent": 55991,
+            "daughters": [
+              56494,
+              56529
+            ],
+            "added": [
+              55991,
+              56529
+            ],
+            "removed": [
+              56295,
+              56529
+            ],
+            "unresolved_termination": 56295,
+            "gain": 0.5013787667668224
+          }
+        ],
+        "unrelated_edges_unchanged": true
+      },
+      "annotated_divisions": [
+        {
+          "parent_gt": 25000381,
+          "baseline_complete": false,
+          "candidate_complete": false
+        },
+        {
+          "parent_gt": 53001011,
+          "baseline_complete": false,
+          "candidate_complete": false
+        },
+        {
+          "parent_gt": 63001217,
+          "baseline_complete": false,
+          "candidate_complete": false
+        }
+      ]
+    },
+    {
+      "sample": "6bba_062c8d37",
+      "graph_audit": {
+        "accepted": 3,
+        "eligible": 3,
+        "edits": [
+          {
+            "parent": 3886,
+            "daughters": [
+              3937,
+              3940
+            ],
+            "added": [
+              3886,
+              3940
+            ],
+            "removed": [
+              3884,
+              3940
+            ],
+            "unresolved_termination": 3884,
+            "gain": 1.5895570314123342
+          },
+          {
+            "parent": 2882,
+            "daughters": [
+              2924,
+              2920
+            ],
+            "added": [
+              2882,
+              2920
+            ],
+            "removed": [
+              2883,
+              2920
+            ],
+            "unresolved_termination": 2883,
+            "gain": 1.2064258130029877
+          },
+          {
+            "parent": 3402,
+            "daughters": [
+              3443,
+              3442
+            ],
+            "added": [
+              3402,
+              3442
+            ],
+            "removed": [
+              3401,
+              3442
+            ],
+            "unresolved_termination": 3401,
+            "gain": 0.7559191685750231
+          }
+        ],
+        "unrelated_edges_unchanged": true
+      },
+      "annotated_divisions": [
+        {
+          "parent_gt": 90001276,
+          "baseline_complete": false,
+          "candidate_complete": false
+        }
+      ]
+    }
+  ]
+}

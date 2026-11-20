@@ -1,0 +1,8 @@
+{
+  "url": "https://www.kaggle.com/code/dushi2/biohub-joint-division-linker",
+  "script_version_id": 351463546,
+  "kaggle_status": "canceled",
+  "run_result": "timeout after 43200.6 seconds (exit code 137)",
+  "scientific_decision": "no_decision_incomplete",
+  "reason": "54 of 71 first-fold samples completed; second embryo fold never ran"
+}

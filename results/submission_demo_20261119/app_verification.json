@@ -1,0 +1,15 @@
+{
+  "method": "Streamlit AppTest with actual saved inference outputs and exact real input file hashes",
+  "pages_passed": [
+    "Volume",
+    "Pipeline",
+    "Detection",
+    "Lineage",
+    "Exports",
+    "Compare Lineages"
+  ],
+  "control_variant_switch": "passed; separate results; no repeated inference",
+  "data_used": "five real frames per recording",
+  "test_fixture_inference": "loaded previously executed real model output, not synthetic predictions",
+  "biological_validation": false
+}

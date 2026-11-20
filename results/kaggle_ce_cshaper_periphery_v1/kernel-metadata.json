@@ -1,0 +1,19 @@
+{
+  "id": "dushi2/biohub-cshaper-periphery",
+  "id_no": 145042835,
+  "title": "Biohub CShaper Periphery",
+  "code_file": "biohub-cshaper-periphery.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

@@ -1,0 +1,22 @@
+{
+  "source": "https://data.celltrackingchallenge.net/training-datasets/Fluo-N3DH-CE.zip",
+  "sha256": "eb3d37cacb3b51d3a427a0c43deaaf1d60cf2eba009f12569e720c2c2fd1e04c",
+  "bytes": 3428322151,
+  "files_by_directory": {
+    "Fluo-N3DH-CE/01": 250,
+    "Fluo-N3DH-CE/01_ERR_SEG": 195,
+    "Fluo-N3DH-CE/01_GT/SEG": 5,
+    "Fluo-N3DH-CE/01_GT/TRA": 196,
+    "Fluo-N3DH-CE/01_ST/SEG": 195,
+    "Fluo-N3DH-CE/02": 250,
+    "Fluo-N3DH-CE/02_ERR_SEG": 190,
+    "Fluo-N3DH-CE/02_GT/SEG": 5,
+    "Fluo-N3DH-CE/02_GT/TRA": 191,
+    "Fluo-N3DH-CE/02_ST/SEG": 190
+  },
+  "lineage_rows": {
+    "Fluo-N3DH-CE/01_GT/TRA/man_track.txt": 720,
+    "Fluo-N3DH-CE/02_GT/TRA/man_track.txt": 724
+  },
+  "optimizer_steps": 0
+}

@@ -110,7 +110,7 @@ After one-to-one assignment, unmatched detections may be linked as second daught
 This rule increases recall of mitosis events while limiting arbitrary fan-out.
 
 \subsection{Post-processing}
-Isolated detections that do not participate in any edge can be removed to reduce spurious nodes in exported graphs.
+Isolated detections are retained and marked with non-destructive quality-control flags so raw observations are not silently lost.
 
 \section{System Architecture}
 The repository is organized into reusable Python modules and a Streamlit front end:
@@ -132,7 +132,8 @@ Figure~\ref{fig:pipeline} summarizes the processing flow.
 \section{Implementation Details}
 The pipeline streams one timepoint at a time to limit memory use.
 Zarr chunks are decompressed with Blosc2.
-Graph exports include CSV tables with separate node and edge rows and JSON graph documents for visualization.
+Voxel size and frame interval are read from OME-Zarr coordinate transforms when available.
+Graph exports include competition CSV/JSON plus observation, track, division, lineage, quality-control, metric, and run-manifest files.
 A \texttt{LearnedDetector} interface is provided for future integration of pretrained segmenters without changing the tracking layer.
 
 \section{Interactive Application}

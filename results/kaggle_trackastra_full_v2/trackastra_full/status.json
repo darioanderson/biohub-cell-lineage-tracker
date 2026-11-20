@@ -1,0 +1,9 @@
+{
+  "state": "completed",
+  "decision": "reject",
+  "seconds": 14182.068454504013,
+  "inventory": {
+    "44b6": 71,
+    "6bba": 128
+  }
+}

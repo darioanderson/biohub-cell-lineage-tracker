@@ -1,0 +1,23 @@
+{
+  "run": "dushi2/biohub-trackastra-pilot",
+  "version": 1,
+  "state": "error",
+  "reason": "offline pip dependency resolution conflict",
+  "files": [
+    {
+      "path": "biohub-trackastra-pilot.log",
+      "bytes": 98391,
+      "sha256": "9d90452c5e18adb4baa8ca24ca4350b76876ece26876c224677e40bf7c08efb6"
+    },
+    {
+      "path": "notebook/biohub-trackastra-pilot.ipynb",
+      "bytes": 92896,
+      "sha256": "262f4f739b4bc16aca2e6d652f7338061d67a06f6803b200b6e7a9414c04c6fc"
+    },
+    {
+      "path": "notebook/kernel-metadata.json",
+      "bytes": 577,
+      "sha256": "08f65cd78d9165731a4d96677d421a603d1b0f47e95220123cfc0b9a43764119"
+    }
+  ]
+}

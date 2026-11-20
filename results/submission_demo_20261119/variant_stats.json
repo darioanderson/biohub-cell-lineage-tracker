@@ -1,0 +1,18 @@
+{
+  "dataset": "Variant",
+  "shape": [
+    5,
+    94,
+    512,
+    712
+  ],
+  "nodes": 15,
+  "edges": 10,
+  "divisions": 0,
+  "removed_isolated": 0,
+  "flagged_isolated": 1,
+  "source": "Pretrained Cellpose nuclei projection; classical tracking",
+  "limitations": "Projection overlaps and mitosis cause misses. Not a 3D segmentation or genetic classifier.",
+  "spacing_note": "Source spacing used for linking; stage and acquisition times remain unaligned.",
+  "time_interval_verified": false
+}

@@ -1,0 +1,1761 @@
+{
+  "purpose": "Real-data input/model testing only; NOT a matched control/variant experiment",
+  "stage_alignment_verified": false,
+  "physical_grid_alignment_verified": false,
+  "control_conditions": "CShaper Sample18, mechanically compressed wild-type embryo",
+  "variant_conditions": "CMap MT_wee-1.1_2, uncompressed wee-1.1 mutant embryo",
+  "papers": [
+    "https://doi.org/10.1038/s41467-020-19863-x",
+    "https://doi.org/10.1038/s41467-025-58878-0"
+  ],
+  "source_files": [
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p01.tif",
+      "sha256": "d5d54674ac6ed163d7490aa26ed6b27c15e49bbfb9b985050fa2110e6c8ec70a"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p02.tif",
+      "sha256": "dcee4cad3f61935743c6fde9f4daca0543141c965f969264f410763869150792"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p03.tif",
+      "sha256": "2de4db259fd1adbe0618af52c780bf1b2a4eb5e11c37b362583c26efdfb43013"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p04.tif",
+      "sha256": "91fefe1abacb27e7c79124dac68e7823e16b1d709b92f0eff568ff3f1c2a0983"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p05.tif",
+      "sha256": "f779ed3a06b75ea0b22969e5eb52d30c1f42fc459ecc4e063e5a14cda6979a37"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p06.tif",
+      "sha256": "9220ec290c2ca101b6c68340d4b540d6780b35f608bbf961caeed8b0ab93a06e"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p07.tif",
+      "sha256": "7c4b048c17e3c6fc2467dc79ac432e5a0d4338a7654ca71a2c70ea65a5a35c13"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p08.tif",
+      "sha256": "57aed49e6a871761ad23f06e11af5be33e21f29287b73fcbe8ef4a51fefbd9c4"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p09.tif",
+      "sha256": "4f874f7e783ddae9c6aea997aaf53bd4449b17008165b595b7e70ce00a9b1ffb"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p10.tif",
+      "sha256": "8368b9ee0ca821d788791d8d60d69a0ebf75dd331d3a292d55f3f92fc6a71e4d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p11.tif",
+      "sha256": "b182fba8643b60fd5a14c422beb1a853ff7feaad3bb8c085b37b0953c58cdeed"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p12.tif",
+      "sha256": "84c1c3c690b0db99404407aa813c866cb4f7f38f6cdfd4b24bf4ec5b14fdba9d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p13.tif",
+      "sha256": "889ba18548dc7aa71c34ebb02f92174fc595186926bfe140de584d26dfd36b2c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p14.tif",
+      "sha256": "16a832f185be8f18486ba35f838be7affe600726cf6783474d4741daac745608"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p15.tif",
+      "sha256": "91033373cc4352f03463559abe94ac8d6454c720d18b731234a8764299276aa7"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p16.tif",
+      "sha256": "974001487234041c9a24a25a5a52fe4fb1ecc44f5f3f86bf1b8457b5d39af249"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p17.tif",
+      "sha256": "c0e16dbdfbe7ffd4450399a018f9fee198602b87e4e6d8fd2c4389af45ad36f2"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p18.tif",
+      "sha256": "d9d507c05fc649eb230e42ca3723a93ef2a50c694f8226bb9ae2a94c2ba68aed"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p19.tif",
+      "sha256": "c3baa0b9ee9a0ef45931f6255562e280bec86509c643727648147367775beb28"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p20.tif",
+      "sha256": "f47a70d02ba96f950840acbbfb209d96e92962386f706e4664722824ffdcaa83"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p21.tif",
+      "sha256": "bc85cbe164f1ca39e1a2add67c7c7a85c51d5d768d4ecbff48dcd196fd15fdd8"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p22.tif",
+      "sha256": "2b5b261deb456233fe940dad273b11e677e67110ce3e6b216c497ffb6bdbe96d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p23.tif",
+      "sha256": "6dc72d4f9b1c258c6b0b28475f04dffca746cddebfe9c8ede386bff3e02136a7"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p24.tif",
+      "sha256": "b1c7c15fdac9be17cdba9e75ff134daa3216957e46132dc638081c5209b90410"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p25.tif",
+      "sha256": "a6fc0533cd48ccd389ca7c95e394104a3ca0295ecffbcdcd52f974152a1dc8fa"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p26.tif",
+      "sha256": "f92bf7fbf7501bfbf421957aa72e24790a13be14a99d21ff95b3de005b4f685f"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p27.tif",
+      "sha256": "4abe464751e4b741ccfbbbb95a1989177c8541712ccaee588b86eee3840335f1"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p28.tif",
+      "sha256": "cbfaff4b5c2a94126aa2de18a3d9647ef04b4c076e729272773d627370f00c2a"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p29.tif",
+      "sha256": "4401b30abbdd4576b87ab4a140fdf6aa65245e5937467739fd81bed8e03c0111"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p30.tif",
+      "sha256": "7d7d3bf5399528711c268c30bd0ce8f7de3fcbc6ae41199bac8cca37fa14a4f3"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p31.tif",
+      "sha256": "af2e6e03fa20038b67eb503899c2707ccfb38677e10d34d10e05f67d1836c92b"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p32.tif",
+      "sha256": "d159179b74d848c098e2b6d5f9149ecb4c1bde7eead84da22783269654bc5937"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p33.tif",
+      "sha256": "0eec5c5b98c77f3fea04be2c1449fe179a8621c10083ecc7250efbbaefd22dc6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p34.tif",
+      "sha256": "76dece0a48e9ab79a117675c45eab33351b2eda4d21b538a01d5c8f4e604e178"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p35.tif",
+      "sha256": "3c22c33a1ad805f2ae7accd061c20e8d867a693ec0ef4e89faefab27947a6c67"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p36.tif",
+      "sha256": "06ff8945980d685d30cad19b851f9230e948027026bd5f4b785617eebaf0a496"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p37.tif",
+      "sha256": "65cafcb22da6de52622eecfb8f62612dcf345dbf0b0f8e508a88969dee8d522f"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p38.tif",
+      "sha256": "a3838828c4a93a43d8f2196967444070f540298f03b3a0078f04e52b3f598079"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p39.tif",
+      "sha256": "cedea0c152749af448999ee5f20953d836e027cbf21c1d53b83942079ed6adc1"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p40.tif",
+      "sha256": "1614d394b64063d29e4554dd984579e2cf0f1e8fa7e188f98a70066f784c2362"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p41.tif",
+      "sha256": "c5b2312d09c15fa80d6242255998a62e668110a5600bf748c881e9e87d7141de"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p42.tif",
+      "sha256": "efe0b76767eeeaab69e4145e3b964316dc65a4d6f64935977be20f61f86178b4"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p43.tif",
+      "sha256": "c1c564060799cf7781de4db14ec8ed23d6427954a270e17282e4fd6ac5ac93d6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p44.tif",
+      "sha256": "30b8a3fefb7c8ac2c69d6b9d395eaf38eb7e3d347d7c2c8678f7794ed4ab0e4e"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p45.tif",
+      "sha256": "fbb370e23ddff9fa0b9a9f32af5894c9d1daf655e097fc4cf411ff6b96921cea"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p46.tif",
+      "sha256": "dea1f34e903246aae98f640a4473bfd36fbd2e3b84eec8cb4f075e2b0401caf6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p47.tif",
+      "sha256": "ee19f0b86f109e52ce5770b07479e552883829f7e33eff875895f87470f56999"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p48.tif",
+      "sha256": "7cfde3ab7ef082967fc431d79d960b629af6bd730c47ffa1dc6e8cc732920dd5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p49.tif",
+      "sha256": "31a76d3736720af6298711d9b2e16e998ef2b15ec0e4eee7f1de3f3bda2bee07"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p50.tif",
+      "sha256": "5f6329012bb92291694fe2dcc4e41499e11435c3c353b71f9f3e60e71171a605"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p51.tif",
+      "sha256": "390583bb416c6ea25a3ef3276d38051aa3301a3bb33a17ed97bf0ec492fc1a2f"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p52.tif",
+      "sha256": "124e9e96da07ba58a4cf9ef31ac90d6c4126ad9f0684ac507f53f78027730c7a"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p53.tif",
+      "sha256": "9172efadc204aba547fac644a7c295f22a1bff13100746afa8a41f7ce3418693"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p54.tif",
+      "sha256": "51a4ecd2de3cea759b13947b665f3dd9e71405f172bb937c1f14e816a19c2c14"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p55.tif",
+      "sha256": "8ed1c585e856a1e28f11ad87fcf3dc1db50d769526feb917e5efa27b1cfd9556"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p56.tif",
+      "sha256": "1efad8a8679426b7ae3ecb55938ec7d12038f7c7a99527751c719b5687859c54"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p57.tif",
+      "sha256": "187f385026afbcde137a9ff30c2b6aaa94f18e85e4bb09be5f0ab87ec967adf5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p58.tif",
+      "sha256": "3a08488362a011a48047f6251f150a2dc3c7799cbfd5adca5ef447891d2d90f8"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p59.tif",
+      "sha256": "cdefb039ee2cad46b163e058dc873d3df9395102b0bdc1c9d54d2517fe2b7b11"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p60.tif",
+      "sha256": "aa90f84b9b1e8954ee9a9c80e58f0c4f53840d40460a364b448c3e91bb4b119b"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p61.tif",
+      "sha256": "080571e149ab53ea15673d862abb945ec8d8eaaa03ac22d956b27686b0b7906b"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p62.tif",
+      "sha256": "0eaeaa00e4e9a7734973b0eb3abd9853b8e46851e261c026c8aa1d296586ad68"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p63.tif",
+      "sha256": "76cd9ede8832c16a5e25c8b1e22a21a96c3b8012a2794e72bc913ba34ae4e153"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p64.tif",
+      "sha256": "c6df3ab918716b52eafaf1e99721185eb255c7d2181d77d96d7d049ac65f63cf"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p65.tif",
+      "sha256": "b119e332c9d9aea2c986da70f16c30a0a6edc0b69ccc9b19c6a370ad7185475b"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p66.tif",
+      "sha256": "bde22a606f8fac0635e8592b5db9b315597aa19cea22478d543b24bf4c342543"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p67.tif",
+      "sha256": "faccfb90386c4eda2d3687a4831118c6baddb1ca05c0d0dff4e185070cc5b8bb"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p68.tif",
+      "sha256": "d4410d3631ee6474669124d6f4ec5f2550d9806de0d335f085b2d9e0fbef85fb"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p69.tif",
+      "sha256": "b8e4edc9cec9a424f25a7b969b501c8454782d55620a9999745895dc0f090857"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p70.tif",
+      "sha256": "2a71478b55d7bfd31d4aad2b2b449d3b73edd7bb63099ed6eaf9df6d739a178c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p71.tif",
+      "sha256": "f216fc568c6ff78c8b2bacbb040e63efaa2360084d9c0768b8043ea035841182"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p72.tif",
+      "sha256": "9bf7395be5d97335811837025b758f694c7553eec1e02434475d3682bf26643f"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p73.tif",
+      "sha256": "af44e82482ceb23b02c19d6b4209333762ec9025ac098e26dbe253710139fa21"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p74.tif",
+      "sha256": "db4971bc39bcfc7b0d1a16557ddc90b93939e5810b1856363356bcd2ec1c2a16"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p75.tif",
+      "sha256": "4f10cdcffd0aa3ddf39fa2497659ab1243e02ee223c0ddeb35e62b5bbfe66148"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p76.tif",
+      "sha256": "68b64a11bc190c5b93799ea8c674f8bab29d2b96cafd9120b2cdccb47f2e686f"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p77.tif",
+      "sha256": "082cfdddf70921a1cb86e5cb24fc4bb64671557110f7cbe547f58eaded759e47"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p78.tif",
+      "sha256": "1950ca0e609e34fdaa3cd116c25b924773fc77e8336e9c91a373a4b349e61c29"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p79.tif",
+      "sha256": "841d0c13b40a9199a11c67f0aff9c6421c696af16ac8b204193154b97226225f"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p80.tif",
+      "sha256": "c3e3c27600c35700640d106be3094c0016615a14fa1f4cf30d7735dfd9fca54f"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p81.tif",
+      "sha256": "4ea946bf501fffe715e1e3cad5e09092f14725d58e46ad37a16d9a5ff3c0a4c5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p82.tif",
+      "sha256": "999eb932e5435900886e69a4023fec0927b0598eb138252f08907262e1825828"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p83.tif",
+      "sha256": "a8bd90213da46dd4be0f5e8d4de25a3108cd66c3fff6accb1a9a613b8aa42d61"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p84.tif",
+      "sha256": "f82fd5a76cacca659946a4f8210d06b56662f68ae0edb9e0a1ada1b480f49c06"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p85.tif",
+      "sha256": "c0cf06af8ffdf6998453c1a9bc17b4d7d9c3d9d40e5ae6c098ac806a1ad80362"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p86.tif",
+      "sha256": "0e5345b1d55f73d2d712c524a6a1a163cad8a999a68dfa70244a5401ee48f370"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p87.tif",
+      "sha256": "dc9e91cbf07fc494b0dfa45135d933d855eed0a4dc4886a2c806be6afeb1da17"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p88.tif",
+      "sha256": "b78e634b6c2b356be3414e95bb571556536e8eaa6780065449ad77af4e203515"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p89.tif",
+      "sha256": "0bb258ed84533b414cb9dc90cf889c49b41a4507c76a4da03ed878fab899de9c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p90.tif",
+      "sha256": "fe6642e3d8e883ab62355c6eebb9bd1ee1607ea98741ff48b9047d5d16c3a7ea"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p91.tif",
+      "sha256": "3bd2ff1dc082cfb0328408052e105a6b3dfc836712808279398e06b0e6227a98"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p92.tif",
+      "sha256": "f20c1fcb62bb5dfeb227fdd0c4c63d95252b263d82df4a11c4f191d3bae020a0"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p93.tif",
+      "sha256": "3bd2ff1dc082cfb0328408052e105a6b3dfc836712808279398e06b0e6227a98"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t001-p94.tif",
+      "sha256": "94942a3d9890c9970af7444a6ef32bec75d7ff4e0abccb51fc5b9b2b5cfc8e33"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p01.tif",
+      "sha256": "8f140f46cef1da9ecaa4a49057c0942ca29d6665eddbd114b6f11ee79dc95bd6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p02.tif",
+      "sha256": "e0a9e91152fa0c6dda340fe3f9a16e5b80adcf5ecc0267f33779158951d786d1"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p03.tif",
+      "sha256": "e327c7e12238cba36998dfd082443bf476417a18bb96ceefa136522078b3c1c6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p04.tif",
+      "sha256": "fb57bf08df03ad48228c3ad7cfb67a769e47b2d8a4ec299835998de919ae6d8b"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p05.tif",
+      "sha256": "ef73435a46c5adebef99120ce3ee56750f3e1b3cf6cbbca78656c0ea3271e6f9"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p06.tif",
+      "sha256": "0d78ae5f64947d8005b829bb706da7c7a87e8189d67ec751583d67a898c0becd"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p07.tif",
+      "sha256": "f9dd5206c28e33b5328a9e97be89cd8352afe67f7fc1f1ddc18d7e07bb655ec5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p08.tif",
+      "sha256": "b600c1933c150c6926ca307d3a41e2c4331d09dee0cdc618e2a6d046c50465b4"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p09.tif",
+      "sha256": "494655684292014ea955e77f08ead17216424943a6331743331f307b85112b49"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p10.tif",
+      "sha256": "2e62113529a8c38754f7d29b1379b78448e1033bbf8c08a758db001fab04763a"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p11.tif",
+      "sha256": "5928fe0b6922b15bd855e51974a137c6c9d0b79c2d42221860d7cb105e0458dd"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p12.tif",
+      "sha256": "e3e05a27772541339eacb39a06410b1088d5fcbe834b34a810ced358079a7adc"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p13.tif",
+      "sha256": "33e3941cc91e1778c3073d6b9c0544a7a01ea48b3a72110926a3762cfe771233"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p14.tif",
+      "sha256": "72a3300a51fff684fd21a272937deaa67178da72e8a27be5af53e275230be147"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p15.tif",
+      "sha256": "a66609a6b67753f3a07ffd1bf5707568bd2897eb028f2a222ef071216a53cec5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p16.tif",
+      "sha256": "f6b2393e9f2c0a97b2e2bd595b9ed15e4e7af85a43f3ba1ba6b2dcf0a62bcc74"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p17.tif",
+      "sha256": "14ff5142614c43fba0cc58ac83fb899db092794788b29f36366db43dcb8d66aa"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p18.tif",
+      "sha256": "badc43a11d14b38b60260c9f907f9ab9cb74cd392493e6bab4b83aea4c38ab10"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p19.tif",
+      "sha256": "e79cd3eab9f668c54352a358addb9aac81fb54ae52a0365d3dce795cf3f1eb04"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p20.tif",
+      "sha256": "dcb6a4859e7ca1931f5bb9dafb28020cec5a30a0337dfea23f2f4e6de205bc7e"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p21.tif",
+      "sha256": "d8a6da7b7f0695d1477080ca0a778e7e7d7caa4324e699f6ffbbb2765d716559"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p22.tif",
+      "sha256": "30168380f5824657c5e4c699f1a85d87baa56580dab51af8b50804a40fb2ac30"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p23.tif",
+      "sha256": "2cb318f630eea41ccdc5ac30aab8d46e41a0aa20ed25095e432eefe6a476e6c8"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p24.tif",
+      "sha256": "2726f92df491dcb02a744527f4ae9321c7592f624493dbd3cfd15f00fb46f523"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p25.tif",
+      "sha256": "37f52df3561bcfa87f86116d6997b8dce3da09fc5788a857283d404b54cb2350"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p26.tif",
+      "sha256": "6c34a58adc99683c6c6df478602c370788ee9be8ac93a43ac3e0124f29365d5c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p27.tif",
+      "sha256": "d72ec7a1eea1642bb240c7e73111203d770e1c9fb559afd962796d35186e2bff"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p28.tif",
+      "sha256": "6c0ef681f560e6c4c174bb3df5c38bb12451374d352eea9233b3c91afd9d4e9d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p29.tif",
+      "sha256": "6960e8cb8c448d95b0a3ac521630d77b24b3f7d372187b12d4ddaabbce3fcc4e"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p30.tif",
+      "sha256": "337e169102f319fe3a2f179c345b790554c4926aab04a1d24bf2473a62eb523a"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p31.tif",
+      "sha256": "d29e4f0583c0c892160d4d4a29090d744ee9d92d1d8385958fd1221880b9e7b9"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p32.tif",
+      "sha256": "82576a6519dc59e06f548bac18704a0f3305ca9ac0a118e461487cf12b53518c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p33.tif",
+      "sha256": "85399b95498cb4b0e416132209d8551fd32e985b5888eb8e5a83821b241d1826"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p34.tif",
+      "sha256": "7f98b0b1607793ebaabedefe3aaefaee8dbd5c02bda235152311609ca06bc0e6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p35.tif",
+      "sha256": "383f1c4e0b20e12e136e0dbc85e35abc6d0b38529659837882b2a248e01882cd"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p36.tif",
+      "sha256": "a1ad0b1f44b17da489cec03f39a1c7d0b9e57e7985ff89d6c71b1fc9ce752dd8"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p37.tif",
+      "sha256": "c3fd63e01ea02066442b8cf90ecfb3e99c0ad120e0a6ecffb10464edf4a862e6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p38.tif",
+      "sha256": "239c4500701bd41d1ba97fb91a8bc2ec546109f86c4c5858ccdc42ec11138491"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p39.tif",
+      "sha256": "09f53d96e7b2cf8de09f00a880b7a429e784686ba1fba2c201789c1e36062000"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p40.tif",
+      "sha256": "0ea09efccd015ac5563793b15028901ec42fe700653f34ce36d3c4b901d8ec6c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p41.tif",
+      "sha256": "2af29f16c85b12b3b2131cb394c3fa9c134ef239bca5f93fcde7f81ba8ec94a5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p42.tif",
+      "sha256": "1b8732c68171cd3137dacffbf3efa6ab1e4e23551ea0a2357eeb789c69046d91"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p43.tif",
+      "sha256": "e1f4bdbccba89d5c6edb6bca5a2b79035b00625d4b7fc2095e68166eb6da0423"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p44.tif",
+      "sha256": "83cce519e37ccb7bb3708a25cbe760f4fc4b242051afe07ca4fd2b8f91fe1135"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p45.tif",
+      "sha256": "6bf49c64543b68d96d35e05dfd5e5ca07bbbde5c6bb45541bc69d2ba3c62585c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p46.tif",
+      "sha256": "bc99cbfad800c259cffe25052cb6f28498b6d373034ce2a2ea89191c5fc1def6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p47.tif",
+      "sha256": "cf945e01d7f25354b9c2d56d3a8472dd0c2cbe76a907ba3e97d25a92c8513071"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p48.tif",
+      "sha256": "cc8b7036ee2bb6959bc1d85fdeadb89a165fff0721da8586171160a7ca70753c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p49.tif",
+      "sha256": "27a6a45bd9f0a4d19a7592834185b5f0c2e131a526e38ec2c0c9130c4349912f"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p50.tif",
+      "sha256": "4833838a3fab216405a60adada555597ecfc3a442dd8f430333568862a8380e8"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p51.tif",
+      "sha256": "c5fa301b3d2eba4d947bae4e44bcb7f948797302676d6cdaadedeec015814905"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p52.tif",
+      "sha256": "4efbbabadac3dc70a0b53262615fb5365aaafbbb8fa0706cb022a6d09e4f0592"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p53.tif",
+      "sha256": "81351f39a9829f22d3e6c3d72fcb2607421f54035778c90eaede32af567283db"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p54.tif",
+      "sha256": "98f992cf667fd422d79ffcbe8e5cb8a0becceb5493af40211be1b383cbc2e769"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p55.tif",
+      "sha256": "50ef58a458d7eb139ba05646f5b4380bf1c56a63c895907f06ae939848a155f7"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p56.tif",
+      "sha256": "61df46eacf65fc87704e08c6878ea49c4de6e68195095ade5f94e78ba718164d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p57.tif",
+      "sha256": "e92c0ed0a59e7b1521cdef0891666b3077014b7350d7cf4fd1cb3ed1c4ba9b5b"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p58.tif",
+      "sha256": "39df2c660afd0ba37f57d39794b1809e3b8f0c4111d7b8ece5f44b0424b841fe"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p59.tif",
+      "sha256": "3106bedf3353477da01645fd0455c772200e2a1fa0a887d5764560a3549c75d7"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p60.tif",
+      "sha256": "619a063bc1c11fd6bacd16fb80ebded0cde8357a3edf1e21802bcdb15a1c7ac3"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p61.tif",
+      "sha256": "a08c5a6d84b95bbf596f8150ed5b2ec8208706741ad1660b667e5c0c5baf8bd8"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p62.tif",
+      "sha256": "7d1bfb2894868854fe511aa03d9f3bf383b4914bd913330f731470e9bd675f4a"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p63.tif",
+      "sha256": "38f00e775bb80964f4fb596e9a99366f4511a4a36005d913dd42a72581216f63"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p64.tif",
+      "sha256": "5d3e8bc06b5acd00c666c87fd425b905e3cec5f61ab520ff389307d6440dfaf7"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p65.tif",
+      "sha256": "1b42c729a3555425c42e7551d2eceba2dc0761e8c7cec69e78269bf084666d1e"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p66.tif",
+      "sha256": "4b4e4bc7801ce98bcdc59b8729c4b711cbf06872acc56d8f502ad85e6021a235"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p67.tif",
+      "sha256": "2188a8c593e16734538a68d88934166fe3d045ffa629c49a84ba618673ca38ff"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p68.tif",
+      "sha256": "5ef80d71bdd337ea8eef52caf3bffcf4fbabb3901bdee5d8ba7c8eb0194826db"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p69.tif",
+      "sha256": "8beb3ce44773898c8823f9539c784b2014374e31aec42586794a33ae52a578d4"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p70.tif",
+      "sha256": "06662f6775188b9c561c9e548ae4e195575778afa4bbdff35b864d60e50f7f25"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p71.tif",
+      "sha256": "7d01a7381cb04bea3c6e90adc4b8d87fa1ce7dce1cf60fa0e0fc536b3576b4b5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p72.tif",
+      "sha256": "994d8ba774bf4d638a72c3ad21a7cfdfe40c19266140269e686f329ba1c6ed70"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p73.tif",
+      "sha256": "34ade196817a8b3155009ea3bf73ef267d353fac117c493b4795398586083867"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p74.tif",
+      "sha256": "3690f2479c2a392a92f7163a5d40043821dd9083ea8cdaac988371ece3d7b2e0"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p75.tif",
+      "sha256": "8c4db930402ffaa52d0e9cb9f1083065bac630f6e35f26c697181fa16f7f0ae5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p76.tif",
+      "sha256": "4fe546bd1025e2404380c1736c8d981d12a3653cfcde42b996a2b39f677ec1b0"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p77.tif",
+      "sha256": "284514cf9fc07427b76d4e489a5946374b6c0665d6d395993508c0472c340bf0"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p78.tif",
+      "sha256": "9c4eb5f2dd69b7df8ab238ab198fec861676eb4a451e4c83ecd5768c53ac0962"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p79.tif",
+      "sha256": "3acb061c975189fe2154eab332c285d963b4ed88ebd22fbfa5cce443b497f6ba"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p80.tif",
+      "sha256": "e89e05cfd585ab465a00611d32d85e06acb8529690d0384e28adc5faf22a72b1"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p81.tif",
+      "sha256": "0e858ed2f343871b1de954fe4cd1f2864c53b1f201b47f1f39f321ce34e31c0d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p82.tif",
+      "sha256": "151409d5d1a658c3de43c73d94e2ddaa8a7c5fffe148b3ce6d85a1cba5904532"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p83.tif",
+      "sha256": "832df1d21e8f9c3953b4bf80f1ec6ffb26f996677f68edc387a4f891a0b2867d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p84.tif",
+      "sha256": "bd288aff45ca3ef5a93c911a34578bb92c8ad1ee27cfb3c809337e1c4995e959"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p85.tif",
+      "sha256": "e439b22607c8474b30cd65c48bd010fdbf6174c78e74caa68c33c501fab912e3"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p86.tif",
+      "sha256": "9d88e995f4fcb4d29a46168e0780d21b2ee022c8f29d2bade087f261c54cffea"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p87.tif",
+      "sha256": "2210223eaa2c6a29dcb823dfd4e3afadec2e829cd20a8a1bb17f8e69f1267064"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p88.tif",
+      "sha256": "dba6de165eaae426c45180df99b496be4ccd3b07d1b2099d8b87a7d282d3060c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p89.tif",
+      "sha256": "846b08adea020ed73cb7e99135e8b02cab4d586dc1d279858251a1af76a8b92c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p90.tif",
+      "sha256": "58dab690a8509b6740f9954f2debb0771fc7b3f08bdb9c607a6f5954ee40ac0c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p91.tif",
+      "sha256": "9474a14de47683a113ff4b8a96d3074f627c806cd7416715299dac9b0140c792"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p92.tif",
+      "sha256": "cf3a29563e4cb850fa5424e184b65e92546b2f1a09feef6629f936dc448244d7"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p93.tif",
+      "sha256": "bdecf25876ed5c134440864b37545208657875d62b9729820e451a063159bd4d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t002-p94.tif",
+      "sha256": "d8943635cc097f15aa68a99ea10b057a0dffa4487ae4cadc856cccfe5c610f66"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p01.tif",
+      "sha256": "8eef1d766f91c3309093ca931dd23b8c05b801d666bfdbb464f4461a9c335cbf"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p02.tif",
+      "sha256": "0244adb8f679a8da595f9275faf87c9f10eab0f060bfd7551990ffaf6036c3f4"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p03.tif",
+      "sha256": "79fd1a93961ec3a63284526f05c7ed43dfd8f9da87f08cb3c4fb22bab5b102db"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p04.tif",
+      "sha256": "48e7ff1a9e6297922de942fd9f9c805cc339138f7d318a7b22d7c36ef37a5d97"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p05.tif",
+      "sha256": "0633ce2536217b961644d5b7be400da9f77d478ec8e449700bb59022575ff669"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p06.tif",
+      "sha256": "46b14106ee4b52cc19d1b51ebc5a37d7bfd597d253ff6673ee1eb74afd3dfce7"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p07.tif",
+      "sha256": "0c0c1d2d125fb0022bd9bfc471d0183ecc6afdb4e998fce98efae0cb236e1ea8"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p08.tif",
+      "sha256": "714113d3544cd16462349cda0a04bb76e2ff3abbc9af1f728eb5570fd2b17bfe"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p09.tif",
+      "sha256": "795d04a34e451d989954b1d9dee9cbb1d312184a690f027edb709a07c020b9a9"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p10.tif",
+      "sha256": "8b31c8b777ded27e075e4567cfda1b7bf1828dd2e4d2ee2d477bd12cf9bfb085"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p11.tif",
+      "sha256": "25274d8f1c1363744591b969c55c26d2c8a1ba0c9dd6696fe8d86efffa61dbc5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p12.tif",
+      "sha256": "fa0c3e1f9b394ec4cf598db11cc28ce1e84f5811b62f74bf0de42dc25fbdabe2"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p13.tif",
+      "sha256": "71bbfa6716c915b814d6527bd9ca47a9aee7f79b47b5ce13dbdd84945fbe102e"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p14.tif",
+      "sha256": "dffe59857e405baf679e763f521f0b32d7ee15b83a72dbce96825d014645ce88"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p15.tif",
+      "sha256": "7e9df9909756eaf970d074525e821629267032b44f9c361eeb9afca70789b9a1"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p16.tif",
+      "sha256": "aa2f3d80066439394b7bfef24f5fc386bafef0fd6e2da6f88c08cda51f9695ec"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p17.tif",
+      "sha256": "e2353acb15168143edd6eb3ab6ac3bcc2096d50a492fc4cacc0974d870d2faed"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p18.tif",
+      "sha256": "79c67e0267f6821f2ae175c91282478cdff6003cf80167e6714ea1d7256bd2e6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p19.tif",
+      "sha256": "008937a8d2ccc2c12cae6cf3a5a14ca065568d3b60519d1cb189e3f476b84918"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p20.tif",
+      "sha256": "1f29e2888b0cc1139851fceb8700951bcbde96d6c9c71fc07dc5a66545bb9856"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p21.tif",
+      "sha256": "2ce50b2914f003d1c554297c12dc187c2a8cb8b7d3904893c167d0e685e93f14"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p22.tif",
+      "sha256": "37402a2a94416ff5c24547ef3227b100b6b9c4cdaf7669a6b5d080504449a530"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p23.tif",
+      "sha256": "2164722b36a8f12465073cdf8f22b9e88031ad0a89559fb8cd699bc6ee0e5dc8"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p24.tif",
+      "sha256": "b695c0f71155933e39542644354fc33b9bf4f1c0797946158e51fd9f0cce0082"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p25.tif",
+      "sha256": "56248f65ae5a220cc698673b8c7dc8a9b3d7284ac61c57f1b8a9c6dc4412a8fe"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p26.tif",
+      "sha256": "570b8f0f4040c52d478a14cc98b915051d6a2c154ddc4b44f5d3b4f180f301d3"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p27.tif",
+      "sha256": "cd481e5086c9001dcf2e2a76f23675ee1f4b966b81207bcee08896b910a6b127"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p28.tif",
+      "sha256": "8b3121215c3de9949240fecdc4d40474d1338d4304393d0cee799e81c6ee3ef3"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p29.tif",
+      "sha256": "4a85862f9c9cac2ce5cfbf12a7f3b6dedd6e1b49d48af9f7071533ed966e0ddb"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p30.tif",
+      "sha256": "f1ef5fe308c2d83ddc5f4ccf97b4e788664ad1e1d1ddb75300500841ed5473ba"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p31.tif",
+      "sha256": "1857817c1246f2c1c9d57f2e54c8e50644a3702a1f2a086406556dae6c15a2f6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p32.tif",
+      "sha256": "dbc475e139ad2e4e1b2140e887b85d61fb95c31ca4899c50f6aee8165d3b15f5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p33.tif",
+      "sha256": "a968f26f503befe81ccdd1711adbdf29f72e409ac2a7691b0ba0cc5b0249088b"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p34.tif",
+      "sha256": "d8297f00d5e3c390040f0fee02543912a7a4aea277da9a8859888f9f4053f351"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p35.tif",
+      "sha256": "42d0cd71d5c96ed39a9c55553892f9b023fb7b7ad938ca416bc14658e4d9568b"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p36.tif",
+      "sha256": "60305e93be98e794d6ee68333f1fdfd898b659feaa53182f1d1135b9473908aa"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p37.tif",
+      "sha256": "c65df930b552c0c12298cdbdd7089944d7a34d63fcaef5c66b82ba6193da60f9"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p38.tif",
+      "sha256": "6e6bda9bb8ac29fdb25e9824efc45d4338298d86c265d349f61e0456bdc0916c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p39.tif",
+      "sha256": "4f6ae6eba5bc14be81595666a8bdc684a68a1ff6a6544b8ee80e3cb443eed9c3"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p40.tif",
+      "sha256": "adcf786805b0f1f1165464a9f4abf66352e466de9cc3ca066fd680bad1376835"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p41.tif",
+      "sha256": "07472aa74f69f6fcd5ac01b639dd0944cf5861b4c5ea9f34896064fad917d574"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p42.tif",
+      "sha256": "590d3fee1e3a3adc49544d726fa455d0f1cd1bea7a106afb42df31e151bcd735"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p43.tif",
+      "sha256": "e7b4a62fd9e4d3d04ca275d6d70bc06a641f494e851ba6b1f4f689f203cefe63"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p44.tif",
+      "sha256": "31e4688299531b2894ec685dacaaa4e6b610c18385599298e63f2cf30c50123d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p45.tif",
+      "sha256": "5d7f4305c0fb00fa5ed240816440048bce915932c2b718472a147fe28c054ea4"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p46.tif",
+      "sha256": "c5a79134c58abf8d3868923becee8b6e69aad98eea4cbea0d7d309f3c5027c8c"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p47.tif",
+      "sha256": "950c179e6245606124557d4f3c6627946e32b0c6085f726819484214af4f6371"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p48.tif",
+      "sha256": "3b9a1872d5b2f2f1c9e704fa6e51a76579d12b50cb70368e95d0280c40decbe7"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p49.tif",
+      "sha256": "f5ac6f3bf9df26e41b5bda913427f05bf07e90141bb053f0c039d385fa7d61a1"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p50.tif",
+      "sha256": "0503b38df45ad161eebad1a3391bd9d654c1ca9b5fa319070d70db1bf4225d89"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p51.tif",
+      "sha256": "fc6b2bcccf83126f1b114034a24f0af2880cc29b2fee15bba017dceca31b8f96"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p52.tif",
+      "sha256": "3df01f07647555bfd2cffab112da2a64420ca69df20e8fc6cadac9dfd06d508e"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p53.tif",
+      "sha256": "bedc7139bd32bbd5bfa44f8ff86cc1fe5896d809fe41882b0152f5c583e38645"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p54.tif",
+      "sha256": "a0fc8e5dc200d003d415bb10a66884825f10ef5440451818ecb10f7e21b70bb5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p55.tif",
+      "sha256": "714d1934fe472123b5013db38c11e81df1a1d51d4cc2e9c9079461c4880bf683"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p56.tif",
+      "sha256": "5b84459b2e11e3c9db674ecc54ab6f518fbc4c583927beda08c53d7ef9cac842"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p57.tif",
+      "sha256": "f7d4cb3e1caa725ce6d0678f756f0cfa41e54e76731c6e18785d01259320c1bf"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p58.tif",
+      "sha256": "a4e0790320090ff0d2ba68ceecc4e5988cb8c40283594870ffb464e267a0fa6e"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p59.tif",
+      "sha256": "8d121ac00bacbc5829110611eb9fad8c77ab4787083d1d764b9d2cb196018c30"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p60.tif",
+      "sha256": "3650653e726feb15b21c3c881b92fb45c3813be450a9deb049b360ba09ccee01"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p61.tif",
+      "sha256": "fc534b4f204cf30cae02b2fe59c357e803a1767d5ee09263b151a46aa12a8fc6"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p62.tif",
+      "sha256": "1886c3bcc34ec619c178f29abf2985ed216caca3c4fd7fd59790eeeefaf7f881"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p63.tif",
+      "sha256": "22296b23efff03b54d413f78b0a955dc9d7343d400be04bc4eeacc3a19ad322e"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p64.tif",
+      "sha256": "1377a74e6b5fbd69b13482807eaf20f576fcc3612c45cbed823cd592246a415d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p65.tif",
+      "sha256": "d112e698e4a5e20d7c9d6a208033c52fcb11e167d07f1e08da846e18693b829a"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p66.tif",
+      "sha256": "6ab7d7055a396d6ce13dba2c6debb9801304a30d0148f3c0c0704d190bda2536"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p67.tif",
+      "sha256": "74105e2e12edea39d7060f3766969332dcd97400948b6616b5be747f4014006b"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p68.tif",
+      "sha256": "701b3dabf740888e364ee538d816f58883faa58ec9a597361ef19f1133c79bf1"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p69.tif",
+      "sha256": "7a8f06a9956a54ba22f6b7fd594cc88b3b5e5722e7daacf33dad705d6ea447ff"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p70.tif",
+      "sha256": "840d7d2274bc5f76d505b7873ac4258fea1ad8f65faf0fe706505ae34789029a"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p71.tif",
+      "sha256": "4d78225a8a634641f03a7ea1765bd079e20ccffafd559ae429980cb192f6686b"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p72.tif",
+      "sha256": "4b6590fb8d0aba5f30f6092e0ad333361db5b2a405320542ca96804da4a8bb99"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p73.tif",
+      "sha256": "54e004f3f21364c47bca5edcf7500a842d28236c0292b389d0b371ef81dda9f5"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p74.tif",
+      "sha256": "0719a4c8022bdab49e93eb48ce7c9f167b555000624dd86ced8ba7c4d3fdb007"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p75.tif",
+      "sha256": "346a32eac12fd7031fb41805d7a0fb7c83c3dae92b662c84ada7a8e2d8793c35"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p76.tif",
+      "sha256": "b30b4fc2d85570883f6f0be2e08b8d6767ccff63ff146741607bf77be96d8c26"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p77.tif",
+      "sha256": "a93f24b4d70a863a9b193e8242235466bcc0a69bd737af9ca2565f3dbcbc1281"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p78.tif",
+      "sha256": "71efed8129b2d58d4110c0a6341040ac722995ed3cfe760f8328c2524142333e"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p79.tif",
+      "sha256": "f4f041eed702bdd845e946cae8fe0123d5a54d1cf6a989f745bc96c3470e1808"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p80.tif",
+      "sha256": "148deb8829a521d732217e656fe7e5bd87153babb72df5c8c5c32656d0f2ac1d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p81.tif",
+      "sha256": "62c33e4c6022405da7cb8cbb0ac90a2ad60605035ed9d11f63064d2b085037a8"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p82.tif",
+      "sha256": "4ce5fa9425a7eac97065ded1e35bf9670b8f34c724773d1fa9b693c767b76d3d"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p83.tif",
+      "sha256": "b4186969d0bc5a7927779c7fcbdb7f483ba01a22edcb1ad237df4e561c7ab6b9"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p84.tif",
+      "sha256": "0cffd8d6f89eeb6399aed0bf4d92761d542387f5fbf9d394b5809f12b74b5533"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p85.tif",
+      "sha256": "64a8d023ef8e3ffd63b00162591c75e3ca312f68e45221a252f1cc0fe633a815"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p86.tif",
+      "sha256": "4dd9fefd72a2c4d0c85da4d92f6b381b36f9caa7ae716d9d997cf15a43121f0a"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p87.tif",
+      "sha256": "7a4072540b4e4f375f70c3f9401fcd6fa16db8a82b787d93d13f4967b5717d15"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p88.tif",
+      "sha256": "578e8e6ab313332dedcf384b43c6ff2614e9269f646ba74c56525d7c9ba9df27"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p89.tif",
+      "sha256": "1ea47805a6369ad3a1098e50f1b12bc3517a6d49443b7e0e71875f5ddcbeea26"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p90.tif",
+      "sha256": "6e1448b34c6c797a34dfc517bccb0bfcf5bd83011fc293896f301ae4363051a7"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p91.tif",
+      "sha256": "efc7418aa1cfa966e4388cda67b3de22de6bdad6f2fe39ecc08b30ea1c6c90d7"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p92.tif",
+      "sha256": "2676e1cf2da45d52e30497d340c715ad10cac1ac1c0ca10d8b0ca5403a9c5d14"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p93.tif",
+      "sha256": "4e4477484f205611931c559ed40979acecee97434eb3553ef41d8ab58fe6a5a1"
+    },
+    {
+      "group": "variant",
+      "archive_url": "https://ndownloader.figshare.com/files/51665312",
+      "member": "tif/241106wee1plc1p4_L1-t003-p94.tif",
+      "sha256": "04985e5db22186aed91ade265c05904b76f52a5dc8a09b37da6ccedaff9ad6bd"
+    },
+    {
+      "group": "control",
+      "file": "Sample18_001_rawNuc.nii.gz",
+      "drive_id": "1-WWZ2XginK01P28ZOn__E-4ofuS8L-u5",
+      "sha256": "c47125b57b22c0681ca025df00d35345a32d0f21e9c66d0fb3b76fb4cfa47016",
+      "header_spacing": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "group": "control",
+      "file": "Sample18_002_rawNuc.nii.gz",
+      "drive_id": "1Jx8zPsLNi7vC8eNpNQvJ4yVWikU4QtGf",
+      "sha256": "77afb761fcb52e9feb5558665a909696304438a9beba5bd43346ab5e953f6a22",
+      "header_spacing": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "group": "control",
+      "file": "Sample18_003_rawNuc.nii.gz",
+      "drive_id": "1etEhdKnJdkKjvrn-GqKJO1POARXlNOdh",
+      "sha256": "a54d055f93aabace89eb1abcedc1f2d21692ee852a36bf990a334f0e63ac71a9",
+      "header_spacing": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    }
+  ],
+  "control_output": {
+    "file": "CONTROL_WT_Sample18_t001_003.npy",
+    "shape": [
+      3,
+      114,
+      256,
+      184
+    ],
+    "dtype": "uint8",
+    "sha256": "519e6ffa98e13598f8e2827184b5897cb53c340d10489aeb6fe513e0a2eff25a"
+  },
+  "variant_output": {
+    "file": "VARIANT_wee-1.1_MT2_t001_003.npy",
+    "shape": [
+      3,
+      94,
+      512,
+      712
+    ],
+    "dtype": "uint8",
+    "sha256": "e0b0b3a2c0af1c75792dd354485ffd820b788c66822d248a878a49574654eee4"
+  },
+  "mutant_archive_bytes_transferred": 10540075
+}

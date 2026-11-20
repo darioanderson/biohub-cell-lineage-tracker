@@ -1,0 +1,52 @@
+[
+  {
+    "group": "control",
+    "frame": 0,
+    "predicted": 2
+  },
+  {
+    "group": "control",
+    "frame": 1,
+    "predicted": 2
+  },
+  {
+    "group": "control",
+    "frame": 2,
+    "predicted": 2
+  },
+  {
+    "group": "control",
+    "frame": 3,
+    "predicted": 2
+  },
+  {
+    "group": "control",
+    "frame": 4,
+    "predicted": 2
+  },
+  {
+    "group": "variant",
+    "frame": 0,
+    "predicted": 11
+  },
+  {
+    "group": "variant",
+    "frame": 1,
+    "predicted": 5
+  },
+  {
+    "group": "variant",
+    "frame": 2,
+    "predicted": 6
+  },
+  {
+    "group": "variant",
+    "frame": 3,
+    "predicted": 5
+  },
+  {
+    "group": "variant",
+    "frame": 4,
+    "predicted": 5
+  }
+]

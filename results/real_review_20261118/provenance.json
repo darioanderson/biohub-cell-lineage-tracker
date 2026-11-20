@@ -1,0 +1,15 @@
+{
+  "dataset": "C:\\Projects\\cell-tracking\\advanced\\data\\cshaper_demo\\Sample18_t080_082.npy",
+  "dataset_sha256": "a6ebead342481b46409259995254a5698e6e55034dc8714c7964c683e008adc9",
+  "checkpoint": "C:\\Projects\\cell-tracking\\advanced\\results\\kaggle_ce_cshaper_v2\\detector.pt",
+  "checkpoint_sha256": "405fe6f4f6682038a54817ba75d860fd868ff39f9de00fde054fddb52a1089a4",
+  "detector": "Kaggle-trained CShaper centre detector",
+  "linker": "classical",
+  "training_performed": false,
+  "frames": 3,
+  "observations": 301,
+  "links": 198,
+  "proposed_divisions": 2,
+  "units": "voxel indices; no physical calibration or frame time validated",
+  "genetic_variant_comparison": false
+}

@@ -71,15 +71,14 @@ def build_cells() -> list[dict]:
 Self-contained notebook generated from `src/biohub/`.  
 Regenerate locally: `python scripts/build_notebook.py`
 
-**Version 7** validated **0.659** (v4 competition baseline).  
-**Version 8+** — run optional train hyperparameter search, then change **one** knob.
-
-v1.5 experiments stay disabled — see `EXPERIMENTS.md`.
+This notebook exports the current classical production pipeline. No official
+score or world-class ranking is claimed by this source file. See
+`EXPERIMENTS.md` for dated, reproducible evaluation evidence.
 
 **Steps**
 1. Add the Biohub dataset to this notebook.
-2. Run all cells (search → optional V8 override → submit).
-3. Submit `submission.csv` from the output panel.
+2. Run all cells and inspect the schema and graph validation result.
+3. Submit `submission.csv` only after checking the generated artifact.
 
 | Setting | Default |
 |---------|---------|

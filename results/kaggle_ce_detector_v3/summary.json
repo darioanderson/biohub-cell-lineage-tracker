@@ -1,0 +1,1152 @@
+{
+  "dataset": "https://data.celltrackingchallenge.net/training-datasets/Fluo-N3DH-CE.zip",
+  "archive_sha256": "eb3d37cacb3b51d3a427a0c43deaaf1d60cf2eba009f12569e720c2c2fd1e04c",
+  "train_sequence": "01",
+  "heldout_sequence": "02",
+  "train_frames": 195,
+  "heldout_frames": 190,
+  "optimizer_steps": 3900,
+  "supervision": "silver segmentation pseudo-labels",
+  "heldout_diagnostic": [
+    {
+      "frame": 0,
+      "predictions": 1154,
+      "annotated": 2,
+      "nearest_distance_voxels_median": 5.8563071828338185
+    },
+    {
+      "frame": 1,
+      "predictions": 2089,
+      "annotated": 2,
+      "nearest_distance_voxels_median": 7.492927795014551
+    },
+    {
+      "frame": 2,
+      "predictions": 2299,
+      "annotated": 2,
+      "nearest_distance_voxels_median": 14.064182697657007
+    },
+    {
+      "frame": 3,
+      "predictions": 2226,
+      "annotated": 3,
+      "nearest_distance_voxels_median": 13.425050048010206
+    },
+    {
+      "frame": 4,
+      "predictions": 1867,
+      "annotated": 4,
+      "nearest_distance_voxels_median": 5.32099957329338
+    },
+    {
+      "frame": 5,
+      "predictions": 1350,
+      "annotated": 4,
+      "nearest_distance_voxels_median": 1.5096391502738935
+    },
+    {
+      "frame": 6,
+      "predictions": 1041,
+      "annotated": 4,
+      "nearest_distance_voxels_median": 3.744229511130774
+    },
+    {
+      "frame": 7,
+      "predictions": 744,
+      "annotated": 4,
+      "nearest_distance_voxels_median": 3.0526837787203487
+    },
+    {
+      "frame": 8,
+      "predictions": 748,
+      "annotated": 4,
+      "nearest_distance_voxels_median": 4.179645787809366
+    },
+    {
+      "frame": 9,
+      "predictions": 662,
+      "annotated": 4,
+      "nearest_distance_voxels_median": 4.325217908837922
+    },
+    {
+      "frame": 10,
+      "predictions": 637,
+      "annotated": 4,
+      "nearest_distance_voxels_median": 4.3272191178491095
+    },
+    {
+      "frame": 11,
+      "predictions": 603,
+      "annotated": 4,
+      "nearest_distance_voxels_median": 4.4981828596841265
+    },
+    {
+      "frame": 12,
+      "predictions": 683,
+      "annotated": 4,
+      "nearest_distance_voxels_median": 2.8870613400641085
+    },
+    {
+      "frame": 13,
+      "predictions": 991,
+      "annotated": 4,
+      "nearest_distance_voxels_median": 2.3409265871705043
+    },
+    {
+      "frame": 14,
+      "predictions": 1410,
+      "annotated": 5,
+      "nearest_distance_voxels_median": 2.1796702583994016
+    },
+    {
+      "frame": 15,
+      "predictions": 1294,
+      "annotated": 6,
+      "nearest_distance_voxels_median": 12.147775640387213
+    },
+    {
+      "frame": 16,
+      "predictions": 1114,
+      "annotated": 7,
+      "nearest_distance_voxels_median": 2.0822597294321437
+    },
+    {
+      "frame": 17,
+      "predictions": 828,
+      "annotated": 7,
+      "nearest_distance_voxels_median": 2.0429335757224885
+    },
+    {
+      "frame": 18,
+      "predictions": 534,
+      "annotated": 8,
+      "nearest_distance_voxels_median": 2.1123505582753666
+    },
+    {
+      "frame": 19,
+      "predictions": 275,
+      "annotated": 8,
+      "nearest_distance_voxels_median": 1.9804117117037867
+    },
+    {
+      "frame": 20,
+      "predictions": 218,
+      "annotated": 8,
+      "nearest_distance_voxels_median": 1.7833584888475293
+    },
+    {
+      "frame": 21,
+      "predictions": 188,
+      "annotated": 8,
+      "nearest_distance_voxels_median": 2.0999230237197324
+    },
+    {
+      "frame": 22,
+      "predictions": 152,
+      "annotated": 8,
+      "nearest_distance_voxels_median": 3.2547191301116216
+    },
+    {
+      "frame": 23,
+      "predictions": 155,
+      "annotated": 8,
+      "nearest_distance_voxels_median": 2.4165094474321247
+    },
+    {
+      "frame": 24,
+      "predictions": 168,
+      "annotated": 8,
+      "nearest_distance_voxels_median": 4.300514626812811
+    },
+    {
+      "frame": 25,
+      "predictions": 144,
+      "annotated": 8,
+      "nearest_distance_voxels_median": 4.708474106757669
+    },
+    {
+      "frame": 26,
+      "predictions": 287,
+      "annotated": 8,
+      "nearest_distance_voxels_median": 1.9929697376166946
+    },
+    {
+      "frame": 27,
+      "predictions": 477,
+      "annotated": 10,
+      "nearest_distance_voxels_median": 4.0910032537726755
+    },
+    {
+      "frame": 28,
+      "predictions": 708,
+      "annotated": 12,
+      "nearest_distance_voxels_median": 1.7634751181209714
+    },
+    {
+      "frame": 29,
+      "predictions": 740,
+      "annotated": 13,
+      "nearest_distance_voxels_median": 2.078588488203872
+    },
+    {
+      "frame": 30,
+      "predictions": 610,
+      "annotated": 14,
+      "nearest_distance_voxels_median": 1.788926287249279
+    },
+    {
+      "frame": 31,
+      "predictions": 539,
+      "annotated": 14,
+      "nearest_distance_voxels_median": 2.1674702061484834
+    },
+    {
+      "frame": 32,
+      "predictions": 433,
+      "annotated": 15,
+      "nearest_distance_voxels_median": 2.0386188453257237
+    },
+    {
+      "frame": 33,
+      "predictions": 305,
+      "annotated": 15,
+      "nearest_distance_voxels_median": 2.6416767541578796
+    },
+    {
+      "frame": 34,
+      "predictions": 278,
+      "annotated": 15,
+      "nearest_distance_voxels_median": 2.772885114697745
+    },
+    {
+      "frame": 35,
+      "predictions": 266,
+      "annotated": 15,
+      "nearest_distance_voxels_median": 2.0762817261651096
+    },
+    {
+      "frame": 36,
+      "predictions": 229,
+      "annotated": 15,
+      "nearest_distance_voxels_median": 3.6382498468378865
+    },
+    {
+      "frame": 37,
+      "predictions": 207,
+      "annotated": 15,
+      "nearest_distance_voxels_median": 2.4663034305329017
+    },
+    {
+      "frame": 38,
+      "predictions": 210,
+      "annotated": 16,
+      "nearest_distance_voxels_median": 2.215320597428935
+    },
+    {
+      "frame": 39,
+      "predictions": 180,
+      "annotated": 16,
+      "nearest_distance_voxels_median": 2.3051681858859467
+    },
+    {
+      "frame": 40,
+      "predictions": 219,
+      "annotated": 16,
+      "nearest_distance_voxels_median": 2.3512561919576593
+    },
+    {
+      "frame": 41,
+      "predictions": 300,
+      "annotated": 17,
+      "nearest_distance_voxels_median": 2.1668792219363633
+    },
+    {
+      "frame": 42,
+      "predictions": 263,
+      "annotated": 21,
+      "nearest_distance_voxels_median": 1.6338420864687941
+    },
+    {
+      "frame": 43,
+      "predictions": 285,
+      "annotated": 24,
+      "nearest_distance_voxels_median": 1.3499750664998982
+    },
+    {
+      "frame": 44,
+      "predictions": 214,
+      "annotated": 24,
+      "nearest_distance_voxels_median": 1.941443226497499
+    },
+    {
+      "frame": 45,
+      "predictions": 210,
+      "annotated": 24,
+      "nearest_distance_voxels_median": 2.1014533529761934
+    },
+    {
+      "frame": 46,
+      "predictions": 176,
+      "annotated": 24,
+      "nearest_distance_voxels_median": 2.429054006456413
+    },
+    {
+      "frame": 47,
+      "predictions": 115,
+      "annotated": 26,
+      "nearest_distance_voxels_median": 2.1003946135206175
+    },
+    {
+      "frame": 48,
+      "predictions": 114,
+      "annotated": 26,
+      "nearest_distance_voxels_median": 5.088152173687751
+    },
+    {
+      "frame": 49,
+      "predictions": 95,
+      "annotated": 26,
+      "nearest_distance_voxels_median": 13.672969360645826
+    },
+    {
+      "frame": 50,
+      "predictions": 89,
+      "annotated": 27,
+      "nearest_distance_voxels_median": 12.405235704188385
+    },
+    {
+      "frame": 51,
+      "predictions": 68,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 13.719165198682077
+    },
+    {
+      "frame": 52,
+      "predictions": 59,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 21.542078648539118
+    },
+    {
+      "frame": 53,
+      "predictions": 54,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 17.12407725913856
+    },
+    {
+      "frame": 54,
+      "predictions": 55,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 16.618303509845056
+    },
+    {
+      "frame": 55,
+      "predictions": 54,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 12.552397031554667
+    },
+    {
+      "frame": 56,
+      "predictions": 39,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 20.544336846571213
+    },
+    {
+      "frame": 57,
+      "predictions": 37,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 17.18590307448803
+    },
+    {
+      "frame": 58,
+      "predictions": 31,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 15.088977605475026
+    },
+    {
+      "frame": 59,
+      "predictions": 34,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 12.874863016579297
+    },
+    {
+      "frame": 60,
+      "predictions": 43,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 10.177936214379084
+    },
+    {
+      "frame": 61,
+      "predictions": 68,
+      "annotated": 28,
+      "nearest_distance_voxels_median": 9.017621736290163
+    },
+    {
+      "frame": 62,
+      "predictions": 83,
+      "annotated": 31,
+      "nearest_distance_voxels_median": 4.207610408635498
+    },
+    {
+      "frame": 63,
+      "predictions": 75,
+      "annotated": 37,
+      "nearest_distance_voxels_median": 14.96513991508998
+    },
+    {
+      "frame": 64,
+      "predictions": 74,
+      "annotated": 39,
+      "nearest_distance_voxels_median": 13.398250869789324
+    },
+    {
+      "frame": 65,
+      "predictions": 54,
+      "annotated": 41,
+      "nearest_distance_voxels_median": 16.092480072847785
+    },
+    {
+      "frame": 66,
+      "predictions": 46,
+      "annotated": 43,
+      "nearest_distance_voxels_median": 12.084300168845655
+    },
+    {
+      "frame": 67,
+      "predictions": 43,
+      "annotated": 45,
+      "nearest_distance_voxels_median": 2.3903789845757357
+    },
+    {
+      "frame": 68,
+      "predictions": 54,
+      "annotated": 48,
+      "nearest_distance_voxels_median": 2.3856605563401
+    },
+    {
+      "frame": 69,
+      "predictions": 48,
+      "annotated": 49,
+      "nearest_distance_voxels_median": 2.258344508006368
+    },
+    {
+      "frame": 70,
+      "predictions": 49,
+      "annotated": 50,
+      "nearest_distance_voxels_median": 2.0170493388078663
+    },
+    {
+      "frame": 71,
+      "predictions": 41,
+      "annotated": 51,
+      "nearest_distance_voxels_median": 2.573095897447462
+    },
+    {
+      "frame": 72,
+      "predictions": 41,
+      "annotated": 51,
+      "nearest_distance_voxels_median": 9.985057504960354
+    },
+    {
+      "frame": 73,
+      "predictions": 37,
+      "annotated": 51,
+      "nearest_distance_voxels_median": 19.003842748907743
+    },
+    {
+      "frame": 74,
+      "predictions": 28,
+      "annotated": 51,
+      "nearest_distance_voxels_median": 19.34240618674721
+    },
+    {
+      "frame": 75,
+      "predictions": 33,
+      "annotated": 51,
+      "nearest_distance_voxels_median": 19.367989766488954
+    },
+    {
+      "frame": 76,
+      "predictions": 37,
+      "annotated": 52,
+      "nearest_distance_voxels_median": 17.74919869365719
+    },
+    {
+      "frame": 77,
+      "predictions": 34,
+      "annotated": 52,
+      "nearest_distance_voxels_median": 15.775814580766063
+    },
+    {
+      "frame": 78,
+      "predictions": 32,
+      "annotated": 54,
+      "nearest_distance_voxels_median": 20.323551850026725
+    },
+    {
+      "frame": 79,
+      "predictions": 32,
+      "annotated": 54,
+      "nearest_distance_voxels_median": 17.699592532579402
+    },
+    {
+      "frame": 80,
+      "predictions": 37,
+      "annotated": 54,
+      "nearest_distance_voxels_median": 10.560000722809043
+    },
+    {
+      "frame": 81,
+      "predictions": 34,
+      "annotated": 55,
+      "nearest_distance_voxels_median": 11.373467891948849
+    },
+    {
+      "frame": 82,
+      "predictions": 34,
+      "annotated": 55,
+      "nearest_distance_voxels_median": 14.633533147530342
+    },
+    {
+      "frame": 83,
+      "predictions": 35,
+      "annotated": 55,
+      "nearest_distance_voxels_median": 17.17056738049201
+    },
+    {
+      "frame": 84,
+      "predictions": 38,
+      "annotated": 55,
+      "nearest_distance_voxels_median": 15.493355426638612
+    },
+    {
+      "frame": 85,
+      "predictions": 35,
+      "annotated": 55,
+      "nearest_distance_voxels_median": 21.138412100184397
+    },
+    {
+      "frame": 86,
+      "predictions": 25,
+      "annotated": 55,
+      "nearest_distance_voxels_median": 23.321722201288285
+    },
+    {
+      "frame": 87,
+      "predictions": 29,
+      "annotated": 56,
+      "nearest_distance_voxels_median": 25.09278492157267
+    },
+    {
+      "frame": 88,
+      "predictions": 39,
+      "annotated": 60,
+      "nearest_distance_voxels_median": 20.521762548837103
+    },
+    {
+      "frame": 89,
+      "predictions": 44,
+      "annotated": 65,
+      "nearest_distance_voxels_median": 24.634746482863463
+    },
+    {
+      "frame": 90,
+      "predictions": 49,
+      "annotated": 74,
+      "nearest_distance_voxels_median": 25.71336826783464
+    },
+    {
+      "frame": 91,
+      "predictions": 38,
+      "annotated": 83,
+      "nearest_distance_voxels_median": 23.819381712992328
+    },
+    {
+      "frame": 92,
+      "predictions": 38,
+      "annotated": 86,
+      "nearest_distance_voxels_median": 29.885315551030878
+    },
+    {
+      "frame": 93,
+      "predictions": 30,
+      "annotated": 90,
+      "nearest_distance_voxels_median": 31.155871546872724
+    },
+    {
+      "frame": 94,
+      "predictions": 53,
+      "annotated": 91,
+      "nearest_distance_voxels_median": 16.223390863597327
+    },
+    {
+      "frame": 95,
+      "predictions": 42,
+      "annotated": 91,
+      "nearest_distance_voxels_median": 21.128864435454098
+    },
+    {
+      "frame": 96,
+      "predictions": 47,
+      "annotated": 95,
+      "nearest_distance_voxels_median": 21.230317420212838
+    },
+    {
+      "frame": 97,
+      "predictions": 44,
+      "annotated": 96,
+      "nearest_distance_voxels_median": 17.93150228005124
+    },
+    {
+      "frame": 98,
+      "predictions": 44,
+      "annotated": 96,
+      "nearest_distance_voxels_median": 20.47522354920261
+    },
+    {
+      "frame": 99,
+      "predictions": 42,
+      "annotated": 96,
+      "nearest_distance_voxels_median": 21.162684940436815
+    },
+    {
+      "frame": 100,
+      "predictions": 46,
+      "annotated": 97,
+      "nearest_distance_voxels_median": 17.540749228785284
+    },
+    {
+      "frame": 101,
+      "predictions": 44,
+      "annotated": 99,
+      "nearest_distance_voxels_median": 18.634502429408776
+    },
+    {
+      "frame": 102,
+      "predictions": 49,
+      "annotated": 99,
+      "nearest_distance_voxels_median": 18.176275059562624
+    },
+    {
+      "frame": 103,
+      "predictions": 41,
+      "annotated": 99,
+      "nearest_distance_voxels_median": 23.639421795301093
+    },
+    {
+      "frame": 104,
+      "predictions": 35,
+      "annotated": 99,
+      "nearest_distance_voxels_median": 25.7117695465318
+    },
+    {
+      "frame": 105,
+      "predictions": 35,
+      "annotated": 99,
+      "nearest_distance_voxels_median": 24.59830415130941
+    },
+    {
+      "frame": 106,
+      "predictions": 35,
+      "annotated": 100,
+      "nearest_distance_voxels_median": 23.74813916776344
+    },
+    {
+      "frame": 107,
+      "predictions": 37,
+      "annotated": 100,
+      "nearest_distance_voxels_median": 26.252525244718502
+    },
+    {
+      "frame": 108,
+      "predictions": 39,
+      "annotated": 101,
+      "nearest_distance_voxels_median": 23.178637166174088
+    },
+    {
+      "frame": 109,
+      "predictions": 34,
+      "annotated": 101,
+      "nearest_distance_voxels_median": 27.628557189525004
+    },
+    {
+      "frame": 110,
+      "predictions": 35,
+      "annotated": 103,
+      "nearest_distance_voxels_median": 24.942710839491394
+    },
+    {
+      "frame": 111,
+      "predictions": 38,
+      "annotated": 104,
+      "nearest_distance_voxels_median": 24.802534769703904
+    },
+    {
+      "frame": 112,
+      "predictions": 30,
+      "annotated": 104,
+      "nearest_distance_voxels_median": 29.879964099362578
+    },
+    {
+      "frame": 113,
+      "predictions": 36,
+      "annotated": 105,
+      "nearest_distance_voxels_median": 28.43632078777399
+    },
+    {
+      "frame": 114,
+      "predictions": 38,
+      "annotated": 105,
+      "nearest_distance_voxels_median": 25.91770085203038
+    },
+    {
+      "frame": 115,
+      "predictions": 38,
+      "annotated": 105,
+      "nearest_distance_voxels_median": 25.311264307924162
+    },
+    {
+      "frame": 116,
+      "predictions": 41,
+      "annotated": 108,
+      "nearest_distance_voxels_median": 26.481902357870446
+    },
+    {
+      "frame": 117,
+      "predictions": 43,
+      "annotated": 110,
+      "nearest_distance_voxels_median": 24.070133158895004
+    },
+    {
+      "frame": 118,
+      "predictions": 33,
+      "annotated": 113,
+      "nearest_distance_voxels_median": 30.374878838464266
+    },
+    {
+      "frame": 119,
+      "predictions": 38,
+      "annotated": 118,
+      "nearest_distance_voxels_median": 27.515597142720818
+    },
+    {
+      "frame": 120,
+      "predictions": 39,
+      "annotated": 126,
+      "nearest_distance_voxels_median": 27.9602657006253
+    },
+    {
+      "frame": 121,
+      "predictions": 41,
+      "annotated": 134,
+      "nearest_distance_voxels_median": 29.766681980826576
+    },
+    {
+      "frame": 122,
+      "predictions": 36,
+      "annotated": 141,
+      "nearest_distance_voxels_median": 39.5699396057027
+    },
+    {
+      "frame": 123,
+      "predictions": 39,
+      "annotated": 146,
+      "nearest_distance_voxels_median": 28.00510231195542
+    },
+    {
+      "frame": 124,
+      "predictions": 37,
+      "annotated": 151,
+      "nearest_distance_voxels_median": 32.50635199889404
+    },
+    {
+      "frame": 125,
+      "predictions": 43,
+      "annotated": 158,
+      "nearest_distance_voxels_median": 33.69638242946583
+    },
+    {
+      "frame": 126,
+      "predictions": 41,
+      "annotated": 164,
+      "nearest_distance_voxels_median": 31.64005466666739
+    },
+    {
+      "frame": 127,
+      "predictions": 38,
+      "annotated": 171,
+      "nearest_distance_voxels_median": 31.792043104974667
+    },
+    {
+      "frame": 128,
+      "predictions": 39,
+      "annotated": 174,
+      "nearest_distance_voxels_median": 34.99365842122165
+    },
+    {
+      "frame": 129,
+      "predictions": 39,
+      "annotated": 175,
+      "nearest_distance_voxels_median": 33.31069750565129
+    },
+    {
+      "frame": 130,
+      "predictions": 30,
+      "annotated": 176,
+      "nearest_distance_voxels_median": 42.86424670074784
+    },
+    {
+      "frame": 131,
+      "predictions": 28,
+      "annotated": 177,
+      "nearest_distance_voxels_median": 43.754186211203084
+    },
+    {
+      "frame": 132,
+      "predictions": 32,
+      "annotated": 179,
+      "nearest_distance_voxels_median": 46.11574987858303
+    },
+    {
+      "frame": 133,
+      "predictions": 30,
+      "annotated": 180,
+      "nearest_distance_voxels_median": 41.19679222235389
+    },
+    {
+      "frame": 134,
+      "predictions": 40,
+      "annotated": 182,
+      "nearest_distance_voxels_median": 38.24350309896768
+    },
+    {
+      "frame": 135,
+      "predictions": 43,
+      "annotated": 182,
+      "nearest_distance_voxels_median": 32.32077368983272
+    },
+    {
+      "frame": 136,
+      "predictions": 51,
+      "annotated": 183,
+      "nearest_distance_voxels_median": 30.471702011438733
+    },
+    {
+      "frame": 137,
+      "predictions": 57,
+      "annotated": 185,
+      "nearest_distance_voxels_median": 29.340706827996847
+    },
+    {
+      "frame": 138,
+      "predictions": 45,
+      "annotated": 185,
+      "nearest_distance_voxels_median": 30.721646093731277
+    },
+    {
+      "frame": 139,
+      "predictions": 42,
+      "annotated": 185,
+      "nearest_distance_voxels_median": 38.391394137934874
+    },
+    {
+      "frame": 140,
+      "predictions": 44,
+      "annotated": 185,
+      "nearest_distance_voxels_median": 39.346468396296714
+    },
+    {
+      "frame": 141,
+      "predictions": 35,
+      "annotated": 184,
+      "nearest_distance_voxels_median": 46.764177184798484
+    },
+    {
+      "frame": 142,
+      "predictions": 38,
+      "annotated": 184,
+      "nearest_distance_voxels_median": 46.07477459065049
+    },
+    {
+      "frame": 143,
+      "predictions": 41,
+      "annotated": 185,
+      "nearest_distance_voxels_median": 42.71169895248043
+    },
+    {
+      "frame": 144,
+      "predictions": 45,
+      "annotated": 186,
+      "nearest_distance_voxels_median": 36.489718792339154
+    },
+    {
+      "frame": 145,
+      "predictions": 35,
+      "annotated": 186,
+      "nearest_distance_voxels_median": 45.569569336858805
+    },
+    {
+      "frame": 146,
+      "predictions": 36,
+      "annotated": 187,
+      "nearest_distance_voxels_median": 43.121946897972904
+    },
+    {
+      "frame": 147,
+      "predictions": 40,
+      "annotated": 187,
+      "nearest_distance_voxels_median": 37.576789583189374
+    },
+    {
+      "frame": 148,
+      "predictions": 33,
+      "annotated": 188,
+      "nearest_distance_voxels_median": 42.81861054233049
+    },
+    {
+      "frame": 149,
+      "predictions": 44,
+      "annotated": 189,
+      "nearest_distance_voxels_median": 36.769927956887955
+    },
+    {
+      "frame": 150,
+      "predictions": 42,
+      "annotated": 190,
+      "nearest_distance_voxels_median": 38.84364601662344
+    },
+    {
+      "frame": 151,
+      "predictions": 40,
+      "annotated": 193,
+      "nearest_distance_voxels_median": 37.439917043176806
+    },
+    {
+      "frame": 152,
+      "predictions": 42,
+      "annotated": 196,
+      "nearest_distance_voxels_median": 41.800254290318776
+    },
+    {
+      "frame": 153,
+      "predictions": 37,
+      "annotated": 201,
+      "nearest_distance_voxels_median": 41.85859968131904
+    },
+    {
+      "frame": 154,
+      "predictions": 43,
+      "annotated": 205,
+      "nearest_distance_voxels_median": 39.62151888839456
+    },
+    {
+      "frame": 155,
+      "predictions": 40,
+      "annotated": 211,
+      "nearest_distance_voxels_median": 35.00551054435386
+    },
+    {
+      "frame": 156,
+      "predictions": 54,
+      "annotated": 218,
+      "nearest_distance_voxels_median": 32.7204472942129
+    },
+    {
+      "frame": 157,
+      "predictions": 45,
+      "annotated": 223,
+      "nearest_distance_voxels_median": 36.40933279564684
+    },
+    {
+      "frame": 158,
+      "predictions": 50,
+      "annotated": 230,
+      "nearest_distance_voxels_median": 33.58316919465298
+    },
+    {
+      "frame": 159,
+      "predictions": 43,
+      "annotated": 238,
+      "nearest_distance_voxels_median": 42.399529961251474
+    },
+    {
+      "frame": 160,
+      "predictions": 50,
+      "annotated": 246,
+      "nearest_distance_voxels_median": 37.17630994027118
+    },
+    {
+      "frame": 161,
+      "predictions": 52,
+      "annotated": 253,
+      "nearest_distance_voxels_median": 33.67024715344447
+    },
+    {
+      "frame": 162,
+      "predictions": 59,
+      "annotated": 269,
+      "nearest_distance_voxels_median": 32.26914585270373
+    },
+    {
+      "frame": 163,
+      "predictions": 50,
+      "annotated": 274,
+      "nearest_distance_voxels_median": 37.75031423970019
+    },
+    {
+      "frame": 164,
+      "predictions": 58,
+      "annotated": 284,
+      "nearest_distance_voxels_median": 34.58147034219843
+    },
+    {
+      "frame": 165,
+      "predictions": 58,
+      "annotated": 293,
+      "nearest_distance_voxels_median": 38.55106282566151
+    },
+    {
+      "frame": 166,
+      "predictions": 53,
+      "annotated": 301,
+      "nearest_distance_voxels_median": 42.767393970809685
+    },
+    {
+      "frame": 167,
+      "predictions": 67,
+      "annotated": 309,
+      "nearest_distance_voxels_median": 36.36723689952029
+    },
+    {
+      "frame": 168,
+      "predictions": 62,
+      "annotated": 314,
+      "nearest_distance_voxels_median": 37.77852973755706
+    },
+    {
+      "frame": 169,
+      "predictions": 58,
+      "annotated": 317,
+      "nearest_distance_voxels_median": 46.83553578128383
+    },
+    {
+      "frame": 170,
+      "predictions": 59,
+      "annotated": 321,
+      "nearest_distance_voxels_median": 40.06360045368195
+    },
+    {
+      "frame": 171,
+      "predictions": 57,
+      "annotated": 324,
+      "nearest_distance_voxels_median": 42.679481526704414
+    },
+    {
+      "frame": 172,
+      "predictions": 66,
+      "annotated": 331,
+      "nearest_distance_voxels_median": 35.06179917249414
+    },
+    {
+      "frame": 173,
+      "predictions": 63,
+      "annotated": 338,
+      "nearest_distance_voxels_median": 40.44095170665422
+    },
+    {
+      "frame": 174,
+      "predictions": 57,
+      "annotated": 340,
+      "nearest_distance_voxels_median": 46.506690435131006
+    },
+    {
+      "frame": 175,
+      "predictions": 51,
+      "annotated": 347,
+      "nearest_distance_voxels_median": 50.84147385181727
+    },
+    {
+      "frame": 176,
+      "predictions": 61,
+      "annotated": 349,
+      "nearest_distance_voxels_median": 44.631622344244484
+    },
+    {
+      "frame": 177,
+      "predictions": 62,
+      "annotated": 351,
+      "nearest_distance_voxels_median": 40.900013035325415
+    },
+    {
+      "frame": 178,
+      "predictions": 59,
+      "annotated": 351,
+      "nearest_distance_voxels_median": 46.213607416998045
+    },
+    {
+      "frame": 179,
+      "predictions": 60,
+      "annotated": 351,
+      "nearest_distance_voxels_median": 47.748599775749454
+    },
+    {
+      "frame": 180,
+      "predictions": 58,
+      "annotated": 351,
+      "nearest_distance_voxels_median": 52.04361907780398
+    },
+    {
+      "frame": 181,
+      "predictions": 60,
+      "annotated": 353,
+      "nearest_distance_voxels_median": 44.83943988161846
+    },
+    {
+      "frame": 182,
+      "predictions": 58,
+      "annotated": 353,
+      "nearest_distance_voxels_median": 46.201178833003176
+    },
+    {
+      "frame": 183,
+      "predictions": 63,
+      "annotated": 354,
+      "nearest_distance_voxels_median": 45.11155536653129
+    },
+    {
+      "frame": 184,
+      "predictions": 55,
+      "annotated": 355,
+      "nearest_distance_voxels_median": 46.653678808894696
+    },
+    {
+      "frame": 185,
+      "predictions": 63,
+      "annotated": 357,
+      "nearest_distance_voxels_median": 46.70797652707101
+    },
+    {
+      "frame": 186,
+      "predictions": 59,
+      "annotated": 358,
+      "nearest_distance_voxels_median": 39.81921747708502
+    },
+    {
+      "frame": 187,
+      "predictions": 52,
+      "annotated": 359,
+      "nearest_distance_voxels_median": 43.551408334350555
+    },
+    {
+      "frame": 188,
+      "predictions": 55,
+      "annotated": 359,
+      "nearest_distance_voxels_median": 48.872046269539325
+    },
+    {
+      "frame": 189,
+      "predictions": 49,
+      "annotated": 360,
+      "nearest_distance_voxels_median": 45.57806379189304
+    }
+  ]
+}

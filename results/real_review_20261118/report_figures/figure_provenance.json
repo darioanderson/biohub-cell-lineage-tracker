@@ -1,0 +1,42 @@
+{
+  "source": "Saved real Sample18 pipeline outputs; no new training or fabricated control/variant data",
+  "input_sha256": "a6ebead342481b46409259995254a5698e6e55034dc8714c7964c683e008adc9",
+  "figures": [
+    {
+      "file": "temporal_output_comparison.png",
+      "description": "All three real test frames with actual matched and unmatched centres; 2D maximum projections of 3D matching.",
+      "sha256": "4e0397ebcaa0be9dbdfd91cfbd509055f4cd73fe7c0f2ba802d5307c2037f3f6",
+      "synthetic": false
+    },
+    {
+      "file": "reference_count_comparison.png",
+      "description": "Grouped actual counts: 97/98/99 references, 100/102/99 predictions, 94 matches per frame.",
+      "sha256": "e728f371e34a21714cfab198bc21b2099f0c9d11e5be73921b9d07581c833d3f",
+      "synthetic": false
+    },
+    {
+      "file": "per_frame_metrics.png",
+      "description": "Per-frame precision, recall and F1 against generated labels, using the same fixed match gate.",
+      "sha256": "0082c3415d5699e7ba61c6691e51aeac0ee90f66591efec16c52b6b41d89c469",
+      "synthetic": false
+    },
+    {
+      "file": "localization_error_distribution.png",
+      "description": "Measured 3D distances for the 282 accepted matches. Unmatched centres are not included.",
+      "sha256": "92267458d9ae56d96e55a11a129ed96d2b2ad7458f2fab054b5bbb495e15cb4c",
+      "synthetic": false
+    },
+    {
+      "file": "link_movement_distribution.png",
+      "description": "All 198 predicted links split by transition; describes model/tracker output without certifying edge correctness.",
+      "sha256": "a53fff8ee02a3dd2e0121104aedbab1a3ca70f82de9fc6a718a90c3bd6e9d708",
+      "synthetic": false
+    },
+    {
+      "file": "predicted_family_graph.png",
+      "description": "Actual parent/daughter and subsequent links rooted at node 34; unverified division hypothesis, not named biological identity.",
+      "sha256": "951d308b8b9af4c7b4d58c3cd006568e0e294e55ddb5ddc9aaf00ce004446f61",
+      "synthetic": false
+    }
+  ]
+}

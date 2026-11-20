@@ -1,0 +1,1706 @@
+{
+  "split": "sequence01 validation only",
+  "checkpoint_sha256": "c8c3a48310d33a2983cfc6fa418a16cda8bf46ccbf76d10ffc843a4ac5ef4e06",
+  "threshold": 0.4,
+  "rows": [
+    {
+      "frame": 70,
+      "tp": 9,
+      "fp": 19,
+      "fn": 3,
+      "matched_distances_um": [
+        2.0047927573692017,
+        0.9145938989518779,
+        2.1802903476372175,
+        2.758613057317029,
+        0.5150009708728666,
+        2.1614943904623027,
+        2.3230000000000075,
+        2.3251946155107115,
+        2.377257663779843
+      ],
+      "truth": [
+        {
+          "zyx": [
+            0.0,
+            43.0,
+            269.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 8.686,
+          "nearest_annotated_neighbor_um": 14.91247129083573
+        },
+        {
+          "zyx": [
+            0.0,
+            280.0,
+            161.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 32.522000000000006,
+          "nearest_annotated_neighbor_um": 18.66834122250823
+        },
+        {
+          "zyx": [
+            0.0,
+            321.0,
+            55.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 11.110000000000001,
+          "nearest_annotated_neighbor_um": 22.957902081854087
+        },
+        {
+          "zyx": [
+            0.0,
+            54.0,
+            196.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 10.908000000000001,
+          "nearest_annotated_neighbor_um": 14.91247129083573
+        },
+        {
+          "zyx": [
+            0.0,
+            148.0,
+            353.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 29.896,
+          "nearest_annotated_neighbor_um": 18.148550575734692
+        },
+        {
+          "zyx": [
+            0.0,
+            389.0,
+            178.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 10.706000000000001,
+          "nearest_annotated_neighbor_um": 22.284180038762926
+        },
+        {
+          "zyx": [
+            0.0,
+            292.5,
+            416.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 19.19,
+          "nearest_annotated_neighbor_um": 20.01864843090063
+        },
+        {
+          "zyx": [
+            0.0,
+            174.0,
+            439.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 14.544,
+          "nearest_annotated_neighbor_um": 18.148550575734692
+        },
+        {
+          "zyx": [
+            0.0,
+            226.0,
+            236.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 43.632000000000005,
+          "nearest_annotated_neighbor_um": 18.66834122250823
+        },
+        {
+          "zyx": [
+            0.0,
+            62.0,
+            97.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 12.524000000000001,
+          "nearest_annotated_neighbor_um": 20.0631866860676
+        },
+        {
+          "zyx": [
+            0.0,
+            369.0,
+            353.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 14.746,
+          "nearest_annotated_neighbor_um": 20.01864843090063
+        },
+        {
+          "zyx": [
+            0.0,
+            199.5,
+            50.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 10.100000000000001,
+          "nearest_annotated_neighbor_um": 24.563773101866904
+        }
+      ],
+      "predictions": [
+        {
+          "zyx": [
+            0.0,
+            164.5,
+            444.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.433000000000002,
+          "nearest_truth_um": 2.2174043384101134
+        },
+        {
+          "zyx": [
+            0.0,
+            156.5,
+            434.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 15.453000000000001,
+          "nearest_truth_um": 3.6500008219177174
+        },
+        {
+          "zyx": [
+            0.0,
+            244.5,
+            246.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 39.895,
+          "nearest_truth_um": 4.296953572008897
+        },
+        {
+          "zyx": [
+            0.0,
+            396.5,
+            184.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 9.191,
+          "nearest_truth_um": 2.0047927573692017
+        },
+        {
+          "zyx": [
+            0.0,
+            230.5,
+            236.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 42.723000000000006,
+          "nearest_truth_um": 0.9145938989518779
+        },
+        {
+          "zyx": [
+            0.0,
+            184.5,
+            436.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 15.049000000000001,
+          "nearest_truth_um": 2.1802903476372175
+        },
+        {
+          "zyx": [
+            0.0,
+            206.5,
+            234.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 41.713,
+          "nearest_truth_um": 3.950636657552806
+        },
+        {
+          "zyx": [
+            0.0,
+            356.5,
+            358.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 17.271,
+          "nearest_truth_um": 2.758613057317029
+        },
+        {
+          "zyx": [
+            0.0,
+            168.5,
+            428.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 16.665000000000003,
+          "nearest_truth_um": 2.3943604574082094
+        },
+        {
+          "zyx": [
+            0.0,
+            352.5,
+            342.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 18.079,
+          "nearest_truth_um": 3.950636657552821
+        },
+        {
+          "zyx": [
+            0.0,
+            378.5,
+            164.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 12.827,
+          "nearest_truth_um": 3.4547315380503885
+        },
+        {
+          "zyx": [
+            0.0,
+            376.5,
+            180.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.231000000000002,
+          "nearest_truth_um": 2.5750048543643484
+        },
+        {
+          "zyx": [
+            0.0,
+            288.5,
+            428.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 16.665000000000003,
+          "nearest_truth_um": 2.6511297591781426
+        },
+        {
+          "zyx": [
+            0.0,
+            42.5,
+            266.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 8.585,
+          "nearest_truth_um": 0.5150009708728666
+        },
+        {
+          "zyx": [
+            0.0,
+            288.5,
+            154.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 31.007,
+          "nearest_truth_um": 2.1614943904623027
+        },
+        {
+          "zyx": [
+            0.0,
+            280.5,
+            408.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 20.705000000000002,
+          "nearest_truth_um": 2.858496283013151
+        },
+        {
+          "zyx": [
+            0.0,
+            292.5,
+            404.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 21.513,
+          "nearest_truth_um": 2.3230000000000075
+        },
+        {
+          "zyx": [
+            0.0,
+            64.5,
+            202.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.029000000000002,
+          "nearest_truth_um": 2.4945159851161485
+        },
+        {
+          "zyx": [
+            0.0,
+            16.5,
+            272.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 3.333,
+          "nearest_truth_um": 5.399486827467959
+        },
+        {
+          "zyx": [
+            0.0,
+            392.5,
+            348.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 9.999,
+          "nearest_truth_um": 4.833248390058182
+        },
+        {
+          "zyx": [
+            0.0,
+            152.5,
+            368.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 28.785,
+          "nearest_truth_um": 3.2602825030969336
+        },
+        {
+          "zyx": [
+            0.0,
+            28.5,
+            180.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 5.757000000000001,
+          "nearest_truth_um": 6.027931817796217
+        },
+        {
+          "zyx": [
+            0.0,
+            22.5,
+            290.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 4.545,
+          "nearest_truth_um": 6.000794114115234
+        },
+        {
+          "zyx": [
+            0.0,
+            8.5,
+            288.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 1.717,
+          "nearest_truth_um": 8.00516595705548
+        },
+        {
+          "zyx": [
+            0.0,
+            336.5,
+            48.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 9.797,
+          "nearest_truth_um": 3.3951627354222658
+        },
+        {
+          "zyx": [
+            0.0,
+            434.5,
+            126.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 1.5150000000000001,
+          "nearest_truth_um": 13.88153053521117
+        },
+        {
+          "zyx": [
+            0.0,
+            136.5,
+            352.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 27.573,
+          "nearest_truth_um": 2.3251946155107115
+        },
+        {
+          "zyx": [
+            0.0,
+            42.5,
+            198.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 8.585,
+          "nearest_truth_um": 2.377257663779843
+        }
+      ]
+    },
+    {
+      "frame": 77,
+      "tp": 7,
+      "fp": 18,
+      "fn": 4,
+      "matched_distances_um": [
+        1.4460999273909139,
+        2.9446307068968767,
+        1.5711912677964996,
+        2.9722156718515578,
+        0.9581701310310249,
+        2.3772576637798446,
+        2.1614943904623027
+      ],
+      "truth": [
+        {
+          "zyx": [
+            0.0,
+            48.0,
+            293.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 9.696000000000002,
+          "nearest_annotated_neighbor_um": 16.18018739075664
+        },
+        {
+          "zyx": [
+            0.0,
+            283.0,
+            188.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 32.118,
+          "nearest_annotated_neighbor_um": 20.806980559418037
+        },
+        {
+          "zyx": [
+            0.0,
+            314.0,
+            66.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.332,
+          "nearest_annotated_neighbor_um": 22.656441026780886
+        },
+        {
+          "zyx": [
+            0.0,
+            52.0,
+            213.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 10.504000000000001,
+          "nearest_annotated_neighbor_um": 16.18018739075664
+        },
+        {
+          "zyx": [
+            0.0,
+            136.0,
+            360.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 27.472,
+          "nearest_annotated_neighbor_um": 19.64105946735054
+        },
+        {
+          "zyx": [
+            0.0,
+            386.0,
+            189.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 11.312000000000001,
+          "nearest_annotated_neighbor_um": 20.806980559418037
+        },
+        {
+          "zyx": [
+            0.0,
+            292.0,
+            406.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 21.21,
+          "nearest_annotated_neighbor_um": 19.049146227587208
+        },
+        {
+          "zyx": [
+            0.0,
+            174.0,
+            449.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 12.423,
+          "nearest_annotated_neighbor_um": 19.64105946735054
+        },
+        {
+          "zyx": [
+            0.0,
+            66.0,
+            97.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.332,
+          "nearest_annotated_neighbor_um": 23.602038217069307
+        },
+        {
+          "zyx": [
+            0.0,
+            370.0,
+            353.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 14.544,
+          "nearest_annotated_neighbor_um": 19.049146227587208
+        },
+        {
+          "zyx": [
+            0.0,
+            202.0,
+            60.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 12.120000000000001,
+          "nearest_annotated_neighbor_um": 22.656441026780886
+        }
+      ],
+      "predictions": [
+        {
+          "zyx": [
+            0.0,
+            172.5,
+            456.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 11.009,
+          "nearest_truth_um": 1.4460999273909139
+        },
+        {
+          "zyx": [
+            0.0,
+            162.5,
+            442.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.837000000000002,
+          "nearest_truth_um": 2.7195082276029257
+        },
+        {
+          "zyx": [
+            0.0,
+            184.5,
+            446.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.029000000000002,
+          "nearest_truth_um": 2.2058732964519976
+        },
+        {
+          "zyx": [
+            0.0,
+            172.5,
+            434.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 15.453000000000001,
+          "nearest_truth_um": 3.045112313199631
+        },
+        {
+          "zyx": [
+            0.0,
+            400.5,
+            200.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 8.383000000000001,
+          "nearest_truth_um": 3.738364615710995
+        },
+        {
+          "zyx": [
+            0.0,
+            202.5,
+            456.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 11.009,
+          "nearest_truth_um": 5.928106358694991
+        },
+        {
+          "zyx": [
+            0.0,
+            358.5,
+            372.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 16.867,
+          "nearest_truth_um": 4.572969494759393
+        },
+        {
+          "zyx": [
+            0.0,
+            356.5,
+            358.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 17.271,
+          "nearest_truth_um": 2.9446307068968767
+        },
+        {
+          "zyx": [
+            0.0,
+            286.5,
+            400.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 22.321,
+          "nearest_truth_um": 1.5711912677964996
+        },
+        {
+          "zyx": [
+            0.0,
+            388.5,
+            174.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 10.807,
+          "nearest_truth_um": 2.9722156718515578
+        },
+        {
+          "zyx": [
+            0.0,
+            432.5,
+            432.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 1.919,
+          "nearest_truth_um": 20.42748408394925
+        },
+        {
+          "zyx": [
+            0.0,
+            386.5,
+            344.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 11.211,
+          "nearest_truth_um": 3.7492636610406627
+        },
+        {
+          "zyx": [
+            0.0,
+            112.5,
+            210.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 22.725,
+          "nearest_truth_um": 12.231429434044085
+        },
+        {
+          "zyx": [
+            0.0,
+            46.5,
+            288.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 9.393,
+          "nearest_truth_um": 0.9581701310310249
+        },
+        {
+          "zyx": [
+            0.0,
+            392.5,
+            356.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 9.999,
+          "nearest_truth_um": 4.599660204841223
+        },
+        {
+          "zyx": [
+            0.0,
+            430.5,
+            136.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 2.323,
+          "nearest_truth_um": 13.902091425393516
+        },
+        {
+          "zyx": [
+            0.0,
+            96.5,
+            204.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 19.493000000000002,
+          "nearest_truth_um": 9.15151408238003
+        },
+        {
+          "zyx": [
+            0.0,
+            294.5,
+            190.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 29.795,
+          "nearest_truth_um": 2.3772576637798446
+        },
+        {
+          "zyx": [
+            0.0,
+            144.5,
+            384.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 25.553,
+          "nearest_truth_um": 5.238386201875548
+        },
+        {
+          "zyx": [
+            0.0,
+            270.5,
+            188.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 34.643,
+          "nearest_truth_um": 2.5270191926457533
+        },
+        {
+          "zyx": [
+            0.0,
+            78.5,
+            220.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 15.857000000000001,
+          "nearest_truth_um": 5.563257498983846
+        },
+        {
+          "zyx": [
+            0.0,
+            16.5,
+            284.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 3.333,
+          "nearest_truth_um": 6.590588592834485
+        },
+        {
+          "zyx": [
+            0.0,
+            60.5,
+            206.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 12.221,
+          "nearest_truth_um": 2.1614943904623027
+        },
+        {
+          "zyx": [
+            0.0,
+            168.5,
+            368.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 28.785,
+          "nearest_truth_um": 6.785817121025294
+        },
+        {
+          "zyx": [
+            0.0,
+            76.5,
+            196.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 15.453000000000001,
+          "nearest_truth_um": 5.966698417047738
+        }
+      ]
+    },
+    {
+      "frame": 84,
+      "tp": 6,
+      "fp": 16,
+      "fn": 6,
+      "matched_distances_um": [
+        1.9216560566344965,
+        2.3251946155107177,
+        0.8688348519713033,
+        0.5150009708728805,
+        2.0047927573692017,
+        0.5150009708728736
+      ],
+      "truth": [
+        {
+          "zyx": [
+            0.0,
+            54.0,
+            297.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 10.908000000000001,
+          "nearest_annotated_neighbor_um": 17.99954888323594
+        },
+        {
+          "zyx": [
+            0.0,
+            291.0,
+            181.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 30.502000000000002,
+          "nearest_annotated_neighbor_um": 20.22523423844579
+        },
+        {
+          "zyx": [
+            0.0,
+            314.0,
+            56.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 11.312000000000001,
+          "nearest_annotated_neighbor_um": 24.454517455881238
+        },
+        {
+          "zyx": [
+            0.0,
+            99.0,
+            212.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 19.998,
+          "nearest_annotated_neighbor_um": 19.42773790228806
+        },
+        {
+          "zyx": [
+            0.0,
+            116.0,
+            361.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 23.432000000000002,
+          "nearest_annotated_neighbor_um": 17.99954888323594
+        },
+        {
+          "zyx": [
+            0.0,
+            391.0,
+            186.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 10.302000000000001,
+          "nearest_annotated_neighbor_um": 20.22523423844579
+        },
+        {
+          "zyx": [
+            0.0,
+            269.0,
+            352.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 32.118,
+          "nearest_annotated_neighbor_um": 18.231549138786864
+        },
+        {
+          "zyx": [
+            0.0,
+            183.0,
+            434.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 15.554,
+          "nearest_annotated_neighbor_um": 20.01533592023876
+        },
+        {
+          "zyx": [
+            0.0,
+            66.0,
+            112.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.332,
+          "nearest_annotated_neighbor_um": 21.27147282159842
+        },
+        {
+          "zyx": [
+            0.0,
+            358.0,
+            367.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 16.968,
+          "nearest_annotated_neighbor_um": 15.28407340992578
+        },
+        {
+          "zyx": [
+            0.0,
+            194.0,
+            72.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 14.544,
+          "nearest_annotated_neighbor_um": 24.454517455881238
+        },
+        {
+          "zyx": [
+            0.0,
+            395.0,
+            433.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 9.494,
+          "nearest_annotated_neighbor_um": 15.28407340992578
+        }
+      ],
+      "predictions": [
+        {
+          "zyx": [
+            0.0,
+            188.5,
+            444.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.433000000000002,
+          "nearest_truth_um": 2.394360457408197
+        },
+        {
+          "zyx": [
+            0.0,
+            400.5,
+            186.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 8.383000000000001,
+          "nearest_truth_um": 1.9216560566344965
+        },
+        {
+          "zyx": [
+            0.0,
+            398.5,
+            170.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 8.787,
+          "nearest_truth_um": 3.4782734222599583
+        },
+        {
+          "zyx": [
+            0.0,
+            412.5,
+            426.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 5.9590000000000005,
+          "nearest_truth_um": 3.7709672499240803
+        },
+        {
+          "zyx": [
+            0.0,
+            182.5,
+            422.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 17.877000000000002,
+          "nearest_truth_um": 2.3251946155107177
+        },
+        {
+          "zyx": [
+            0.0,
+            338.5,
+            380.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 20.907,
+          "nearest_truth_um": 4.790850655155091
+        },
+        {
+          "zyx": [
+            0.0,
+            346.5,
+            348.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 19.291,
+          "nearest_truth_um": 4.400170223979969
+        },
+        {
+          "zyx": [
+            0.0,
+            378.5,
+            362.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 12.827,
+          "nearest_truth_um": 4.239594556086705
+        },
+        {
+          "zyx": [
+            0.0,
+            428.5,
+            414.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 2.7270000000000003,
+          "nearest_truth_um": 7.730294819733593
+        },
+        {
+          "zyx": [
+            0.0,
+            106.5,
+            370.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 21.513,
+          "nearest_truth_um": 2.7138758261939677
+        },
+        {
+          "zyx": [
+            0.0,
+            102.5,
+            214.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 20.705000000000002,
+          "nearest_truth_um": 0.8688348519713033
+        },
+        {
+          "zyx": [
+            0.0,
+            330.5,
+            348.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 22.523,
+          "nearest_truth_um": 6.695012621347318
+        },
+        {
+          "zyx": [
+            0.0,
+            116.5,
+            358.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 23.533,
+          "nearest_truth_um": 0.5150009708728805
+        },
+        {
+          "zyx": [
+            0.0,
+            278.5,
+            372.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 27.977,
+          "nearest_truth_um": 4.564037905188788
+        },
+        {
+          "zyx": [
+            0.0,
+            276.5,
+            358.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 30.805000000000003,
+          "nearest_truth_um": 2.0047927573692017
+        },
+        {
+          "zyx": [
+            0.0,
+            124.5,
+            374.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 25.149,
+          "nearest_truth_um": 3.2225173389758415
+        },
+        {
+          "zyx": [
+            0.0,
+            270.5,
+            326.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 34.643,
+          "nearest_truth_um": 5.159904068875695
+        },
+        {
+          "zyx": [
+            0.0,
+            58.5,
+            212.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 11.817,
+          "nearest_truth_um": 8.181623433035769
+        },
+        {
+          "zyx": [
+            0.0,
+            274.5,
+            338.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 33.835,
+          "nearest_truth_um": 2.9446307068968687
+        },
+        {
+          "zyx": [
+            0.0,
+            54.5,
+            294.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 11.009,
+          "nearest_truth_um": 0.5150009708728736
+        },
+        {
+          "zyx": [
+            0.0,
+            74.5,
+            208.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 15.049000000000001,
+          "nearest_truth_um": 4.9992449429888905
+        },
+        {
+          "zyx": [
+            0.0,
+            54.5,
+            226.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 11.009,
+          "nearest_truth_um": 9.454161094459941
+        }
+      ]
+    },
+    {
+      "frame": 91,
+      "tp": 7,
+      "fp": 16,
+      "fn": 7,
+      "matched_distances_um": [
+        2.6065045559139235,
+        0.7141778489984127,
+        2.817157787558237,
+        2.1234034002044875,
+        1.9427737902288058,
+        1.7199680229585652,
+        2.728869729393477
+      ],
+      "truth": [
+        {
+          "zyx": [
+            0.0,
+            33.0,
+            294.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 6.666,
+          "nearest_annotated_neighbor_um": 16.462690181133823
+        },
+        {
+          "zyx": [
+            0.0,
+            293.0,
+            167.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 30.098000000000003,
+          "nearest_annotated_neighbor_um": 16.818243903570913
+        },
+        {
+          "zyx": [
+            0.0,
+            320.0,
+            55.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 11.110000000000001,
+          "nearest_annotated_neighbor_um": 23.27211833933473
+        },
+        {
+          "zyx": [
+            0.0,
+            42.0,
+            213.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 8.484,
+          "nearest_annotated_neighbor_um": 16.462690181133823
+        },
+        {
+          "zyx": [
+            0.0,
+            111.0,
+            364.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 22.422,
+          "nearest_annotated_neighbor_um": 19.729930562472845
+        },
+        {
+          "zyx": [
+            0.0,
+            394.0,
+            186.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 9.696000000000002,
+          "nearest_annotated_neighbor_um": 20.75986146389229
+        },
+        {
+          "zyx": [
+            0.0,
+            247.0,
+            334.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 35.754000000000005,
+          "nearest_annotated_neighbor_um": 18.541135348192675
+        },
+        {
+          "zyx": [
+            0.0,
+            177.0,
+            436.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 15.15,
+          "nearest_annotated_neighbor_um": 19.729930562472845
+        },
+        {
+          "zyx": [
+            0.0,
+            135.0,
+            254.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 27.270000000000003,
+          "nearest_annotated_neighbor_um": 20.53059473079141
+        },
+        {
+          "zyx": [
+            0.0,
+            259.0,
+            243.0
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 36.966,
+          "nearest_annotated_neighbor_um": 16.818243903570913
+        },
+        {
+          "zyx": [
+            0.0,
+            51.0,
+            132.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 10.302000000000001,
+          "nearest_annotated_neighbor_um": 16.462690181133823
+        },
+        {
+          "zyx": [
+            0.0,
+            351.0,
+            367.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 18.382,
+          "nearest_annotated_neighbor_um": 15.20913791113751
+        },
+        {
+          "zyx": [
+            0.0,
+            176.0,
+            67.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.534,
+          "nearest_annotated_neighbor_um": 28.459785663282847
+        },
+        {
+          "zyx": [
+            0.0,
+            389.0,
+            432.0
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 10.706000000000001,
+          "nearest_annotated_neighbor_um": 15.20913791113751
+        }
+      ],
+      "predictions": [
+        {
+          "zyx": [
+            0.0,
+            414.5,
+            192.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 5.555000000000001,
+          "nearest_truth_um": 4.344174259856519
+        },
+        {
+          "zyx": [
+            0.0,
+            406.5,
+            174.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 7.171,
+          "nearest_truth_um": 3.431028125795526
+        },
+        {
+          "zyx": [
+            0.0,
+            184.5,
+            446.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 13.029000000000002,
+          "nearest_truth_um": 2.6065045559139235
+        },
+        {
+          "zyx": [
+            0.0,
+            100.5,
+            362.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 20.301000000000002,
+          "nearest_truth_um": 2.1425335469952373
+        },
+        {
+          "zyx": [
+            0.0,
+            162.5,
+            444.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 13.433000000000002,
+          "nearest_truth_um": 3.3951627354222667
+        },
+        {
+          "zyx": [
+            0.0,
+            236.5,
+            316.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 39.289,
+          "nearest_truth_um": 4.122482989655626
+        },
+        {
+          "zyx": [
+            0.0,
+            322.5,
+            352.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 24.139000000000003,
+          "nearest_truth_um": 6.459263889949063
+        },
+        {
+          "zyx": [
+            0.0,
+            36.5,
+            294.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 7.373,
+          "nearest_truth_um": 0.7141778489984127
+        },
+        {
+          "zyx": [
+            0.0,
+            250.5,
+            320.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 38.481,
+          "nearest_truth_um": 2.817157787558237
+        },
+        {
+          "zyx": [
+            0.0,
+            54.5,
+            226.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 11.009,
+          "nearest_truth_um": 3.716470637580766
+        },
+        {
+          "zyx": [
+            0.0,
+            110.5,
+            374.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 22.321,
+          "nearest_truth_um": 2.1234034002044875
+        },
+        {
+          "zyx": [
+            0.0,
+            340.5,
+            350.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 20.503,
+          "nearest_truth_um": 3.9506366575528014
+        },
+        {
+          "zyx": [
+            0.0,
+            50.5,
+            208.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 10.201,
+          "nearest_truth_um": 1.9427737902288058
+        },
+        {
+          "zyx": [
+            0.0,
+            32.5,
+            236.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 6.565,
+          "nearest_truth_um": 5.1202119096771765
+        },
+        {
+          "zyx": [
+            0.0,
+            254.5,
+            256.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 37.875,
+          "nearest_truth_um": 2.8745103930930536
+        },
+        {
+          "zyx": [
+            0.0,
+            250.5,
+            242.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 38.683,
+          "nearest_truth_um": 1.7199680229585652
+        },
+        {
+          "zyx": [
+            0.0,
+            34.5,
+            220.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 6.969,
+          "nearest_truth_um": 2.142533546995239
+        },
+        {
+          "zyx": [
+            0.0,
+            368.5,
+            358.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 14.847000000000001,
+          "nearest_truth_um": 3.929925444585441
+        },
+        {
+          "zyx": [
+            0.0,
+            86.5,
+            386.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 17.473000000000003,
+          "nearest_truth_um": 6.719347140905878
+        },
+        {
+          "zyx": [
+            0.0,
+            404.5,
+            432.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 7.575,
+          "nearest_truth_um": 3.1326286086927064
+        },
+        {
+          "zyx": [
+            0.0,
+            8.5,
+            228.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 1.717,
+          "nearest_truth_um": 7.456235645417867
+        },
+        {
+          "zyx": [
+            0.0,
+            124.5,
+            262.5
+          ],
+          "matched": true,
+          "border_um": 0.0,
+          "xy_border_um": 25.149,
+          "nearest_truth_um": 2.728869729393477
+        },
+        {
+          "zyx": [
+            0.0,
+            424.5,
+            416.5
+          ],
+          "matched": false,
+          "border_um": 0.0,
+          "xy_border_um": 3.535,
+          "nearest_truth_um": 7.8247301550916175
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Same validation frames selected checkpoint; descriptive audit, not independent evidence",
+    "Maximum projections hide Z overlap; 3D matching unchanged",
+    "Nearest annotated neighbor is not an image-derived density estimate"
+  ]
+}

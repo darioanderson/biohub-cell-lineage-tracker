@@ -1,0 +1,19 @@
+{
+  "id": "dushi2/biohub-ce-detector",
+  "id_no": 144856369,
+  "title": "Biohub CE Detector",
+  "code_file": "biohub-ce-detector.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

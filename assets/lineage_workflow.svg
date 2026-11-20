@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="340" viewBox="0 0 1120 340" role="img" aria-labelledby="title desc">
+  <title id="title">From nucleus observations to a proposed cell lineage</title>
+  <desc id="desc">An illustrative nucleus is linked through three timepoints, followed by a proposed division into two daughters at the fourth timepoint. This is a concept diagram, not model output.</desc>
+  <defs>
+    <radialGradient id="nucleus"><stop stop-color="#dbb8f1"/><stop offset="1" stop-color="#a46bd0"/></radialGradient>
+    <radialGradient id="daughter"><stop stop-color="#b3e8e2"/><stop offset="1" stop-color="#57b7b0"/></radialGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M1 1 L6 4 L1 7" fill="none" stroke="#3e8eaa" stroke-width="1.5"/></marker>
+  </defs>
+  <rect width="1120" height="340" rx="20" fill="#f5f7fa"/>
+  <g fill="#fff" stroke="#dce3ec" stroke-width="1.5">
+    <rect x="16" y="16" width="248" height="272" rx="18"/>
+    <rect x="296" y="16" width="248" height="272" rx="18"/>
+    <rect x="576" y="16" width="248" height="272" rx="18"/>
+    <rect x="856" y="16" width="248" height="272" rx="18"/>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g fill="#3366aa" font-size="15" font-weight="600" letter-spacing="1">
+      <text x="140" y="54">TIME 1</text><text x="420" y="54">TIME 2</text>
+      <text x="700" y="54">TIME 3</text><text x="980" y="54">TIME 4</text>
+    </g>
+    <g fill="none" stroke="#3e8eaa" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#arrow)">
+      <path d="M180 165 L374 151"/><path d="M460 151 L654 158"/>
+    </g>
+    <g fill="none" stroke="#d69535" stroke-width="3">
+      <path d="M741 159 C834 159 839 111 944 111"/>
+      <path d="M741 159 C834 159 839 203 944 203"/>
+    </g>
+    <g fill="url(#nucleus)" stroke="#8654b2" stroke-width="4">
+      <circle cx="140" cy="165" r="38"/><circle cx="420" cy="151" r="38"/><circle cx="700" cy="159" r="38"/>
+    </g>
+    <g fill="url(#daughter)" stroke="#388f92" stroke-width="3">
+      <circle cx="980" cy="111" r="31"/><circle cx="980" cy="203" r="31"/>
+    </g>
+    <g fill="#24344a" font-size="17" font-weight="600">
+      <text x="140" y="250">Observation 1</text><text x="420" y="250">Observation 2</text>
+      <text x="700" y="250">Parent observation</text><text x="980" y="267">Two daughter observations</text>
+    </g>
+    <g fill="#64748b" font-size="14">
+      <text x="140" y="272">A detected nucleus</text><text x="420" y="272">Linked across time</text><text x="700" y="272">Before a proposed split</text>
+    </g>
+    <g font-size="14" font-weight="600">
+      <text x="270" y="319" fill="#3e8eaa">Dashed links · one proposed track</text>
+      <text x="830" y="319" fill="#a97224">Branching links · a proposed division</text>
+    </g>
+  </g>
+</svg>

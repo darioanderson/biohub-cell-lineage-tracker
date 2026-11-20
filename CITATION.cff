@@ -9,8 +9,8 @@ authors:
 repository-code: 'https://github.com/Tobi-joshua/Biohub---Cell-Tracking-During-Development'
 url: 'https://bioapp---cell-tracking-during-development-ezpjtah7icn2tfr8tie4.streamlit.app/'
 license: MIT
-version: 1.0.0
-date-released: '2026-06-30'
+version: 1.8.0
+date-released: '2026-09-19'
 keywords:
   - cell tracking
   - lineage reconstruction

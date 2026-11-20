@@ -1,0 +1,7 @@
+-r requirements.txt
+numpy<2
+zarr<3
+numcodecs<0.16
+tifffile==2025.5.10
+torch==2.7.1
+imagecodecs<2025

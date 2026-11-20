@@ -1,0 +1,173 @@
+{
+  "run": "dushi2/biohub-trackastra-full-evaluation",
+  "version": 1,
+  "state": "error",
+  "reason": "missing geff_spec in offline no-deps install",
+  "files": [
+    {
+      "path": "biohub-trackastra-full-evaluation.log",
+      "bytes": 12325,
+      "sha256": "be650a507c61710acd0f3464f4f8e5d94f95aab56b11bbc9a1636d3c4235f29d"
+    },
+    {
+      "path": "notebook/biohub-trackastra-full-evaluation.ipynb",
+      "bytes": 92947,
+      "sha256": "bd564c1cb24afa9958fe5ebaa8dbda7bedc7dd703b324678ee8e9fbb4e02a2d9"
+    },
+    {
+      "path": "notebook/kernel-metadata.json",
+      "bytes": 607,
+      "sha256": "6cc3c8b88f071d09ec37d5aab89a056adc5d20eac152b1b4af509047b227991f"
+    },
+    {
+      "path": "trackastra_project/scripts/evaluate_detected_linker.py",
+      "bytes": 17459,
+      "sha256": "6378564b1821de2b06175f250d69db68760cad1ed0cbe22dfc8d2bf676ff8e57"
+    },
+    {
+      "path": "trackastra_project/scripts/evaluate_trackastra.py",
+      "bytes": 8179,
+      "sha256": "57beec6873295e18932c810940401ac087068c2e1dd229d6817b74ca9a83667f"
+    },
+    {
+      "path": "trackastra_project/src/biohub/__init__.py",
+      "bytes": 680,
+      "sha256": "21f4d29886e55fe9a887e385fc47e883755c89b634c644506e3b9555f907ea90"
+    },
+    {
+      "path": "trackastra_project/src/biohub/analysis.py",
+      "bytes": 9322,
+      "sha256": "1d3b698786003b010a1890d7caed2e2a30268aaadb72f1622f4bd33da111a6ae"
+    },
+    {
+      "path": "trackastra_project/src/biohub/cache.py",
+      "bytes": 2378,
+      "sha256": "b1c7e0f15857e147d393f72450eefcb67b18d64feb0cb3fb5727779330894774"
+    },
+    {
+      "path": "trackastra_project/src/biohub/config.py",
+      "bytes": 10152,
+      "sha256": "c225804688076c0c0c7c8eae3502a4bb284f5e32b2cf11e57294ea72260c7a9d"
+    },
+    {
+      "path": "trackastra_project/src/biohub/curation.py",
+      "bytes": 5339,
+      "sha256": "882eb89ca463e754261d0fd6962c04e0bfe46c174d1c7fb06d97350dd348b41e"
+    },
+    {
+      "path": "trackastra_project/src/biohub/data.py",
+      "bytes": 8427,
+      "sha256": "1b466eaf4f6eb24d9d64a516ffdfc1be131c6b4c5e5b503cae35237d1e6210cd"
+    },
+    {
+      "path": "trackastra_project/src/biohub/dataset_catalog.py",
+      "bytes": 6474,
+      "sha256": "d4a5eca0e691d4b242c179e4551c1bf14d9adf63f6a36f96142565d8bfe6aeaa"
+    },
+    {
+      "path": "trackastra_project/src/biohub/detection.py",
+      "bytes": 12525,
+      "sha256": "8e2fadfa1f7352f8f2086b9991baeffcb46e77aa93b72ef2bfc5e991e2fb4953"
+    },
+    {
+      "path": "trackastra_project/src/biohub/detector.py",
+      "bytes": 1544,
+      "sha256": "4171af3b66e4fb8b7c9bf1f2ec1fc0230e02c5a318944ca4a91e467519e367ec"
+    },
+    {
+      "path": "trackastra_project/src/biohub/export.py",
+      "bytes": 2811,
+      "sha256": "db74ed88871c8f65093ab496cdb421b060b64a90eaff8f603b027e2e4af1005a"
+    },
+    {
+      "path": "trackastra_project/src/biohub/learned_detector.py",
+      "bytes": 6614,
+      "sha256": "f950310f6358b25db710c90f76365bae9456bb9d5a9e986269971493e0428310"
+    },
+    {
+      "path": "trackastra_project/src/biohub/learned_linker.py",
+      "bytes": 5083,
+      "sha256": "38b5bb4f2e5ccf6e484ff1a31a703c77bcb39460f3e51d8c1cda2f6082f378a0"
+    },
+    {
+      "path": "trackastra_project/src/biohub/manifest.py",
+      "bytes": 2825,
+      "sha256": "1b8e422c03f78e4a14967d39f79c0b2df51f7c34003e245e1ddc256127b12b67"
+    },
+    {
+      "path": "trackastra_project/src/biohub/sample_data.py",
+      "bytes": 9262,
+      "sha256": "bda83de31aec6064d17be364b3b2cd7e9e57d7478b8321d8d545658469ddd9f7"
+    },
+    {
+      "path": "trackastra_project/src/biohub/scientific.py",
+      "bytes": 4586,
+      "sha256": "1a76bb37d0c891cef20fd5150ac8f5f06606fc599247f18b059437e28a2a8072"
+    },
+    {
+      "path": "trackastra_project/src/biohub/sparse_detector_training.py",
+      "bytes": 2440,
+      "sha256": "ce82995ff776abe51362659895e52117a708e0779376a6ebce03cb005e503f86"
+    },
+    {
+      "path": "trackastra_project/src/biohub/submission.py",
+      "bytes": 13564,
+      "sha256": "bc9ef81b3575a8051d32c89c017787b81ec9379b23ea084e691ae33368defb36"
+    },
+    {
+      "path": "trackastra_project/src/biohub/temporal_unet.py",
+      "bytes": 5433,
+      "sha256": "22af54260d1822d580bbb635c48e39c0d108188d60fc7c996ced28c8a7533a58"
+    },
+    {
+      "path": "trackastra_project/src/biohub/trackastra_adapter.py",
+      "bytes": 3518,
+      "sha256": "caf71f3b33012f6f6443e56084e857a26e54bb67cf5025d717388e00401e4bdb"
+    },
+    {
+      "path": "trackastra_project/src/biohub/tracking.py",
+      "bytes": 30396,
+      "sha256": "7298c29ad45fd92f0704ff051842ebae021def08330af674f1be77d0821c64b8"
+    },
+    {
+      "path": "trackastra_project/src/biohub/tuning.py",
+      "bytes": 19639,
+      "sha256": "59b4c92a6c1672cc83fdc917d921e6832dfe3999e43924de703038cd119c0e05"
+    },
+    {
+      "path": "trackastra_project/src/biohub/validation.py",
+      "bytes": 6285,
+      "sha256": "e0ff25f5cb8b896796b97e5775524adf0017d59e50428094668064d23dc67398"
+    },
+    {
+      "path": "trackastra_project/src/biohub/visualization.py",
+      "bytes": 13251,
+      "sha256": "6a84c962fcabdbb19254733afa1e09e0dfcb5d55cbb39ec05072806f8cfdb641"
+    },
+    {
+      "path": "trackastra_project/src/data/__init__.py",
+      "bytes": 96,
+      "sha256": "34a1c2824b684db7fad821fb2197a0a462ea9034dcac4ec035066c3907971d78"
+    },
+    {
+      "path": "trackastra_project/src/detection/__init__.py",
+      "bytes": 130,
+      "sha256": "196d108c3ca8ce793ab403c5b423b3de2037f3b9ce650b8853119a466ccfc9c1"
+    },
+    {
+      "path": "trackastra_project/src/export/__init__.py",
+      "bytes": 70,
+      "sha256": "e8f8d243e50f38f669e367dee4478349af5dcbf467f7817f593ff7f85de1898c"
+    },
+    {
+      "path": "trackastra_project/src/tracking/__init__.py",
+      "bytes": 207,
+      "sha256": "bbec0b538e5c105dc725aa04efb5fd97201e811f56957139452fb63231b2abd5"
+    },
+    {
+      "path": "trackastra_project/src/visualization/__init__.py",
+      "bytes": 115,
+      "sha256": "878b21c8648f9c0efb5675f89295978559f18b0b50517cb26be79516ff480e48"
+    }
+  ]
+}

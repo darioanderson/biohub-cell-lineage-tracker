@@ -1,0 +1,11 @@
+{
+  "dataset": "Sample18_t080_082",
+  "frames": 3,
+  "observations": 301,
+  "links": 198,
+  "frame0_detections": 100,
+  "detector": "saved Kaggle CShaper center detector",
+  "linker": "classical",
+  "note": "Observed in live Streamlit app inside VS Code. Counts are predictions, not ground-truth accuracy. Physical calibration unverified.",
+  "test_data": "C:/Projects/cell-tracking/advanced/data/cshaper_demo/Sample18_t080_082.npy"
+}

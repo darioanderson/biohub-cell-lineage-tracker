@@ -156,11 +156,17 @@ def plot_volume_slices(
 
 
 def plot_frame_counts(counts: Sequence[int], title: str = "Detections per frame") -> plt.Figure:
+    from matplotlib.ticker import MaxNLocator
     apply_style()
     fig, ax = plt.subplots(figsize=(7, 3))
-    ax.plot(counts, color="#3366AA", linewidth=1.2)
-    ax.set_xlabel("frame")
-    ax.set_ylabel("detections")
+    ax.plot(np.arange(len(counts)), counts, color="#3366AA", linewidth=1.5, marker="o", markersize=5)
+    ax.set_xlabel("Frame index")
+    ax.set_ylabel("Predicted nuclei")
+    ax.set_ylim(0, max(3, int(np.ceil(max(counts, default=0)*1.2))))
+    ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+    ax.yaxis.set_major_locator(MaxNLocator(integer=True))
+    if len(counts) == 1:
+        ax.set_xlim(-0.5, 0.5)
     ax.set_title(title)
     ax.grid(True, alpha=0.25)
     fig.tight_layout()
@@ -200,6 +206,9 @@ def plot_track_overlay(
     z_idx: int,
     vol_b: Optional[np.ndarray] = None,
     title: str = "Track overlay",
+    frame_a_ids: Optional[Sequence[int]] = None,
+    frame_b_ids: Optional[Sequence[int]] = None,
+    show_scale_bar: bool = True,
 ) -> plt.Figure:
     apply_style()
     fig, ax = plt.subplots(figsize=(6, 6))
@@ -215,8 +224,12 @@ def plot_track_overlay(
         on_b = np.abs(zb - z_idx) <= 1
         ax.scatter(xa[on_a], ya[on_a], s=22, c=COLORS["accent"], label="t", edgecolors="white", linewidths=0.4)
         ax.scatter(xb[on_b], yb[on_b], s=22, c=COLORS["detection"], label="t+1", edgecolors="white", linewidths=0.4)
-        id_to_xy_a = {i + 1: (xa[i], ya[i]) for i in range(len(frame_a)) if on_a[i]}
-        id_to_xy_b = {i + 1: (xb[i], yb[i]) for i in range(len(frame_b)) if on_b[i]}
+        ids_a = list(frame_a_ids) if frame_a_ids is not None else list(range(1, len(frame_a) + 1))
+        ids_b = list(frame_b_ids) if frame_b_ids is not None else list(range(1, len(frame_b) + 1))
+        if len(ids_a) != len(frame_a) or len(ids_b) != len(frame_b):
+            raise ValueError("Frame ID count must match coordinate count")
+        id_to_xy_a = {int(ids_a[i]): (xa[i], ya[i]) for i in range(len(frame_a)) if on_a[i]}
+        id_to_xy_b = {int(ids_b[i]): (xb[i], yb[i]) for i in range(len(frame_b)) if on_b[i]}
         for s, t in links:
             if s in id_to_xy_a and t in id_to_xy_b:
                 x1, y1 = id_to_xy_a[s]
@@ -224,7 +237,8 @@ def plot_track_overlay(
                 ax.plot([x1, x2], [y1, y2], color=COLORS["link"], linewidth=1.0, alpha=0.85)
     ax.set_title(title)
     ax.legend(loc="upper right", frameon=True, fancybox=False, edgecolor="#cccccc")
-    _add_scale_bar(ax, SCALE[2])
+    if show_scale_bar:
+        _add_scale_bar(ax, SCALE[2])
     ax.axis("off")
     fig.tight_layout()
     return fig
@@ -236,12 +250,15 @@ def plot_lineage_graph(result: AnalysisResult, max_nodes: int = 120) -> plt.Figu
 
     g = nx.DiGraph()
     if not result.nodes.empty:
-        sub = result.nodes.head(max_nodes)
+        sort_cols=[c for c in ('lineage_id','track_id','t','node_id') if c in result.nodes]
+        sub = result.nodes.sort_values(sort_cols).head(max_nodes)
         for row in sub.itertuples(index=False):
             g.add_node(int(row.node_id), t=int(row.t))
     if not result.edges.empty:
         for row in result.edges.itertuples(index=False):
-            g.add_edge(int(row.source_id), int(row.target_id))
+            source,target=int(row.source_id),int(row.target_id)
+            if source in g and target in g:
+                g.add_edge(source,target)
 
     fig, ax = plt.subplots(figsize=(8, 5.5))
     if g.number_of_nodes() == 0:
@@ -252,7 +269,7 @@ def plot_lineage_graph(result: AnalysisResult, max_nodes: int = 120) -> plt.Figu
     pos = nx.spring_layout(g, seed=42, k=0.45)
     nx.draw_networkx_nodes(g, pos, node_size=45, node_color=COLORS["accent"], alpha=0.9, ax=ax)
     nx.draw_networkx_edges(g, pos, edge_color="#6B7280", arrows=True, arrowsize=10, width=0.8, ax=ax)
-    ax.set_title("Lineage graph (topology)")
+    ax.set_title(f"Lineage graph preview ({g.number_of_nodes()} of {len(result.nodes)} observations)")
     ax.axis("off")
     fig.tight_layout()
     return fig
@@ -267,12 +284,13 @@ def plot_lineage_timeline(result: AnalysisResult, max_tracks: int = 80) -> plt.F
         ax.axis("off")
         return fig
 
-    nodes = result.nodes.sort_values(["node_id", "t"])
-    track_ids = nodes["node_id"].unique()[:max_tracks]
+    identity_column = "track_id" if "track_id" in result.nodes.columns else "node_id"
+    nodes = result.nodes.sort_values([identity_column, "t"])
+    track_ids = nodes[identity_column].unique()[:max_tracks]
     cmap = plt.cm.tab20(np.linspace(0, 1, min(len(track_ids), 20)))
 
     for i, tid in enumerate(track_ids):
-        sub = nodes[nodes["node_id"] == tid]
+        sub = nodes[nodes[identity_column] == tid]
         color = cmap[i % len(cmap)]
         ax.plot(sub["t"], sub["y"], color=color, alpha=0.75, linewidth=1.0)
         ax.scatter(sub["t"], sub["y"], s=10, color=color, alpha=0.85, edgecolors="none")
@@ -281,6 +299,305 @@ def plot_lineage_timeline(result: AnalysisResult, max_tracks: int = 80) -> plt.F
     ax.set_ylabel("y position (pixels)")
     ax.set_title("Track trajectories over time")
     ax.grid(True, alpha=0.2, linestyle="--")
+    fig.tight_layout()
+    return fig
+
+
+
+def _tree_time_positions(result: AnalysisResult, node_ids: set[int]) -> dict[int, tuple[float, float]]:
+    """Lay out a lineage left-to-right by frame with branches separated vertically."""
+    if not node_ids:
+        return {}
+    nodes = result.nodes.set_index("node_id", drop=False)
+    children: dict[int, list[int]] = {nid: [] for nid in node_ids}
+    parent: dict[int, int] = {}
+    if not result.edges.empty:
+        for row in result.edges.itertuples(index=False):
+            source, target = int(row.source_id), int(row.target_id)
+            if source in node_ids and target in node_ids:
+                children.setdefault(source, []).append(target)
+                parent[target] = source
+    for source in children:
+        children[source].sort(
+            key=lambda nid: (int(nodes.loc[nid, "t"]) if nid in nodes.index else 10**9, nid)
+        )
+
+    roots = sorted(
+        [nid for nid in node_ids if nid not in parent],
+        key=lambda nid: (int(nodes.loc[nid, "t"]) if nid in nodes.index else 10**9, nid),
+    )
+    y_pos: dict[int, float] = {}
+    leaf_counter = [0.0]
+    visiting: set[int] = set()
+
+    def assign_y(nid: int) -> float:
+        if nid in y_pos:
+            return y_pos[nid]
+        if nid in visiting:
+            # Graph invariants should prevent this; fall back to a stable row.
+            value = leaf_counter[0]
+            leaf_counter[0] += 1.0
+            y_pos[nid] = value
+            return value
+        visiting.add(nid)
+        direct = [child for child in children.get(nid, []) if child in node_ids]
+        if not direct:
+            value = leaf_counter[0]
+            leaf_counter[0] += 1.0
+        else:
+            child_y = [assign_y(child) for child in direct]
+            value = float(np.mean(child_y))
+        visiting.discard(nid)
+        y_pos[nid] = value
+        return value
+
+    for root in roots:
+        assign_y(root)
+        # Leave a visual gap between multiple disconnected roots.
+        leaf_counter[0] += 0.75
+    for nid in sorted(node_ids):
+        assign_y(nid)
+
+    return {
+        nid: (
+            float(nodes.loc[nid, "t"]) if nid in nodes.index else 0.0,
+            -float(y_pos[nid]),
+        )
+        for nid in node_ids
+    }
+
+
+def _draw_lineage_tree(
+    result: AnalysisResult,
+    node_ids: set[int],
+    *,
+    selected_node_id: Optional[int] = None,
+    title: str = "Lineage tree",
+    label_limit: int = 90,
+) -> plt.Figure:
+    """Draw a readable lineage subgraph using time as the horizontal axis."""
+    apply_style()
+    import networkx as nx
+    from matplotlib.lines import Line2D
+
+    fig, ax = plt.subplots(figsize=(11, 5.5))
+    if not node_ids:
+        ax.text(0.5, 0.5, "No lineage nodes to display", ha="center", va="center")
+        ax.axis("off")
+        return fig
+
+    nodes = result.nodes.set_index("node_id", drop=False)
+    g = nx.DiGraph()
+    for nid in sorted(node_ids):
+        if nid in nodes.index:
+            g.add_node(nid)
+    if not result.edges.empty:
+        for row in result.edges.itertuples(index=False):
+            source, target = int(row.source_id), int(row.target_id)
+            if source in g and target in g:
+                g.add_edge(source, target)
+
+    pos = _tree_time_positions(result, set(g.nodes))
+    selected = int(selected_node_id) if selected_node_id is not None else None
+    ancestors: set[int] = set()
+    descendants: set[int] = set()
+    if selected is not None and selected in g:
+        ancestors = nx.ancestors(g, selected)
+        descendants = nx.descendants(g, selected)
+
+    division_parents = {nid for nid in g if g.out_degree(nid) >= 2}
+    terminal_nodes = {nid for nid in g if g.out_degree(nid) == 0}
+
+    colors = []
+    sizes = []
+    for nid in g.nodes:
+        if nid == selected:
+            colors.append("#16A34A")
+            sizes.append(180)
+        elif nid in division_parents:
+            colors.append("#DC2626")
+            sizes.append(125)
+        elif nid in ancestors:
+            colors.append("#F59E0B")
+            sizes.append(95)
+        elif nid in descendants:
+            colors.append("#7C3AED")
+            sizes.append(95)
+        elif nid in terminal_nodes:
+            colors.append("#64748B")
+            sizes.append(75)
+        else:
+            colors.append(COLORS["accent"])
+            sizes.append(70)
+
+    nx.draw_networkx_edges(
+        g, pos, edge_color="#94A3B8", arrows=True, arrowsize=11,
+        width=1.1, alpha=0.9, ax=ax, connectionstyle="arc3,rad=0.0",
+    )
+    nx.draw_networkx_nodes(
+        g, pos, node_size=sizes, node_color=colors, edgecolors="white",
+        linewidths=0.7, alpha=0.96, ax=ax,
+    )
+
+    if len(g) <= label_limit:
+        labels = {nid: str(nid) for nid in g}
+    else:
+        important = division_parents | terminal_nodes | ancestors | descendants
+        if selected is not None:
+            important.add(selected)
+        labels = {nid: str(nid) for nid in important if nid in g}
+    nx.draw_networkx_labels(g, pos, labels=labels, font_size=7, font_color="#0F172A", ax=ax)
+
+    ax.set_xlabel("time frame  →")
+    ax.set_yticks([])
+    ax.set_title(title)
+    ax.grid(axis="x", alpha=0.12, linestyle="--")
+    legend = [
+        Line2D([0], [0], marker="o", color="w", markerfacecolor="#16A34A", markersize=9, label="selected"),
+        Line2D([0], [0], marker="o", color="w", markerfacecolor="#DC2626", markersize=8, label="division parent"),
+        Line2D([0], [0], marker="o", color="w", markerfacecolor="#F59E0B", markersize=8, label="ancestor"),
+        Line2D([0], [0], marker="o", color="w", markerfacecolor="#7C3AED", markersize=8, label="descendant"),
+        Line2D([0], [0], marker="o", color="w", markerfacecolor="#64748B", markersize=8, label="terminal"),
+    ]
+    ax.legend(handles=legend, loc="upper left", ncol=5, frameon=False, fontsize=8)
+    fig.tight_layout()
+    return fig
+
+
+def plot_selected_lineage_tree(
+    result: AnalysisResult,
+    lineage_id: int,
+    selected_node_id: Optional[int] = None,
+) -> plt.Figure:
+    """Draw one lineage only, preserving parent/daughter structure and time."""
+    if "lineage_id" not in result.nodes.columns:
+        return _draw_lineage_tree(result, set(), selected_node_id=selected_node_id)
+    ids = set(
+        result.nodes.loc[
+            result.nodes["lineage_id"].astype(int).eq(int(lineage_id)), "node_id"
+        ].astype(int)
+    )
+    return _draw_lineage_tree(
+        result,
+        ids,
+        selected_node_id=selected_node_id,
+        title=f"Lineage {int(lineage_id)} — parent/daughter tree",
+    )
+
+
+def plot_node_family_tree(
+    result: AnalysisResult,
+    node_id: int,
+    ancestor_depth: int = 3,
+    descendant_depth: int = 3,
+) -> plt.Figure:
+    """Draw a bounded family neighborhood centered on one observation."""
+    from biohub.lineage_explorer import local_family_node_ids
+
+    ids = local_family_node_ids(
+        result, node_id, ancestor_depth=ancestor_depth, descendant_depth=descendant_depth,
+        include_siblings=True,
+    )
+    return _draw_lineage_tree(
+        result,
+        ids,
+        selected_node_id=int(node_id),
+        title=f"Node {int(node_id)} — local family structure",
+        label_limit=120,
+    )
+
+
+def plot_selected_lineage_trajectory(
+    result: AnalysisResult,
+    lineage_id: int,
+    selected_track_id: Optional[int] = None,
+) -> plt.Figure:
+    """Plot physical-Y trajectories only for one lineage, emphasizing one track."""
+    apply_style()
+    fig, ax = plt.subplots(figsize=(9, 4.5))
+    if result.nodes.empty or "lineage_id" not in result.nodes.columns:
+        ax.text(0.5, 0.5, "No lineage trajectory to display", ha="center", va="center")
+        ax.axis("off")
+        return fig
+
+    sub = result.nodes[result.nodes["lineage_id"].astype(int).eq(int(lineage_id))].copy()
+    if sub.empty:
+        ax.text(0.5, 0.5, f"Lineage {lineage_id} not found", ha="center", va="center")
+        ax.axis("off")
+        return fig
+    identity = "track_id" if "track_id" in sub.columns else "node_id"
+    scale_y = SCALE[1]
+    for track_id, group in sub.sort_values([identity, "t"]).groupby(identity, sort=True):
+        is_selected = selected_track_id is not None and int(track_id) == int(selected_track_id)
+        color = "#16A34A" if is_selected else "#64748B"
+        alpha = 0.98 if is_selected else 0.48
+        width = 2.6 if is_selected else 1.0
+        ax.plot(group["t"], group["y"].astype(float) * scale_y, color=color, alpha=alpha, linewidth=width)
+        ax.scatter(group["t"], group["y"].astype(float) * scale_y, s=22 if is_selected else 10,
+                   color=color, alpha=alpha, edgecolors="none")
+
+    # Mark division observations for this lineage.
+    ids = set(sub["node_id"].astype(int))
+    if not result.edges.empty:
+        counts = result.edges[result.edges["source_id"].astype(int).isin(ids)].groupby("source_id").size()
+        div_ids = set(counts[counts >= 2].index.astype(int))
+        div_rows = sub[sub["node_id"].astype(int).isin(div_ids)]
+        if not div_rows.empty:
+            ax.scatter(
+                div_rows["t"], div_rows["y"].astype(float) * scale_y,
+                s=70, facecolors="none", edgecolors="#DC2626", linewidths=1.5,
+                label="division parent", zorder=4,
+            )
+            ax.legend(frameon=False, loc="best")
+
+    ax.set_xlabel("time frame")
+    ax.set_ylabel("Y position (µm)")
+    ax.set_title(f"Lineage {int(lineage_id)} trajectories" + (
+        f" — track {int(selected_track_id)} highlighted" if selected_track_id is not None else ""
+    ))
+    ax.grid(True, alpha=0.2, linestyle="--")
+    fig.tight_layout()
+    return fig
+
+
+def plot_node_temporal_context(
+    vol4d: np.ndarray,
+    result: AnalysisResult,
+    node_id: int,
+) -> plt.Figure:
+    """Show parent/current/child image context using each relation's own Z slice."""
+    from biohub.lineage_explorer import node_relationships
+
+    apply_style()
+    rel = node_relationships(result, node_id)
+    nodes = result.nodes.set_index("node_id", drop=False)
+    related = [rel.get("parent_node_id"), int(node_id)]
+    children = list(rel.get("children", []))
+    related.append(children[0] if children else None)
+    titles = ["Parent", "Selected", "Child" if children else "Next relation"]
+
+    fig, axes = plt.subplots(1, 3, figsize=(10.5, 3.6))
+    for ax, related_id, label in zip(axes, related, titles):
+        if related_id is None or int(related_id) not in nodes.index:
+            ax.text(0.5, 0.5, f"No {label.lower()}", ha="center", va="center")
+            ax.axis("off")
+            continue
+        row = nodes.loc[int(related_id)]
+        t = int(row["t"])
+        z = int(np.clip(round(float(row["z"])), 0, vol4d.shape[1] - 1))
+        if t < 0 or t >= vol4d.shape[0]:
+            ax.text(0.5, 0.5, f"Frame {t} not loaded", ha="center", va="center")
+            ax.axis("off")
+            continue
+        plane = vol4d[t, z]
+        vmin, vmax = np.percentile(plane, (1, 99.5))
+        ax.imshow(plane, cmap="gray", vmin=vmin, vmax=vmax)
+        marker_color = "#16A34A" if int(related_id) == int(node_id) else "#F59E0B"
+        ax.scatter([float(row["x"])], [float(row["y"])], s=90, facecolors="none",
+                   edgecolors=marker_color, linewidths=2.0)
+        ax.set_title(f"{label}: node {int(related_id)} | t={t}, z={z}")
+        ax.axis("off")
+    fig.suptitle("Local image evidence around the selected observation", y=1.02, fontsize=11)
     fig.tight_layout()
     return fig
 

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.kaggle.com/code/dushi2/biohub-trackastra-divisions-full",
+  "script_version_id": 351543612,
+  "kaggle_status": "complete",
+  "run_result": "successful",
+  "scientific_decision": "reject",
+  "reason": "zero of 129476 Trackastra division proposals accepted; all paired deltas exactly zero"
+}

@@ -1,0 +1,10 @@
+{
+  "cells_per_frame": 800,
+  "matched_edges": 800,
+  "dense_seconds": 0.10718820000010965,
+  "sparse_seconds": 0.03316070000005311,
+  "speedup": 3.2323865298361607,
+  "dense_distance_and_cost_bytes": 10240000,
+  "old_signature_diff_bytes": 61440000,
+  "note": "Byte counts are exact array-size estimates; process RSS was not inferred."
+}

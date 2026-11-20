@@ -1,0 +1,288 @@
+[
+  {
+    "sample": "44b6_12dfb391",
+    "gt_parent": 172000000050,
+    "detections": [
+      30992,
+      31498,
+      31499
+    ],
+    "geometry_um": {
+      "parent_distances": [
+        5.9150892850404215,
+        4.667457150312148
+      ],
+      "sister": 10.405076885828379,
+      "midpoint": 1.1490485194281397
+    },
+    "baseline_parent_edges": [
+      [
+        30992,
+        31899
+      ]
+    ],
+    "daughter_edges": [
+      {
+        "edge": [
+          30992,
+          31498
+        ],
+        "score": 0.2792750895023346,
+        "existing_incoming": [
+          {
+            "edge": [
+              31377,
+              31498
+            ],
+            "score": 0.16288219392299652
+          }
+        ]
+      },
+      {
+        "edge": [
+          30992,
+          31499
+        ],
+        "score": 0.6852706074714661,
+        "existing_incoming": [
+          {
+            "edge": [
+              31300,
+              31499
+            ],
+            "score": 0.11701775342226028
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sample": "44b6_267148e4",
+    "gt_parent": 16000000001,
+    "detections": [
+      500,
+      552,
+      566
+    ],
+    "geometry_um": {
+      "parent_distances": [
+        4.875,
+        9.613629647536875
+      ],
+      "sister": 11.941262496067994,
+      "midpoint": 4.737648414561806
+    },
+    "baseline_parent_edges": [
+      [
+        500,
+        552
+      ]
+    ],
+    "daughter_edges": [
+      {
+        "edge": [
+          500,
+          552
+        ],
+        "score": 0.6512112021446228,
+        "existing_incoming": [
+          {
+            "edge": [
+              500,
+              552
+            ],
+            "score": 0.6512112021446228
+          }
+        ]
+      },
+      {
+        "edge": [
+          500,
+          566
+        ],
+        "score": 0.08487820625305176,
+        "existing_incoming": [
+          {
+            "edge": [
+              496,
+              566
+            ],
+            "score": 0.09846062958240509
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sample": "6bba_05db0fb1",
+    "gt_parent": 25000381,
+    "detections": [
+      15564,
+      15960,
+      15818
+    ],
+    "geometry_um": {
+      "parent_distances": [
+        5.658407737606049,
+        7.094851236107774
+      ],
+      "sister": 12.48847124601326,
+      "midpoint": 1.4787723212601054
+    },
+    "baseline_parent_edges": [
+      [
+        15564,
+        15960
+      ]
+    ],
+    "daughter_edges": [
+      {
+        "edge": [
+          15564,
+          15960
+        ],
+        "score": 0.13117697834968567,
+        "existing_incoming": [
+          {
+            "edge": [
+              15564,
+              15960
+            ],
+            "score": 0.13117697834968567
+          }
+        ]
+      },
+      {
+        "edge": [
+          15564,
+          15818
+        ],
+        "score": 0.05724332481622696,
+        "existing_incoming": [
+          {
+            "edge": [
+              15431,
+              15818
+            ],
+            "score": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sample": "6bba_05db0fb1",
+    "gt_parent": 53001011,
+    "detections": [
+      32621,
+      null,
+      33457
+    ]
+  },
+  {
+    "sample": "6bba_05db0fb1",
+    "gt_parent": 63001217,
+    "detections": [
+      38585,
+      39163,
+      39173
+    ],
+    "geometry_um": {
+      "parent_distances": [
+        6.3066959703556345,
+        1.6750116604071745
+      ],
+      "sister": 7.556686815331174,
+      "midpoint": 2.648425977113576
+    },
+    "baseline_parent_edges": [
+      [
+        38585,
+        39173
+      ]
+    ],
+    "daughter_edges": [
+      {
+        "edge": [
+          38585,
+          39163
+        ],
+        "score": 0.462717205286026,
+        "existing_incoming": [
+          {
+            "edge": [
+              38630,
+              39163
+            ],
+            "score": 0.09031977504491806
+          }
+        ]
+      },
+      {
+        "edge": [
+          38585,
+          39173
+        ],
+        "score": 0.6847583651542664,
+        "existing_incoming": [
+          {
+            "edge": [
+              38585,
+              39173
+            ],
+            "score": 0.6847583651542664
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sample": "6bba_062c8d37",
+    "gt_parent": 90001276,
+    "detections": [
+      4250,
+      4302,
+      4298
+    ],
+    "geometry_um": {
+      "parent_distances": [
+        3.72334275215162,
+        6.039340428598143
+      ],
+      "sister": 9.30835688037905,
+      "midpoint": 1.8727199678876176
+    },
+    "baseline_parent_edges": [
+      [
+        4250,
+        4302
+      ]
+    ],
+    "daughter_edges": [
+      {
+        "edge": [
+          4250,
+          4302
+        ],
+        "score": 0.6564757823944092,
+        "existing_incoming": [
+          {
+            "edge": [
+              4250,
+              4302
+            ],
+            "score": 0.6564757823944092
+          }
+        ]
+      },
+      {
+        "edge": [
+          4250,
+          4298
+        ],
+        "score": 0.7091097235679626,
+        "existing_incoming": []
+      }
+    ]
+  }
+]

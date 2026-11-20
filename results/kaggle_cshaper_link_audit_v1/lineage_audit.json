@@ -1,0 +1,20 @@
+{
+  "dictionary_header": [
+    ",0",
+    "1,AB",
+    "2,ABa",
+    "3,ABal",
+    "4,ABala"
+  ],
+  "samples": {
+    "Sample18": {
+      "error": "'CDSample18.txt'"
+    },
+    "Sample19": {
+      "error": "'CDSample19.txt'"
+    },
+    "Sample20": {
+      "error": "'CDSample20.txt'"
+    }
+  }
+}

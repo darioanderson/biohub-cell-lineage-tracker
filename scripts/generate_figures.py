@@ -59,6 +59,8 @@ def main() -> None:
             16,
             vol_b=vol4d[t_link + 1],
             title=f"Inter-frame links t={t_link} to t={t_link + 1}",
+            frame_a_ids=frame_a.node_ids,
+            frame_b_ids=frame_b.node_ids,
         ),
         FIGURES / "track_links.png",
     )

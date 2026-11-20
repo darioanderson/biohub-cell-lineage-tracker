@@ -1,0 +1,19 @@
+{
+  "id": "dushi2/biohub-trackastra-divisions-full",
+  "title": "Biohub Trackastra Divisions Full",
+  "code_file": "biohub-trackastra-divisions-full.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "model_sources": [
+    "jirkaborovec/biohubcelltrack-trackastra-artifact-and-packages/PyTorch/default/1"
+  ]
+}

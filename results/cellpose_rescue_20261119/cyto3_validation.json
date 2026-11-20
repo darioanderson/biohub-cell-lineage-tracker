@@ -1,0 +1,62 @@
+[
+  {
+    "group": "control",
+    "frame": 0,
+    "predicted": 5,
+    "diameter": 47.52515160680213
+  },
+  {
+    "group": "control",
+    "frame": 1,
+    "predicted": 4,
+    "diameter": 48.53087595410385
+  },
+  {
+    "group": "control",
+    "frame": 2,
+    "predicted": 5,
+    "diameter": 48.184223875001805
+  },
+  {
+    "group": "control",
+    "frame": 3,
+    "predicted": 4,
+    "diameter": 49.853421059372025
+  },
+  {
+    "group": "control",
+    "frame": 4,
+    "predicted": 6,
+    "diameter": 50.32368681325166
+  },
+  {
+    "group": "variant",
+    "frame": 0,
+    "predicted": 1,
+    "diameter": 205.88514012264955
+  },
+  {
+    "group": "variant",
+    "frame": 1,
+    "predicted": 1,
+    "diameter": 190.2549001137052
+  },
+  {
+    "group": "variant",
+    "frame": 2,
+    "predicted": 4,
+    "diameter": 30.0
+  },
+  {
+    "group": "variant",
+    "frame": 3,
+    "predicted": 4,
+    "diameter": 98.98271716182113
+  },
+  {
+    "group": "variant",
+    "frame": 4,
+    "predicted": 3,
+    "diameter": 48.36950527098492
+  }
+]

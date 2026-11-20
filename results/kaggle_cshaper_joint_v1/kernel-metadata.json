@@ -1,0 +1,19 @@
+{
+  "id": "dushi2/biohub-cshaper-joint",
+  "id_no": 145418742,
+  "title": "Biohub CShaper Joint",
+  "code_file": "biohub-cshaper-joint.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

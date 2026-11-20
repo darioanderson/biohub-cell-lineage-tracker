@@ -1,0 +1,12 @@
+{
+  "samples": [
+    "44b6_12dfb391",
+    "44b6_267148e4",
+    "6bba_05db0fb1",
+    "6bba_062c8d37"
+  ],
+  "selection": "lexicographic first 2 per embryo; division-bearing=True; annotation-only selection before model inference",
+  "purpose": "diagnostic only; no threshold selection or adoption verdict",
+  "device": "Tesla T4",
+  "match_gate_um": 7.0
+}

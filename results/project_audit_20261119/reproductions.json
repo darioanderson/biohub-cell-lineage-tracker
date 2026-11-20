@@ -1,0 +1,6 @@
+{
+  "new_upload_preserves_old_result": true,
+  "empty_detection_nodes_columns": [],
+  "empty_scientific_error": "AnalysisResult lacks scientific identity columns: ['lineage_id', 'node_id', 't', 'track_id', 'x', 'y', 'z']",
+  "atlas_duplicate_same_embryo_count": 2
+}

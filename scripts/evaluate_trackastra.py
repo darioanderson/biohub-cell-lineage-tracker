@@ -1,0 +1,249 @@
+"""Evaluate zero-shot Trackastra on the same real detections as the production linker."""
+
+from __future__ import annotations
+
+import argparse
+import contextlib
+import io
+import json
+import time
+from collections import defaultdict
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+
+from biohub.config import Config
+from biohub.data import find_geff_path, list_datasets, load_volume, read_zarr_meta
+from biohub.trackastra_adapter import (
+    add_trackastra_division_proposals,
+    centroids_to_watershed_mask,
+    edge_list_sha256,
+    graph_edge_scores_to_detection_ids,
+    graph_edges_to_detection_ids,
+    make_isotropic_xy,
+)
+from biohub.tracking import link_frames
+from biohub.tuning import bootstrap_ci, evaluate_sparse_graph, paired_bootstrap_delta
+from scripts.evaluate_detected_linker import build_detected_sample, embryo_id
+
+
+def run_classical_edges(sample, cfg: Config) -> list[tuple[int, int]]:
+    """Return the exact framewise classical control edges for one detected sample."""
+    edges: list[tuple[int, int]] = []
+    previous_velocity = None
+    for previous, current in zip(sample.frames, sample.frames[1:]):
+        if current.t != previous.t + 1:
+            continue
+        links = link_frames(
+            previous.ids, previous.xyz, current.ids, current.xyz, cfg,
+            prev_intensity=previous.intensity, curr_intensity=current.intensity,
+            prev_velocity=previous_velocity,
+            prev_image_features=previous.image_features,
+            curr_image_features=current.image_features,
+        )
+        edges.extend((int(a), int(b)) for a, b in links)
+        positions = {node: previous.xyz[i] for i, node in enumerate(previous.ids)}
+        positions.update({node: current.xyz[i] for i, node in enumerate(current.ids)})
+        velocity = {b: (positions[b] - positions[a]) * cfg.scale_array for a, b in links}
+        previous_velocity = np.asarray([velocity.get(node, np.zeros(3)) for node in current.ids])
+    return edges
+
+
+def evaluate_trackastra(sample, edges: list[tuple[int, int]]) -> dict[str, float]:
+    mapping = {pred: gt for frame in sample.frames for pred, gt in frame.pred_to_gt.items()}
+    recalls = [len(frame.pred_to_gt) / frame.gt_count for frame in sample.frames if frame.gt_count]
+    graph = evaluate_sparse_graph(
+        sample.gt_nodes,
+        sample.gt_edges,
+        edges,
+        mapping,
+        evaluable_times=[frame.t for frame in sample.frames],
+    )
+    recall = float(np.mean(recalls)) if recalls else 0.0
+    detections = sum(len(frame.ids) for frame in sample.frames)
+    return {
+        "recall": recall,
+        "detections": float(detections),
+        "matched_detections": float(len(mapping)),
+        "unmatched_detections_unknown": float(detections - len(mapping)),
+        "score": 0.45 * recall + 0.45 * graph["edge_f1"] + 0.10 * graph["division_f1"],
+        **graph,
+    }
+
+
+def run_trackastra(
+    model, train_dir: Path, sample, mode: str
+) -> tuple[list[tuple[int, int]], dict[tuple[int, int], float], dict]:
+    zarr_path = train_dir / f"{sample.name}.zarr"
+    shape, dtype = read_zarr_meta(zarr_path)
+    frames = sample.frames
+    first_t = frames[0].t
+    isotropic_shape = (shape[1], shape[2] // 4, shape[3] // 4)
+    images = np.zeros((len(frames), *isotropic_shape), dtype=np.uint16)
+    masks = np.zeros_like(images, dtype=np.uint16)
+    for local_t, frame in enumerate(frames):
+        volume = load_volume(zarr_path, frame.t, shape, dtype)
+        isotropic = make_isotropic_xy(volume, factor=4)
+        images[local_t] = np.clip(isotropic, 0, np.iinfo(np.uint16).max).astype(np.uint16)
+        masks[local_t] = centroids_to_watershed_mask(isotropic, frame.xyz)
+    with contextlib.redirect_stderr(io.StringIO()):
+        graph, _ = model.track(images, masks, mode=mode)
+    edges = graph_edges_to_detection_ids(graph, [frame.ids for frame in frames])
+    edge_scores = graph_edge_scores_to_detection_ids(graph, [frame.ids for frame in frames])
+    return edges, edge_scores, {
+        "first_evaluable_t": int(first_t),
+        "frames": len(frames),
+        "graph_nodes": int(graph.number_of_nodes()),
+        "graph_edges": int(graph.number_of_edges()),
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("train_dir", type=Path)
+    parser.add_argument("model_dir", type=Path)
+    parser.add_argument("--output-dir", type=Path, default=Path("results/trackastra_full"))
+    parser.add_argument("--cache-dir", type=Path, default=None)
+    parser.add_argument("--mode", choices=("greedy", "ilp", "greedy_nodiv"), default="greedy")
+    parser.add_argument(
+        "--division-proposals-only", action="store_true",
+        help="Preserve every classical edge and add only gated Trackastra second daughters.",
+    )
+    parser.add_argument(
+        "--division-score-threshold", type=float, default=None,
+        help="Require both selected Trackastra daughter edges to meet this score.",
+    )
+    parser.add_argument(
+        "--division-persistence-frames", type=int, default=0,
+        help="Require both daughters to continue this many later classical transitions.",
+    )
+    parser.add_argument("--limit", type=int, default=0)
+    parser.add_argument("--samples-per-embryo", type=int, default=0)
+    parser.add_argument("--seed", type=int, default=42)
+    args = parser.parse_args()
+
+    import torch
+    from trackastra.model import Trackastra
+
+    np.random.seed(args.seed)
+    torch.manual_seed(args.seed)
+    started = time.time()
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    status_path = args.output_dir / "status.json"
+    cfg = Config().competition_v10_dog_preset().copy_with(
+        use_detection_cache=True,
+        detection_cache_dir=args.cache_dir or args.output_dir / "detection_cache",
+        use_competition_preset=False,
+    )
+    names = [name for name in list_datasets(args.train_dir) if find_geff_path(args.train_dir, name)]
+    if args.samples_per_embryo:
+        selected, counts = [], defaultdict(int)
+        for name in names:
+            group = embryo_id(name)
+            if counts[group] < args.samples_per_embryo:
+                selected.append(name)
+                counts[group] += 1
+        names = selected
+    if args.limit:
+        names = names[: args.limit]
+    inventory = defaultdict(int)
+    for name in names:
+        inventory[embryo_id(name)] += 1
+    if len(inventory) < 2:
+        raise ValueError(f"Need at least two embryo groups, found {dict(inventory)}")
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model = Trackastra.from_folder(args.model_dir, device=device)
+    rows, diagnostics = [], {}
+    classical = cfg.copy_with(linker_backend="classical")
+    for index, name in enumerate(names, 1):
+        status_path.write_text(json.dumps({
+            "state": "evaluating", "completed_samples": index - 1,
+            "selected_samples": len(names), "next_sample": name,
+            "inventory": dict(inventory), "device": device,
+        }, indent=2))
+        sample = build_detected_sample(args.train_dir, name, cfg)
+        baseline_edges = run_classical_edges(sample, classical)
+        baseline = evaluate_trackastra(sample, baseline_edges)
+        trackastra_edges, trackastra_scores, trackastra_info = run_trackastra(
+            model, args.train_dir, sample, args.mode
+        )
+        candidate_edges = trackastra_edges
+        candidate_arm = "trackastra_ctc"
+        if args.division_proposals_only:
+            node_time = {node: frame.t for frame in sample.frames for node in frame.ids}
+            node_xyz = {node: frame.xyz[i] for frame in sample.frames for i, node in enumerate(frame.ids)}
+            candidate_edges, merge_info = add_trackastra_division_proposals(
+                baseline_edges, trackastra_edges, node_time, node_xyz, cfg.scale_array,
+                parent_gate_um=cfg.div_parent_dist_um,
+                sister_gate_um=cfg.div_sister_dist_um,
+                midpoint_gate_um=cfg.div_midpoint_dist_um,
+                edge_scores=trackastra_scores,
+                min_edge_score=args.division_score_threshold,
+                persistence_frames=args.division_persistence_frames,
+            )
+            trackastra_info.update(merge_info)
+            trackastra_info.update({
+                "baseline_edge_sha256": edge_list_sha256(baseline_edges),
+                "candidate_baseline_prefix_sha256": edge_list_sha256(
+                    candidate_edges[: len(baseline_edges)]
+                ),
+            })
+            if trackastra_info["baseline_edge_sha256"] != trackastra_info["candidate_baseline_prefix_sha256"]:
+                raise RuntimeError("hybrid candidate changed the ordered Hungarian edge prefix")
+            candidate_arm = "hungarian_plus_trackastra_divisions"
+        candidate = evaluate_trackastra(sample, candidate_edges)
+        diagnostics[name] = trackastra_info
+        for arm, result in (("current_hungarian", baseline), (candidate_arm, candidate)):
+            rows.append({"embryo": sample.embryo, "dataset": name, "arm": arm, **result})
+        status_path.write_text(json.dumps({
+            "state": "evaluating", "completed_samples": index,
+            "selected_samples": len(names), "last_sample": name,
+            "inventory": dict(inventory), "device": device,
+        }, indent=2))
+        print("EVAL", index, "/", len(names), name, baseline["score"], candidate["score"], flush=True)
+
+    details = pd.DataFrame(rows)
+    details.to_csv(args.output_dir / "details.csv", index=False)
+    metrics = ["score", "recall", "edge_precision", "edge_recall", "edge_f1", "division_precision", "division_recall"]
+    summary = {
+        "inventory": dict(inventory), "independent_embryos": len(inventory),
+        "model": "Trackastra ctc (zero-shot)", "mode": args.mode,
+        "division_proposals_only": args.division_proposals_only,
+        "division_score_threshold": args.division_score_threshold,
+        "division_persistence_frames": args.division_persistence_frames,
+        "model_dir": str(args.model_dir), "device": device,
+        "metrics": {}, "sample_diagnostics": diagnostics,
+    }
+    for metric in metrics:
+        pivot = details.pivot(index=["embryo", "dataset"], columns="arm", values=metric).dropna()
+        base = pivot["current_hungarian"].to_numpy()
+        candidate_arm = "hungarian_plus_trackastra_divisions" if args.division_proposals_only else "trackastra_ctc"
+        candidate = pivot[candidate_arm].to_numpy()
+        summary["metrics"][metric] = {
+            "baseline": bootstrap_ci(base),
+            "candidate": bootstrap_ci(candidate),
+            "paired_sample_delta": paired_bootstrap_delta(base, candidate),
+        }
+        embryo_delta = (pivot[candidate_arm] - pivot["current_hungarian"]).groupby(level="embryo").mean().to_numpy()
+        summary["metrics"][metric]["paired_embryo_delta"] = bootstrap_ci(embryo_delta)
+    summary["decision_rule"] = "Adopt only when the embryo-level paired 95% CI lower bound for composite score is > 0."
+    summary["decision"] = "adopt" if summary["metrics"]["score"]["paired_embryo_delta"][1] > 0 else "reject"
+    summary["limitations"] = [
+        "Trackastra ctc is externally pretrained and is not fine-tuned on Biohub.",
+        "Only two embryo prefixes are independent biological groups.",
+        "The comparison uses identical DoG detections; unmatched sparse detections remain unknown.",
+        "This is an offline sparse-label proxy, not an official competition submission score.",
+    ]
+    summary["seconds"] = time.time() - started
+    (args.output_dir / "summary.json").write_text(json.dumps(summary, indent=2, default=float))
+    status_path.write_text(json.dumps({
+        "state": "completed", "decision": summary["decision"],
+        "seconds": summary["seconds"], "inventory": dict(inventory),
+    }, indent=2))
+    print("TRACKASTRA EXPERIMENT COMPLETED", json.dumps(summary, default=float), flush=True)
+
+
+if __name__ == "__main__":
+    main()

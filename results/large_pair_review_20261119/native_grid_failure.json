@@ -1,0 +1,44 @@
+{
+  "state": "stopped_unreliable_predictions",
+  "reason": "Published Emb8 tracing contains 2 nuclei at source frame 1; native-grid detector produced 66 centres. This count check fails before a valid comparison.",
+  "observed_native_grid_counts_first_six_frames": [
+    66,
+    60,
+    60,
+    70,
+    58,
+    64
+  ],
+  "reference_counts_first_six_frames": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "full_pair_evaluated": false,
+  "cause": "Under investigation; acquisition scale and SNR differ from training data.",
+  "checkpoint_sha256": "405fe6f4f6682038a54817ba75d860fd868ff39f9de00fde054fddb52a1089a4",
+  "control_sha256": "b0e13d67c7f7a98da30e2dc35b25e905598ab31f3849e85d5d013b9f41eafb46",
+  "observed_native_grid_counts_first_eight_frames": [
+    66,
+    60,
+    60,
+    70,
+    58,
+    64,
+    62,
+    63
+  ],
+  "reference_counts_first_eight_frames": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ]
+}

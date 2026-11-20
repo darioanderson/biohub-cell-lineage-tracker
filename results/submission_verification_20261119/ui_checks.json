@@ -1,0 +1,85 @@
+{
+  "source": "Actual saved real-microscopy predictions; no new inference",
+  "checks": [
+    {
+      "recording": "Control",
+      "page": "Home",
+      "errors": []
+    },
+    {
+      "recording": "Control",
+      "page": "Dataset",
+      "errors": []
+    },
+    {
+      "recording": "Control",
+      "page": "Volume",
+      "errors": []
+    },
+    {
+      "recording": "Control",
+      "page": "Pipeline",
+      "errors": []
+    },
+    {
+      "recording": "Control",
+      "page": "Detection",
+      "errors": []
+    },
+    {
+      "recording": "Control",
+      "page": "Lineage",
+      "errors": []
+    },
+    {
+      "recording": "Control",
+      "page": "Exports",
+      "errors": []
+    },
+    {
+      "recording": "Control",
+      "page": "Compare Lineages",
+      "errors": []
+    },
+    {
+      "recording": "Variant",
+      "page": "Home",
+      "errors": []
+    },
+    {
+      "recording": "Variant",
+      "page": "Dataset",
+      "errors": []
+    },
+    {
+      "recording": "Variant",
+      "page": "Volume",
+      "errors": []
+    },
+    {
+      "recording": "Variant",
+      "page": "Pipeline",
+      "errors": []
+    },
+    {
+      "recording": "Variant",
+      "page": "Detection",
+      "errors": []
+    },
+    {
+      "recording": "Variant",
+      "page": "Lineage",
+      "errors": []
+    },
+    {
+      "recording": "Variant",
+      "page": "Exports",
+      "errors": []
+    },
+    {
+      "recording": "Variant",
+      "page": "Compare Lineages",
+      "errors": []
+    }
+  ]
+}

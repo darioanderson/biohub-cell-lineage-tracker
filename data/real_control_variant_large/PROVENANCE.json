@@ -1,0 +1,44 @@
+{
+  "purpose": "Larger real microscopy model tests; not a verified stage-aligned experiment",
+  "control": {
+    "sample": "Emb8",
+    "genotype": "wild-type",
+    "strain": "ZZY0861",
+    "compression": "uncompressed",
+    "frame_interval_seconds": 10,
+    "source": "https://doi.org/10.6084/m9.figshare.29064530",
+    "grid_zyx_um": [
+      0.8,
+      0.09,
+      0.09
+    ],
+    "file": "CONTROL_WT_Emb8_t001_030.npy",
+    "shape": [
+      30,
+      56,
+      512,
+      712
+    ],
+    "bytes": 612434048,
+    "sha256": "b0e13d67c7f7a98da30e2dc35b25e905598ab31f3849e85d5d013b9f41eafb46"
+  },
+  "variant": {
+    "sample": "MT_wee-1.1_2",
+    "genotype": "wee-1.1 mutant",
+    "compression": "uncompressed",
+    "source": "https://doi.org/10.6084/m9.figshare.27872238",
+    "frame_interval_seconds_verified": false,
+    "file": "VARIANT_wee-1.1_MT2_t001_030.npy",
+    "shape": [
+      30,
+      94,
+      512,
+      712
+    ],
+    "bytes": 1028014208,
+    "sha256": "7cd4eb9b0b4c68014074e3945df8e0d4f37c889eb12e6b9e90bba9feec6688b9"
+  },
+  "stage_alignment_verified": false,
+  "common_physical_grid": false,
+  "resampling_performed": false
+}

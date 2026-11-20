@@ -1,0 +1,19 @@
+{
+  "id": "dushi2/biohub-cshaper-all-pairs",
+  "id_no": 145423224,
+  "title": "Biohub CShaper All Pairs",
+  "code_file": "biohub-cshaper-all-pairs.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

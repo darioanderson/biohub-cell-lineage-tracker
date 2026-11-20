@@ -1,0 +1,23 @@
+{
+  "id": "jirkaborovec/biohub-celltrack-dog-trackastra-graph-trans",
+  "id_no": 125645948,
+  "title": "Biohub\ud83e\uddebCellTrack: DoG & Trackastra Graph Trans",
+  "code_file": "biohub-celltrack-dog-trackastra-graph-trans.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": [
+    "jirkaborovec/biohubcelltrack-trackastra-artifact-and-packages/PyTorch/default/1"
+  ]
+}

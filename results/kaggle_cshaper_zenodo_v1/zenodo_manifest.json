@@ -1,0 +1,4862 @@
+[
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 0,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t000.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t001-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 1,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t001.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t002-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 2,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t002.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t003-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 3,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t003.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t004-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 4,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t004.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t005-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 5,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t005.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t006-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 6,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t006.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t007-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 7,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t007.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t008-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 8,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t008.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t009-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 9,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t009.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t010-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 10,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t010.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t011-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 11,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t011.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t012-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 12,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t012.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t013-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 13,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t013.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t014-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 14,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t014.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t015-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 15,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t015.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t016-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 16,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t016.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t017-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 17,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t017.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t018-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 18,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t018.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t019-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 19,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t019.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t020-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 20,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t020.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t021-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 21,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t021.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t022-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 22,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t022.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t023-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 23,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t023.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t024-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 24,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t024.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t025-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 25,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t025.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t026-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 26,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t026.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t027-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 27,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t027.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t028-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 28,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t028.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t029-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 29,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t029.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t030-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 30,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t030.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t031-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 31,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t031.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t032-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 32,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t032.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t033-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 33,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t033.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t034-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 34,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t034.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t035-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 35,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t035.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t036-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 36,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t036.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t037-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 37,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t037.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t038-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 38,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t038.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t039-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 39,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t039.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t040-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 40,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t040.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t041-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 41,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t041.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t042-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 42,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t042.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t043-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 43,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t043.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t044-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 44,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t044.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t045-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 45,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t045.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t046-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 46,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t046.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t047-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 47,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t047.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t048-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 48,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t048.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t049-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 49,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t049.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t050-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 50,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t050.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t051-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 51,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t051.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t052-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 52,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t052.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t053-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 53,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t053.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t054-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 54,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t054.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t055-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 55,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t055.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t056-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 56,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t056.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t057-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 57,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t057.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t058-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 58,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t058.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t059-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 59,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t059.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t060-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 60,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t060.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t061-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 61,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t061.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t062-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 62,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t062.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t063-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 63,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t063.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t064-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 64,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t064.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t065-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 65,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t065.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t066-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 66,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t066.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t067-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 67,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t067.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t068-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 68,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t068.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t069-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 69,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t069.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t070-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 70,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t070.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t071-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 71,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t071.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t072-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 72,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t072.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t073-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 73,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t073.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t074-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 74,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t074.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t075-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 75,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t075.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t076-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 76,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t076.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t077-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 77,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t077.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t078-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 78,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t078.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t079-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 79,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t079.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t080-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 80,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t080.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t081-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 81,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t081.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t082-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 82,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t082.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t083-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 83,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t083.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t084-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 84,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t084.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t085-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 85,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t085.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t086-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 86,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t086.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t087-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 87,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t087.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t088-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 88,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t088.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t089-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 89,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t089.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t090-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 90,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t090.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t091-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 91,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t091.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t092-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 92,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t092.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t093-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 93,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t093.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t094-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 94,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t094.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t095-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 95,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t095.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t096-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 96,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t096.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t097-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 97,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t097.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t098-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 98,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t098.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t099-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 99,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t099.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t100-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 100,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t100.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t101-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 101,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t101.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t102-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 102,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t102.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t103-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 103,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t103.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t104-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 104,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t104.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t105-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 105,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t105.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t106-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 106,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t106.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t107-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 107,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t107.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t108-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 108,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t108.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t109-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 109,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t109.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t110-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 110,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t110.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t111-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 111,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t111.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t112-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 112,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t112.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t113-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 113,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t113.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t114-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 114,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t114.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t115-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 115,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t115.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t116-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 116,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t116.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t117-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 117,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t117.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t118-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 118,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t118.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t119-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 119,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t119.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t120-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 120,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t120.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t121-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 121,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t121.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t122-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 122,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t122.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t123-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 123,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t123.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t124-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 124,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t124.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t125-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 125,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t125.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t126-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 126,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t126.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t127-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 127,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t127.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t128-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 128,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t128.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t129-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 129,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t129.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t130-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 130,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t130.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t131-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 131,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t131.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t132-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 132,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t132.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t133-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 133,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t133.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t134-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 134,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t134.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t135-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 135,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t135.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t136-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 136,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t136.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t137-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 137,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t137.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t138-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 138,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t138.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t139-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 139,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t139.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t140-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 140,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t140.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t141-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 141,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t141.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t142-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 142,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t142.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t143-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 143,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t143.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t144-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 144,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t144.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t145-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 145,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t145.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t146-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 146,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t146.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t147-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 147,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t147.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t148-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 148,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t148.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t149-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 149,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t149.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t150-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 150,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t150.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t151-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 151,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t151.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t152-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 152,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t152.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t153-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 153,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t153.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t154-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 154,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t154.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t155-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 155,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t155.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t156-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 156,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t156.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t157-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 157,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t157.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t158-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 158,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t158.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t159-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 159,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t159.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t160-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 160,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t160.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t161-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 161,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t161.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t162-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 162,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t162.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t163-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 163,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t163.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t164-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 164,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t164.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t165-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 165,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t165.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t166-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 166,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t166.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t167-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 167,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t167.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t168-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 168,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t168.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t169-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 169,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t169.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t170-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 170,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t170.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t171-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 171,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t171.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t172-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 172,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t172.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t173-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 173,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t173.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t174-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 174,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t174.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t175-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 175,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t175.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t176-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 176,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t176.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t177-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 177,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t177.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t178-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 178,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t178.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t179-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 179,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t179.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t180-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 180,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t180.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t181-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 181,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t181.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t182-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 182,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t182.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t183-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 183,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t183.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t184-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 184,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t184.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t185-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 185,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t185.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t186-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 186,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t186.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t187-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 187,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t187.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t188-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 188,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t188.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t189-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 189,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t189.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t190-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 190,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t190.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t191-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 191,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t191.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t192-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 192,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t192.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t193-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 193,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t193.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t194-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 194,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t194.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t195-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 195,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t195.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t196-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 196,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t196.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t197-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 197,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t197.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t198-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 198,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t198.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t199-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 199,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t199.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t200-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 200,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t200.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t201-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 201,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t201.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t202-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 202,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t202.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t203-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 203,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t203.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t204-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 204,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t204.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t205-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 205,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t205.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t206-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 206,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t206.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t207-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 207,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t207.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t208-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 208,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t208.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t209-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 209,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t209.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t210-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 210,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t210.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t211-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 211,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t211.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t212-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 212,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t212.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t213-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 213,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t213.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t214-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 214,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t214.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t215-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 215,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t215.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t216-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 216,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t216.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t217-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 217,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t217.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t218-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 218,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t218.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t219-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 219,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t219.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t220-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 220,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t220.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t221-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 221,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t221.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t222-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 222,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t222.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t223-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 223,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t223.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t224-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 224,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t224.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t225-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 225,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t225.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t226-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 226,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t226.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t227-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 227,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t227.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t228-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 228,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t228.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t229-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 229,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t229.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t230-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 230,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t230.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t231-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 231,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t231.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t232-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 232,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t232.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t233-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 233,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t233.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t234-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 234,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t234.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t235-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 235,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t235.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t236-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 236,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t236.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t237-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 237,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t237.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t238-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 238,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t238.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t239-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 239,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t239.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t240-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 240,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t240.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t241-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 241,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t241.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t242-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 242,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t242.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t243-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 243,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t243.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t244-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 244,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t244.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t245-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 245,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t245.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t246-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 246,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t246.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t247-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 247,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t247.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t248-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 248,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t248.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t249-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 249,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t249.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t250-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 250,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t250.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t251-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 251,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t251.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t252-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 252,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t252.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t253-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 253,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t253.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t254-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 254,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t254.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t255-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 255,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t255.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t256-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 256,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t256.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t257-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 257,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t257.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t258-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 258,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t258.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t259-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 259,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t259.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t260-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 260,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t260.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t261-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 261,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t261.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t262-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 262,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t262.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t263-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 263,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t263.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t264-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 264,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t264.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t265-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 265,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t265.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t266-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 266,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t266.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t267-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 267,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t267.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t268-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 268,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t268.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t269-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s1",
+    "t": 269,
+    "image": "mskcc-confocal/mskcc_confocal_s1/images/mskcc_confocal_s1_t269.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s1/tracks/nuclei/t270-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 0,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t000.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t001-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 1,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t001.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t002-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 2,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t002.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t003-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 3,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t003.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t004-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 4,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t004.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t005-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 5,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t005.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t006-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 6,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t006.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t007-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 7,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t007.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t008-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 8,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t008.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t009-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 9,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t009.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t010-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 10,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t010.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t011-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 11,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t011.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t012-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 12,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t012.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t013-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 13,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t013.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t014-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 14,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t014.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t015-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 15,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t015.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t016-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 16,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t016.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t017-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 17,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t017.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t018-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 18,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t018.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t019-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 19,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t019.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t020-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 20,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t020.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t021-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 21,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t021.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t022-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 22,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t022.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t023-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 23,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t023.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t024-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 24,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t024.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t025-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 25,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t025.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t026-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 26,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t026.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t027-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 27,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t027.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t028-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 28,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t028.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t029-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 29,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t029.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t030-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 30,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t030.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t031-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 31,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t031.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t032-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 32,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t032.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t033-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 33,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t033.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t034-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 34,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t034.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t035-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 35,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t035.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t036-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 36,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t036.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t037-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 37,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t037.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t038-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 38,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t038.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t039-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 39,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t039.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t040-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 40,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t040.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t041-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 41,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t041.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t042-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 42,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t042.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t043-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 43,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t043.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t044-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 44,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t044.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t045-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 45,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t045.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t046-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 46,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t046.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t047-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 47,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t047.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t048-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 48,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t048.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t049-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 49,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t049.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t050-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 50,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t050.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t051-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 51,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t051.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t052-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 52,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t052.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t053-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 53,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t053.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t054-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 54,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t054.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t055-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 55,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t055.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t056-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 56,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t056.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t057-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 57,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t057.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t058-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 58,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t058.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t059-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 59,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t059.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t060-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 60,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t060.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t061-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 61,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t061.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t062-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 62,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t062.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t063-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 63,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t063.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t064-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 64,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t064.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t065-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 65,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t065.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t066-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 66,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t066.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t067-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 67,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t067.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t068-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 68,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t068.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t069-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 69,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t069.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t070-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 70,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t070.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t071-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 71,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t071.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t072-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 72,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t072.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t073-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 73,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t073.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t074-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 74,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t074.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t075-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 75,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t075.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t076-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 76,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t076.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t077-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 77,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t077.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t078-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 78,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t078.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t079-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 79,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t079.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t080-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 80,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t080.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t081-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 81,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t081.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t082-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 82,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t082.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t083-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 83,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t083.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t084-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 84,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t084.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t085-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 85,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t085.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t086-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 86,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t086.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t087-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 87,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t087.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t088-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 88,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t088.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t089-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 89,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t089.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t090-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 90,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t090.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t091-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 91,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t091.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t092-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 92,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t092.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t093-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 93,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t093.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t094-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 94,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t094.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t095-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 95,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t095.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t096-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 96,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t096.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t097-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 97,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t097.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t098-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 98,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t098.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t099-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 99,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t099.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t100-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 100,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t100.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t101-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 101,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t101.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t102-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 102,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t102.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t103-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 103,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t103.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t104-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 104,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t104.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t105-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 105,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t105.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t106-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 106,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t106.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t107-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 107,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t107.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t108-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 108,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t108.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t109-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 109,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t109.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t110-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 110,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t110.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t111-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 111,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t111.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t112-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 112,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t112.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t113-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 113,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t113.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t114-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 114,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t114.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t115-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 115,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t115.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t116-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 116,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t116.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t117-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 117,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t117.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t118-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 118,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t118.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t119-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 119,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t119.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t120-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 120,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t120.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t121-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 121,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t121.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t122-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 122,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t122.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t123-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 123,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t123.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t124-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 124,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t124.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t125-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 125,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t125.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t126-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 126,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t126.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t127-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 127,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t127.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t128-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 128,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t128.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t129-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 129,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t129.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t130-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 130,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t130.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t131-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 131,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t131.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t132-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 132,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t132.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t133-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 133,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t133.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t134-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 134,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t134.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t135-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 135,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t135.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t136-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 136,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t136.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t137-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 137,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t137.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t138-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 138,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t138.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t139-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 139,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t139.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t140-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 140,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t140.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t141-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 141,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t141.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t142-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 142,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t142.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t143-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 143,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t143.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t144-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 144,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t144.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t145-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 145,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t145.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t146-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 146,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t146.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t147-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 147,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t147.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t148-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 148,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t148.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t149-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 149,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t149.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t150-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 150,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t150.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t151-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 151,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t151.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t152-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 152,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t152.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t153-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 153,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t153.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t154-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 154,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t154.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t155-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 155,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t155.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t156-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 156,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t156.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t157-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 157,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t157.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t158-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 158,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t158.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t159-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 159,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t159.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t160-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 160,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t160.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t161-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 161,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t161.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t162-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 162,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t162.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t163-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 163,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t163.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t164-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 164,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t164.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t165-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 165,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t165.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t166-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 166,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t166.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t167-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 167,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t167.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t168-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 168,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t168.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t169-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 169,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t169.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t170-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 170,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t170.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t171-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 171,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t171.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t172-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 172,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t172.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t173-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 173,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t173.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t174-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 174,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t174.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t175-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 175,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t175.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t176-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 176,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t176.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t177-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 177,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t177.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t178-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 178,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t178.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t179-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 179,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t179.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t180-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 180,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t180.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t181-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 181,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t181.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t182-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 182,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t182.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t183-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 183,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t183.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t184-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 184,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t184.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t185-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 185,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t185.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t186-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 186,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t186.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t187-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 187,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t187.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t188-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 188,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t188.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t189-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 189,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t189.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t190-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 190,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t190.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t191-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 191,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t191.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t192-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 192,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t192.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t193-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 193,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t193.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t194-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 194,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t194.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t195-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 195,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t195.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t196-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 196,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t196.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t197-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 197,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t197.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t198-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 198,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t198.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t199-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 199,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t199.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t200-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 200,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t200.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t201-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 201,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t201.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t202-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 202,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t202.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t203-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 203,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t203.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t204-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 204,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t204.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t205-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 205,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t205.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t206-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 206,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t206.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t207-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 207,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t207.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t208-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 208,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t208.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t209-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 209,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t209.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t210-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 210,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t210.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t211-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 211,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t211.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t212-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 212,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t212.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t213-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 213,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t213.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t214-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 214,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t214.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t215-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 215,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t215.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t216-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 216,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t216.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t217-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 217,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t217.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t218-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 218,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t218.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t219-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 219,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t219.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t220-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 220,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t220.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t221-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 221,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t221.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t222-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 222,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t222.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t223-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 223,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t223.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t224-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 224,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t224.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t225-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 225,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t225.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t226-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 226,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t226.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t227-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 227,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t227.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t228-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 228,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t228.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t229-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 229,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t229.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t230-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 230,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t230.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t231-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 231,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t231.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t232-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 232,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t232.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t233-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 233,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t233.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t234-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 234,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t234.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t235-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 235,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t235.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t236-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 236,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t236.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t237-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 237,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t237.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t238-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 238,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t238.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t239-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 239,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t239.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t240-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 240,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t240.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t241-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 241,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t241.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t242-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 242,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t242.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t243-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 243,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t243.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t244-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 244,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t244.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t245-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 245,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t245.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t246-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 246,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t246.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t247-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 247,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t247.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t248-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 248,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t248.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t249-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 249,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t249.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t250-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 250,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t250.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t251-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 251,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t251.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t252-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 252,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t252.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t253-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 253,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t253.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t254-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 254,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t254.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t255-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 255,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t255.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t256-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 256,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t256.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t257-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 257,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t257.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t258-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 258,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t258.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t259-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 259,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t259.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t260-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 260,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t260.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t261-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 261,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t261.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t262-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 262,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t262.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t263-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 263,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t263.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t264-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 264,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t264.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t265-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 265,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t265.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t266-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 266,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t266.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t267-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 267,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t267.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t268-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 268,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t268.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t269-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s2",
+    "t": 269,
+    "image": "mskcc-confocal/mskcc_confocal_s2/images/mskcc_confocal_s2_t269.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s2/tracks/nuclei/t270-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 0,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t000.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t001-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 1,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t001.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t002-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 2,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t002.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t003-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 3,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t003.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t004-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 4,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t004.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t005-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 5,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t005.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t006-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 6,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t006.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t007-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 7,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t007.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t008-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 8,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t008.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t009-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 9,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t009.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t010-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 10,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t010.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t011-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 11,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t011.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t012-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 12,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t012.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t013-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 13,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t013.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t014-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 14,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t014.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t015-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 15,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t015.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t016-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 16,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t016.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t017-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 17,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t017.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t018-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 18,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t018.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t019-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 19,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t019.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t020-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 20,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t020.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t021-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 21,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t021.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t022-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 22,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t022.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t023-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 23,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t023.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t024-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 24,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t024.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t025-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 25,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t025.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t026-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 26,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t026.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t027-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 27,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t027.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t028-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 28,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t028.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t029-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 29,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t029.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t030-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 30,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t030.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t031-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 31,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t031.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t032-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 32,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t032.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t033-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 33,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t033.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t034-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 34,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t034.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t035-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 35,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t035.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t036-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 36,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t036.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t037-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 37,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t037.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t038-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 38,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t038.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t039-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 39,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t039.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t040-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 40,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t040.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t041-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 41,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t041.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t042-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 42,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t042.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t043-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 43,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t043.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t044-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 44,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t044.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t045-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 45,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t045.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t046-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 46,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t046.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t047-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 47,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t047.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t048-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 48,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t048.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t049-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 49,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t049.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t050-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 50,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t050.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t051-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 51,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t051.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t052-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 52,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t052.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t053-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 53,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t053.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t054-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 54,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t054.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t055-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 55,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t055.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t056-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 56,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t056.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t057-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 57,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t057.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t058-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 58,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t058.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t059-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 59,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t059.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t060-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 60,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t060.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t061-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 61,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t061.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t062-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 62,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t062.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t063-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 63,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t063.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t064-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 64,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t064.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t065-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 65,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t065.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t066-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 66,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t066.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t067-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 67,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t067.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t068-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 68,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t068.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t069-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 69,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t069.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t070-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 70,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t070.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t071-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 71,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t071.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t072-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 72,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t072.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t073-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 73,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t073.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t074-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 74,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t074.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t075-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 75,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t075.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t076-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 76,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t076.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t077-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 77,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t077.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t078-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 78,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t078.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t079-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 79,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t079.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t080-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 80,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t080.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t081-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 81,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t081.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t082-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 82,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t082.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t083-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 83,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t083.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t084-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 84,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t084.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t085-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 85,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t085.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t086-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 86,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t086.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t087-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 87,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t087.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t088-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 88,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t088.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t089-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 89,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t089.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t090-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 90,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t090.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t091-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 91,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t091.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t092-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 92,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t092.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t093-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 93,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t093.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t094-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 94,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t094.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t095-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 95,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t095.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t096-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 96,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t096.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t097-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 97,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t097.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t098-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 98,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t098.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t099-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 99,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t099.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t100-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 100,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t100.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t101-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 101,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t101.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t102-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 102,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t102.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t103-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 103,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t103.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t104-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 104,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t104.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t105-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 105,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t105.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t106-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 106,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t106.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t107-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 107,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t107.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t108-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 108,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t108.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t109-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 109,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t109.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t110-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 110,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t110.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t111-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 111,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t111.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t112-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 112,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t112.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t113-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 113,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t113.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t114-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 114,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t114.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t115-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 115,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t115.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t116-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 116,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t116.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t117-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 117,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t117.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t118-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 118,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t118.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t119-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 119,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t119.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t120-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 120,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t120.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t121-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 121,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t121.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t122-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 122,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t122.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t123-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 123,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t123.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t124-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 124,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t124.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t125-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 125,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t125.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t126-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 126,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t126.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t127-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 127,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t127.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t128-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 128,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t128.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t129-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 129,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t129.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t130-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 130,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t130.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t131-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 131,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t131.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t132-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 132,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t132.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t133-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 133,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t133.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t134-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 134,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t134.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t135-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 135,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t135.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t136-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 136,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t136.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t137-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 137,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t137.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t138-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 138,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t138.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t139-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 139,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t139.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t140-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 140,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t140.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t141-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 141,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t141.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t142-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 142,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t142.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t143-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 143,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t143.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t144-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 144,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t144.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t145-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 145,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t145.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t146-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 146,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t146.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t147-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 147,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t147.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t148-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 148,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t148.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t149-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 149,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t149.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t150-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 150,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t150.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t151-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 151,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t151.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t152-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 152,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t152.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t153-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 153,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t153.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t154-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 154,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t154.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t155-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 155,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t155.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t156-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 156,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t156.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t157-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 157,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t157.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t158-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 158,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t158.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t159-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 159,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t159.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t160-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 160,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t160.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t161-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 161,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t161.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t162-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 162,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t162.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t163-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 163,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t163.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t164-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 164,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t164.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t165-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 165,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t165.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t166-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 166,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t166.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t167-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 167,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t167.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t168-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 168,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t168.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t169-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 169,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t169.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t170-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 170,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t170.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t171-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 171,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t171.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t172-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 172,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t172.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t173-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 173,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t173.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t174-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 174,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t174.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t175-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 175,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t175.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t176-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 176,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t176.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t177-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 177,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t177.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t178-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 178,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t178.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t179-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 179,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t179.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t180-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 180,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t180.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t181-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 181,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t181.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t182-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 182,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t182.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t183-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 183,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t183.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t184-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 184,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t184.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t185-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 185,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t185.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t186-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 186,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t186.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t187-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 187,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t187.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t188-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 188,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t188.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t189-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 189,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t189.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t190-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 190,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t190.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t191-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 191,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t191.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t192-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 192,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t192.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t193-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 193,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t193.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t194-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 194,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t194.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t195-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 195,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t195.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t196-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 196,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t196.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t197-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 197,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t197.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t198-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 198,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t198.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t199-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 199,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t199.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t200-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 200,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t200.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t201-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 201,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t201.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t202-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 202,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t202.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t203-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 203,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t203.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t204-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 204,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t204.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t205-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 205,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t205.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t206-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 206,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t206.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t207-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 207,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t207.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t208-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 208,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t208.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t209-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 209,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t209.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t210-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 210,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t210.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t211-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 211,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t211.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t212-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 212,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t212.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t213-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 213,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t213.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t214-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 214,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t214.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t215-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 215,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t215.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t216-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 216,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t216.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t217-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 217,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t217.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t218-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 218,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t218.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t219-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 219,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t219.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t220-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 220,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t220.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t221-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 221,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t221.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t222-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 222,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t222.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t223-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 223,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t223.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t224-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 224,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t224.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t225-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 225,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t225.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t226-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 226,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t226.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t227-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 227,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t227.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t228-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 228,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t228.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t229-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 229,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t229.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t230-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 230,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t230.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t231-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 231,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t231.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t232-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 232,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t232.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t233-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 233,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t233.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t234-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 234,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t234.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t235-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 235,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t235.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t236-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 236,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t236.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t237-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 237,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t237.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t238-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 238,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t238.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t239-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 239,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t239.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t240-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 240,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t240.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t241-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 241,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t241.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t242-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 242,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t242.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t243-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 243,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t243.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t244-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 244,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t244.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t245-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 245,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t245.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t246-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 246,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t246.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t247-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 247,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t247.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t248-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 248,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t248.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t249-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 249,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t249.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t250-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 250,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t250.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t251-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 251,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t251.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t252-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 252,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t252.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t253-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 253,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t253.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t254-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 254,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t254.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t255-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 255,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t255.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t256-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 256,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t256.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t257-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 257,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t257.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t258-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 258,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t258.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t259-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 259,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t259.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t260-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 260,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t260.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t261-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 261,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t261.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t262-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 262,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t262.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t263-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 263,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t263.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t264-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 264,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t264.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t265-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 265,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t265.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t266-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 266,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t266.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t267-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 267,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t267.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t268-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 268,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t268.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t269-nuclei"
+  },
+  {
+    "recording": "mskcc_confocal_s3",
+    "t": 269,
+    "image": "mskcc-confocal/mskcc_confocal_s3/images/mskcc_confocal_s3_t269.tif",
+    "label": "mskcc-confocal/mskcc_confocal_s3/tracks/nuclei/t270-nuclei"
+  }
+]

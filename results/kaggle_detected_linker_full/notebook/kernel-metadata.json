@@ -1,0 +1,19 @@
+{
+  "id": "dushi2/biohub-real-detected-linker-full",
+  "id_no": 135055612,
+  "title": "Biohub Real Detected Linker Full",
+  "code_file": "biohub-real-detected-linker-full.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": []
+}

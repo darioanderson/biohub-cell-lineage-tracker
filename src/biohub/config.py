@@ -11,7 +11,7 @@ import numpy as np
 # Physical voxel spacing (Z, Y, X) in micrometers.
 SCALE: Tuple[float, float, float] = (1.625, 0.40625, 0.40625)
 MATCH_GATE_UM: float = 7.0
-PIPELINE_VERSION: str = "1.7"
+PIPELINE_VERSION: str = "1.8"
 
 
 @dataclass
@@ -23,9 +23,18 @@ class Config:
     test_dir: Path | None = None
     output_dir: Path = field(default_factory=lambda: Path("outputs"))
     output_path: Path = field(default_factory=lambda: Path("outputs/lineage_graph.csv"))
+    voxel_size_zyx_um: Tuple[float, float, float] = SCALE
+    frame_interval_s: float = 1.0
 
   # peaks = Gaussian-smoothed peaks (V7 @ 0.659); peaks_dog = DoG band-pass (V10)
     detector_backend: str = "peaks"
+    learned_detector_path: Path = field(
+        default_factory=lambda: Path("models/temporal_unet/edge_predictor_best.pth")
+    )
+    learned_detector_threshold: float = 0.50
+    learned_detector_pool_um: float = 5.0
+    learned_detector_downsample: Tuple[int, int, int] = (1, 4, 4)
+    learned_detector_device: str = "auto"
 
     # Detection
     xy_ds: int = 4
@@ -61,7 +70,19 @@ class Config:
 
     # Linking
     max_link_dist_um: float = 11.0
+    linker_backend: str = "classical"
+    learned_linker_path: Path = field(
+        default_factory=lambda: Path("models/full_annotation_linker/final_all_annotations.pt")
+    )
+    learned_linker_gate_um: float = 20.0
+    image_linker_path: Path = field(
+        default_factory=lambda: Path("models/full_image_linker/image_final_all_199.pt")
+    )
     use_rich_linking: bool = True
+    tracking_backend: str = "framewise"
+    global_max_frame_gap: int = 2
+    global_gap_penalty: float = 0.35
+    global_unmatched_cost: float = 0.75
     motion_lambda: float = 0.20
     intensity_lambda: float = 0.15
     neighborhood_lambda: float = 0.10
@@ -76,6 +97,8 @@ class Config:
     div_require_continued: bool = False
     div_use_midpoint_gate: bool = True
     div_midpoint_dist_um: float = 9.0
+    joint_hypothesis_unmatched_cost: float = 0.75
+    joint_division_geometry_weight: float = 0.50
 
     prune_isolated_nodes: bool = True
     # v1.5 experiments (disabled by default — regressed leaderboard v5 vs v4)
@@ -99,10 +122,53 @@ class Config:
     eda_sample_limit: int = 4
     calibration_frames: int = 5
     random_state: int = 42
+    use_detection_cache: bool = True
+    detection_cache_dir: Path = field(default_factory=lambda: Path("results/detection_cache"))
+
+    def __post_init__(self) -> None:
+        if len(self.voxel_size_zyx_um) != 3 or any(v <= 0 for v in self.voxel_size_zyx_um):
+            raise ValueError("voxel_size_zyx_um must contain three positive values")
+        if self.frame_interval_s <= 0:
+            raise ValueError("frame_interval_s must be positive")
+        for name in (
+            "thresh_rel", "min_rel_contrast", "border_keep_quantile",
+            "learned_detector_threshold",
+        ):
+            value = float(getattr(self, name))
+            if not 0 <= value <= 1:
+                raise ValueError(f"{name} must be in [0, 1]")
+        for name in (
+            "dog_sigma_small_um", "dog_sigma_large_um", "nms_radius_um",
+            "max_link_dist_um", "learned_linker_gate_um", "div_parent_dist_um",
+            "div_sister_dist_um", "div_midpoint_dist_um",
+        ):
+            if float(getattr(self, name)) <= 0:
+                raise ValueError(f"{name} must be positive")
+        if self.dog_sigma_large_um <= self.dog_sigma_small_um:
+            raise ValueError("dog_sigma_large_um must exceed dog_sigma_small_um")
+        if self.detector_backend not in {"peaks", "peaks_dog", "learned", "cshaper", "cellpose_projection"}:
+            raise ValueError("Unknown detector_backend; use peaks, peaks_dog, learned, cshaper, or cellpose_projection")
+        if len(self.learned_detector_downsample) != 3 or any(
+            not isinstance(v, int) or isinstance(v, bool) or v < 1
+            for v in self.learned_detector_downsample
+        ):
+            raise ValueError("learned_detector_downsample must contain three positive integers")
+        if self.learned_detector_pool_um <= 0:
+            raise ValueError("learned_detector_pool_um must be positive")
+        if self.learned_detector_device not in {"auto", "cpu", "cuda"}:
+            raise ValueError("learned_detector_device must be 'auto', 'cpu', or 'cuda'")
+        if self.tracking_backend not in {"framewise", "global"}:
+            raise ValueError("tracking_backend must be 'framewise' or 'global'")
+        if self.global_max_frame_gap < 1:
+            raise ValueError("global_max_frame_gap must be at least 1")
+        if self.global_gap_penalty < 0 or self.global_unmatched_cost <= 0:
+            raise ValueError("global tracking costs must be non-negative and unmatched cost positive")
+        if self.joint_hypothesis_unmatched_cost <= 0 or self.joint_division_geometry_weight < 0:
+            raise ValueError("joint hypothesis unmatched cost must be positive and geometry weight non-negative")
 
     @property
     def scale_array(self) -> np.ndarray:
-        return np.array(SCALE, dtype=np.float64)
+        return np.array(self.voxel_size_zyx_um, dtype=np.float64)
 
     def resolve_paths(self, project_root: Path | None = None) -> None:
         """Resolve default data directories relative to the project root."""
@@ -157,6 +223,7 @@ class Config:
             use_adaptive_frame_threshold=False,
             use_dog_bandpass=False,
             detector_backend="peaks",
+            linker_backend="classical",
         )
 
     def competition_v10_dog_preset(self) -> "Config":

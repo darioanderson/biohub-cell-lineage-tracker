@@ -1,0 +1,9 @@
+{
+  "state": "training",
+  "heldout_embryo": "44b6",
+  "completed_folds": 0,
+  "inventory": {
+    "44b6": 71,
+    "6bba": 128
+  }
+}

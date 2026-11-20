@@ -1,0 +1,30 @@
+{
+  "status": "physical_scale_pilot",
+  "source_frame": 1,
+  "native_shape": [
+    56,
+    512,
+    712
+  ],
+  "model_shape": [
+    179,
+    184,
+    256
+  ],
+  "target_spacing_um": [
+    0.25,
+    0.25,
+    0.25
+  ],
+  "source_spacing_um": [
+    0.8,
+    0.09,
+    0.09
+  ],
+  "predicted": 88,
+  "reference": 2,
+  "matched_within_3_target_voxels": 0,
+  "model_seconds": 6.451832294464111,
+  "reference_z_convention": "StarryNite z assumed one-based; not independently registered",
+  "full_pair_evaluated": false
+}

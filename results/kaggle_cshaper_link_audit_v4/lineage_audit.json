@@ -1,0 +1,1379 @@
+{
+  "method": "SegNuc native IDs resolved via published name dictionary. SegCell overlap is a diagnostic only.",
+  "samples": {
+    "Sample18": {
+      "available_adjacent_pairs": 159,
+      "checks": [
+        {
+          "t": 1,
+          "before": {
+            "nuclei": 4,
+            "mapped": 4,
+            "index_mapped": 4,
+            "matching_names": 4,
+            "shared_cell_regions": 0,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "b41d59a7872b015d4cee2c3848a8595f0d8eb3f78b70e6051ad3429768147fe1",
+            "cell_sha256": "4e52214134b1cf19375ba890883446fdb9e23a9457cb6a2345907b6c158175e7"
+          },
+          "after": {
+            "nuclei": 4,
+            "mapped": 4,
+            "index_mapped": 4,
+            "matching_names": 4,
+            "shared_cell_regions": 0,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "18430e4459485a7c2e2027e48a318f95950f19c51dc6085e0cf1020a98718656",
+            "cell_sha256": "89950364d809cb73e80c2d01d12c40b022d90f3cb502a8233eafbedce47cd10e"
+          },
+          "shared_names": 4,
+          "shared_names_same_nucleus_id": 4
+        },
+        {
+          "t": 80,
+          "before": {
+            "nuclei": 97,
+            "mapped": 97,
+            "index_mapped": 97,
+            "matching_names": 97,
+            "shared_cell_regions": 0,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "1e0dea96a391905d6886617de86cb2ce5f9b6a8cabe51558c0a33eb49b1d6a13",
+            "cell_sha256": "45aacf4a6373c156dc247067a542dd11717e01a6bfd62dc45b880c8bcc767f9b"
+          },
+          "after": {
+            "nuclei": 98,
+            "mapped": 98,
+            "index_mapped": 96,
+            "matching_names": 96,
+            "shared_cell_regions": 1,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "30639b8c85eabffd688b4e63486caef65dd3127fdb6610692d95573932809211",
+            "cell_sha256": "760fca20243b0f196761876c0af2701ca54b306628d94bb0b38ab448fe520b31"
+          },
+          "shared_names": 96,
+          "shared_names_same_nucleus_id": 96
+        },
+        {
+          "t": 159,
+          "before": {
+            "nuclei": 385,
+            "mapped": 385,
+            "index_mapped": 272,
+            "matching_names": 270,
+            "shared_cell_regions": 38,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "9414544bc04d2fda8a939997e698a53b9ff6851710c1a385bab4855b971598c4",
+            "cell_sha256": "785cabea10a8c32b4fe0dc37d80bdaea84d43bf768af4655ebbfdc04316990d8"
+          },
+          "after": {
+            "nuclei": 387,
+            "mapped": 387,
+            "index_mapped": 260,
+            "matching_names": 259,
+            "shared_cell_regions": 46,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "cfc9649b550525aae285975d4fb4160e4ef089d661b309770e9d5d34ba0dce46",
+            "cell_sha256": "7373559dddc6fe6d58669fd23f96849878f8a2e0a58cb272ac1a28aaa9175026"
+          },
+          "shared_names": 381,
+          "shared_names_same_nucleus_id": 381
+        }
+      ]
+    },
+    "Sample19": {
+      "available_adjacent_pairs": 159,
+      "checks": [
+        {
+          "t": 1,
+          "before": {
+            "nuclei": 4,
+            "mapped": 4,
+            "index_mapped": 4,
+            "matching_names": 4,
+            "shared_cell_regions": 0,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "d0f74454f7451c0103cf8d498aa630c5a3bdeda8642bdd492af5f88108cb91a8",
+            "cell_sha256": "62dc587525169383bc2784838451559912c88f0cd10fb4c6980a2dc2cb3cf524"
+          },
+          "after": {
+            "nuclei": 4,
+            "mapped": 4,
+            "index_mapped": 4,
+            "matching_names": 4,
+            "shared_cell_regions": 0,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "7334900292855f0f86b35784cedaf373a1e5fbf47afa1189064e643ff81c97be",
+            "cell_sha256": "94aa93a5487eb0da4b0e9ccc2659c9658cfa50f217c2da84ea9c35390223ebd3"
+          },
+          "shared_names": 4,
+          "shared_names_same_nucleus_id": 4
+        },
+        {
+          "t": 80,
+          "before": {
+            "nuclei": 99,
+            "mapped": 99,
+            "index_mapped": 93,
+            "matching_names": 93,
+            "shared_cell_regions": 3,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "5c6eaab34be286c41c41439169a335d05d61bc02b027683e50ef370315f0e90c",
+            "cell_sha256": "cb71160faa51b680d1c00890c4ec9c0844f7568a009bc0f09d30ba8d3599af3f"
+          },
+          "after": {
+            "nuclei": 100,
+            "mapped": 100,
+            "index_mapped": 98,
+            "matching_names": 98,
+            "shared_cell_regions": 1,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "b5d4a3b5860d8cefdd056c2a9682eacbcc6bb6d103bb9f7868ac16d52b72387b",
+            "cell_sha256": "75b400cc7c269e2402b8ed8387bf3877eca41eb57aedc79af38e2ab0f5e89233"
+          },
+          "shared_names": 98,
+          "shared_names_same_nucleus_id": 98
+        },
+        {
+          "t": 159,
+          "before": {
+            "nuclei": 386,
+            "mapped": 386,
+            "index_mapped": 277,
+            "matching_names": 273,
+            "shared_cell_regions": 36,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "5d5fb285687a8f4fc8c2625a7f8e548e578b7a1c7f196712e71b74a3d441de5f",
+            "cell_sha256": "589746ed1cb2b1aad3cda33167a355643a8244aa765d10b17b875f823262e7eb"
+          },
+          "after": {
+            "nuclei": 388,
+            "mapped": 388,
+            "index_mapped": 293,
+            "matching_names": 290,
+            "shared_cell_regions": 29,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "f0c1b48d1b3760e116019a20e9707f310ff9245934d1fbb297d3db15480147f7",
+            "cell_sha256": "304f01e0400d929f2054afa324635aaa4cf481cb9269a4ba66e366e5e4f7f604"
+          },
+          "shared_names": 384,
+          "shared_names_same_nucleus_id": 384
+        }
+      ]
+    },
+    "Sample20": {
+      "available_adjacent_pairs": 169,
+      "checks": [
+        {
+          "t": 1,
+          "before": {
+            "nuclei": 4,
+            "mapped": 4,
+            "index_mapped": 2,
+            "matching_names": 2,
+            "shared_cell_regions": 1,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "c050646e68af05c42c14147fce4a419e2ba0ecb19a5e6057adb4f019ed84e029",
+            "cell_sha256": "9f4965781bc097ec50d22f5a55dd9bed46428dc4e7e7d6f292c1524bf346e45d"
+          },
+          "after": {
+            "nuclei": 4,
+            "mapped": 4,
+            "index_mapped": 4,
+            "matching_names": 4,
+            "shared_cell_regions": 0,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "3a501e8169267c2a127c536a6b43ff957efacaa54c07de080404dad8c7f2b95c",
+            "cell_sha256": "9732dd46309f868302e6b526e3f0c302ee296fb61236527165b57888abf8300b"
+          },
+          "shared_names": 4,
+          "shared_names_same_nucleus_id": 4
+        },
+        {
+          "t": 85,
+          "before": {
+            "nuclei": 100,
+            "mapped": 100,
+            "index_mapped": 94,
+            "matching_names": 94,
+            "shared_cell_regions": 3,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "2a64dea324f0a0822a77c1d3619daffa4edb0afa357612dcee8b8c00fa13e299",
+            "cell_sha256": "dece87763e88746abdc928be2c102099d82fafacf7421eeec771f276921bc109"
+          },
+          "after": {
+            "nuclei": 101,
+            "mapped": 101,
+            "index_mapped": 97,
+            "matching_names": 97,
+            "shared_cell_regions": 2,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "dcd79de8d42a33600a91777a1fe72cdd675c6cb5e51229798f6d27d25ac1df49",
+            "cell_sha256": "00122771a5bb1f6a122f190887864b9069666218a8301c148acbc7c441f98e52"
+          },
+          "shared_names": 99,
+          "shared_names_same_nucleus_id": 99
+        },
+        {
+          "t": 169,
+          "before": {
+            "nuclei": 393,
+            "mapped": 393,
+            "index_mapped": 264,
+            "matching_names": 264,
+            "shared_cell_regions": 47,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "b9defba950a05531babcaa5869c793ec420f0eeaf8e3e77cbbf71df4e0485ebe",
+            "cell_sha256": "2dd98f93fccbeaade268ea69850ad691914c2c7753a7a8fbdc4080786ef08fdc"
+          },
+          "after": {
+            "nuclei": 394,
+            "mapped": 394,
+            "index_mapped": 279,
+            "matching_names": 279,
+            "shared_cell_regions": 44,
+            "nucleus_affine": [
+              [
+                -1.0,
+                0.0,
+                0.0,
+                91.5
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                -127.5
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                -56.5
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "cell_affine": [
+              [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "nucleus_units": "micron",
+            "cell_units": "unknown",
+            "nucleus_axes": [
+              "L",
+              "A",
+              "S"
+            ],
+            "cell_axes": [
+              "R",
+              "A",
+              "S"
+            ],
+            "nucleus_sha256": "640b038bfc4dba6dfe002658b0157a96be900b8d4af324d7185800bc2d9750e6",
+            "cell_sha256": "bcee4e2018af7c96d6fe22dce443b6a0767e2690f8e6903da5a0349d9eac7e96"
+          },
+          "shared_names": 392,
+          "shared_names_same_nucleus_id": 392
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1372 @@
+{
+  "inventory": {
+    "44b6": 71,
+    "6bba": 128
+  },
+  "independent_embryos": 2,
+  "model": "Trackastra ctc (zero-shot)",
+  "mode": "greedy",
+  "model_dir": "/kaggle/input/models/jirkaborovec/biohubcelltrack-trackastra-artifact-and-packages/pytorch/default/1/models/ctc",
+  "device": "cuda",
+  "metrics": {
+    "score": {
+      "baseline": [
+        0.7260511395897667,
+        0.713660337032619,
+        0.7391803236847748
+      ],
+      "candidate": [
+        0.6845271101311455,
+        0.6684378254317449,
+        0.7001776337963325
+      ],
+      "paired_sample_delta": [
+        -0.04152402945862106,
+        -0.050395936955521976,
+        -0.03292515727746044
+      ],
+      "paired_embryo_delta": [
+        -0.04912861983067957,
+        -0.07567797919979614,
+        -0.022579260461563
+      ]
+    },
+    "recall": {
+      "baseline": [
+        0.8360116104981319,
+        0.8205368665618801,
+        0.8521747406825309
+      ],
+      "candidate": [
+        0.8360116104981319,
+        0.8205368665618801,
+        0.8521747406825309
+      ],
+      "paired_sample_delta": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_embryo_delta": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "edge_precision": {
+      "baseline": [
+        0.994567689335486,
+        0.9928054106720688,
+        0.9961358934100003
+      ],
+      "candidate": [
+        0.9950951482319023,
+        0.9941364985021728,
+        0.9959669396908888
+      ],
+      "paired_sample_delta": [
+        0.0005274588964161447,
+        -0.0009125028846286067,
+        0.0020944640486781664
+      ],
+      "paired_embryo_delta": [
+        0.0016300611485085322,
+        -0.0022193747842350663,
+        0.005479497081252131
+      ]
+    },
+    "edge_recall": {
+      "baseline": [
+        0.6450238780699611,
+        0.6274070182746523,
+        0.6640376832201578
+      ],
+      "candidate": [
+        0.5363260090723458,
+        0.5084733590739171,
+        0.5626498474122826
+      ],
+      "paired_sample_delta": [
+        -0.10869786899761522,
+        -0.12663396756835033,
+        -0.0914714659163234
+      ],
+      "paired_embryo_delta": [
+        -0.12680029309597635,
+        -0.18999998424639503,
+        -0.06360060194555767
+      ]
+    },
+    "edge_f1": {
+      "baseline": [
+        0.7742341752271269,
+        0.760062212084712,
+        0.7888236518697286
+      ],
+      "candidate": [
+        0.6747412507595095,
+        0.6497678793878561,
+        0.6988298332193226
+      ],
+      "paired_sample_delta": [
+        -0.09949292446761714,
+        -0.11775502454452413,
+        -0.08289588078101902
+      ],
+      "paired_embryo_delta": [
+        -0.11548192613371822,
+        -0.1713031775644922,
+        -0.05966067470294423
+      ]
+    },
+    "division_precision": {
+      "baseline": [
+        0.03015075376884422,
+        0.010050251256281407,
+        0.05527638190954774
+      ],
+      "candidate": [
+        0.04162479061976549,
+        0.022357621440536022,
+        0.06524288107202679
+      ],
+      "paired_sample_delta": [
+        0.011474036850921273,
+        -0.02035175879396985,
+        0.04246231155778894
+      ],
+      "paired_embryo_delta": [
+        0.012055274354460094,
+        0.010026041666666666,
+        0.014084507042253521
+      ]
+    },
+    "division_recall": {
+      "baseline": [
+        0.009631490787269681,
+        0.002512562814070352,
+        0.018844221105527637
+      ],
+      "candidate": [
+        0.06239530988274707,
+        0.03433835845896147,
+        0.09466080402010038
+      ],
+      "paired_sample_delta": [
+        0.052763819095477386,
+        0.024696398659966513,
+        0.08458961474036851
+      ],
+      "paired_embryo_delta": [
+        0.04415162852112676,
+        0.014084507042253521,
+        0.07421875
+      ]
+    }
+  },
+  "sample_diagnostics": {
+    "44b6_0113de3b": {
+      "first_evaluable_t": 0,
+      "frames": 76,
+      "graph_nodes": 14838,
+      "graph_edges": 13238
+    },
+    "44b6_0b24845f": {
+      "first_evaluable_t": 11,
+      "frames": 40,
+      "graph_nodes": 6312,
+      "graph_edges": 4314
+    },
+    "44b6_0c582fdc": {
+      "first_evaluable_t": 20,
+      "frames": 71,
+      "graph_nodes": 12713,
+      "graph_edges": 10481
+    },
+    "44b6_0db75fae": {
+      "first_evaluable_t": 0,
+      "frames": 89,
+      "graph_nodes": 11657,
+      "graph_edges": 10392
+    },
+    "44b6_12dfb391": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 30338,
+      "graph_edges": 23613
+    },
+    "44b6_144b256d": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 22990,
+      "graph_edges": 16906
+    },
+    "44b6_1574802b": {
+      "first_evaluable_t": 4,
+      "frames": 95,
+      "graph_nodes": 12326,
+      "graph_edges": 10909
+    },
+    "44b6_18ced818": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 18624,
+      "graph_edges": 12287
+    },
+    "44b6_1d530831": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 17739,
+      "graph_edges": 13070
+    },
+    "44b6_24264f12": {
+      "first_evaluable_t": 0,
+      "frames": 87,
+      "graph_nodes": 16044,
+      "graph_edges": 13527
+    },
+    "44b6_267148e4": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 15602,
+      "graph_edges": 13044
+    },
+    "44b6_2a2eff9f": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 22253,
+      "graph_edges": 15870
+    },
+    "44b6_2f31fc2f": {
+      "first_evaluable_t": 0,
+      "frames": 81,
+      "graph_nodes": 12177,
+      "graph_edges": 9027
+    },
+    "44b6_33b596bf": {
+      "first_evaluable_t": 21,
+      "frames": 50,
+      "graph_nodes": 9509,
+      "graph_edges": 7972
+    },
+    "44b6_341df25f": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 5644,
+      "graph_edges": 5488
+    },
+    "44b6_3a861e03": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 29196,
+      "graph_edges": 24138
+    },
+    "44b6_3bb3690f": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 18803,
+      "graph_edges": 14621
+    },
+    "44b6_40c45f5a": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 13871,
+      "graph_edges": 10282
+    },
+    "44b6_415c0a3a": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 20003,
+      "graph_edges": 14689
+    },
+    "44b6_53f95252": {
+      "first_evaluable_t": 0,
+      "frames": 51,
+      "graph_nodes": 12258,
+      "graph_edges": 10025
+    },
+    "44b6_551a5dba": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 13437,
+      "graph_edges": 9393
+    },
+    "44b6_5740d24b": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 16858,
+      "graph_edges": 14523
+    },
+    "44b6_587a1e22": {
+      "first_evaluable_t": 5,
+      "frames": 95,
+      "graph_nodes": 13020,
+      "graph_edges": 11541
+    },
+    "44b6_5f15d135": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 17059,
+      "graph_edges": 12424
+    },
+    "44b6_668e0cc7": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 20555,
+      "graph_edges": 15957
+    },
+    "44b6_66f9292d": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 14471,
+      "graph_edges": 10528
+    },
+    "44b6_706092f0": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 25993,
+      "graph_edges": 19902
+    },
+    "44b6_71a4179f": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 26871,
+      "graph_edges": 20325
+    },
+    "44b6_74d0c52e": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 15489,
+      "graph_edges": 12488
+    },
+    "44b6_7a302da0": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 22510,
+      "graph_edges": 16363
+    },
+    "44b6_7e557709": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 34770,
+      "graph_edges": 28863
+    },
+    "44b6_808952d6": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11923,
+      "graph_edges": 11203
+    },
+    "44b6_81c256f0": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 7822,
+      "graph_edges": 7564
+    },
+    "44b6_87bba6c4": {
+      "first_evaluable_t": 0,
+      "frames": 81,
+      "graph_nodes": 14430,
+      "graph_edges": 11117
+    },
+    "44b6_8cc6506c": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 19159,
+      "graph_edges": 14552
+    },
+    "44b6_8f5ab931": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 20142,
+      "graph_edges": 17491
+    },
+    "44b6_8f9ecab4": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 31128,
+      "graph_edges": 23469
+    },
+    "44b6_90724892": {
+      "first_evaluable_t": 29,
+      "frames": 57,
+      "graph_nodes": 10276,
+      "graph_edges": 8424
+    },
+    "44b6_949adeb1": {
+      "first_evaluable_t": 24,
+      "frames": 76,
+      "graph_nodes": 15294,
+      "graph_edges": 11437
+    },
+    "44b6_95029e92": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3080,
+      "graph_edges": 3011
+    },
+    "44b6_97725144": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 20237,
+      "graph_edges": 15556
+    },
+    "44b6_996155de": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6826,
+      "graph_edges": 6541
+    },
+    "44b6_9be80b04": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11207,
+      "graph_edges": 7856
+    },
+    "44b6_9bfa6a0a": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 27908,
+      "graph_edges": 21371
+    },
+    "44b6_a21120c2": {
+      "first_evaluable_t": 0,
+      "frames": 85,
+      "graph_nodes": 14345,
+      "graph_edges": 12370
+    },
+    "44b6_a2bb48bb": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 15576,
+      "graph_edges": 10866
+    },
+    "44b6_aaf8b0ea": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 14646,
+      "graph_edges": 12690
+    },
+    "44b6_abf82518": {
+      "first_evaluable_t": 0,
+      "frames": 58,
+      "graph_nodes": 13159,
+      "graph_edges": 11071
+    },
+    "44b6_b2c44266": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 23038,
+      "graph_edges": 17260
+    },
+    "44b6_c15fded2": {
+      "first_evaluable_t": 21,
+      "frames": 54,
+      "graph_nodes": 9580,
+      "graph_edges": 7936
+    },
+    "44b6_c50204e0": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 19022,
+      "graph_edges": 13512
+    },
+    "44b6_c771cb04": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 13738,
+      "graph_edges": 9638
+    },
+    "44b6_c8e2a523": {
+      "first_evaluable_t": 0,
+      "frames": 81,
+      "graph_nodes": 20116,
+      "graph_edges": 17971
+    },
+    "44b6_c96cfa10": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 22483,
+      "graph_edges": 17231
+    },
+    "44b6_cf2536e8": {
+      "first_evaluable_t": 0,
+      "frames": 76,
+      "graph_nodes": 14177,
+      "graph_edges": 10335
+    },
+    "44b6_cf8fed6b": {
+      "first_evaluable_t": 6,
+      "frames": 94,
+      "graph_nodes": 16688,
+      "graph_edges": 12678
+    },
+    "44b6_d29c9ab2": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 25718,
+      "graph_edges": 21598
+    },
+    "44b6_d2f34f90": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 18353,
+      "graph_edges": 14607
+    },
+    "44b6_d5e7d891": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 16123,
+      "graph_edges": 11551
+    },
+    "44b6_d754aa59": {
+      "first_evaluable_t": 8,
+      "frames": 68,
+      "graph_nodes": 2355,
+      "graph_edges": 2278
+    },
+    "44b6_d78e09d9": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 16712,
+      "graph_edges": 14788
+    },
+    "44b6_db3c847b": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 12266,
+      "graph_edges": 11086
+    },
+    "44b6_ddf577ad": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 26735,
+      "graph_edges": 20605
+    },
+    "44b6_deabac95": {
+      "first_evaluable_t": 14,
+      "frames": 84,
+      "graph_nodes": 8442,
+      "graph_edges": 7903
+    },
+    "44b6_e28840c6": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 37454,
+      "graph_edges": 30278
+    },
+    "44b6_e29f0176": {
+      "first_evaluable_t": 30,
+      "frames": 51,
+      "graph_nodes": 5142,
+      "graph_edges": 4479
+    },
+    "44b6_e31261b4": {
+      "first_evaluable_t": 15,
+      "frames": 82,
+      "graph_nodes": 20639,
+      "graph_edges": 14525
+    },
+    "44b6_e35b117d": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 21221,
+      "graph_edges": 16130
+    },
+    "44b6_e57ff5c6": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 14447,
+      "graph_edges": 11020
+    },
+    "44b6_eb2880fc": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 19166,
+      "graph_edges": 13653
+    },
+    "44b6_f28707c6": {
+      "first_evaluable_t": 8,
+      "frames": 65,
+      "graph_nodes": 11455,
+      "graph_edges": 9795
+    },
+    "6bba_05b6850b": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 5064,
+      "graph_edges": 4897
+    },
+    "6bba_05db0fb1": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 30483,
+      "graph_edges": 21558
+    },
+    "6bba_062c8d37": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4669,
+      "graph_edges": 4445
+    },
+    "6bba_07477033": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3776,
+      "graph_edges": 3642
+    },
+    "6bba_07e24132": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 22827,
+      "graph_edges": 19083
+    },
+    "6bba_085bf656": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 7460,
+      "graph_edges": 7157
+    },
+    "6bba_09961292": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 16050,
+      "graph_edges": 13352
+    },
+    "6bba_0c7fa718": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 9925,
+      "graph_edges": 8375
+    },
+    "6bba_0e7c0d07": {
+      "first_evaluable_t": 0,
+      "frames": 86,
+      "graph_nodes": 8061,
+      "graph_edges": 5818
+    },
+    "6bba_12665c0e": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6562,
+      "graph_edges": 6215
+    },
+    "6bba_13f19531": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4138,
+      "graph_edges": 3990
+    },
+    "6bba_15403b9a": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6285,
+      "graph_edges": 5934
+    },
+    "6bba_1d0d8384": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11920,
+      "graph_edges": 10726
+    },
+    "6bba_1ebfb80d": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 7906,
+      "graph_edges": 7122
+    },
+    "6bba_1f58c2f6": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 19904,
+      "graph_edges": 15678
+    },
+    "6bba_207c6aaf": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 10713,
+      "graph_edges": 9540
+    },
+    "6bba_20852818": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 7214,
+      "graph_edges": 6779
+    },
+    "6bba_2312ac41": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 9763,
+      "graph_edges": 9151
+    },
+    "6bba_23af9eeb": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3061,
+      "graph_edges": 2953
+    },
+    "6bba_2540cd90": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3280,
+      "graph_edges": 3184
+    },
+    "6bba_2646afc7": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4547,
+      "graph_edges": 4413
+    },
+    "6bba_268e1230": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3791,
+      "graph_edges": 3531
+    },
+    "6bba_2819ca14": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 5389,
+      "graph_edges": 5202
+    },
+    "6bba_283bf9f1": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 15665,
+      "graph_edges": 13492
+    },
+    "6bba_312f0dc3": {
+      "first_evaluable_t": 0,
+      "frames": 81,
+      "graph_nodes": 5152,
+      "graph_edges": 4928
+    },
+    "6bba_32db13fc": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 24944,
+      "graph_edges": 19354
+    },
+    "6bba_337b1b3a": {
+      "first_evaluable_t": 19,
+      "frames": 81,
+      "graph_nodes": 17677,
+      "graph_edges": 15307
+    },
+    "6bba_372c8cb8": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6245,
+      "graph_edges": 6066
+    },
+    "6bba_3a1849c2": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4582,
+      "graph_edges": 4372
+    },
+    "6bba_3abfe10a": {
+      "first_evaluable_t": 18,
+      "frames": 82,
+      "graph_nodes": 11332,
+      "graph_edges": 7435
+    },
+    "6bba_3c5691b6": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 5198,
+      "graph_edges": 5036
+    },
+    "6bba_3db54e20": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 10022,
+      "graph_edges": 7152
+    },
+    "6bba_3fda6b25": {
+      "first_evaluable_t": 1,
+      "frames": 99,
+      "graph_nodes": 6321,
+      "graph_edges": 6118
+    },
+    "6bba_43fea39d": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4425,
+      "graph_edges": 4200
+    },
+    "6bba_474be664": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 21893,
+      "graph_edges": 18529
+    },
+    "6bba_48816121": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 17806,
+      "graph_edges": 14967
+    },
+    "6bba_4aa14c89": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4957,
+      "graph_edges": 4725
+    },
+    "6bba_4f99ce20": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 5418,
+      "graph_edges": 5186
+    },
+    "6bba_4ffd3da3": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 13234,
+      "graph_edges": 11788
+    },
+    "6bba_55b7eebe": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4597,
+      "graph_edges": 4431
+    },
+    "6bba_55c70843": {
+      "first_evaluable_t": 13,
+      "frames": 87,
+      "graph_nodes": 19556,
+      "graph_edges": 14872
+    },
+    "6bba_57b7cc1e": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11304,
+      "graph_edges": 7267
+    },
+    "6bba_5a4d9360": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4860,
+      "graph_edges": 4656
+    },
+    "6bba_5b28472a": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4613,
+      "graph_edges": 4479
+    },
+    "6bba_5c039895": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 8626,
+      "graph_edges": 8235
+    },
+    "6bba_5c824876": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 16612,
+      "graph_edges": 14149
+    },
+    "6bba_5dfe9ad1": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 17379,
+      "graph_edges": 13962
+    },
+    "6bba_5f89039d": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4250,
+      "graph_edges": 4107
+    },
+    "6bba_61dd1e0d": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 7818,
+      "graph_edges": 7125
+    },
+    "6bba_61ecbe65": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4583,
+      "graph_edges": 4358
+    },
+    "6bba_6321a359": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3569,
+      "graph_edges": 3419
+    },
+    "6bba_6479435d": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 16518,
+      "graph_edges": 13627
+    },
+    "6bba_67ebd073": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11358,
+      "graph_edges": 9937
+    },
+    "6bba_6ca87370": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6019,
+      "graph_edges": 5675
+    },
+    "6bba_6db0e9b4": {
+      "first_evaluable_t": 12,
+      "frames": 88,
+      "graph_nodes": 17625,
+      "graph_edges": 14654
+    },
+    "6bba_6feb10f0": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11580,
+      "graph_edges": 9599
+    },
+    "6bba_6feeb0b1": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6832,
+      "graph_edges": 6538
+    },
+    "6bba_705ec2c9": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4269,
+      "graph_edges": 4072
+    },
+    "6bba_718b21f9": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3732,
+      "graph_edges": 3632
+    },
+    "6bba_74686d6a": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 17807,
+      "graph_edges": 14934
+    },
+    "6bba_767a1e17": {
+      "first_evaluable_t": 46,
+      "frames": 54,
+      "graph_nodes": 16769,
+      "graph_edges": 11947
+    },
+    "6bba_76db78c1": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4835,
+      "graph_edges": 4682
+    },
+    "6bba_784a78c9": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11201,
+      "graph_edges": 10571
+    },
+    "6bba_786893ac": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 12521,
+      "graph_edges": 8299
+    },
+    "6bba_789f8168": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 8600,
+      "graph_edges": 7944
+    },
+    "6bba_78a7bd97": {
+      "first_evaluable_t": 6,
+      "frames": 94,
+      "graph_nodes": 11633,
+      "graph_edges": 7663
+    },
+    "6bba_7af54fde": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 7695,
+      "graph_edges": 7379
+    },
+    "6bba_7b5d3b2c": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4664,
+      "graph_edges": 4502
+    },
+    "6bba_7d3058ae": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6051,
+      "graph_edges": 5873
+    },
+    "6bba_7f87b3d8": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 8962,
+      "graph_edges": 7994
+    },
+    "6bba_80d12824": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6473,
+      "graph_edges": 6063
+    },
+    "6bba_825bd1c6": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 5621,
+      "graph_edges": 5321
+    },
+    "6bba_87289e13": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11675,
+      "graph_edges": 10633
+    },
+    "6bba_8b7818bf": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4745,
+      "graph_edges": 4574
+    },
+    "6bba_907271db": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 7181,
+      "graph_edges": 6876
+    },
+    "6bba_91951b3a": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 9847,
+      "graph_edges": 9215
+    },
+    "6bba_96833384": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3428,
+      "graph_edges": 3304
+    },
+    "6bba_969618f6": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 10752,
+      "graph_edges": 9524
+    },
+    "6bba_971fa5e0": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4282,
+      "graph_edges": 4100
+    },
+    "6bba_9a41d029": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 15036,
+      "graph_edges": 13454
+    },
+    "6bba_9e23430b": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 5840,
+      "graph_edges": 5543
+    },
+    "6bba_a5e926bb": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 7405,
+      "graph_edges": 6865
+    },
+    "6bba_a90a0b9c": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 20506,
+      "graph_edges": 16473
+    },
+    "6bba_ab78413d": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11306,
+      "graph_edges": 9868
+    },
+    "6bba_acd782a8": {
+      "first_evaluable_t": 12,
+      "frames": 88,
+      "graph_nodes": 12254,
+      "graph_edges": 10690
+    },
+    "6bba_ae82a791": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6492,
+      "graph_edges": 6277
+    },
+    "6bba_aeee7805": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3509,
+      "graph_edges": 3384
+    },
+    "6bba_af149c94": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 8606,
+      "graph_edges": 8205
+    },
+    "6bba_afb141ff": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4736,
+      "graph_edges": 4502
+    },
+    "6bba_b1ae37b9": {
+      "first_evaluable_t": 0,
+      "frames": 88,
+      "graph_nodes": 12439,
+      "graph_edges": 10205
+    },
+    "6bba_b204cac7": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3723,
+      "graph_edges": 3640
+    },
+    "6bba_b329af44": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 26942,
+      "graph_edges": 18734
+    },
+    "6bba_b693381b": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4724,
+      "graph_edges": 4466
+    },
+    "6bba_bb9f20c3": {
+      "first_evaluable_t": 4,
+      "frames": 96,
+      "graph_nodes": 16806,
+      "graph_edges": 14634
+    },
+    "6bba_bbb708ca": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 5063,
+      "graph_edges": 4768
+    },
+    "6bba_c27cba08": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4922,
+      "graph_edges": 4715
+    },
+    "6bba_c328f2fd": {
+      "first_evaluable_t": 4,
+      "frames": 96,
+      "graph_nodes": 20788,
+      "graph_edges": 17964
+    },
+    "6bba_c73a1d11": {
+      "first_evaluable_t": 5,
+      "frames": 95,
+      "graph_nodes": 13151,
+      "graph_edges": 11417
+    },
+    "6bba_cdcfe533": {
+      "first_evaluable_t": 18,
+      "frames": 82,
+      "graph_nodes": 18181,
+      "graph_edges": 16481
+    },
+    "6bba_cf35214c": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 22972,
+      "graph_edges": 20050
+    },
+    "6bba_cff5865f": {
+      "first_evaluable_t": 3,
+      "frames": 97,
+      "graph_nodes": 24403,
+      "graph_edges": 18967
+    },
+    "6bba_d0fc38b5": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4696,
+      "graph_edges": 4529
+    },
+    "6bba_d1acb6ff": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11730,
+      "graph_edges": 10435
+    },
+    "6bba_d2b9fc0c": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 14910,
+      "graph_edges": 12703
+    },
+    "6bba_d3da753b": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 13432,
+      "graph_edges": 11770
+    },
+    "6bba_d5eae175": {
+      "first_evaluable_t": 2,
+      "frames": 98,
+      "graph_nodes": 3592,
+      "graph_edges": 3497
+    },
+    "6bba_d6ecebbb": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4357,
+      "graph_edges": 4173
+    },
+    "6bba_d82a4fc6": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 19605,
+      "graph_edges": 16492
+    },
+    "6bba_debd7bfa": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 9978,
+      "graph_edges": 9146
+    },
+    "6bba_df673a83": {
+      "first_evaluable_t": 0,
+      "frames": 99,
+      "graph_nodes": 14485,
+      "graph_edges": 12730
+    },
+    "6bba_e16ffc58": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 5629,
+      "graph_edges": 5453
+    },
+    "6bba_e5e44988": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 4837,
+      "graph_edges": 4621
+    },
+    "6bba_ebdf3b34": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 30157,
+      "graph_edges": 22286
+    },
+    "6bba_ebff6e76": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 15159,
+      "graph_edges": 10830
+    },
+    "6bba_ed9377fd": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3698,
+      "graph_edges": 3577
+    },
+    "6bba_edf14583": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 21724,
+      "graph_edges": 15966
+    },
+    "6bba_eebc57a5": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6890,
+      "graph_edges": 6665
+    },
+    "6bba_ef7b4f7e": {
+      "first_evaluable_t": 2,
+      "frames": 98,
+      "graph_nodes": 4644,
+      "graph_edges": 4481
+    },
+    "6bba_f17befbc": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 14073,
+      "graph_edges": 11260
+    },
+    "6bba_f1fde7e0": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 7474,
+      "graph_edges": 6573
+    },
+    "6bba_f20478e9": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 5072,
+      "graph_edges": 4849
+    },
+    "6bba_f4ae811c": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6669,
+      "graph_edges": 6253
+    },
+    "6bba_f8ffd5e7": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 13145,
+      "graph_edges": 9973
+    },
+    "6bba_fbc898dc": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 3859,
+      "graph_edges": 3727
+    },
+    "6bba_fc516dc6": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 6330,
+      "graph_edges": 6001
+    },
+    "6bba_fc5f39dc": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 11640,
+      "graph_edges": 10432
+    },
+    "6bba_fc83837d": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 10343,
+      "graph_edges": 9218
+    },
+    "6bba_fe670320": {
+      "first_evaluable_t": 0,
+      "frames": 100,
+      "graph_nodes": 8948,
+      "graph_edges": 8004
+    }
+  },
+  "decision_rule": "Adopt only when the embryo-level paired 95% CI lower bound for composite score is > 0.",
+  "decision": "reject",
+  "limitations": [
+    "Trackastra ctc is externally pretrained and is not fine-tuned on Biohub.",
+    "Only two embryo prefixes are independent biological groups.",
+    "The comparison uses identical DoG detections; unmatched sparse detections remain unknown.",
+    "This is an offline sparse-label proxy, not an official competition submission score."
+  ],
+  "seconds": 14182.068454504013
+}

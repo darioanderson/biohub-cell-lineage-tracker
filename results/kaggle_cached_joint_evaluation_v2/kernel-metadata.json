@@ -1,0 +1,23 @@
+{
+  "id": "dushi2/biohub-cached-joint-evaluation",
+  "id_no": 135295090,
+  "title": "Biohub Cached Joint Evaluation",
+  "code_file": "biohub-cached-joint-evaluation.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "dushi2/biohub-division-bearing-diagnostics"
+  ],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": [
+    "jirkaborovec/biohubcelltrack-trackastra-artifact-and-packages/PyTorch/default/1"
+  ]
+}

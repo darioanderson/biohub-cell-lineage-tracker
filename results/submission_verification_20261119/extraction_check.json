@@ -1,0 +1,10 @@
+{
+  "archive": "C:\\Projects\\cell-tracking\\advanced\\results\\college_submission_ready_20261119.zip",
+  "archive_sha256": "019b34f273a6b8269bd32fdc6401e0b900cc73ab550a31da83572fce96393bfb",
+  "extracted_to": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cell_tracking_ready__r1__uu3",
+  "all_release_hashes_verified": true,
+  "import_path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\cell_tracking_ready__r1__uu3\\src\\biohub\\__init__.py",
+  "tests_returncode": 0,
+  "tests_output": "........................................................................ [ 46%]\n........................................................................ [ 92%]\n............                                                             [100%]\n156 passed in 16.04s\n",
+  "dependency_environment": "Existing tested Python environment; clean extracted source"
+}

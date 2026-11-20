@@ -1,0 +1,28 @@
+{
+  "cells_per_frame": 160,
+  "data": "seeded synthetic connected chain; not an accuracy benchmark",
+  "arms": {
+    "before": {
+      "seconds": [
+        0.3659421999982442,
+        0.392024599997967,
+        0.39362529999925755
+      ],
+      "median_seconds": 0.392024599997967,
+      "constraint_matrix_bytes_max": 819200,
+      "edges": 160
+    },
+    "optimized": {
+      "seconds": [
+        0.024082200005068444,
+        0.0219301999968593,
+        0.02208750000136206
+      ],
+      "median_seconds": 0.02208750000136206,
+      "constraint_matrix_bytes_max": 8964,
+      "edges": 160
+    }
+  },
+  "identical_ordered_edges": true,
+  "speedup": 17.7487085443709
+}
