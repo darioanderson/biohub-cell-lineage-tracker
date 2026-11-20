@@ -144,22 +144,22 @@ def render_pair_sidebar():
     input_mode=st.radio('Recording source',['Upload files','Files on this PC'],key='paired_input_mode')
     if input_mode=='Files on this PC':
         zebrafish=Path(__file__).resolve().parents[1]/'data/local_biohub_pair'
-        if (zebrafish/'PROVENANCE.json').exists() and st.button('Use local zebrafish recordings — all 100 frames'):
+        if (zebrafish/'PROVENANCE.json').exists() and all((zebrafish/name).exists() for name in ('44b6_0113de3b_all100.npy','44b6_0b24845f_all100.npy')) and st.button('Use local zebrafish recordings — all 100 frames'):
             st.session_state.local_control_path=str(zebrafish/'44b6_0113de3b_all100.npy')
             st.session_state.local_variant_path=str(zebrafish/'44b6_0b24845f_all100.npy')
             st.session_state.real_pair_aligned=False
         divisions=Path(__file__).resolve().parents[1]/'data/real_division_clips'
-        if (divisions/'PROVENANCE.json').exists() and st.button('Use real division recordings (under 200 MB)'):
+        if (divisions/'PROVENANCE.json').exists() and all((divisions/name).exists() for name in ('CONTROL_WT_Emb8_divisions_5frames.npy','VARIANT_wee-1.1_MT2_divisions_5frames.npy')) and st.button('Use real division recordings (under 200 MB)'):
             st.session_state.local_control_path=str(divisions/'CONTROL_WT_Emb8_divisions_5frames.npy')
             st.session_state.local_variant_path=str(divisions/'VARIANT_wee-1.1_MT2_divisions_5frames.npy')
             st.session_state.real_pair_aligned=False
         small=Path(__file__).resolve().parents[1]/'data/real_control_variant_under200mb'
-        if (small/'PROVENANCE.json').exists() and st.button('Use small real recordings (under 200 MB)'):
+        if (small/'PROVENANCE.json').exists() and all((small/name).exists() for name in ('CONTROL_WT_Emb8_5frames.npy','VARIANT_wee-1.1_MT2_5frames.npy')) and st.button('Use small real recordings (under 200 MB)'):
             st.session_state.local_control_path=str(small/'CONTROL_WT_Emb8_5frames.npy')
             st.session_state.local_variant_path=str(small/'VARIANT_wee-1.1_MT2_5frames.npy')
             st.session_state.real_pair_aligned=False
         downloaded=Path(__file__).resolve().parents[1]/'data/real_control_variant_large'
-        if (downloaded/'PROVENANCE.json').exists() and st.button('Use downloaded 30-frame recordings'):
+        if (downloaded/'PROVENANCE.json').exists() and all((downloaded/name).exists() for name in ('CONTROL_WT_Emb8_t001_030.npy','VARIANT_wee-1.1_MT2_t001_030.npy')) and st.button('Use downloaded 30-frame recordings'):
             st.session_state.local_control_path=str(downloaded/'CONTROL_WT_Emb8_t001_030.npy')
             st.session_state.local_variant_path=str(downloaded/'VARIANT_wee-1.1_MT2_t001_030.npy')
             st.session_state.real_pair_aligned=False
@@ -217,7 +217,7 @@ def render_pair_sidebar():
     for group,movie in zip(('Control','Variant'),pair['volumes']):
         st.caption(f'{group}: {len(movie)} frames · {movie.nbytes/1024**2:.1f} MiB · {tuple(movie.shape[1:])} voxels')
     saved=Path(__file__).resolve().parents[1]/'results/submission_biohub_20261119'
-    if biohub and is_zebrafish and (saved/'status.json').exists():
+    if biohub and is_zebrafish and all((saved/name).exists() for name in ('status.json','summary.json','SHA256.json','control_nodes.csv','control_edges.csv','variant_nodes.csv','variant_edges.csv')):
         if json.loads((saved/'status.json').read_text()).get('state')=='complete':
             if st.button('Load saved zebrafish analysis — no rerun'):
                 try:
